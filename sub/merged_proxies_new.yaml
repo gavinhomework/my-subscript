@@ -152,7 +152,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_82
+- name: The Netherlands_Amsterdam_vmess_82
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -287,7 +287,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: Taiwan_New Taipei_tuic_101
+- name: Taiwan_Taipei_tuic_101
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -299,7 +299,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_111
+- name: Taiwan_Taipei_tuic_111
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -395,7 +395,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_New Taipei_hy_6
+- name: Taiwan_Taipei_hy_6
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -409,7 +409,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_New Taipei_hy_7
+- name: Taiwan_Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -503,7 +503,7 @@ proxy-groups:
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
-  - None_None_vmess_82
+  - The Netherlands_Amsterdam_vmess_82
   - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
@@ -512,16 +512,16 @@ proxy-groups:
   - United States_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - Taiwan_New Taipei_tuic_101
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Taipei_tuic_101
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_2
   - United States_Seattle_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
-  - Taiwan_New Taipei_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Taipei_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
@@ -545,7 +545,7 @@ proxy-groups:
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
-  - None_None_vmess_82
+  - The Netherlands_Amsterdam_vmess_82
   - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
@@ -554,16 +554,16 @@ proxy-groups:
   - United States_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - Taiwan_New Taipei_tuic_101
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Taipei_tuic_101
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_2
   - United States_Seattle_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
-  - Taiwan_New Taipei_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Taipei_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
@@ -587,7 +587,7 @@ proxy-groups:
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
-  - None_None_vmess_82
+  - The Netherlands_Amsterdam_vmess_82
   - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
@@ -596,16 +596,16 @@ proxy-groups:
   - United States_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - Taiwan_New Taipei_tuic_101
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Taipei_tuic_101
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_2
   - United States_Seattle_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
-  - Taiwan_New Taipei_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Taipei_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
