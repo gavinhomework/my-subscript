@@ -51,7 +51,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taoyuan District_tuic_21
+- name: Taiwan_Daan_tuic_21
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -63,7 +63,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taoyuan District_tuic_31
+- name: Taiwan_Daan_tuic_31
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -167,7 +167,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_83
+- name: United States_None_vmess_83
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
@@ -496,15 +496,15 @@ proxy-groups:
   - DIRECT
   - France_Paris_tuic_01
   - France_Paris_tuic_11
-  - Taiwan_Taoyuan District_tuic_21
-  - Taiwan_Taoyuan District_tuic_31
+  - Taiwan_Daan_tuic_21
+  - Taiwan_Daan_tuic_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - The Netherlands_Amsterdam_vmess_82
-  - None_None_vmess_83
+  - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
@@ -538,15 +538,15 @@ proxy-groups:
   proxies:
   - France_Paris_tuic_01
   - France_Paris_tuic_11
-  - Taiwan_Taoyuan District_tuic_21
-  - Taiwan_Taoyuan District_tuic_31
+  - Taiwan_Daan_tuic_21
+  - Taiwan_Daan_tuic_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - The Netherlands_Amsterdam_vmess_82
-  - None_None_vmess_83
+  - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
@@ -580,15 +580,15 @@ proxy-groups:
   proxies:
   - France_Paris_tuic_01
   - France_Paris_tuic_11
-  - Taiwan_Taoyuan District_tuic_21
-  - Taiwan_Taoyuan District_tuic_31
+  - Taiwan_Daan_tuic_21
+  - Taiwan_Daan_tuic_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_61
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - The Netherlands_Amsterdam_vmess_82
-  - None_None_vmess_83
+  - United States_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
