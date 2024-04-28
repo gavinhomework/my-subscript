@@ -8,13 +8,13 @@ unified-delay: true
 global-client-fingerprint: chrome
 dns:
   enable: true
-  listen: :53
+  listen: :1053
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
-  - 223.6.6.6
-  - 8.8.8.8
+  - 1.0.0.1
+  - 8.8.4.4
   nameserver:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
@@ -167,7 +167,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_83
+- name: None_None_vmess_83
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -423,6 +423,118 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: France_None_hy_8
+  type: hysteria
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_None_hy_9
+  type: hysteria
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_None_hy_10
+  type: hysteria
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Los Angeles_hy_11
+  type: hysteria
+  server: 173.234.25.52
+  port: 30072
+  ports: 30072
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Kansas City_hy_12
+  type: hysteria
+  server: 109.104.152.194
+  port: 58510
+  ports: 58510
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Kansas City_hy_13
+  type: hysteria
+  server: 109.104.152.194
+  port: 58510
+  ports: 58510
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Los Angeles_hy_14
+  type: hysteria
+  server: 108.181.5.133
+  port: 26022
+  ports: 26022
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Los Angeles_hy_15
+  type: hysteria
+  server: 108.181.5.133
+  port: 26022
+  ports: 26022
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
   server: 64.110.25.11
@@ -504,7 +616,7 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_None_vmess_83
+  - None_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
@@ -522,6 +634,14 @@ proxy-groups:
   - France_Paris_hy_5
   - Taiwan_Taipei_hy_6
   - Taiwan_Taipei_hy_7
+  - France_None_hy_8
+  - France_None_hy_9
+  - France_None_hy_10
+  - United States_Los Angeles_hy_11
+  - United States_Kansas City_hy_12
+  - United States_Kansas City_hy_13
+  - United States_Los Angeles_hy_14
+  - United States_Los Angeles_hy_15
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
@@ -546,7 +666,7 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_None_vmess_83
+  - None_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
@@ -564,6 +684,14 @@ proxy-groups:
   - France_Paris_hy_5
   - Taiwan_Taipei_hy_6
   - Taiwan_Taipei_hy_7
+  - France_None_hy_8
+  - France_None_hy_9
+  - France_None_hy_10
+  - United States_Los Angeles_hy_11
+  - United States_Kansas City_hy_12
+  - United States_Kansas City_hy_13
+  - United States_Los Angeles_hy_14
+  - United States_Los Angeles_hy_15
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
@@ -588,7 +716,7 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_None_vmess_83
+  - None_None_vmess_83
   - United States_None_vmess_84
   - None_None_vmess_85
   - None_None_vmess_91
@@ -606,6 +734,14 @@ proxy-groups:
   - France_Paris_hy_5
   - Taiwan_Taipei_hy_6
   - Taiwan_Taipei_hy_7
+  - France_None_hy_8
+  - France_None_hy_9
+  - France_None_hy_10
+  - United States_Los Angeles_hy_11
+  - United States_Kansas City_hy_12
+  - United States_Kansas City_hy_13
+  - United States_Los Angeles_hy_14
+  - United States_Los Angeles_hy_15
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_Seattle_hy2_2
