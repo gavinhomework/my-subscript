@@ -279,9 +279,9 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: United States_None_vmess_161
+- name: None_None_vmess_161
   type: vmess
-  server: yh7.freeh1.xyz
+  server: yh7.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -294,7 +294,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_162
+- name: The Netherlands_Amsterdam_vmess_162
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -326,7 +326,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: United States_None_vmess_164
   type: vmess
-  server: yh1.freeh1.xyz
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -906,8 +906,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
-  - United States_None_vmess_161
-  - None_None_vmess_162
+  - None_None_vmess_161
+  - The Netherlands_Amsterdam_vmess_162
   - None_None_vmess_163
   - United States_None_vmess_164
   - None_None_vmess_165
@@ -972,8 +972,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
-  - United States_None_vmess_161
-  - None_None_vmess_162
+  - None_None_vmess_161
+  - The Netherlands_Amsterdam_vmess_162
   - None_None_vmess_163
   - United States_None_vmess_164
   - None_None_vmess_165
@@ -1038,8 +1038,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
-  - United States_None_vmess_161
-  - None_None_vmess_162
+  - None_None_vmess_161
+  - The Netherlands_Amsterdam_vmess_162
   - None_None_vmess_163
   - United States_None_vmess_164
   - None_None_vmess_165
