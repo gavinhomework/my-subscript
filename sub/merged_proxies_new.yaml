@@ -193,7 +193,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Xindian District_tuic_101
+- name: United States_Seattle_tuic_101
+  server: 64.42.176.182
+  port: 61123
+  type: tuic
+  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Taiwan_Xindian District_tuic_102
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -294,7 +306,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_162
+- name: United States_None_vmess_162
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -324,7 +336,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_164
+- name: United States_None_vmess_164
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -900,16 +912,17 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - France_Paris_tuic_81
   - France_Paris_tuic_91
-  - Taiwan_Xindian District_tuic_101
+  - United States_Seattle_tuic_101
+  - Taiwan_Xindian District_tuic_102
   - Taiwan_Xindian District_tuic_111
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - None_None_vmess_164
+  - United States_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
@@ -966,16 +979,17 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - France_Paris_tuic_81
   - France_Paris_tuic_91
-  - Taiwan_Xindian District_tuic_101
+  - United States_Seattle_tuic_101
+  - Taiwan_Xindian District_tuic_102
   - Taiwan_Xindian District_tuic_111
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - None_None_vmess_164
+  - United States_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
@@ -1032,16 +1046,17 @@ proxy-groups:
   - United States_Kansas City_ss_71
   - France_Paris_tuic_81
   - France_Paris_tuic_91
-  - Taiwan_Xindian District_tuic_101
+  - United States_Seattle_tuic_101
+  - Taiwan_Xindian District_tuic_102
   - Taiwan_Xindian District_tuic_111
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - None_None_vmess_164
+  - United States_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
