@@ -318,7 +318,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: None_None_vmess_162
+- name: United States_None_vmess_162
   type: vmess
   server: yh9.dtku41.xyz
   port: 8080
@@ -348,7 +348,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_164
+- name: None_None_vmess_164
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -933,9 +933,9 @@ proxy-groups:
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - United States_None_vmess_164
+  - None_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
@@ -1001,9 +1001,9 @@ proxy-groups:
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - United States_None_vmess_164
+  - None_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
@@ -1069,9 +1069,9 @@ proxy-groups:
   - United States_Kansas City_ss_141
   - United States_Kansas City_ss_151
   - None_None_vmess_161
-  - None_None_vmess_162
+  - United States_None_vmess_162
   - None_None_vmess_163
-  - United States_None_vmess_164
+  - None_None_vmess_164
   - None_None_vmess_165
   - None_None_vmess_171
   - United States_None_vmess_172
