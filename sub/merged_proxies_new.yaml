@@ -305,7 +305,7 @@ proxies:
       down: 55
 - name: None_None_vmess_161
   type: vmess
-  server: yh7.dtku41.xyz
+  server: 104.26.9.16
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -320,7 +320,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_162
   type: vmess
-  server: yh9.dtku41.xyz
+  server: 104.19.21.44
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -335,7 +335,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_163
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.51
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -350,7 +350,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_164
   type: vmess
-  server: yh1.dtku41.xyz
+  server: 104.19.38.128
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
@@ -365,7 +365,7 @@ proxies:
       host: emily-citizen-oxford-gba.trycloudflare.com
 - name: None_None_vmess_165
   type: vmess
-  server: yh6.dtku41.xyz
+  server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 01c3345a-aadb-4e07-a920-947c20d83096
