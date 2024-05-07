@@ -207,7 +207,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_102
+- name: Taiwan_Taipei_tuic_102
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -231,7 +231,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_112
+- name: Taiwan_Taipei_tuic_112
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -927,9 +927,9 @@ proxy-groups:
   - France_Paris_tuic_81
   - France_Paris_tuic_91
   - United States_Seattle_tuic_101
-  - Taiwan_New Taipei_tuic_102
+  - Taiwan_Taipei_tuic_102
   - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
+  - Taiwan_Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
@@ -995,9 +995,9 @@ proxy-groups:
   - France_Paris_tuic_81
   - France_Paris_tuic_91
   - United States_Seattle_tuic_101
-  - Taiwan_New Taipei_tuic_102
+  - Taiwan_Taipei_tuic_102
   - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
+  - Taiwan_Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
@@ -1063,9 +1063,9 @@ proxy-groups:
   - France_Paris_tuic_81
   - France_Paris_tuic_91
   - United States_Seattle_tuic_101
-  - Taiwan_New Taipei_tuic_102
+  - Taiwan_Taipei_tuic_102
   - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
+  - Taiwan_Taipei_tuic_112
   - United States_Los Angeles_hysteria_121
   - United States_Los Angeles_hysteria_131
   - United States_Kansas City_ss_141
