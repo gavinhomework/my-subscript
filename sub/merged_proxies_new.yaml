@@ -440,7 +440,7 @@ proxies:
     path: 01c3345a-aadb-4e07-a920-947c20d83096-vm
     headers:
       host: emily-citizen-oxford-gba.trycloudflare.com
-- name: United States_None_vmess_175
+- name: None_None_vmess_175
   type: vmess
   server: yh6.dtku41.xyz
   port: 8080
@@ -943,7 +943,7 @@ proxy-groups:
   - United States_None_vmess_172
   - United States_None_vmess_173
   - United States_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_181
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_201
@@ -1011,7 +1011,7 @@ proxy-groups:
   - United States_None_vmess_172
   - United States_None_vmess_173
   - United States_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_181
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_201
@@ -1079,7 +1079,7 @@ proxy-groups:
   - United States_None_vmess_172
   - United States_None_vmess_173
   - United States_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_181
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_201
