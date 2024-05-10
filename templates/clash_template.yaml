@@ -22,7 +22,7 @@ dns:
     - https://dns.alidns.com/dns-query
   fallback:
     - https://1.0.0.1/dns-query
-    - tls://dns.google
+    - tls://dns.google:853
   fallback-filter:
     geoip: true
     geoip-code: CN
