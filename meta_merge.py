@@ -264,7 +264,7 @@ def process_xray(data, index):
 
 def update_proxy_groups(config_data, merged_proxies):
     for group in config_data["proxy-groups"]:
-        if group["name"] in ["⚡ 低延迟", "✈️ 出境游", "🔮 负载均衡"]:
+        if group["name"] in ["⚡ 低延迟", "✈️ 出境游", "⚖️ 负载均衡"]:
             if "proxies" not in group or not group["proxies"]:
                 group["proxies"] = [proxy["name"] for proxy in merged_proxies]
             else:
@@ -273,7 +273,7 @@ def update_proxy_groups(config_data, merged_proxies):
 
 def update_warp_proxy_groups(config_warp_data, merged_proxies):
     for group in config_warp_data["proxy-groups"]:
-        if group["name"] in ["⚡ 低延迟", "✈️ 出境游", "🔮 负载均衡"]:
+        if group["name"] in ["⚡ 低延迟", "✈️ 出境游", "⚖️ 负载均衡"]:
             if "proxies" not in group or not group["proxies"]:
                 group["proxies"] = [proxy["name"] for proxy in merged_proxies]
             else:
