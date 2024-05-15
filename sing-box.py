@@ -3,7 +3,7 @@ import os
 
 #url = "https://sing-box-subscribe.vercel.app/config/https://raw.githubusercontent.com/gavinfly2021/chromego_mergeA/main/sub/base64.txt"
 #url = "https://cts.v1.mk/sub?sub=https://raw.githubusercontent.com/gavinhomework/my-subscript/main/sub/merged_proxies_new.yaml"
-url = "https://url.v1.mk/sub?target=singbox&url=https://raw.githubusercontent.com/gavinhomework/my-subscript/main/sub/base64.txt"
+url = "https://clash2sfa-xmdhs.koyeb.app/sub?sub=https://raw.githubusercontent.com/gavinhomework/my-subscript/main/sub/merged_proxies_new.yaml"
 
 output_folder = "sub"
 output_filename = "sing-box.json"
