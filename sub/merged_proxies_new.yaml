@@ -227,7 +227,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: United States_None_vmess_175
+- name: None_None_vmess_175
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -489,7 +489,7 @@ proxy-groups:
   - None_None_vmess_172
   - None_None_vmess_173
   - None_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_211
   - United States_Kansas City_vless_231
@@ -526,7 +526,7 @@ proxy-groups:
   - None_None_vmess_172
   - None_None_vmess_173
   - None_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_211
   - United States_Kansas City_vless_231
@@ -563,7 +563,7 @@ proxy-groups:
   - None_None_vmess_172
   - None_None_vmess_173
   - None_None_vmess_174
-  - United States_None_vmess_175
+  - None_None_vmess_175
   - Taiwan_Taipei_tuic_191
   - United States_Kansas City_hysteria2_211
   - United States_Kansas City_vless_231
