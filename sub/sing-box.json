@@ -123,7 +123,7 @@
                 "None_None_vmess_172",
                 "None_None_vmess_173",
                 "None_None_vmess_174",
-                "United States_None_vmess_175",
+                "None_None_vmess_175",
                 "Taiwan_Taipei_tuic_191",
                 "United States_Kansas City_hysteria2_211",
                 "United States_Kansas City_vless_231",
@@ -381,7 +381,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "United States_None_vmess_175",
+            "tag": "None_None_vmess_175",
             "transport": {
                 "headers": {
                     "host": [
@@ -692,7 +692,7 @@
                 "None_None_vmess_172",
                 "None_None_vmess_173",
                 "None_None_vmess_174",
-                "United States_None_vmess_175",
+                "None_None_vmess_175",
                 "Taiwan_Taipei_tuic_191",
                 "United States_Kansas City_hysteria2_211",
                 "United States_Kansas City_vless_231",
