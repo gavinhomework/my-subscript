@@ -110,25 +110,17 @@
             "default": "urltest",
             "outbounds": [
                 "urltest",
-                "United States_Kansas City_hysteria2_11",
-                "United States_Kansas City_vless_31",
-                "United States_Kansas City_ss_51",
+                "France_Paris_tuic_11",
+                "United States_Seattle_tuic_31",
+                "Taiwan_New Taipei_tuic_32",
+                "United States_Los Angeles_hysteria_51",
                 "United States_Kansas City_ss_71",
-                "France_Paris_tuic_91",
-                "United States_Seattle_tuic_111",
-                "Taiwan_New Taipei_tuic_112",
-                "United States_Los Angeles_hysteria_131",
-                "United States_Kansas City_ss_151",
-                "None_None_vmess_171",
-                "None_None_vmess_172",
-                "None_None_vmess_173",
-                "None_None_vmess_174",
-                "None_None_vmess_175",
-                "Taiwan_Taipei_tuic_191",
-                "United States_Kansas City_hysteria2_211",
-                "United States_Kansas City_vless_231",
-                "United States_Kansas City_ss_251",
-                "United States_Kansas City_ss_271",
+                "None_None_vmess_91",
+                "None_None_vmess_92",
+                "None_None_vmess_93",
+                "None_None_vmess_94",
+                "None_None_vmess_95",
+                "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_1",
                 "United States_Seattle_hy_3",
                 "France_Paris_hy_5",
@@ -145,86 +137,9 @@
         },
         {
             "password": "dongtaiwang.com",
-            "server": "109.104.152.89",
-            "server_port": 22441,
-            "tag": "United States_Kansas City_hysteria2_11",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "down_mbps": 55,
-            "up_mbps": 11
-        },
-        {
-            "server": "109.104.152.101",
-            "server_port": 13982,
-            "tag": "United States_Kansas City_vless_31",
-            "tls": {
-                "enabled": true,
-                "server_name": "itunes.apple.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
-                    "short_id": "22f6b74f02cc88a6"
-                }
-            },
-            "type": "vless",
-            "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "h2mux"
-            }
-        },
-        {
-            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
-            "server": "109.104.152.186",
-            "server_port": 11223,
-            "tag": "United States_Kansas City_ss_51",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
-        },
-        {
-            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
-            "server": "109.104.152.186",
-            "server_port": 11223,
-            "tag": "United States_Kansas City_ss_71",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
-        },
-        {
-            "password": "dongtaiwang.com",
             "server": "51.159.199.102",
             "server_port": 33008,
-            "tag": "France_Paris_tuic_91",
+            "tag": "France_Paris_tuic_11",
             "tls": {
                 "enabled": true,
                 "server_name": "51.159.199.102",
@@ -243,7 +158,7 @@
             "password": "dongtaiwang.com",
             "server": "64.42.176.182",
             "server_port": 61123,
-            "tag": "United States_Seattle_tuic_111",
+            "tag": "United States_Seattle_tuic_31",
             "tls": {
                 "enabled": true,
                 "server_name": "64.42.176.182",
@@ -262,7 +177,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku48.xyz",
             "server_port": 33993,
-            "tag": "Taiwan_New Taipei_tuic_112",
+            "tag": "Taiwan_New Taipei_tuic_32",
             "tls": {
                 "enabled": true,
                 "server_name": "www2.dtku48.xyz",
@@ -280,7 +195,7 @@
         {
             "server": "108.181.5.21",
             "server_port": 44550,
-            "tag": "United States_Los Angeles_hysteria_131",
+            "tag": "United States_Los Angeles_hysteria_51",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -298,7 +213,7 @@
             "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
             "server": "109.104.152.186",
             "server_port": 11223,
-            "tag": "United States_Kansas City_ss_151",
+            "tag": "United States_Kansas City_ss_71",
             "type": "shadowsocks",
             "method": "2022-blake3-chacha20-poly1305",
             "network": "tcp",
@@ -313,7 +228,7 @@
         {
             "server": "104.26.9.16",
             "server_port": 8080,
-            "tag": "None_None_vmess_171",
+            "tag": "None_None_vmess_91",
             "transport": {
                 "headers": {
                     "host": [
@@ -330,7 +245,7 @@
         {
             "server": "104.19.21.44",
             "server_port": 8080,
-            "tag": "None_None_vmess_172",
+            "tag": "None_None_vmess_92",
             "transport": {
                 "headers": {
                     "host": [
@@ -347,7 +262,7 @@
         {
             "server": "104.26.9.51",
             "server_port": 8080,
-            "tag": "None_None_vmess_173",
+            "tag": "None_None_vmess_93",
             "transport": {
                 "headers": {
                     "host": [
@@ -364,7 +279,7 @@
         {
             "server": "104.19.38.128",
             "server_port": 8080,
-            "tag": "None_None_vmess_174",
+            "tag": "None_None_vmess_94",
             "transport": {
                 "headers": {
                     "host": [
@@ -381,7 +296,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "None_None_vmess_175",
+            "tag": "None_None_vmess_95",
             "transport": {
                 "headers": {
                     "host": [
@@ -399,7 +314,7 @@
             "password": "dongtaiwang.com",
             "server": "www.dtku40.xyz",
             "server_port": 33098,
-            "tag": "Taiwan_Taipei_tuic_191",
+            "tag": "Taiwan_Taipei_tuic_111",
             "tls": {
                 "enabled": true,
                 "server_name": "www.dtku40.xyz",
@@ -413,83 +328,6 @@
             "udp_relay_mode": "native",
             "zero_rtt_handshake": true,
             "heartbeat": "0ms"
-        },
-        {
-            "password": "dongtaiwang.com",
-            "server": "109.104.152.89",
-            "server_port": 22441,
-            "tag": "United States_Kansas City_hysteria2_211",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "down_mbps": 55,
-            "up_mbps": 11
-        },
-        {
-            "server": "109.104.152.101",
-            "server_port": 13982,
-            "tag": "United States_Kansas City_vless_231",
-            "tls": {
-                "enabled": true,
-                "server_name": "itunes.apple.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE",
-                    "short_id": "22f6b74f02cc88a6"
-                }
-            },
-            "type": "vless",
-            "uuid": "85beb960-236b-4634-81ce-6ad66652f928",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "h2mux"
-            }
-        },
-        {
-            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
-            "server": "109.104.152.186",
-            "server_port": 11223,
-            "tag": "United States_Kansas City_ss_251",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
-        },
-        {
-            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
-            "server": "109.104.152.186",
-            "server_port": 11223,
-            "tag": "United States_Kansas City_ss_271",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
         },
         {
             "server": "173.234.25.51",
@@ -679,25 +517,17 @@
             "tag": "urltest",
             "type": "urltest",
             "outbounds": [
-                "United States_Kansas City_hysteria2_11",
-                "United States_Kansas City_vless_31",
-                "United States_Kansas City_ss_51",
+                "France_Paris_tuic_11",
+                "United States_Seattle_tuic_31",
+                "Taiwan_New Taipei_tuic_32",
+                "United States_Los Angeles_hysteria_51",
                 "United States_Kansas City_ss_71",
-                "France_Paris_tuic_91",
-                "United States_Seattle_tuic_111",
-                "Taiwan_New Taipei_tuic_112",
-                "United States_Los Angeles_hysteria_131",
-                "United States_Kansas City_ss_151",
-                "None_None_vmess_171",
-                "None_None_vmess_172",
-                "None_None_vmess_173",
-                "None_None_vmess_174",
-                "None_None_vmess_175",
-                "Taiwan_Taipei_tuic_191",
-                "United States_Kansas City_hysteria2_211",
-                "United States_Kansas City_vless_231",
-                "United States_Kansas City_ss_251",
-                "United States_Kansas City_ss_271",
+                "None_None_vmess_91",
+                "None_None_vmess_92",
+                "None_None_vmess_93",
+                "None_None_vmess_94",
+                "None_None_vmess_95",
+                "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_1",
                 "United States_Seattle_hy_3",
                 "France_Paris_hy_5",

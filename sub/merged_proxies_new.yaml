@@ -23,6 +23,8 @@ dns:
   fallback:
   - https://1.0.0.1/dns-query
   - tls://dns.google:853
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
