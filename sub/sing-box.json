@@ -125,10 +125,6 @@
                 "United States_Seattle_hy_3",
                 "France_Paris_hy_5",
                 "Taiwan_Taipei_hy_7",
-                "France_None_hy_9",
-                "United States_Los Angeles_hy_11",
-                "United States_Kansas City_hy_13",
-                "United States_Los Angeles_hy_15",
                 "United States_Los Angeles_hy2_1",
                 "United States_Seattle_hy2_3",
                 "France_Paris_hy2_5",
@@ -398,74 +394,6 @@
             "up_mbps": 1000
         },
         {
-            "server": "62.210.243.131",
-            "server_port": 18702,
-            "tag": "France_None_hy_9",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 1000,
-            "up_mbps": 1000
-        },
-        {
-            "server": "173.234.25.52",
-            "server_port": 30072,
-            "tag": "United States_Los Angeles_hy_11",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 1000,
-            "up_mbps": 1000
-        },
-        {
-            "server": "109.104.152.194",
-            "server_port": 58510,
-            "tag": "United States_Kansas City_hy_13",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 1000,
-            "up_mbps": 1000
-        },
-        {
-            "server": "108.181.5.133",
-            "server_port": 26022,
-            "tag": "United States_Los Angeles_hy_15",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 1000,
-            "up_mbps": 1000
-        },
-        {
             "password": "dongtaiwang.com",
             "server": "64.110.25.11",
             "server_port": 37021,
@@ -532,10 +460,6 @@
                 "United States_Seattle_hy_3",
                 "France_Paris_hy_5",
                 "Taiwan_Taipei_hy_7",
-                "France_None_hy_9",
-                "United States_Los Angeles_hy_11",
-                "United States_Kansas City_hy_13",
-                "United States_Los Angeles_hy_15",
                 "United States_Los Angeles_hy2_1",
                 "United States_Seattle_hy2_3",
                 "France_Paris_hy2_5",
