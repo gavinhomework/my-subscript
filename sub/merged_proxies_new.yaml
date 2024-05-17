@@ -29,59 +29,55 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Kansas City_hysteria2_11
-  type: hysteria2
-  server: 109.104.152.89
-  port: 22441
+- name: France_Paris_tuic_11
+  server: 51.159.199.102
+  port: 33008
+  type: tuic
+  uuid: df19a216-8317-4890-829c-a8b7717d53d6
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: United States_Seattle_tuic_31
+  server: 64.42.176.182
+  port: 61123
+  type: tuic
+  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Taiwan_New Taipei_tuic_32
+  server: www2.dtku48.xyz
+  port: 33993
+  type: tuic
+  uuid: ebff50f5-dc0e-4bff-bcdb-3c7d2638e817
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: United States_Los Angeles_hysteria_51
+  type: hysteria
+  server: 108.181.5.21
+  port: 44550
+  sni: bing.com
   skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: United States_Kansas City_vless_31
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: United States_Kansas City_ss_51
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: United States_Kansas City_ss_71
   type: ss
   server: 109.104.152.186
@@ -100,74 +96,7 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: France_Paris_tuic_91
-  server: 51.159.199.102
-  port: 33008
-  type: tuic
-  uuid: df19a216-8317-4890-829c-a8b7717d53d6
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: United States_Seattle_tuic_111
-  server: 64.42.176.182
-  port: 61123
-  type: tuic
-  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_112
-  server: www2.dtku48.xyz
-  port: 33993
-  type: tuic
-  uuid: ebff50f5-dc0e-4bff-bcdb-3c7d2638e817
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_131
-  type: hysteria
-  server: 108.181.5.21
-  port: 44550
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
-- name: United States_Kansas City_ss_151
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: None_None_vmess_171
+- name: None_None_vmess_91
   type: vmess
   server: 104.26.9.16
   port: 8080
@@ -182,7 +111,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_172
+- name: None_None_vmess_92
   type: vmess
   server: 104.19.21.44
   port: 8080
@@ -197,7 +126,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_173
+- name: None_None_vmess_93
   type: vmess
   server: 104.26.9.51
   port: 8080
@@ -212,7 +141,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_174
+- name: None_None_vmess_94
   type: vmess
   server: 104.19.38.128
   port: 8080
@@ -227,7 +156,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_175
+- name: None_None_vmess_95
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -242,7 +171,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: Taiwan_Taipei_tuic_191
+- name: Taiwan_Taipei_tuic_111
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -254,77 +183,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Kansas City_hysteria2_211
-  type: hysteria2
-  server: 109.104.152.89
-  port: 22441
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: United States_Kansas City_vless_231
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: United States_Kansas City_ss_251
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: United States_Kansas City_ss_271
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
 - name: United States_Los Angeles_hy_1
   type: hysteria
   server: 173.234.25.51
@@ -476,25 +334,17 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Kansas City_hysteria2_11
-  - United States_Kansas City_vless_31
-  - United States_Kansas City_ss_51
+  - France_Paris_tuic_11
+  - United States_Seattle_tuic_31
+  - Taiwan_New Taipei_tuic_32
+  - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
-  - France_Paris_tuic_91
-  - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
-  - United States_Los Angeles_hysteria_131
-  - United States_Kansas City_ss_151
-  - None_None_vmess_171
-  - None_None_vmess_172
-  - None_None_vmess_173
-  - None_None_vmess_174
-  - None_None_vmess_175
-  - Taiwan_Taipei_tuic_191
-  - United States_Kansas City_hysteria2_211
-  - United States_Kansas City_vless_231
-  - United States_Kansas City_ss_251
-  - United States_Kansas City_ss_271
+  - None_None_vmess_91
+  - None_None_vmess_92
+  - None_None_vmess_93
+  - None_None_vmess_94
+  - None_None_vmess_95
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_3
   - France_Paris_hy_5
@@ -513,25 +363,17 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Kansas City_hysteria2_11
-  - United States_Kansas City_vless_31
-  - United States_Kansas City_ss_51
+  - France_Paris_tuic_11
+  - United States_Seattle_tuic_31
+  - Taiwan_New Taipei_tuic_32
+  - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
-  - France_Paris_tuic_91
-  - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
-  - United States_Los Angeles_hysteria_131
-  - United States_Kansas City_ss_151
-  - None_None_vmess_171
-  - None_None_vmess_172
-  - None_None_vmess_173
-  - None_None_vmess_174
-  - None_None_vmess_175
-  - Taiwan_Taipei_tuic_191
-  - United States_Kansas City_hysteria2_211
-  - United States_Kansas City_vless_231
-  - United States_Kansas City_ss_251
-  - United States_Kansas City_ss_271
+  - None_None_vmess_91
+  - None_None_vmess_92
+  - None_None_vmess_93
+  - None_None_vmess_94
+  - None_None_vmess_95
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_3
   - France_Paris_hy_5
@@ -550,25 +392,17 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Kansas City_hysteria2_11
-  - United States_Kansas City_vless_31
-  - United States_Kansas City_ss_51
+  - France_Paris_tuic_11
+  - United States_Seattle_tuic_31
+  - Taiwan_New Taipei_tuic_32
+  - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
-  - France_Paris_tuic_91
-  - United States_Seattle_tuic_111
-  - Taiwan_New Taipei_tuic_112
-  - United States_Los Angeles_hysteria_131
-  - United States_Kansas City_ss_151
-  - None_None_vmess_171
-  - None_None_vmess_172
-  - None_None_vmess_173
-  - None_None_vmess_174
-  - None_None_vmess_175
-  - Taiwan_Taipei_tuic_191
-  - United States_Kansas City_hysteria2_211
-  - United States_Kansas City_vless_231
-  - United States_Kansas City_ss_251
-  - United States_Kansas City_ss_271
+  - None_None_vmess_91
+  - None_None_vmess_92
+  - None_None_vmess_93
+  - None_None_vmess_94
+  - None_None_vmess_95
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_1
   - United States_Seattle_hy_3
   - France_Paris_hy_5
