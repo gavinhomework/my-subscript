@@ -55,7 +55,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_32
+- name: Taiwan_Taipei_tuic_32
   server: www2.dtku48.xyz
   port: 33993
   type: tuic
@@ -282,7 +282,7 @@ proxy-groups:
   - DIRECT
   - France_Paris_tuic_11
   - United States_Seattle_tuic_31
-  - Taiwan_New Taipei_tuic_32
+  - Taiwan_Taipei_tuic_32
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
   - None_None_vmess_91
@@ -307,7 +307,7 @@ proxy-groups:
   proxies:
   - France_Paris_tuic_11
   - United States_Seattle_tuic_31
-  - Taiwan_New Taipei_tuic_32
+  - Taiwan_Taipei_tuic_32
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
   - None_None_vmess_91
@@ -332,7 +332,7 @@ proxy-groups:
   proxies:
   - France_Paris_tuic_11
   - United States_Seattle_tuic_31
-  - Taiwan_New Taipei_tuic_32
+  - Taiwan_Taipei_tuic_32
   - United States_Los Angeles_hysteria_51
   - United States_Kansas City_ss_71
   - None_None_vmess_91
