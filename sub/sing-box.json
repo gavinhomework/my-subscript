@@ -112,7 +112,7 @@
                 "urltest",
                 "France_Paris_tuic_11",
                 "United States_Seattle_tuic_31",
-                "Taiwan_New Taipei_tuic_32",
+                "Taiwan_Taipei_tuic_32",
                 "United States_Los Angeles_hysteria_51",
                 "United States_Kansas City_ss_71",
                 "None_None_vmess_91",
@@ -173,7 +173,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku48.xyz",
             "server_port": 33993,
-            "tag": "Taiwan_New Taipei_tuic_32",
+            "tag": "Taiwan_Taipei_tuic_32",
             "tls": {
                 "enabled": true,
                 "server_name": "www2.dtku48.xyz",
@@ -447,7 +447,7 @@
             "outbounds": [
                 "France_Paris_tuic_11",
                 "United States_Seattle_tuic_31",
-                "Taiwan_New Taipei_tuic_32",
+                "Taiwan_Taipei_tuic_32",
                 "United States_Los Angeles_hysteria_51",
                 "United States_Kansas City_ss_71",
                 "None_None_vmess_91",
