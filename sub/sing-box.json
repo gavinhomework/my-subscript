@@ -110,32 +110,32 @@
             "default": "urltest",
             "outbounds": [
                 "urltest",
-                "France_Paris_tuic_11",
-                "United States_Seattle_tuic_31",
-                "Taiwan_Taipei_tuic_32",
-                "United States_Los Angeles_hysteria_51",
-                "United States_Kansas City_ss_71",
-                "None_None_vmess_91",
-                "None_None_vmess_92",
-                "None_None_vmess_93",
-                "None_None_vmess_94",
-                "None_None_vmess_95",
-                "Taiwan_Taipei_tuic_111",
-                "United States_Los Angeles_hy_1",
-                "United States_Seattle_hy_3",
-                "France_Paris_hy_5",
-                "Taiwan_Taipei_hy_7",
-                "United States_Los Angeles_hy2_1",
-                "United States_Seattle_hy2_3",
-                "France_Paris_hy2_5",
-                "France_None_hy2_7"
+                "France_Paris_tuic_01",
+                "United States_Seattle_tuic_11",
+                "Taiwan_Taipei_tuic_12",
+                "United States_Los Angeles_hysteria_21",
+                "United States_Kansas City_ss_31",
+                "None_None_vmess_41",
+                "None_None_vmess_42",
+                "None_None_vmess_43",
+                "None_None_vmess_44",
+                "None_None_vmess_45",
+                "Taiwan_Taipei_tuic_51",
+                "United States_Los Angeles_hy_0",
+                "United States_Seattle_hy_1",
+                "France_Paris_hy_2",
+                "Taiwan_Taipei_hy_3",
+                "United States_Los Angeles_hy2_0",
+                "United States_Seattle_hy2_1",
+                "France_Paris_hy2_2",
+                "France_None_hy2_3"
             ]
         },
         {
             "password": "dongtaiwang.com",
             "server": "51.159.199.102",
             "server_port": 33008,
-            "tag": "France_Paris_tuic_11",
+            "tag": "France_Paris_tuic_01",
             "tls": {
                 "enabled": true,
                 "server_name": "51.159.199.102",
@@ -154,7 +154,7 @@
             "password": "dongtaiwang.com",
             "server": "64.42.176.182",
             "server_port": 61123,
-            "tag": "United States_Seattle_tuic_31",
+            "tag": "United States_Seattle_tuic_11",
             "tls": {
                 "enabled": true,
                 "server_name": "64.42.176.182",
@@ -173,7 +173,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku48.xyz",
             "server_port": 33993,
-            "tag": "Taiwan_Taipei_tuic_32",
+            "tag": "Taiwan_Taipei_tuic_12",
             "tls": {
                 "enabled": true,
                 "server_name": "www2.dtku48.xyz",
@@ -191,7 +191,7 @@
         {
             "server": "108.181.5.21",
             "server_port": 44550,
-            "tag": "United States_Los Angeles_hysteria_51",
+            "tag": "United States_Los Angeles_hysteria_21",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -209,7 +209,7 @@
             "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
             "server": "109.104.152.186",
             "server_port": 11223,
-            "tag": "United States_Kansas City_ss_71",
+            "tag": "United States_Kansas City_ss_31",
             "type": "shadowsocks",
             "method": "2022-blake3-chacha20-poly1305",
             "network": "tcp",
@@ -224,7 +224,7 @@
         {
             "server": "104.26.9.16",
             "server_port": 8080,
-            "tag": "None_None_vmess_91",
+            "tag": "None_None_vmess_41",
             "transport": {
                 "headers": {
                     "host": [
@@ -241,7 +241,7 @@
         {
             "server": "104.19.21.44",
             "server_port": 8080,
-            "tag": "None_None_vmess_92",
+            "tag": "None_None_vmess_42",
             "transport": {
                 "headers": {
                     "host": [
@@ -258,7 +258,7 @@
         {
             "server": "104.26.9.51",
             "server_port": 8080,
-            "tag": "None_None_vmess_93",
+            "tag": "None_None_vmess_43",
             "transport": {
                 "headers": {
                     "host": [
@@ -275,7 +275,7 @@
         {
             "server": "104.19.38.128",
             "server_port": 8080,
-            "tag": "None_None_vmess_94",
+            "tag": "None_None_vmess_44",
             "transport": {
                 "headers": {
                     "host": [
@@ -292,7 +292,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "None_None_vmess_95",
+            "tag": "None_None_vmess_45",
             "transport": {
                 "headers": {
                     "host": [
@@ -310,7 +310,7 @@
             "password": "dongtaiwang.com",
             "server": "www.dtku40.xyz",
             "server_port": 33098,
-            "tag": "Taiwan_Taipei_tuic_111",
+            "tag": "Taiwan_Taipei_tuic_51",
             "tls": {
                 "enabled": true,
                 "server_name": "www.dtku40.xyz",
@@ -328,7 +328,7 @@
         {
             "server": "173.234.25.51",
             "server_port": 48919,
-            "tag": "United States_Los Angeles_hy_1",
+            "tag": "United States_Los Angeles_hy_0",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -345,7 +345,7 @@
         {
             "server": "64.42.176.179",
             "server_port": 50991,
-            "tag": "United States_Seattle_hy_3",
+            "tag": "United States_Seattle_hy_1",
             "tls": {
                 "enabled": true,
                 "server_name": "google.com",
@@ -362,7 +362,7 @@
         {
             "server": "51.159.79.103",
             "server_port": 55396,
-            "tag": "France_Paris_hy_5",
+            "tag": "France_Paris_hy_2",
             "tls": {
                 "enabled": true,
                 "server_name": "youku.com",
@@ -379,7 +379,7 @@
         {
             "server": "www.dtku40.xyz",
             "server_port": 18091,
-            "tag": "Taiwan_Taipei_hy_7",
+            "tag": "Taiwan_Taipei_hy_3",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -397,7 +397,7 @@
             "password": "dongtaiwang.com",
             "server": "64.110.25.11",
             "server_port": 37021,
-            "tag": "United States_Los Angeles_hy2_1",
+            "tag": "United States_Los Angeles_hy2_0",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -409,7 +409,7 @@
             "password": "dongtaiwang.com",
             "server": "64.42.176.178",
             "server_port": 50690,
-            "tag": "United States_Seattle_hy2_3",
+            "tag": "United States_Seattle_hy2_1",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -421,7 +421,7 @@
             "password": "dongtaiwang.com",
             "server": "51.159.77.198",
             "server_port": 20261,
-            "tag": "France_Paris_hy2_5",
+            "tag": "France_Paris_hy2_2",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -433,7 +433,7 @@
             "password": "dongtaiwang.com",
             "server": "62.210.103.0",
             "server_port": 22483,
-            "tag": "France_None_hy2_7",
+            "tag": "France_None_hy2_3",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -445,25 +445,25 @@
             "tag": "urltest",
             "type": "urltest",
             "outbounds": [
-                "France_Paris_tuic_11",
-                "United States_Seattle_tuic_31",
-                "Taiwan_Taipei_tuic_32",
-                "United States_Los Angeles_hysteria_51",
-                "United States_Kansas City_ss_71",
-                "None_None_vmess_91",
-                "None_None_vmess_92",
-                "None_None_vmess_93",
-                "None_None_vmess_94",
-                "None_None_vmess_95",
-                "Taiwan_Taipei_tuic_111",
-                "United States_Los Angeles_hy_1",
-                "United States_Seattle_hy_3",
-                "France_Paris_hy_5",
-                "Taiwan_Taipei_hy_7",
-                "United States_Los Angeles_hy2_1",
-                "United States_Seattle_hy2_3",
-                "France_Paris_hy2_5",
-                "France_None_hy2_7"
+                "France_Paris_tuic_01",
+                "United States_Seattle_tuic_11",
+                "Taiwan_Taipei_tuic_12",
+                "United States_Los Angeles_hysteria_21",
+                "United States_Kansas City_ss_31",
+                "None_None_vmess_41",
+                "None_None_vmess_42",
+                "None_None_vmess_43",
+                "None_None_vmess_44",
+                "None_None_vmess_45",
+                "Taiwan_Taipei_tuic_51",
+                "United States_Los Angeles_hy_0",
+                "United States_Seattle_hy_1",
+                "France_Paris_hy_2",
+                "Taiwan_Taipei_hy_3",
+                "United States_Los Angeles_hy2_0",
+                "United States_Seattle_hy2_1",
+                "France_Paris_hy2_2",
+                "France_None_hy2_3"
             ]
         },
         {
