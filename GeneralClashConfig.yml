@@ -71,6 +71,10 @@ dns:
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
      - '*.lan'
      - localhost.ptlogin2.qq.com
+  default-nameserver:
+    - 8.8.4.4 # 谷歌DNS
+    - 1.0.0.1 # CFDNS
+    #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
   nameserver:
      - 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
