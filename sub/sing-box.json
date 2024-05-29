@@ -121,14 +121,33 @@
                 "None_None_vmess_44",
                 "None_None_vmess_45",
                 "Taiwan_Taipei_tuic_51",
+                "France_Paris_tuic_61",
+                "United States_Seattle_tuic_71",
+                "Taiwan_New Taipei_tuic_72",
+                "United States_Los Angeles_hysteria_81",
+                "United States_Kansas City_ss_91",
+                "None_None_vmess_101",
+                "None_None_vmess_102",
+                "None_None_vmess_103",
+                "None_None_vmess_104",
+                "None_None_vmess_105",
+                "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
                 "France_Paris_hy_2",
                 "Taiwan_Taipei_hy_3",
+                "United States_Los Angeles_hy_4",
+                "United States_Seattle_hy_5",
+                "France_Paris_hy_6",
+                "Taiwan_Taipei_hy_7",
                 "United States_Los Angeles_hy2_0",
                 "United States_Seattle_hy2_1",
                 "France_Paris_hy2_2",
-                "France_None_hy2_3"
+                "France_None_hy2_3",
+                "United States_Los Angeles_hy2_4",
+                "United States_Seattle_hy2_5",
+                "France_Paris_hy2_6",
+                "France_None_hy2_7"
             ]
         },
         {
@@ -326,6 +345,200 @@
             "heartbeat": "0ms"
         },
         {
+            "password": "dongtaiwang.com",
+            "server": "51.159.199.102",
+            "server_port": 33008,
+            "tag": "France_Paris_tuic_61",
+            "tls": {
+                "enabled": true,
+                "server_name": "51.159.199.102",
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "type": "tuic",
+            "uuid": "df19a216-8317-4890-829c-a8b7717d53d6",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "64.42.176.182",
+            "server_port": 61123,
+            "tag": "United States_Seattle_tuic_71",
+            "tls": {
+                "enabled": true,
+                "server_name": "64.42.176.182",
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "type": "tuic",
+            "uuid": "de954fbf-b042-4043-98f1-3cad99dbbf0b",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "www2.dtku48.xyz",
+            "server_port": 33993,
+            "tag": "Taiwan_New Taipei_tuic_72",
+            "tls": {
+                "enabled": true,
+                "server_name": "www2.dtku48.xyz",
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "type": "tuic",
+            "uuid": "ebff50f5-dc0e-4bff-bcdb-3c7d2638e817",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
+        },
+        {
+            "server": "108.181.5.21",
+            "server_port": 44550,
+            "tag": "United States_Los Angeles_hysteria_81",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 55,
+            "up_mbps": 11
+        },
+        {
+            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
+            "server": "109.104.152.186",
+            "server_port": 11223,
+            "tag": "United States_Kansas City_ss_91",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "multiplex": {
+                "enabled": true,
+                "max_connections": 4,
+                "min_streams": 4,
+                "padding": true,
+                "protocol": "smux"
+            }
+        },
+        {
+            "server": "104.26.9.16",
+            "server_port": 8080,
+            "tag": "None_None_vmess_101",
+            "transport": {
+                "headers": {
+                    "host": [
+                        "playstation-january-rt-semiconductor.trycloudflare.com"
+                    ]
+                },
+                "path": "/argox-vm?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+        },
+        {
+            "server": "104.19.21.44",
+            "server_port": 8080,
+            "tag": "None_None_vmess_102",
+            "transport": {
+                "headers": {
+                    "host": [
+                        "playstation-january-rt-semiconductor.trycloudflare.com"
+                    ]
+                },
+                "path": "/argox-vm?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+        },
+        {
+            "server": "104.26.9.51",
+            "server_port": 8080,
+            "tag": "None_None_vmess_103",
+            "transport": {
+                "headers": {
+                    "host": [
+                        "playstation-january-rt-semiconductor.trycloudflare.com"
+                    ]
+                },
+                "path": "/argox-vm?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+        },
+        {
+            "server": "104.19.38.128",
+            "server_port": 8080,
+            "tag": "None_None_vmess_104",
+            "transport": {
+                "headers": {
+                    "host": [
+                        "playstation-january-rt-semiconductor.trycloudflare.com"
+                    ]
+                },
+                "path": "/argox-vm?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+        },
+        {
+            "server": "yh4.dtku41.xyz",
+            "server_port": 8080,
+            "tag": "None_None_vmess_105",
+            "transport": {
+                "headers": {
+                    "host": [
+                        "playstation-january-rt-semiconductor.trycloudflare.com"
+                    ]
+                },
+                "path": "/argox-vm?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "www.dtku40.xyz",
+            "server_port": 33098,
+            "tag": "Taiwan_Taipei_tuic_111",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.dtku40.xyz",
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "type": "tuic",
+            "uuid": "fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
+        },
+        {
             "server": "173.234.25.51",
             "server_port": 48919,
             "tag": "United States_Los Angeles_hy_0",
@@ -394,6 +607,74 @@
             "up_mbps": 1000
         },
         {
+            "server": "173.234.25.51",
+            "server_port": 48919,
+            "tag": "United States_Los Angeles_hy_4",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 1000,
+            "up_mbps": 1000
+        },
+        {
+            "server": "64.42.176.179",
+            "server_port": 50991,
+            "tag": "United States_Seattle_hy_5",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 1000,
+            "up_mbps": 1000
+        },
+        {
+            "server": "51.159.79.103",
+            "server_port": 55396,
+            "tag": "France_Paris_hy_6",
+            "tls": {
+                "enabled": true,
+                "server_name": "youku.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 1000,
+            "up_mbps": 1000
+        },
+        {
+            "server": "www.dtku40.xyz",
+            "server_port": 18091,
+            "tag": "Taiwan_Taipei_hy_7",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 1000,
+            "up_mbps": 1000
+        },
+        {
             "password": "dongtaiwang.com",
             "server": "64.110.25.11",
             "server_port": 37021,
@@ -442,6 +723,54 @@
             "type": "hysteria2"
         },
         {
+            "password": "dongtaiwang.com",
+            "server": "64.110.25.11",
+            "server_port": 37021,
+            "tag": "United States_Los Angeles_hy2_4",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "64.42.176.178",
+            "server_port": 50690,
+            "tag": "United States_Seattle_hy2_5",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "51.159.77.198",
+            "server_port": 20261,
+            "tag": "France_Paris_hy2_6",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "62.210.103.0",
+            "server_port": 22483,
+            "tag": "France_None_hy2_7",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
             "tag": "urltest",
             "type": "urltest",
             "outbounds": [
@@ -456,14 +785,33 @@
                 "None_None_vmess_44",
                 "None_None_vmess_45",
                 "Taiwan_Taipei_tuic_51",
+                "France_Paris_tuic_61",
+                "United States_Seattle_tuic_71",
+                "Taiwan_New Taipei_tuic_72",
+                "United States_Los Angeles_hysteria_81",
+                "United States_Kansas City_ss_91",
+                "None_None_vmess_101",
+                "None_None_vmess_102",
+                "None_None_vmess_103",
+                "None_None_vmess_104",
+                "None_None_vmess_105",
+                "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
                 "France_Paris_hy_2",
                 "Taiwan_Taipei_hy_3",
+                "United States_Los Angeles_hy_4",
+                "United States_Seattle_hy_5",
+                "France_Paris_hy_6",
+                "Taiwan_Taipei_hy_7",
                 "United States_Los Angeles_hy2_0",
                 "United States_Seattle_hy2_1",
                 "France_Paris_hy2_2",
-                "France_None_hy2_3"
+                "France_None_hy2_3",
+                "United States_Los Angeles_hy2_4",
+                "United States_Seattle_hy2_5",
+                "France_Paris_hy2_6",
+                "France_None_hy2_7"
             ]
         },
         {
