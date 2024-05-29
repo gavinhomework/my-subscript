@@ -185,6 +185,160 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: France_Paris_tuic_61
+  server: 51.159.199.102
+  port: 33008
+  type: tuic
+  uuid: df19a216-8317-4890-829c-a8b7717d53d6
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: United States_Seattle_tuic_71
+  server: 64.42.176.182
+  port: 61123
+  type: tuic
+  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Taiwan_New Taipei_tuic_72
+  server: www2.dtku48.xyz
+  port: 33993
+  type: tuic
+  uuid: ebff50f5-dc0e-4bff-bcdb-3c7d2638e817
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: United States_Los Angeles_hysteria_81
+  type: hysteria
+  server: 108.181.5.21
+  port: 44550
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
+- name: United States_Kansas City_ss_91
+  type: ss
+  server: 109.104.152.186
+  port: 11223
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 1
+    min-streams: 4
+    statistic: false
+    only-tcp: false
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
+- name: None_None_vmess_101
+  type: vmess
+  server: 104.26.9.16
+  port: 8080
+  cipher: auto
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: None_None_vmess_102
+  type: vmess
+  server: 104.19.21.44
+  port: 8080
+  cipher: auto
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: None_None_vmess_103
+  type: vmess
+  server: 104.26.9.51
+  port: 8080
+  cipher: auto
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: None_None_vmess_104
+  type: vmess
+  server: 104.19.38.128
+  port: 8080
+  cipher: auto
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: None_None_vmess_105
+  type: vmess
+  server: yh4.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /argox-vm?ed=2048
+    headers:
+      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: Taiwan_Taipei_tuic_111
+  server: www.dtku40.xyz
+  port: 33098
+  type: tuic
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 173.234.25.51
@@ -241,6 +395,62 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: United States_Los Angeles_hy_4
+  type: hysteria
+  server: 173.234.25.51
+  port: 48919
+  ports: 48919
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_Seattle_hy_5
+  type: hysteria
+  server: 64.42.176.179
+  port: 50991
+  ports: 50991
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: google.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_Paris_hy_6
+  type: hysteria
+  server: 51.159.79.103
+  port: 55396
+  ports: 55396
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: youku.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: Taiwan_Taipei_hy_7
+  type: hysteria
+  server: www.dtku40.xyz
+  port: 18091
+  ports: 18091
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
   server: 64.110.25.11
@@ -273,6 +483,38 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_hy2_4
+  type: hysteria2
+  server: 64.110.25.11
+  port: 37021
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: United States_Seattle_hy2_5
+  type: hysteria2
+  server: 64.42.176.178
+  port: 50690
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: France_Paris_hy2_6
+  type: hysteria2
+  server: 51.159.77.198
+  port: 20261
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: France_None_hy2_7
+  type: hysteria2
+  server: 62.210.103.0
+  port: 22483
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -291,14 +533,33 @@ proxy-groups:
   - None_None_vmess_44
   - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
+  - France_Paris_tuic_61
+  - United States_Seattle_tuic_71
+  - Taiwan_New Taipei_tuic_72
+  - United States_Los Angeles_hysteria_81
+  - United States_Kansas City_ss_91
+  - None_None_vmess_101
+  - None_None_vmess_102
+  - None_None_vmess_103
+  - None_None_vmess_104
+  - None_None_vmess_105
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
   - Taiwan_Taipei_hy_3
+  - United States_Los Angeles_hy_4
+  - United States_Seattle_hy_5
+  - France_Paris_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
   - France_None_hy2_3
+  - United States_Los Angeles_hy2_4
+  - United States_Seattle_hy2_5
+  - France_Paris_hy2_6
+  - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -316,14 +577,33 @@ proxy-groups:
   - None_None_vmess_44
   - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
+  - France_Paris_tuic_61
+  - United States_Seattle_tuic_71
+  - Taiwan_New Taipei_tuic_72
+  - United States_Los Angeles_hysteria_81
+  - United States_Kansas City_ss_91
+  - None_None_vmess_101
+  - None_None_vmess_102
+  - None_None_vmess_103
+  - None_None_vmess_104
+  - None_None_vmess_105
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
   - Taiwan_Taipei_hy_3
+  - United States_Los Angeles_hy_4
+  - United States_Seattle_hy_5
+  - France_Paris_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
   - France_None_hy2_3
+  - United States_Los Angeles_hy2_4
+  - United States_Seattle_hy2_5
+  - France_Paris_hy2_6
+  - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -341,14 +621,33 @@ proxy-groups:
   - None_None_vmess_44
   - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
+  - France_Paris_tuic_61
+  - United States_Seattle_tuic_71
+  - Taiwan_New Taipei_tuic_72
+  - United States_Los Angeles_hysteria_81
+  - United States_Kansas City_ss_91
+  - None_None_vmess_101
+  - None_None_vmess_102
+  - None_None_vmess_103
+  - None_None_vmess_104
+  - None_None_vmess_105
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
   - Taiwan_Taipei_hy_3
+  - United States_Los Angeles_hy_4
+  - United States_Seattle_hy_5
+  - France_Paris_hy_6
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
   - France_None_hy2_3
+  - United States_Los Angeles_hy2_4
+  - United States_Seattle_hy2_5
+  - France_Paris_hy2_6
+  - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
