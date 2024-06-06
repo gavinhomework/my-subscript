@@ -158,7 +158,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: United States_None_vmess_45
+- name: None_None_vmess_45
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -411,15 +411,15 @@ proxies:
   - h3
 - name: United States_Seattle_hy_5
   type: hysteria
-  server: 64.42.176.179
-  port: 50991
-  ports: 50991
+  server: 64.42.176.181
+  port: 41604
+  ports: 41604
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: google.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -531,7 +531,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - United States_None_vmess_45
+  - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
   - France_Paris_tuic_61
   - United States_Seattle_tuic_71
@@ -575,7 +575,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - United States_None_vmess_45
+  - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
   - France_Paris_tuic_61
   - United States_Seattle_tuic_71
@@ -619,7 +619,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - United States_None_vmess_45
+  - None_None_vmess_45
   - Taiwan_Taipei_tuic_51
   - France_Paris_tuic_61
   - United States_Seattle_tuic_71
