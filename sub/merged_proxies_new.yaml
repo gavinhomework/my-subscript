@@ -159,7 +159,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_45
+- name: United States_San Jose_vmess_45
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -314,7 +314,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: United States_San Jose_vmess_105
+- name: None_None_vmess_105
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -533,7 +533,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - None_None_vmess_45
+  - United States_San Jose_vmess_45
   - Taiwan_Taipei_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -544,7 +544,7 @@ proxy-groups:
   - None_None_vmess_102
   - None_None_vmess_103
   - None_None_vmess_104
-  - United States_San Jose_vmess_105
+  - None_None_vmess_105
   - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -577,7 +577,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - None_None_vmess_45
+  - United States_San Jose_vmess_45
   - Taiwan_Taipei_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -588,7 +588,7 @@ proxy-groups:
   - None_None_vmess_102
   - None_None_vmess_103
   - None_None_vmess_104
-  - United States_San Jose_vmess_105
+  - None_None_vmess_105
   - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -621,7 +621,7 @@ proxy-groups:
   - None_None_vmess_42
   - None_None_vmess_43
   - None_None_vmess_44
-  - None_None_vmess_45
+  - United States_San Jose_vmess_45
   - Taiwan_Taipei_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -632,7 +632,7 @@ proxy-groups:
   - None_None_vmess_102
   - None_None_vmess_103
   - None_None_vmess_104
-  - United States_San Jose_vmess_105
+  - None_None_vmess_105
   - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
