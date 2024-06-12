@@ -119,7 +119,7 @@
                 "None_None_vmess_42",
                 "None_None_vmess_43",
                 "None_None_vmess_44",
-                "None_None_vmess_45",
+                "United States_None_vmess_45",
                 "Taiwan_Taipei_tuic_51",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
@@ -130,7 +130,7 @@
                 "None_None_vmess_102",
                 "None_None_vmess_103",
                 "None_None_vmess_104",
-                "None_None_vmess_105",
+                "United States_None_vmess_105",
                 "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
@@ -309,7 +309,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "None_None_vmess_45",
+            "tag": "United States_None_vmess_45",
             "transport": {
                 "headers": {
                     "host": [
@@ -501,7 +501,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "None_None_vmess_105",
+            "tag": "United States_None_vmess_105",
             "transport": {
                 "headers": {
                     "host": [
@@ -779,7 +779,7 @@
                 "None_None_vmess_42",
                 "None_None_vmess_43",
                 "None_None_vmess_44",
-                "None_None_vmess_45",
+                "United States_None_vmess_45",
                 "Taiwan_Taipei_tuic_51",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
@@ -790,7 +790,7 @@
                 "None_None_vmess_102",
                 "None_None_vmess_103",
                 "None_None_vmess_104",
-                "None_None_vmess_105",
+                "United States_None_vmess_105",
                 "Taiwan_Taipei_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
