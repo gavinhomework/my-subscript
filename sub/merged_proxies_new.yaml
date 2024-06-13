@@ -174,7 +174,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: Taiwan_Taipei_tuic_51
+- name: Taiwan_Hsinchu_tuic_51
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -329,7 +329,7 @@ proxies:
     path: /argox-vm?ed=2048
     headers:
       host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: Taiwan_Taipei_tuic_111
+- name: Taiwan_Hsinchu_tuic_111
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -383,7 +383,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_3
+- name: Taiwan_Hsinchu_hy_3
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -439,7 +439,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_7
+- name: Taiwan_Hsinchu_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -534,7 +534,7 @@ proxy-groups:
   - None_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_45
-  - Taiwan_Taipei_tuic_51
+  - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -545,15 +545,15 @@ proxy-groups:
   - None_None_vmess_103
   - None_None_vmess_104
   - None_None_vmess_105
-  - Taiwan_Taipei_tuic_111
+  - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Taipei_hy_3
+  - Taiwan_Hsinchu_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Hsinchu_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -578,7 +578,7 @@ proxy-groups:
   - None_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_45
-  - Taiwan_Taipei_tuic_51
+  - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -589,15 +589,15 @@ proxy-groups:
   - None_None_vmess_103
   - None_None_vmess_104
   - None_None_vmess_105
-  - Taiwan_Taipei_tuic_111
+  - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Taipei_hy_3
+  - Taiwan_Hsinchu_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Hsinchu_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -622,7 +622,7 @@ proxy-groups:
   - None_None_vmess_43
   - None_None_vmess_44
   - None_None_vmess_45
-  - Taiwan_Taipei_tuic_51
+  - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -633,15 +633,15 @@ proxy-groups:
   - None_None_vmess_103
   - None_None_vmess_104
   - None_None_vmess_105
-  - Taiwan_Taipei_tuic_111
+  - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Taipei_hy_3
+  - Taiwan_Hsinchu_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Taipei_hy_7
+  - Taiwan_Hsinchu_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
