@@ -130,7 +130,7 @@
                 "None_None_vmess_102",
                 "None_None_vmess_103",
                 "None_None_vmess_104",
-                "United States_None_vmess_105",
+                "None_None_vmess_105",
                 "Taiwan_Hsinchu_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
@@ -501,7 +501,7 @@
         {
             "server": "yh4.dtku41.xyz",
             "server_port": 8080,
-            "tag": "United States_None_vmess_105",
+            "tag": "None_None_vmess_105",
             "transport": {
                 "headers": {
                     "host": [
@@ -790,7 +790,7 @@
                 "None_None_vmess_102",
                 "None_None_vmess_103",
                 "None_None_vmess_104",
-                "United States_None_vmess_105",
+                "None_None_vmess_105",
                 "Taiwan_Hsinchu_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
