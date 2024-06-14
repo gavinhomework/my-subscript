@@ -223,19 +223,66 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_81
-  type: hysteria
-  server: 108.181.5.21
-  port: 44550
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: None_None_vmess_81
+  type: vmess
+  server: 162.159.129.179
+  port: 443
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: None_None_vmess_82
+  type: vmess
+  server: 162.159.136.23
+  port: 8880
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: United States_San Francisco_vmess_83
+  type: vmess
+  server: 172.64.144.55
+  port: 8443
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: None_None_vmess_84
+  type: vmess
+  server: 104.19.38.112
+  port: 8880
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
 - name: United States_Kansas City_ss_91
   type: ss
   server: 109.104.152.186
@@ -256,79 +303,64 @@ proxies:
       down: 55
 - name: None_None_vmess_101
   type: vmess
-  server: 104.26.9.16
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  server: 104.19.55.52
+  port: 443
+  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
   alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  cipher: auto
+  udp: true
+  tls: true
   network: ws
+  servername: grades-qc-above-bodies.trycloudflare.com
   ws-opts:
-    path: /argox-vm?ed=2048
+    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
     headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
+      Host: grades-qc-above-bodies.trycloudflare.com
 - name: None_None_vmess_102
   type: vmess
-  server: 104.19.21.44
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  server: 162.159.136.22
+  port: 8880
+  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
   alterId: 0
+  cipher: auto
+  udp: true
   tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
+  servername: grades-qc-above-bodies.trycloudflare.com
   ws-opts:
-    path: /argox-vm?ed=2048
+    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
     headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_103
+      Host: grades-qc-above-bodies.trycloudflare.com
+- name: United States_San Francisco_vmess_103
   type: vmess
-  server: 104.26.9.51
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  server: 172.64.144.114
+  port: 8443
+  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
   alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
+  cipher: auto
+  udp: true
+  tls: true
   network: ws
+  servername: grades-qc-above-bodies.trycloudflare.com
   ws-opts:
-    path: /argox-vm?ed=2048
+    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
     headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
+      Host: grades-qc-above-bodies.trycloudflare.com
 - name: None_None_vmess_104
   type: vmess
-  server: 104.19.38.128
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
+  server: 104.19.38.66
+  port: 8880
+  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
   alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_105
-  type: vmess
-  server: yh4.dtku41.xyz
-  port: 8080
   cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
+  udp: true
   tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
   network: ws
+  servername: grades-qc-above-bodies.trycloudflare.com
   ws-opts:
-    path: /argox-vm?ed=2048
+    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
     headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
+      Host: grades-qc-above-bodies.trycloudflare.com
 - name: Taiwan_Hsinchu_tuic_111
   server: www.dtku40.xyz
   port: 33098
@@ -538,13 +570,15 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_Los Angeles_hysteria_81
+  - None_None_vmess_81
+  - None_None_vmess_82
+  - United States_San Francisco_vmess_83
+  - None_None_vmess_84
   - United States_Kansas City_ss_91
   - None_None_vmess_101
   - None_None_vmess_102
-  - None_None_vmess_103
+  - United States_San Francisco_vmess_103
   - None_None_vmess_104
-  - None_None_vmess_105
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -582,13 +616,15 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_Los Angeles_hysteria_81
+  - None_None_vmess_81
+  - None_None_vmess_82
+  - United States_San Francisco_vmess_83
+  - None_None_vmess_84
   - United States_Kansas City_ss_91
   - None_None_vmess_101
   - None_None_vmess_102
-  - None_None_vmess_103
+  - United States_San Francisco_vmess_103
   - None_None_vmess_104
-  - None_None_vmess_105
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -626,13 +662,15 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_Los Angeles_hysteria_81
+  - None_None_vmess_81
+  - None_None_vmess_82
+  - United States_San Francisco_vmess_83
+  - None_None_vmess_84
   - United States_Kansas City_ss_91
   - None_None_vmess_101
   - None_None_vmess_102
-  - None_None_vmess_103
+  - United States_San Francisco_vmess_103
   - None_None_vmess_104
-  - None_None_vmess_105
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
