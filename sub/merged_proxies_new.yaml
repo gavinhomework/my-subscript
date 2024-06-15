@@ -301,66 +301,18 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: None_None_vmess_101
-  type: vmess
-  server: 104.19.55.52
-  port: 443
-  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  servername: grades-qc-above-bodies.trycloudflare.com
-  ws-opts:
-    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
-    headers:
-      Host: grades-qc-above-bodies.trycloudflare.com
-- name: None_None_vmess_102
-  type: vmess
-  server: 162.159.136.22
-  port: 8880
-  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: grades-qc-above-bodies.trycloudflare.com
-  ws-opts:
-    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
-    headers:
-      Host: grades-qc-above-bodies.trycloudflare.com
-- name: United States_San Francisco_vmess_103
-  type: vmess
-  server: 172.64.144.114
-  port: 8443
-  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  servername: grades-qc-above-bodies.trycloudflare.com
-  ws-opts:
-    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
-    headers:
-      Host: grades-qc-above-bodies.trycloudflare.com
-- name: None_None_vmess_104
-  type: vmess
-  server: 104.19.38.66
-  port: 8880
-  uuid: 394a2320-9a41-45ba-a7b4-7d4bafc48b76
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: grades-qc-above-bodies.trycloudflare.com
-  ws-opts:
-    path: 394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm
-    headers:
-      Host: grades-qc-above-bodies.trycloudflare.com
+- name: Taiwan_Hsinchu_tuic_101
+  server: www.dtku40.xyz
+  port: 33098
+  type: tuic
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Taiwan_Hsinchu_tuic_111
   server: www.dtku40.xyz
   port: 33098
@@ -575,10 +527,7 @@ proxy-groups:
   - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
-  - None_None_vmess_101
-  - None_None_vmess_102
-  - United States_San Francisco_vmess_103
-  - None_None_vmess_104
+  - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -621,10 +570,7 @@ proxy-groups:
   - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
-  - None_None_vmess_101
-  - None_None_vmess_102
-  - United States_San Francisco_vmess_103
-  - None_None_vmess_104
+  - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
@@ -667,10 +613,7 @@ proxy-groups:
   - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
-  - None_None_vmess_101
-  - None_None_vmess_102
-  - United States_San Francisco_vmess_103
-  - None_None_vmess_104
+  - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
