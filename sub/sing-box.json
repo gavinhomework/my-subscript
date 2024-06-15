@@ -124,9 +124,9 @@
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
                 "Taiwan_New Taipei_tuic_72",
-                "None_None_vmess_81",
+                "United States_None_vmess_81",
                 "None_None_vmess_82",
-                "United States_San Francisco_vmess_83",
+                "None_None_vmess_83",
                 "None_None_vmess_84",
                 "United States_Kansas City_ss_91",
                 "Taiwan_Hsinchu_tuic_101",
@@ -397,9 +397,9 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "162.159.129.111",
+            "server": "172.64.202.194",
             "server_port": 2095,
-            "tag": "None_None_vmess_81",
+            "tag": "United States_None_vmess_81",
             "transport": {
                 "headers": {
                     "Host": [
@@ -431,9 +431,9 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "172.64.144.66",
+            "server": "141.101.122.100",
             "server_port": 2095,
-            "tag": "United States_San Francisco_vmess_83",
+            "tag": "None_None_vmess_83",
             "transport": {
                 "headers": {
                     "Host": [
@@ -768,9 +768,9 @@
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
                 "Taiwan_New Taipei_tuic_72",
-                "None_None_vmess_81",
+                "United States_None_vmess_81",
                 "None_None_vmess_82",
-                "United States_San Francisco_vmess_83",
+                "None_None_vmess_83",
                 "None_None_vmess_84",
                 "United States_Kansas City_ss_91",
                 "Taiwan_Hsinchu_tuic_101",
