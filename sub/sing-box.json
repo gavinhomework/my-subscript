@@ -400,80 +400,72 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "162.159.129.179",
-            "server_port": 443,
+            "server": "162.159.129.111",
+            "server_port": 2095,
             "tag": "None_None_vmess_81",
-            "tls": {
-                "enabled": true,
-                "server_name": "division-rachel-sic-mileage.trycloudflare.com"
-            },
             "transport": {
                 "headers": {
                     "Host": [
-                        "division-rachel-sic-mileage.trycloudflare.com"
+                        "ip5.dtku47.xyz"
                     ]
                 },
-                "path": "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
+                "path": "/WNh8bXQv/",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "162.159.136.23",
-            "server_port": 8880,
+            "server": "162.159.136.208",
+            "server_port": 2095,
             "tag": "None_None_vmess_82",
             "transport": {
                 "headers": {
                     "Host": [
-                        "division-rachel-sic-mileage.trycloudflare.com"
+                        "ip5.dtku47.xyz"
                     ]
                 },
-                "path": "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
+                "path": "/WNh8bXQv/",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "172.64.144.55",
-            "server_port": 8443,
+            "server": "172.64.144.66",
+            "server_port": 2095,
             "tag": "United States_San Francisco_vmess_83",
-            "tls": {
-                "enabled": true,
-                "server_name": "division-rachel-sic-mileage.trycloudflare.com"
-            },
             "transport": {
                 "headers": {
                     "Host": [
-                        "division-rachel-sic-mileage.trycloudflare.com"
+                        "ip5.dtku47.xyz"
                     ]
                 },
-                "path": "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
+                "path": "/WNh8bXQv/",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "104.19.38.112",
-            "server_port": 8880,
+            "server": "104.19.38.88",
+            "server_port": 2095,
             "tag": "None_None_vmess_84",
             "transport": {
                 "headers": {
                     "Host": [
-                        "division-rachel-sic-mileage.trycloudflare.com"
+                        "ip5.dtku47.xyz"
                     ]
                 },
-                "path": "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
+                "path": "/WNh8bXQv/",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
             "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
