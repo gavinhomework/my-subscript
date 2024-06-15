@@ -223,9 +223,9 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: None_None_vmess_81
+- name: United States_None_vmess_81
   type: vmess
-  server: 162.159.129.111
+  server: 172.64.202.194
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -253,9 +253,9 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.dtku47.xyz
-- name: United States_San Francisco_vmess_83
+- name: None_None_vmess_83
   type: vmess
-  server: 172.64.144.66
+  server: 141.101.122.100
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -522,9 +522,9 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - None_None_vmess_81
+  - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
   - Taiwan_Hsinchu_tuic_101
@@ -565,9 +565,9 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - None_None_vmess_81
+  - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
   - Taiwan_Hsinchu_tuic_101
@@ -608,9 +608,9 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - None_None_vmess_81
+  - United States_None_vmess_81
   - None_None_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - United States_Kansas City_ss_91
   - Taiwan_Hsinchu_tuic_101

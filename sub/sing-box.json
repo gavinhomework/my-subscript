@@ -129,10 +129,7 @@
                 "United States_San Francisco_vmess_83",
                 "None_None_vmess_84",
                 "United States_Kansas City_ss_91",
-                "None_None_vmess_101",
-                "None_None_vmess_102",
-                "United States_San Francisco_vmess_103",
-                "None_None_vmess_104",
+                "Taiwan_Hsinchu_tuic_101",
                 "Taiwan_Hsinchu_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
@@ -484,80 +481,23 @@
             }
         },
         {
-            "server": "104.19.55.52",
-            "server_port": 443,
-            "tag": "None_None_vmess_101",
+            "password": "dongtaiwang.com",
+            "server": "www.dtku40.xyz",
+            "server_port": 33098,
+            "tag": "Taiwan_Hsinchu_tuic_101",
             "tls": {
                 "enabled": true,
-                "server_name": "grades-qc-above-bodies.trycloudflare.com"
+                "server_name": "www.dtku40.xyz",
+                "alpn": [
+                    "h3"
+                ]
             },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "grades-qc-above-bodies.trycloudflare.com"
-                    ]
-                },
-                "path": "394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "394a2320-9a41-45ba-a7b4-7d4bafc48b76"
-        },
-        {
-            "server": "162.159.136.22",
-            "server_port": 8880,
-            "tag": "None_None_vmess_102",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "grades-qc-above-bodies.trycloudflare.com"
-                    ]
-                },
-                "path": "394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "394a2320-9a41-45ba-a7b4-7d4bafc48b76"
-        },
-        {
-            "server": "172.64.144.114",
-            "server_port": 8443,
-            "tag": "United States_San Francisco_vmess_103",
-            "tls": {
-                "enabled": true,
-                "server_name": "grades-qc-above-bodies.trycloudflare.com"
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "grades-qc-above-bodies.trycloudflare.com"
-                    ]
-                },
-                "path": "394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "394a2320-9a41-45ba-a7b4-7d4bafc48b76"
-        },
-        {
-            "server": "104.19.38.66",
-            "server_port": 8880,
-            "tag": "None_None_vmess_104",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "grades-qc-above-bodies.trycloudflare.com"
-                    ]
-                },
-                "path": "394a2320-9a41-45ba-a7b4-7d4bafc48b76-vm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "394a2320-9a41-45ba-a7b4-7d4bafc48b76"
+            "type": "tuic",
+            "uuid": "fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
         },
         {
             "password": "dongtaiwang.com",
@@ -833,10 +773,7 @@
                 "United States_San Francisco_vmess_83",
                 "None_None_vmess_84",
                 "United States_Kansas City_ss_91",
-                "None_None_vmess_101",
-                "None_None_vmess_102",
-                "United States_San Francisco_vmess_103",
-                "None_None_vmess_104",
+                "Taiwan_Hsinchu_tuic_101",
                 "Taiwan_Hsinchu_tuic_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Seattle_hy_1",
