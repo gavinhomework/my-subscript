@@ -68,19 +68,66 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_21
-  type: hysteria
-  server: 108.181.5.21
-  port: 44550
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: United States_None_vmess_21
+  type: vmess
+  server: 172.64.202.194
+  port: 2095
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.dtku47.xyz
+  ws-opts:
+    path: /WNh8bXQv/
+    headers:
+      Host: ip5.dtku47.xyz
+- name: None_None_vmess_22
+  type: vmess
+  server: 162.159.136.208
+  port: 2095
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.dtku47.xyz
+  ws-opts:
+    path: /WNh8bXQv/
+    headers:
+      Host: ip5.dtku47.xyz
+- name: None_None_vmess_23
+  type: vmess
+  server: 141.101.122.100
+  port: 2095
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.dtku47.xyz
+  ws-opts:
+    path: /WNh8bXQv/
+    headers:
+      Host: ip5.dtku47.xyz
+- name: None_None_vmess_24
+  type: vmess
+  server: 104.19.38.88
+  port: 2095
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.dtku47.xyz
+  ws-opts:
+    path: /WNh8bXQv/
+    headers:
+      Host: ip5.dtku47.xyz
 - name: United States_Kansas City_ss_31
   type: ss
   server: 109.104.152.186
@@ -99,81 +146,18 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: None_None_vmess_41
-  type: vmess
-  server: 104.26.9.16
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_42
-  type: vmess
-  server: 104.19.21.44
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_43
-  type: vmess
-  server: 104.26.9.51
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_44
-  type: vmess
-  server: 104.19.38.128
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
-- name: None_None_vmess_45
-  type: vmess
-  server: yh4.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: 4dd80463-21bf-4b95-8cd5-37f1f38cc494
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: playstation-january-rt-semiconductor.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vm?ed=2048
-    headers:
-      host: playstation-january-rt-semiconductor.trycloudflare.com
+- name: Taiwan_Hsinchu_tuic_41
+  server: www.dtku40.xyz
+  port: 33098
+  type: tuic
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Taiwan_Hsinchu_tuic_51
   server: www.dtku40.xyz
   port: 33098
@@ -511,13 +495,12 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_Los Angeles_hysteria_21
+  - United States_None_vmess_21
+  - None_None_vmess_22
+  - None_None_vmess_23
+  - None_None_vmess_24
   - United States_Kansas City_ss_31
-  - None_None_vmess_41
-  - None_None_vmess_42
-  - None_None_vmess_43
-  - None_None_vmess_44
-  - None_None_vmess_45
+  - Taiwan_Hsinchu_tuic_41
   - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -554,13 +537,12 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_Los Angeles_hysteria_21
+  - United States_None_vmess_21
+  - None_None_vmess_22
+  - None_None_vmess_23
+  - None_None_vmess_24
   - United States_Kansas City_ss_31
-  - None_None_vmess_41
-  - None_None_vmess_42
-  - None_None_vmess_43
-  - None_None_vmess_44
-  - None_None_vmess_45
+  - Taiwan_Hsinchu_tuic_41
   - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -597,13 +579,12 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_Los Angeles_hysteria_21
+  - United States_None_vmess_21
+  - None_None_vmess_22
+  - None_None_vmess_23
+  - None_None_vmess_24
   - United States_Kansas City_ss_31
-  - None_None_vmess_41
-  - None_None_vmess_42
-  - None_None_vmess_43
-  - None_None_vmess_44
-  - None_None_vmess_45
+  - Taiwan_Hsinchu_tuic_41
   - Taiwan_Hsinchu_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
