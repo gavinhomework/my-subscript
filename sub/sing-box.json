@@ -113,13 +113,12 @@
                 "United States_Seattle_hysteria_01",
                 "United States_Seattle_tuic_11",
                 "Taiwan_New Taipei_tuic_12",
-                "United States_Los Angeles_hysteria_21",
+                "United States_None_vmess_21",
+                "None_None_vmess_22",
+                "None_None_vmess_23",
+                "None_None_vmess_24",
                 "United States_Kansas City_ss_31",
-                "None_None_vmess_41",
-                "None_None_vmess_42",
-                "None_None_vmess_43",
-                "None_None_vmess_44",
-                "None_None_vmess_45",
+                "Taiwan_Hsinchu_tuic_41",
                 "Taiwan_Hsinchu_tuic_51",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
@@ -205,21 +204,72 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "108.181.5.21",
-            "server_port": 44550,
-            "tag": "United States_Los Angeles_hysteria_21",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
+            "server": "172.64.202.194",
+            "server_port": 2095,
+            "tag": "United States_None_vmess_21",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip5.dtku47.xyz"
+                    ]
+                },
+                "path": "/WNh8bXQv/",
+                "type": "ws"
             },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 55,
-            "up_mbps": 11
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
+        },
+        {
+            "server": "162.159.136.208",
+            "server_port": 2095,
+            "tag": "None_None_vmess_22",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip5.dtku47.xyz"
+                    ]
+                },
+                "path": "/WNh8bXQv/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
+        },
+        {
+            "server": "141.101.122.100",
+            "server_port": 2095,
+            "tag": "None_None_vmess_23",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip5.dtku47.xyz"
+                    ]
+                },
+                "path": "/WNh8bXQv/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
+        },
+        {
+            "server": "104.19.38.88",
+            "server_port": 2095,
+            "tag": "None_None_vmess_24",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip5.dtku47.xyz"
+                    ]
+                },
+                "path": "/WNh8bXQv/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
             "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
@@ -238,89 +288,23 @@
             }
         },
         {
-            "server": "104.26.9.16",
-            "server_port": 8080,
-            "tag": "None_None_vmess_41",
-            "transport": {
-                "headers": {
-                    "host": [
-                        "playstation-january-rt-semiconductor.trycloudflare.com"
-                    ]
-                },
-                "path": "/argox-vm?ed=2048",
-                "type": "ws"
+            "password": "dongtaiwang.com",
+            "server": "www.dtku40.xyz",
+            "server_port": 33098,
+            "tag": "Taiwan_Hsinchu_tuic_41",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.dtku40.xyz",
+                "alpn": [
+                    "h3"
+                ]
             },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
-        },
-        {
-            "server": "104.19.21.44",
-            "server_port": 8080,
-            "tag": "None_None_vmess_42",
-            "transport": {
-                "headers": {
-                    "host": [
-                        "playstation-january-rt-semiconductor.trycloudflare.com"
-                    ]
-                },
-                "path": "/argox-vm?ed=2048",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
-        },
-        {
-            "server": "104.26.9.51",
-            "server_port": 8080,
-            "tag": "None_None_vmess_43",
-            "transport": {
-                "headers": {
-                    "host": [
-                        "playstation-january-rt-semiconductor.trycloudflare.com"
-                    ]
-                },
-                "path": "/argox-vm?ed=2048",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
-        },
-        {
-            "server": "104.19.38.128",
-            "server_port": 8080,
-            "tag": "None_None_vmess_44",
-            "transport": {
-                "headers": {
-                    "host": [
-                        "playstation-january-rt-semiconductor.trycloudflare.com"
-                    ]
-                },
-                "path": "/argox-vm?ed=2048",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
-        },
-        {
-            "server": "yh4.dtku41.xyz",
-            "server_port": 8080,
-            "tag": "None_None_vmess_45",
-            "transport": {
-                "headers": {
-                    "host": [
-                        "playstation-january-rt-semiconductor.trycloudflare.com"
-                    ]
-                },
-                "path": "/argox-vm?ed=2048",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "4dd80463-21bf-4b95-8cd5-37f1f38cc494"
+            "type": "tuic",
+            "uuid": "fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
         },
         {
             "password": "dongtaiwang.com",
@@ -757,13 +741,12 @@
                 "United States_Seattle_hysteria_01",
                 "United States_Seattle_tuic_11",
                 "Taiwan_New Taipei_tuic_12",
-                "United States_Los Angeles_hysteria_21",
+                "United States_None_vmess_21",
+                "None_None_vmess_22",
+                "None_None_vmess_23",
+                "None_None_vmess_24",
                 "United States_Kansas City_ss_31",
-                "None_None_vmess_41",
-                "None_None_vmess_42",
-                "None_None_vmess_43",
-                "None_None_vmess_44",
-                "None_None_vmess_45",
+                "Taiwan_Hsinchu_tuic_41",
                 "Taiwan_Hsinchu_tuic_51",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
