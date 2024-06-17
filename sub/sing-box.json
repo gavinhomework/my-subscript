@@ -117,7 +117,7 @@
                 "None_None_vmess_22",
                 "None_None_vmess_23",
                 "None_None_vmess_24",
-                "United States_Kansas City_ss_31",
+                "France_Paris_tuic_31",
                 "Taiwan_Hsinchu_tuic_41",
                 "Taiwan_Hsinchu_tuic_51",
                 "United States_Seattle_hysteria_61",
@@ -272,20 +272,23 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "password": "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=",
-            "server": "109.104.152.186",
-            "server_port": 11223,
-            "tag": "United States_Kansas City_ss_31",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "multiplex": {
+            "password": "dongtaiwang.com",
+            "server": "51.159.77.153",
+            "server_port": 44559,
+            "tag": "France_Paris_tuic_31",
+            "tls": {
                 "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
+                "server_name": "51.159.77.153",
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "type": "tuic",
+            "uuid": "2f8f3873-9edf-4c4e-9888-b8a8b2d9d809",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": true,
+            "heartbeat": "0ms"
         },
         {
             "password": "dongtaiwang.com",
@@ -748,7 +751,7 @@
                 "None_None_vmess_22",
                 "None_None_vmess_23",
                 "None_None_vmess_24",
-                "United States_Kansas City_ss_31",
+                "France_Paris_tuic_31",
                 "Taiwan_Hsinchu_tuic_41",
                 "Taiwan_Hsinchu_tuic_51",
                 "United States_Seattle_hysteria_61",
