@@ -267,24 +267,18 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.dtku47.xyz
-- name: United States_Kansas City_ss_91
-  type: ss
-  server: 109.104.152.186
-  port: 11223
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  smux:
-    enabled: true
-    protocol: smux
-    max-connections: 1
-    min-streams: 4
-    statistic: false
-    only-tcp: false
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
+- name: France_Paris_tuic_91
+  server: 51.159.77.153
+  port: 44559
+  type: tuic
+  uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Taiwan_Hsinchu_tuic_101
   server: www.dtku40.xyz
   port: 33098
@@ -509,7 +503,7 @@ proxy-groups:
   - None_None_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
-  - United States_Kansas City_ss_91
+  - France_Paris_tuic_91
   - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
@@ -551,7 +545,7 @@ proxy-groups:
   - None_None_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
-  - United States_Kansas City_ss_91
+  - France_Paris_tuic_91
   - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
@@ -593,7 +587,7 @@ proxy-groups:
   - None_None_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
-  - United States_Kansas City_ss_91
+  - France_Paris_tuic_91
   - Taiwan_Hsinchu_tuic_101
   - Taiwan_Hsinchu_tuic_111
   - United States_Los Angeles_hy_0
