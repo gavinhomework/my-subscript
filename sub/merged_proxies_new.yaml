@@ -68,9 +68,9 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_None_vmess_21
+- name: None_None_vmess_21
   type: vmess
-  server: 172.64.202.194
+  server: fbi.gov
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -83,9 +83,9 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.dtku47.xyz
-- name: None_None_vmess_22
+- name: Canada_Ottawa_vmess_22
   type: vmess
-  server: 162.159.136.208
+  server: 23.227.38.9
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -100,7 +100,7 @@ proxies:
       Host: ip5.dtku47.xyz
 - name: None_None_vmess_23
   type: vmess
-  server: 141.101.122.100
+  server: 104.16.149.111
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -201,9 +201,9 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_None_vmess_81
+- name: None_None_vmess_81
   type: vmess
-  server: 172.64.202.194
+  server: fbi.gov
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -216,9 +216,9 @@ proxies:
     path: /WNh8bXQv/
     headers:
       Host: ip5.dtku47.xyz
-- name: None_None_vmess_82
+- name: Canada_Ottawa_vmess_82
   type: vmess
-  server: 162.159.136.208
+  server: 23.227.38.9
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -233,7 +233,7 @@ proxies:
       Host: ip5.dtku47.xyz
 - name: None_None_vmess_83
   type: vmess
-  server: 141.101.122.100
+  server: 104.16.149.111
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -483,8 +483,8 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_None_vmess_21
-  - None_None_vmess_22
+  - None_None_vmess_21
+  - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
@@ -493,8 +493,8 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_None_vmess_81
-  - None_None_vmess_82
+  - None_None_vmess_81
+  - Canada_Ottawa_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
@@ -525,8 +525,8 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_None_vmess_21
-  - None_None_vmess_22
+  - None_None_vmess_21
+  - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
@@ -535,8 +535,8 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_None_vmess_81
-  - None_None_vmess_82
+  - None_None_vmess_81
+  - Canada_Ottawa_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
@@ -567,8 +567,8 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_tuic_11
   - Taiwan_New Taipei_tuic_12
-  - United States_None_vmess_21
-  - None_None_vmess_22
+  - None_None_vmess_21
+  - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
@@ -577,8 +577,8 @@ proxy-groups:
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
-  - United States_None_vmess_81
-  - None_None_vmess_82
+  - None_None_vmess_81
+  - Canada_Ottawa_vmess_82
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
