@@ -384,7 +384,7 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "fbi.gov",
+            "server": "104.16.148.244",
             "server_port": 2095,
             "tag": "None_None_vmess_81",
             "transport": {
