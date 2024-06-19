@@ -203,7 +203,7 @@ proxies:
   congestion-controller: bbr
 - name: None_None_vmess_81
   type: vmess
-  server: fbi.gov
+  server: 104.16.148.244
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
