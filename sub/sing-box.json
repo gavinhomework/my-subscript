@@ -115,7 +115,7 @@
                 "Taiwan_New Taipei_tuic_12",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
-                "None_None_vmess_23",
+                "United States_San Francisco_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_tuic_31",
                 "Taiwan_Banqiao_tuic_41",
@@ -125,7 +125,7 @@
                 "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
-                "None_None_vmess_83",
+                "United States_San Francisco_vmess_83",
                 "None_None_vmess_84",
                 "France_Paris_tuic_91",
                 "Taiwan_Banqiao_tuic_101",
@@ -204,13 +204,13 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "fbi.gov",
+            "server": "104.16.149.222",
             "server_port": 2095,
             "tag": "None_None_vmess_21",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -221,13 +221,13 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "23.227.38.9",
+            "server": "23.227.38.8",
             "server_port": 2095,
             "tag": "Canada_Ottawa_vmess_22",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -238,13 +238,13 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "104.16.149.111",
+            "server": "172.64.144.66",
             "server_port": 2095,
-            "tag": "None_None_vmess_23",
+            "tag": "United States_San Francisco_vmess_23",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -261,7 +261,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-2.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -384,13 +384,13 @@
             "heartbeat": "0ms"
         },
         {
-            "server": "104.16.148.244",
+            "server": "104.16.149.222",
             "server_port": 2095,
             "tag": "None_None_vmess_81",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -401,13 +401,13 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "23.227.38.9",
+            "server": "23.227.38.8",
             "server_port": 2095,
             "tag": "Canada_Ottawa_vmess_82",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -418,13 +418,13 @@
             "uuid": "e9555d84-a146-4e36-9c23-eac28387be48"
         },
         {
-            "server": "104.16.149.111",
+            "server": "172.64.144.66",
             "server_port": 2095,
-            "tag": "None_None_vmess_83",
+            "tag": "United States_San Francisco_vmess_83",
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-3.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -441,7 +441,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip5.dtku47.xyz"
+                        "ip5-2.freegradely.xyz"
                     ]
                 },
                 "path": "/WNh8bXQv/",
@@ -749,7 +749,7 @@
                 "Taiwan_New Taipei_tuic_12",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
-                "None_None_vmess_23",
+                "United States_San Francisco_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_tuic_31",
                 "Taiwan_Banqiao_tuic_41",
@@ -759,7 +759,7 @@
                 "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
-                "None_None_vmess_83",
+                "United States_San Francisco_vmess_83",
                 "None_None_vmess_84",
                 "France_Paris_tuic_91",
                 "Taiwan_Banqiao_tuic_101",
