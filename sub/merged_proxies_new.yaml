@@ -70,7 +70,7 @@ proxies:
   congestion-controller: bbr
 - name: None_None_vmess_21
   type: vmess
-  server: fbi.gov
+  server: 104.16.149.222
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -78,14 +78,14 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 - name: Canada_Ottawa_vmess_22
   type: vmess
-  server: 23.227.38.9
+  server: 23.227.38.8
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -93,14 +93,14 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
-- name: None_None_vmess_23
+      Host: ip5-3.freegradely.xyz
+- name: United States_San Francisco_vmess_23
   type: vmess
-  server: 104.16.149.111
+  server: 172.64.144.66
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -108,11 +108,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 - name: None_None_vmess_24
   type: vmess
   server: 104.19.38.88
@@ -123,11 +123,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-2.freegradely.xyz
 - name: France_Paris_tuic_31
   server: 51.159.77.153
   port: 44559
@@ -203,7 +203,7 @@ proxies:
   congestion-controller: bbr
 - name: None_None_vmess_81
   type: vmess
-  server: 104.16.148.244
+  server: 104.16.149.222
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -211,14 +211,14 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 - name: Canada_Ottawa_vmess_82
   type: vmess
-  server: 23.227.38.9
+  server: 23.227.38.8
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -226,14 +226,14 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
-- name: None_None_vmess_83
+      Host: ip5-3.freegradely.xyz
+- name: United States_San Francisco_vmess_83
   type: vmess
-  server: 104.16.149.111
+  server: 172.64.144.66
   port: 2095
   uuid: e9555d84-a146-4e36-9c23-eac28387be48
   alterId: 0
@@ -241,11 +241,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 - name: None_None_vmess_84
   type: vmess
   server: 104.19.38.88
@@ -256,11 +256,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz
+  servername: ip5-3.freegradely.xyz
   ws-opts:
     path: /WNh8bXQv/
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-2.freegradely.xyz
 - name: France_Paris_tuic_91
   server: 51.159.77.153
   port: 44559
@@ -485,7 +485,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
+  - United States_San Francisco_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -495,7 +495,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - None_None_vmess_83
+  - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
@@ -527,7 +527,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
+  - United States_San Francisco_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -537,7 +537,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - None_None_vmess_83
+  - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
@@ -569,7 +569,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
+  - United States_San Francisco_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -579,7 +579,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - None_None_vmess_83
+  - United States_San Francisco_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
