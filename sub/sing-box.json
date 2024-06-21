@@ -115,7 +115,7 @@
                 "Taiwan_New Taipei_tuic_12",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
-                "United States_San Francisco_vmess_23",
+                "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_tuic_31",
                 "Taiwan_Banqiao_tuic_41",
@@ -125,7 +125,7 @@
                 "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
-                "United States_San Francisco_vmess_83",
+                "None_None_vmess_83",
                 "None_None_vmess_84",
                 "France_Paris_tuic_91",
                 "Taiwan_Banqiao_tuic_101",
@@ -238,9 +238,9 @@
             "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
         },
         {
-            "server": "172.64.144.66",
+            "server": "104.26.0.46",
             "server_port": 2086,
-            "tag": "United States_San Francisco_vmess_23",
+            "tag": "None_None_vmess_23",
             "transport": {
                 "headers": {
                     "Host": [
@@ -418,9 +418,9 @@
             "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c"
         },
         {
-            "server": "172.64.144.66",
+            "server": "104.26.0.46",
             "server_port": 2086,
-            "tag": "United States_San Francisco_vmess_83",
+            "tag": "None_None_vmess_83",
             "transport": {
                 "headers": {
                     "Host": [
@@ -749,7 +749,7 @@
                 "Taiwan_New Taipei_tuic_12",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
-                "United States_San Francisco_vmess_23",
+                "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_tuic_31",
                 "Taiwan_Banqiao_tuic_41",
@@ -759,7 +759,7 @@
                 "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
-                "United States_San Francisco_vmess_83",
+                "None_None_vmess_83",
                 "None_None_vmess_84",
                 "France_Paris_tuic_91",
                 "Taiwan_Banqiao_tuic_101",
