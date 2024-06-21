@@ -98,9 +98,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: ip5-5.freegradely.xyz
-- name: United States_San Francisco_vmess_23
+- name: None_None_vmess_23
   type: vmess
-  server: 172.64.144.66
+  server: 104.26.0.46
   port: 2086
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -231,9 +231,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: ip5-5.freegradely.xyz
-- name: United States_San Francisco_vmess_83
+- name: None_None_vmess_83
   type: vmess
-  server: 172.64.144.66
+  server: 104.26.0.46
   port: 2086
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -485,7 +485,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - United States_San Francisco_vmess_23
+  - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -495,7 +495,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
@@ -527,7 +527,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - United States_San Francisco_vmess_23
+  - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -537,7 +537,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
@@ -569,7 +569,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
-  - United States_San Francisco_vmess_23
+  - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
   - Taiwan_Banqiao_tuic_41
@@ -579,7 +579,7 @@ proxy-groups:
   - Taiwan_New Taipei_tuic_72
   - None_None_vmess_81
   - Canada_Ottawa_vmess_82
-  - United States_San Francisco_vmess_83
+  - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
   - Taiwan_Banqiao_tuic_101
