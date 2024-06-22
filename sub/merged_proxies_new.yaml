@@ -80,7 +80,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: Canada_Ottawa_vmess_22
@@ -95,7 +95,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_23
@@ -110,7 +110,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_24
@@ -125,7 +125,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: France_Paris_tuic_31
@@ -213,7 +213,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: Canada_Ottawa_vmess_82
@@ -228,7 +228,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_83
@@ -243,7 +243,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: None_None_vmess_84
@@ -258,7 +258,7 @@ proxies:
   network: ws
   servername: ip5-5.freegradely.xyz
   ws-opts:
-    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    path: github.com/Alvin9999
     headers:
       Host: ip5-5.freegradely.xyz
 - name: France_Paris_tuic_91
