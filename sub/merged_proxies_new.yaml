@@ -433,10 +433,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_3
+- name: Russia_Moscow_hy2_3
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 46.29.163.85
+  port: 50381
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -511,7 +511,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
-  - France_None_hy2_3
+  - Russia_Moscow_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
@@ -553,7 +553,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
-  - France_None_hy2_3
+  - Russia_Moscow_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
@@ -595,7 +595,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
-  - France_None_hy2_3
+  - Russia_Moscow_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
