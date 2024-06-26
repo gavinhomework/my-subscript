@@ -465,10 +465,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_7
+- name: Russia_Moscow_hy2_7
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 46.29.163.85
+  port: 50381
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -515,7 +515,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
-  - France_None_hy2_7
+  - Russia_Moscow_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -557,7 +557,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
-  - France_None_hy2_7
+  - Russia_Moscow_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -599,7 +599,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Seattle_hy2_5
   - France_Paris_hy2_6
-  - France_None_hy2_7
+  - Russia_Moscow_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
