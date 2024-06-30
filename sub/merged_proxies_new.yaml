@@ -175,6 +175,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: United States_Los Angeles_hysteria_52
+  type: hysteria
+  server: 104.192.224.139
+  port: 42113
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Seattle_hysteria_61
   type: hysteria
   server: 64.42.176.181
@@ -524,6 +535,7 @@ proxy-groups:
   - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Banqiao_tuic_51
+  - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -569,6 +581,7 @@ proxy-groups:
   - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Banqiao_tuic_51
+  - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -614,6 +627,7 @@ proxy-groups:
   - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Banqiao_tuic_51
+  - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
