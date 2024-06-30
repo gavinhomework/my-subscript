@@ -78,11 +78,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: Canada_Ottawa_vmess_22
   type: vmess
   server: 23.227.38.8
@@ -93,11 +93,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: None_None_vmess_23
   type: vmess
   server: 104.26.0.46
@@ -108,11 +108,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: None_None_vmess_24
   type: vmess
   server: 104.19.38.88
@@ -123,11 +123,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: France_Paris_tuic_31
   server: 51.159.77.153
   port: 44559
@@ -140,7 +140,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_41
+- name: Taiwan_Banqiao_tuic_41
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -163,7 +163,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_tuic_51
+- name: Taiwan_Banqiao_tuic_51
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -222,11 +222,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: Canada_Ottawa_vmess_82
   type: vmess
   server: 23.227.38.8
@@ -237,11 +237,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: None_None_vmess_83
   type: vmess
   server: 104.26.0.46
@@ -252,11 +252,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: None_None_vmess_84
   type: vmess
   server: 104.19.38.88
@@ -267,11 +267,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-5.freegradely.xyz
+  servername: ip5-6.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-5.freegradely.xyz
+      Host: ip5-6.freegradely.xyz
 - name: France_Paris_tuic_91
   server: 51.159.77.153
   port: 44559
@@ -284,7 +284,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_101
+- name: Taiwan_Banqiao_tuic_101
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -307,7 +307,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_tuic_111
+- name: Taiwan_Banqiao_tuic_111
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -372,7 +372,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_New Taipei_hy_3
+- name: Taiwan_Banqiao_hy_3
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -428,7 +428,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_New Taipei_hy_7
+- name: Taiwan_Banqiao_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -521,9 +521,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_New Taipei_tuic_41
+  - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_New Taipei_tuic_51
+  - Taiwan_Banqiao_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -532,18 +532,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_New Taipei_tuic_101
+  - Taiwan_Banqiao_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Banqiao_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_New Taipei_hy_3
+  - Taiwan_Banqiao_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -566,9 +566,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_New Taipei_tuic_41
+  - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_New Taipei_tuic_51
+  - Taiwan_Banqiao_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -577,18 +577,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_New Taipei_tuic_101
+  - Taiwan_Banqiao_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Banqiao_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_New Taipei_hy_3
+  - Taiwan_Banqiao_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -611,9 +611,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_New Taipei_tuic_41
+  - Taiwan_Banqiao_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_New Taipei_tuic_51
+  - Taiwan_Banqiao_tuic_51
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
   - Taiwan_New Taipei_tuic_72
@@ -622,18 +622,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_New Taipei_tuic_101
+  - Taiwan_Banqiao_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_New Taipei_tuic_111
+  - Taiwan_Banqiao_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_New Taipei_hy_3
+  - Taiwan_Banqiao_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_New Taipei_hy_7
+  - Taiwan_Banqiao_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
