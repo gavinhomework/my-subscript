@@ -140,7 +140,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Banqiao_tuic_41
+- name: Taiwan_Taipei_tuic_41
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -163,7 +163,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Banqiao_tuic_51
+- name: Taiwan_Taipei_tuic_51
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -295,7 +295,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Banqiao_tuic_101
+- name: Taiwan_Taipei_tuic_101
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -318,7 +318,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Banqiao_tuic_111
+- name: Taiwan_Taipei_tuic_111
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -383,7 +383,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Banqiao_hy_3
+- name: Taiwan_Taipei_hy_3
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -439,7 +439,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Banqiao_hy_7
+- name: Taiwan_Taipei_hy_7
   type: hysteria
   server: www.dtku40.xyz
   port: 18091
@@ -532,9 +532,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_Banqiao_tuic_51
+  - Taiwan_Taipei_tuic_51
   - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -544,18 +544,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_Banqiao_tuic_101
+  - Taiwan_Taipei_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_Banqiao_tuic_111
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Banqiao_hy_3
+  - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Banqiao_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -578,9 +578,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_Banqiao_tuic_51
+  - Taiwan_Taipei_tuic_51
   - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -590,18 +590,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_Banqiao_tuic_101
+  - Taiwan_Taipei_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_Banqiao_tuic_111
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Banqiao_hy_3
+  - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Banqiao_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
@@ -624,9 +624,9 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_tuic_31
-  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
-  - Taiwan_Banqiao_tuic_51
+  - Taiwan_Taipei_tuic_51
   - United States_Los Angeles_hysteria_52
   - United States_Seattle_hysteria_61
   - United States_Seattle_tuic_71
@@ -636,18 +636,18 @@ proxy-groups:
   - None_None_vmess_83
   - None_None_vmess_84
   - France_Paris_tuic_91
-  - Taiwan_Banqiao_tuic_101
+  - Taiwan_Taipei_tuic_101
   - United States_Los Angeles_hysteria_102
-  - Taiwan_Banqiao_tuic_111
+  - Taiwan_Taipei_tuic_111
   - United States_Los Angeles_hysteria_112
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
   - France_Paris_hy_2
-  - Taiwan_Banqiao_hy_3
+  - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy_4
   - United States_Seattle_hy_5
   - France_Paris_hy_6
-  - Taiwan_Banqiao_hy_7
+  - Taiwan_Taipei_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
   - France_Paris_hy2_2
