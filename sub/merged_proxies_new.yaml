@@ -91,11 +91,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: Canada_Ottawa_vmess_22
   type: vmess
   server: 23.227.38.8
@@ -106,11 +106,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: None_None_vmess_23
   type: vmess
   server: 104.26.0.46
@@ -121,11 +121,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: None_None_vmess_24
   type: vmess
   server: 104.19.38.88
@@ -136,11 +136,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: France_Paris_tuic_31
   server: 51.159.77.153
   port: 44559
@@ -246,11 +246,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: Canada_Ottawa_vmess_82
   type: vmess
   server: 23.227.38.8
@@ -261,11 +261,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: None_None_vmess_83
   type: vmess
   server: 104.26.0.46
@@ -276,11 +276,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: None_None_vmess_84
   type: vmess
   server: 104.19.38.88
@@ -291,11 +291,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-6.freegradely.xyz
+  servername: ip5-9.freegradely.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip5-6.freegradely.xyz
+      Host: ip5-9.freegradely.xyz
 - name: France_Paris_tuic_91
   server: 51.159.77.153
   port: 44559
