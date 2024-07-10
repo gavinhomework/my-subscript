@@ -69,18 +69,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_New Taipei_tuic_12
-  server: www2.dtku48.xyz
-  port: 33993
-  type: tuic
-  uuid: ebff50f5-dc0e-4bff-bcdb-3c7d2638e817
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: None_None_vmess_21
   type: vmess
   server: 104.19.32.88
@@ -528,7 +516,6 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
-  - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
@@ -574,7 +561,6 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
-  - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
@@ -620,7 +606,6 @@ proxy-groups:
   - United States_Seattle_hysteria_01
   - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
-  - Taiwan_New Taipei_tuic_12
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
