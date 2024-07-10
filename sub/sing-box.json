@@ -125,7 +125,6 @@
                 "United States_Los Angeles_hysteria_52",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
-                "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
                 "None_None_vmess_83",
@@ -415,25 +414,6 @@
             },
             "type": "tuic",
             "uuid": "de954fbf-b042-4043-98f1-3cad99dbbf0b",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": true,
-            "heartbeat": "0ms"
-        },
-        {
-            "password": "dongtaiwang.com",
-            "server": "www2.dtku48.xyz",
-            "server_port": 33993,
-            "tag": "Taiwan_New Taipei_tuic_72",
-            "tls": {
-                "enabled": true,
-                "server_name": "www2.dtku48.xyz",
-                "alpn": [
-                    "h3"
-                ]
-            },
-            "type": "tuic",
-            "uuid": "ebff50f5-dc0e-4bff-bcdb-3c7d2638e817",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "zero_rtt_handshake": true,
@@ -849,7 +829,6 @@
                 "United States_Los Angeles_hysteria_52",
                 "United States_Seattle_hysteria_61",
                 "United States_Seattle_tuic_71",
-                "Taiwan_New Taipei_tuic_72",
                 "None_None_vmess_81",
                 "Canada_Ottawa_vmess_82",
                 "None_None_vmess_83",
