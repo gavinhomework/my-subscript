@@ -111,7 +111,6 @@
             "outbounds": [
                 "urltest",
                 "United States_Seattle_hysteria_01",
-                "United States_Seattle_hysteria_02",
                 "United States_Seattle_tuic_11",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
@@ -133,26 +132,9 @@
             ]
         },
         {
-            "server": "64.42.176.181",
+            "server": "64.42.176.182",
             "server_port": 41604,
             "tag": "United States_Seattle_hysteria_01",
-            "tls": {
-                "enabled": true,
-                "server_name": "bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down_mbps": 55,
-            "up_mbps": 11
-        },
-        {
-            "server": "62.204.54.81",
-            "server_port": 34555,
-            "tag": "United States_Seattle_hysteria_02",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -465,7 +447,6 @@
             "type": "urltest",
             "outbounds": [
                 "United States_Seattle_hysteria_01",
-                "United States_Seattle_hysteria_02",
                 "United States_Seattle_tuic_11",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
