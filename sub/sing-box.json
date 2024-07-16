@@ -116,7 +116,7 @@
                 "Canada_Ottawa_vmess_22",
                 "None_None_vmess_23",
                 "None_None_vmess_24",
-                "France_Paris_tuic_31",
+                "France_Paris_ss_31",
                 "Taiwan_Taipei_tuic_41",
                 "United States_Los Angeles_hysteria_42",
                 "Taiwan_Taipei_tuic_51",
@@ -236,23 +236,24 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "password": "dongtaiwang.com",
+            "password": "/R1rG+tOLo4OUqL80BBO/KIDfjr3vY67HvGxw26r62Q=",
+            "tag": "France_Paris_ss_31",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "detour": "France_Paris_ss_31-shadowtls"
+        },
+        {
+            "password": "77x594cU+vQKvymvOzuJqJHEMGKHnhtYR1m9mwFCEIQ=",
             "server": "51.159.77.153",
-            "server_port": 44559,
-            "tag": "France_Paris_tuic_31",
+            "server_port": 33550,
+            "tag": "France_Paris_ss_31-shadowtls",
             "tls": {
                 "enabled": true,
-                "server_name": "51.159.77.153",
-                "alpn": [
-                    "h3"
-                ]
+                "server_name": "nijigen-works.jp"
             },
-            "type": "tuic",
-            "uuid": "2f8f3873-9edf-4c4e-9888-b8a8b2d9d809",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": true,
-            "heartbeat": "0ms"
+            "type": "shadowtls",
+            "version": 3
         },
         {
             "password": "dongtaiwang.com",
@@ -452,7 +453,7 @@
                 "Canada_Ottawa_vmess_22",
                 "None_None_vmess_23",
                 "None_None_vmess_24",
-                "France_Paris_tuic_31",
+                "France_Paris_ss_31",
                 "Taiwan_Taipei_tuic_41",
                 "United States_Los Angeles_hysteria_42",
                 "Taiwan_Taipei_tuic_51",
