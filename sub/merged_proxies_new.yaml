@@ -116,18 +116,17 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-9.freegradely.xyz
-- name: France_Paris_tuic_31
+- name: France_Paris_ss_31
+  type: ss
   server: 51.159.77.153
-  port: 44559
-  type: tuic
-  uuid: 2f8f3873-9edf-4c4e-9888-b8a8b2d9d809
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  port: 33550
+  cipher: 2022-blake3-chacha20-poly1305
+  password: /R1rG+tOLo4OUqL80BBO/KIDfjr3vY67HvGxw26r62Q=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: 77x594cU+vQKvymvOzuJqJHEMGKHnhtYR1m9mwFCEIQ=
+    version: 3
 - name: Taiwan_Taipei_tuic_41
   server: www.dtku40.xyz
   port: 33098
@@ -275,7 +274,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
-  - France_Paris_tuic_31
+  - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Taipei_tuic_51
@@ -300,7 +299,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
-  - France_Paris_tuic_31
+  - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Taipei_tuic_51
@@ -325,7 +324,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
   - None_None_vmess_24
-  - France_Paris_tuic_31
+  - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
   - United States_Los Angeles_hysteria_42
   - Taiwan_Taipei_tuic_51
