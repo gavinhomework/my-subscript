@@ -44,11 +44,11 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: United States_Seattle_tuic_11
-  server: 64.42.176.182
-  port: 61123
+- name: Taiwan_Taipei_tuic_11
+  server: www.dtku40.xyz
+  port: 33098
   type: tuic
-  uuid: de954fbf-b042-4043-98f1-3cad99dbbf0b
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
@@ -176,9 +176,9 @@ proxies:
   down: 55 Mbps
 - name: United States_Los Angeles_hy_0
   type: hysteria
-  server: 173.234.25.51
-  port: 48919
-  ports: 48919
+  server: 104.192.224.138
+  port: 60155
+  ports: 60155
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -202,17 +202,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_2
+- name: United States_Los Angeles_hy_2
   type: hysteria
-  server: 51.159.79.103
-  port: 55396
-  ports: 55396
+  server: 104.192.224.138
+  port: 60155
+  ports: 60155
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: youku.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -232,8 +232,8 @@ proxies:
   - h3
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
-  server: 64.110.25.11
-  port: 37021
+  server: 64.110.25.12
+  port: 20141
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -246,10 +246,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_2
+- name: United States_Los Angeles_hy2_2
   type: hysteria2
-  server: 51.159.77.198
-  port: 20261
+  server: 64.110.25.12
+  port: 20141
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -270,7 +270,7 @@ proxy-groups:
   - ⚖️ 负载均衡
   - DIRECT
   - United States_Seattle_hysteria_01
-  - United States_Seattle_tuic_11
+  - Taiwan_Taipei_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
@@ -282,11 +282,11 @@ proxy-groups:
   - United States_Los Angeles_hysteria_52
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
-  - France_Paris_hy_2
+  - United States_Los Angeles_hy_2
   - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
-  - France_Paris_hy2_2
+  - United States_Los Angeles_hy2_2
   - Russia_Moscow_hy2_3
 - name: ⚡ 低延迟
   type: url-test
@@ -295,7 +295,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_Seattle_hysteria_01
-  - United States_Seattle_tuic_11
+  - Taiwan_Taipei_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
@@ -307,11 +307,11 @@ proxy-groups:
   - United States_Los Angeles_hysteria_52
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
-  - France_Paris_hy_2
+  - United States_Los Angeles_hy_2
   - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
-  - France_Paris_hy2_2
+  - United States_Los Angeles_hy2_2
   - Russia_Moscow_hy2_3
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -320,7 +320,7 @@ proxy-groups:
   interval: 180
   proxies:
   - United States_Seattle_hysteria_01
-  - United States_Seattle_tuic_11
+  - Taiwan_Taipei_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
   - None_None_vmess_23
@@ -332,11 +332,11 @@ proxy-groups:
   - United States_Los Angeles_hysteria_52
   - United States_Los Angeles_hy_0
   - United States_Seattle_hy_1
-  - France_Paris_hy_2
+  - United States_Los Angeles_hy_2
   - Taiwan_Taipei_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Seattle_hy2_1
-  - France_Paris_hy2_2
+  - United States_Los Angeles_hy2_2
   - Russia_Moscow_hy2_3
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
