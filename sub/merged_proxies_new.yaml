@@ -33,21 +33,8 @@ dns:
 proxies:
 - name: United States_Seattle_hysteria_01
   type: hysteria
-  server: 64.42.176.181
+  server: 64.42.176.182
   port: 41604
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
-- name: United States_Seattle_hysteria_02
-  type: hysteria
-  server: 62.204.54.81
-  port: 34555
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -283,7 +270,6 @@ proxy-groups:
   - ⚖️ 负载均衡
   - DIRECT
   - United States_Seattle_hysteria_01
-  - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -309,7 +295,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_Seattle_hysteria_01
-  - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -335,7 +320,6 @@ proxy-groups:
   interval: 180
   proxies:
   - United States_Seattle_hysteria_01
-  - United States_Seattle_hysteria_02
   - United States_Seattle_tuic_11
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
