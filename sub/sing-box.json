@@ -203,13 +203,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "None_None_vmess_094",
+                "United States_None_vmess_094",
                 "United States_None_vmess_095",
                 "United States_None_vmess_096",
-                "None_None_vmess_097",
+                "United States_None_vmess_097",
                 "None_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
@@ -224,7 +224,7 @@
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
-                "United States_Los Angeles_hy2_1",
+                "United States_None_hy2_1",
                 "United States_Los Angeles_hy2_2",
                 "United States_Los Angeles_hy2_3"
             ]
@@ -1813,7 +1813,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "None_None_vmess_094",
+            "tag": "United States_None_vmess_094",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1864,7 +1864,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_097",
+            "tag": "United States_None_vmess_097",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1915,7 +1915,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2172,9 +2172,9 @@
         },
         {
             "password": "dongtaiwang.com",
-            "server": "64.110.25.12",
-            "server_port": 20141,
-            "tag": "United States_Los Angeles_hy2_1",
+            "server": "208.87.243.187",
+            "server_port": 29620,
+            "tag": "United States_None_hy2_1",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2303,13 +2303,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "None_None_vmess_094",
+                "United States_None_vmess_094",
                 "United States_None_vmess_095",
                 "United States_None_vmess_096",
-                "None_None_vmess_097",
+                "United States_None_vmess_097",
                 "None_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
@@ -2324,7 +2324,7 @@
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
-                "United States_Los Angeles_hy2_1",
+                "United States_None_hy2_1",
                 "United States_Los Angeles_hy2_2",
                 "United States_Los Angeles_hy2_3"
             ]
