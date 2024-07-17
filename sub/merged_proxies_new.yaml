@@ -1426,7 +1426,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1471,7 +1471,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1486,7 +1486,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1501,7 +1501,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1516,7 +1516,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2941,7 +2941,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.1789034.xyz
-- name: United States_None_vmess_194
+- name: None_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -2971,7 +2971,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.1789034.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -3016,7 +3016,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.1789034.xyz
-- name: None_None_vmess_199
+- name: United States_None_vmess_199
   type: vmess
   server: singapore.com
   port: 2086
@@ -3144,29 +3144,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_tuic_51
+- name: Taiwan_Taipei_ss_51
   server: www.dtku40.xyz
-  port: 33098
-  type: tuic
-  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_52
-  type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  type: ss
+  port: 8080
+  cipher: 2022-blake3-chacha20-poly1305
+  password: o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg=
+    version: 3
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 104.192.224.138
@@ -3355,13 +3343,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
-  - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_097
+  - United States_None_vmess_098
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3456,12 +3444,12 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - United States_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
@@ -3470,8 +3458,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_tuic_51
-  - United States_Los Angeles_hysteria_52
+  - Taiwan_Taipei_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -3579,13 +3566,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
-  - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_097
+  - United States_None_vmess_098
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3680,12 +3667,12 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - United States_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
@@ -3694,8 +3681,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_tuic_51
-  - United States_Los Angeles_hysteria_52
+  - Taiwan_Taipei_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -3803,13 +3789,13 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
-  - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_097
+  - United States_None_vmess_098
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3904,12 +3890,12 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - United States_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
@@ -3918,8 +3904,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_tuic_51
-  - United States_Los Angeles_hysteria_52
+  - Taiwan_Taipei_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
