@@ -1456,7 +1456,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1501,7 +1501,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1845781.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1630,7 +1630,7 @@ proxies:
     host: nijigen-works.jp
     password: 77x594cU+vQKvymvOzuJqJHEMGKHnhtYR1m9mwFCEIQ=
     version: 3
-- name: Taiwan_Taipei_tuic_41
+- name: Taiwan_Banqiao_tuic_41
   server: www.dtku40.xyz
   port: 33098
   type: tuic
@@ -1642,7 +1642,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Taiwan_Taipei_ss_51
+- name: Taiwan_Banqiao_ss_51
   server: www.dtku40.xyz
   type: ss
   port: 8080
@@ -1656,8 +1656,8 @@ proxies:
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 104.192.224.138
-  port: 60155
-  ports: 60155
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1684,8 +1684,8 @@ proxies:
 - name: United States_Los Angeles_hy_2
   type: hysteria
   server: 104.192.224.138
-  port: 60155
-  ports: 60155
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1712,7 +1712,7 @@ proxies:
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
   server: 64.110.25.12
-  port: 20141
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1728,7 +1728,7 @@ proxies:
 - name: United States_Los Angeles_hy2_2
   type: hysteria2
   server: 64.110.25.12
-  port: 20141
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1843,10 +1843,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -1855,8 +1855,8 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_ss_51
+  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Banqiao_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -1966,10 +1966,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -1978,8 +1978,8 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_ss_51
+  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Banqiao_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -2089,10 +2089,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -2101,8 +2101,8 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - Taiwan_Taipei_tuic_41
-  - Taiwan_Taipei_ss_51
+  - Taiwan_Banqiao_tuic_41
+  - Taiwan_Banqiao_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
