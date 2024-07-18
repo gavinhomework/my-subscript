@@ -205,10 +205,10 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "United States_None_vmess_096",
+                "None_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -217,8 +217,8 @@
                 "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
-                "Taiwan_Taipei_tuic_41",
-                "Taiwan_Taipei_ss_51",
+                "Taiwan_Banqiao_tuic_41",
+                "Taiwan_Banqiao_ss_51",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -1847,7 +1847,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_096",
+            "tag": "None_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1898,7 +1898,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_099",
+            "tag": "United States_None_vmess_099",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2055,7 +2055,7 @@
             "password": "dongtaiwang.com",
             "server": "www.dtku40.xyz",
             "server_port": 33098,
-            "tag": "Taiwan_Taipei_tuic_41",
+            "tag": "Taiwan_Banqiao_tuic_41",
             "tls": {
                 "enabled": true,
                 "server_name": "www.dtku40.xyz",
@@ -2072,17 +2072,17 @@
         },
         {
             "password": "o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI=",
-            "tag": "Taiwan_Taipei_ss_51",
+            "tag": "Taiwan_Banqiao_ss_51",
             "type": "shadowsocks",
             "method": "2022-blake3-chacha20-poly1305",
             "network": "tcp",
-            "detour": "Taiwan_Taipei_ss_51-shadowtls"
+            "detour": "Taiwan_Banqiao_ss_51-shadowtls"
         },
         {
             "password": "GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg=",
             "server": "www.dtku40.xyz",
             "server_port": 8080,
-            "tag": "Taiwan_Taipei_ss_51-shadowtls",
+            "tag": "Taiwan_Banqiao_ss_51-shadowtls",
             "tls": {
                 "enabled": true,
                 "server_name": "nijigen-works.jp"
@@ -2092,7 +2092,7 @@
         },
         {
             "server": "104.192.224.138",
-            "server_port": 60155,
+            "server_port": 28850,
             "tag": "United States_Los Angeles_hy_0",
             "tls": {
                 "enabled": true,
@@ -2126,7 +2126,7 @@
         },
         {
             "server": "104.192.224.138",
-            "server_port": 60155,
+            "server_port": 28850,
             "tag": "United States_Los Angeles_hy_2",
             "tls": {
                 "enabled": true,
@@ -2161,7 +2161,7 @@
         {
             "password": "dongtaiwang.com",
             "server": "64.110.25.12",
-            "server_port": 20141,
+            "server_port": 50942,
             "tag": "United States_Los Angeles_hy2_0",
             "tls": {
                 "enabled": true,
@@ -2185,7 +2185,7 @@
         {
             "password": "dongtaiwang.com",
             "server": "64.110.25.12",
-            "server_port": 20141,
+            "server_port": 50942,
             "tag": "United States_Los Angeles_hy2_2",
             "tls": {
                 "enabled": true,
@@ -2305,10 +2305,10 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "United States_None_vmess_096",
+                "None_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -2317,8 +2317,8 @@
                 "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
-                "Taiwan_Taipei_tuic_41",
-                "Taiwan_Taipei_ss_51",
+                "Taiwan_Banqiao_tuic_41",
+                "Taiwan_Banqiao_ss_51",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
