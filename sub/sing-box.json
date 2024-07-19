@@ -208,8 +208,8 @@
                 "None_None_vmess_096",
                 "United States_None_vmess_097",
                 "None_None_vmess_098",
-                "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_099",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
@@ -1898,7 +1898,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_099",
+            "tag": "None_None_vmess_099",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1915,7 +1915,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2308,8 +2308,8 @@
                 "None_None_vmess_096",
                 "United States_None_vmess_097",
                 "None_None_vmess_098",
-                "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_099",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
