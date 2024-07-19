@@ -138,17 +138,20 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Banqiao_ss_51
-  server: www.dtku40.xyz
-  type: ss
-  port: 8080
-  cipher: 2022-blake3-chacha20-poly1305
-  password: o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg=
-    version: 3
+- name: France_None_vless_51
+  type: vless
+  server: 62.210.100.235
+  port: 23357
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
+    short-id: 0b4badde
+  client-fingerprint: chrome
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 104.192.224.138
@@ -252,7 +255,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - France_Paris_hysteria2_41
-  - Taiwan_Banqiao_ss_51
+  - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
   - United States_Los Angeles_hy_2
@@ -275,7 +278,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - France_Paris_hysteria2_41
-  - Taiwan_Banqiao_ss_51
+  - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
   - United States_Los Angeles_hy_2
@@ -298,7 +301,7 @@ proxy-groups:
   - None_None_vmess_24
   - France_Paris_ss_31
   - France_Paris_hysteria2_41
-  - Taiwan_Banqiao_ss_51
+  - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
   - United States_Los Angeles_hy_2
