@@ -118,7 +118,7 @@
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
                 "France_Paris_hysteria2_41",
-                "Taiwan_Banqiao_ss_51",
+                "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -269,24 +269,26 @@
             "up_mbps": 11
         },
         {
-            "password": "o87ht2PySUzuu8ygXD9pJ5XjDtMHxepcsIbP5ZZ5PdI=",
-            "tag": "Taiwan_Banqiao_ss_51",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "detour": "Taiwan_Banqiao_ss_51-shadowtls"
-        },
-        {
-            "password": "GeRmhTDY9rDSNUuoVV/cGMVAEl/nblHQqM/gdHbRnVg=",
-            "server": "www.dtku40.xyz",
-            "server_port": 8080,
-            "tag": "Taiwan_Banqiao_ss_51-shadowtls",
+            "server": "62.210.100.235",
+            "server_port": 23357,
+            "tag": "France_None_vless_51",
             "tls": {
                 "enabled": true,
-                "server_name": "nijigen-works.jp"
+                "server_name": "www.yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M",
+                    "short_id": "0b4badde"
+                }
             },
-            "type": "shadowtls",
-            "version": 3
+            "type": "vless",
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
         },
         {
             "server": "104.192.224.138",
@@ -416,7 +418,7 @@
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
                 "France_Paris_hysteria2_41",
-                "Taiwan_Banqiao_ss_51",
+                "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
                 "United States_Los Angeles_hy_2",
