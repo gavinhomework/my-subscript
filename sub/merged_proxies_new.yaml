@@ -31,18 +31,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Seattle_hysteria_01
-  type: hysteria
+- name: United States_Seattle_hysteria2_01
+  type: hysteria2
   server: 64.42.176.179
-  port: 15334
-  ports: 20000-30000
-  auth_str: dongtaiwang.com
+  port: 12304
+  ports: 40000-50000
+  password: dongtaiwang.com
   alpn:
   - h3
   sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
-  down: 55 Mbps
+  down: 100 Mbps
 - name: None_None_vmess_11
   type: vmess
   server: 104.19.38.8
@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1100
+- name: None_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1750,7 +1750,7 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Seattle_hysteria_01
+  - United States_Seattle_hysteria2_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1846,11 +1846,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1873,7 +1873,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Seattle_hysteria_01
+  - United States_Seattle_hysteria2_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1969,11 +1969,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1996,7 +1996,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Seattle_hysteria_01
+  - United States_Seattle_hysteria2_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -2092,11 +2092,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
+  - None_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
