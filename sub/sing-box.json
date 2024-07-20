@@ -204,13 +204,13 @@
                 "United States_San Francisco_vmess_191",
                 "None_None_vmess_192",
                 "Canada_Ottawa_vmess_193",
-                "None_None_vmess_194",
+                "United States_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "United States_None_vmess_197",
-                "United States_None_vmess_198",
-                "None_None_vmess_199",
-                "United States_None_vmess_1100",
+                "None_None_vmess_196",
+                "None_None_vmess_197",
+                "None_None_vmess_198",
+                "United States_None_vmess_199",
+                "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
@@ -221,11 +221,11 @@
                 "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
-                "United States_Los Angeles_hy_2",
+                "France_Paris_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
                 "United States_None_hy2_1",
-                "United States_Los Angeles_hy2_2",
+                "France_Paris_hy2_2",
                 "United States_Los Angeles_hy2_3"
             ]
         },
@@ -1830,7 +1830,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "None_None_vmess_194",
+            "tag": "United States_None_vmess_194",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1864,7 +1864,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_196",
+            "tag": "None_None_vmess_196",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1881,7 +1881,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_197",
+            "tag": "None_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1898,7 +1898,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_198",
+            "tag": "None_None_vmess_198",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1915,7 +1915,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_199",
+            "tag": "United States_None_vmess_199",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1932,7 +1932,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_1100",
+            "tag": "None_None_vmess_1100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2125,9 +2125,9 @@
             "up_mbps": 1000
         },
         {
-            "server": "104.192.224.138",
-            "server_port": 28850,
-            "tag": "United States_Los Angeles_hy_2",
+            "server": "51.159.79.103",
+            "server_port": 15966,
+            "tag": "France_Paris_hy_2",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -2184,9 +2184,9 @@
         },
         {
             "password": "dongtaiwang.com",
-            "server": "64.110.25.12",
-            "server_port": 50942,
-            "tag": "United States_Los Angeles_hy2_2",
+            "server": "51.159.34.216",
+            "server_port": 7571,
+            "tag": "France_Paris_hy2_2",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2304,13 +2304,13 @@
                 "United States_San Francisco_vmess_191",
                 "None_None_vmess_192",
                 "Canada_Ottawa_vmess_193",
-                "None_None_vmess_194",
+                "United States_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "United States_None_vmess_197",
-                "United States_None_vmess_198",
-                "None_None_vmess_199",
-                "United States_None_vmess_1100",
+                "None_None_vmess_196",
+                "None_None_vmess_197",
+                "None_None_vmess_198",
+                "United States_None_vmess_199",
+                "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
@@ -2321,11 +2321,11 @@
                 "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
-                "United States_Los Angeles_hy_2",
+                "France_Paris_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
                 "United States_None_hy2_1",
-                "United States_Los Angeles_hy2_2",
+                "France_Paris_hy2_2",
                 "United States_Los Angeles_hy2_3"
             ]
         },
