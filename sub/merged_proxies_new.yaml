@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_194
+- name: United States_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_197
+- name: None_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_198
+- name: None_None_vmess_198
   type: vmess
   server: russia.com
   port: 2086
@@ -1513,7 +1513,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_199
+- name: United States_None_vmess_199
   type: vmess
   server: singapore.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1100
+- name: None_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1683,10 +1683,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_2
+- name: France_Paris_hy_2
   type: hysteria
-  server: 104.192.224.138
-  port: 28850
+  server: 51.159.79.103
+  port: 15966
   ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
@@ -1727,10 +1727,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
+- name: France_Paris_hy2_2
   type: hysteria2
-  server: 64.110.25.12
-  port: 50942
+  server: 51.159.34.216
+  port: 7571
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1844,13 +1844,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
-  - United States_None_vmess_198
-  - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_196
+  - None_None_vmess_197
+  - None_None_vmess_198
+  - United States_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1861,11 +1861,11 @@ proxy-groups:
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
-  - United States_Los Angeles_hy_2
+  - France_Paris_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - United States_Los Angeles_hy2_2
+  - France_Paris_hy2_2
   - United States_Los Angeles_hy2_3
 - name: ⚡ 低延迟
   type: url-test
@@ -1967,13 +1967,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
-  - United States_None_vmess_198
-  - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_196
+  - None_None_vmess_197
+  - None_None_vmess_198
+  - United States_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1984,11 +1984,11 @@ proxy-groups:
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
-  - United States_Los Angeles_hy_2
+  - France_Paris_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - United States_Los Angeles_hy2_2
+  - France_Paris_hy2_2
   - United States_Los Angeles_hy2_3
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -2090,13 +2090,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
-  - United States_None_vmess_198
-  - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_196
+  - None_None_vmess_197
+  - None_None_vmess_198
+  - United States_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -2107,11 +2107,11 @@ proxy-groups:
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
-  - United States_Los Angeles_hy_2
+  - France_Paris_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - United States_Los Angeles_hy2_2
+  - France_Paris_hy2_2
   - United States_Los Angeles_hy2_3
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
