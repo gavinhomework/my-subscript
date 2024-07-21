@@ -206,8 +206,8 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "United States_None_vmess_197",
+                "None_None_vmess_196",
+                "None_None_vmess_197",
                 "None_None_vmess_198",
                 "None_None_vmess_199",
                 "None_None_vmess_1100",
@@ -217,7 +217,7 @@
                 "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
-                "France_Paris_hysteria2_41",
+                "France_Paris_ss_41",
                 "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
@@ -225,7 +225,7 @@
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
                 "United States_None_hy2_1",
-                "France_Paris_hy2_2",
+                "United States_None_hy2_2",
                 "Taiwan_Zhubei_hy2_3"
             ]
         },
@@ -1864,7 +1864,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_196",
+            "tag": "None_None_vmess_196",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1881,7 +1881,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_197",
+            "tag": "None_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2052,21 +2052,24 @@
             "version": 3
         },
         {
-            "password": "dongtaiwang.com",
-            "server": "51.159.34.216",
-            "server_port": 7571,
-            "tag": "France_Paris_hysteria2_41",
+            "password": "CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo=",
+            "tag": "France_Paris_ss_41",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "detour": "France_Paris_ss_41-shadowtls"
+        },
+        {
+            "password": "oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=",
+            "server": "51.159.77.153",
+            "server_port": 443,
+            "tag": "France_Paris_ss_41-shadowtls",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
+                "server_name": "nijigen-works.jp"
             },
-            "type": "hysteria2",
-            "down_mbps": 55,
-            "up_mbps": 11
+            "type": "shadowtls",
+            "version": 3
         },
         {
             "server": "62.210.100.235",
@@ -2184,9 +2187,9 @@
         },
         {
             "password": "dongtaiwang.com",
-            "server": "51.159.34.216",
-            "server_port": 7571,
-            "tag": "France_Paris_hy2_2",
+            "server": "208.87.243.187",
+            "server_port": 29620,
+            "tag": "United States_None_hy2_2",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2306,8 +2309,8 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "United States_None_vmess_197",
+                "None_None_vmess_196",
+                "None_None_vmess_197",
                 "None_None_vmess_198",
                 "None_None_vmess_199",
                 "None_None_vmess_1100",
@@ -2317,7 +2320,7 @@
                 "None_None_vmess_23",
                 "None_None_vmess_24",
                 "France_Paris_ss_31",
-                "France_Paris_hysteria2_41",
+                "France_Paris_ss_41",
                 "France_None_vless_51",
                 "United States_Los Angeles_hy_0",
                 "France_Paris_hy_1",
@@ -2325,7 +2328,7 @@
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
                 "United States_None_hy2_1",
-                "France_Paris_hy2_2",
+                "United States_None_hy2_2",
                 "Taiwan_Zhubei_hy2_3"
             ]
         },
