@@ -206,8 +206,8 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "None_None_vmess_197",
+                "None_None_vmess_196",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
                 "United States_None_vmess_199",
                 "United States_None_vmess_1100",
@@ -944,7 +944,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.17",
+            "server": "104.26.5.56",
             "server_port": 2086,
             "tag": "None_None_vmess_142",
             "transport": {
@@ -961,7 +961,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.22",
+            "server": "104.26.5.66",
             "server_port": 2086,
             "tag": "None_None_vmess_143",
             "transport": {
@@ -978,7 +978,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.27",
+            "server": "104.26.5.67",
             "server_port": 2086,
             "tag": "None_None_vmess_144",
             "transport": {
@@ -995,7 +995,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.33",
+            "server": "104.26.5.88",
             "server_port": 2086,
             "tag": "None_None_vmess_145",
             "transport": {
@@ -1012,7 +1012,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.36",
+            "server": "104.26.5.90",
             "server_port": 2086,
             "tag": "None_None_vmess_146",
             "transport": {
@@ -1029,7 +1029,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.39",
+            "server": "104.26.5.103",
             "server_port": 2086,
             "tag": "None_None_vmess_147",
             "transport": {
@@ -1046,7 +1046,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.42",
+            "server": "104.26.5.112",
             "server_port": 2086,
             "tag": "None_None_vmess_148",
             "transport": {
@@ -1063,7 +1063,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.56",
+            "server": "104.26.5.113",
             "server_port": 2086,
             "tag": "None_None_vmess_149",
             "transport": {
@@ -1080,7 +1080,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.59",
+            "server": "104.26.5.123",
             "server_port": 2086,
             "tag": "None_None_vmess_150",
             "transport": {
@@ -1097,7 +1097,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.46.63",
+            "server": "104.26.5.145",
             "server_port": 2086,
             "tag": "None_None_vmess_151",
             "transport": {
@@ -1114,7 +1114,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.22",
+            "server": "162.159.140.19",
             "server_port": 2086,
             "tag": "None_None_vmess_152",
             "transport": {
@@ -1131,7 +1131,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.27",
+            "server": "162.159.140.33",
             "server_port": 2086,
             "tag": "None_None_vmess_153",
             "transport": {
@@ -1148,7 +1148,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.32",
+            "server": "162.159.140.39",
             "server_port": 2086,
             "tag": "None_None_vmess_154",
             "transport": {
@@ -1165,7 +1165,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.36",
+            "server": "162.159.140.45",
             "server_port": 2086,
             "tag": "None_None_vmess_155",
             "transport": {
@@ -1182,7 +1182,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.45",
+            "server": "162.159.140.56",
             "server_port": 2086,
             "tag": "None_None_vmess_156",
             "transport": {
@@ -1199,7 +1199,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.77",
+            "server": "162.159.140.66",
             "server_port": 2086,
             "tag": "None_None_vmess_157",
             "transport": {
@@ -1216,7 +1216,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.79",
+            "server": "162.159.140.77",
             "server_port": 2086,
             "tag": "None_None_vmess_158",
             "transport": {
@@ -1233,7 +1233,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.88",
+            "server": "162.159.140.89",
             "server_port": 2086,
             "tag": "None_None_vmess_159",
             "transport": {
@@ -1250,7 +1250,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.80",
+            "server": "162.159.140.91",
             "server_port": 2086,
             "tag": "None_None_vmess_160",
             "transport": {
@@ -1267,7 +1267,7 @@
             "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
         },
         {
-            "server": "104.19.47.122",
+            "server": "162.159.140.93",
             "server_port": 2086,
             "tag": "None_None_vmess_161",
             "transport": {
@@ -1864,7 +1864,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_196",
+            "tag": "None_None_vmess_196",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1881,7 +1881,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_197",
+            "tag": "United States_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2306,8 +2306,8 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
-                "None_None_vmess_197",
+                "None_None_vmess_196",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
                 "United States_None_vmess_199",
                 "United States_None_vmess_1100",
