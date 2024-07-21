@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_197
+- name: None_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1629,18 +1629,17 @@ proxies:
     host: nijigen-works.jp
     password: oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=
     version: 3
-- name: France_Paris_hysteria2_41
-  type: hysteria2
-  server: 51.159.34.216
-  port: 7571
-  ports: 20000-30000
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+- name: France_Paris_ss_41
+  type: ss
+  server: 51.159.77.153
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=
+    version: 3
 - name: France_None_vless_51
   type: vless
   server: 62.210.100.235
@@ -1727,10 +1726,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_2
+- name: United States_None_hy2_2
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 208.87.243.187
+  port: 29620
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1846,8 +1845,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
@@ -1857,7 +1856,7 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - France_Paris_hysteria2_41
+  - France_Paris_ss_41
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
@@ -1865,7 +1864,7 @@ proxy-groups:
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - France_Paris_hy2_2
+  - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 - name: ⚡ 低延迟
   type: url-test
@@ -1969,8 +1968,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
@@ -1980,7 +1979,7 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - France_Paris_hysteria2_41
+  - France_Paris_ss_41
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
@@ -1988,7 +1987,7 @@ proxy-groups:
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - France_Paris_hy2_2
+  - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -2092,8 +2091,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
@@ -2103,7 +2102,7 @@ proxy-groups:
   - None_None_vmess_23
   - None_None_vmess_24
   - France_Paris_ss_31
-  - France_Paris_hysteria2_41
+  - France_Paris_ss_41
   - France_None_vless_51
   - United States_Los Angeles_hy_0
   - France_Paris_hy_1
@@ -2111,7 +2110,7 @@ proxy-groups:
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_None_hy2_1
-  - France_Paris_hy2_2
+  - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
