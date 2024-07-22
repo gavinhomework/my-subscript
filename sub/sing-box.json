@@ -207,10 +207,10 @@
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
-                "United States_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_197",
+                "None_None_vmess_198",
                 "None_None_vmess_199",
-                "None_None_vmess_1100",
+                "United States_None_vmess_1100",
                 "None_None_vmess_1101",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
@@ -1881,7 +1881,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_197",
+            "tag": "None_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1898,7 +1898,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_198",
+            "tag": "None_None_vmess_198",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1932,7 +1932,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "None_None_vmess_1100",
+            "tag": "United States_None_vmess_1100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2310,10 +2310,10 @@
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
-                "United States_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_197",
+                "None_None_vmess_198",
                 "None_None_vmess_199",
-                "None_None_vmess_1100",
+                "United States_None_vmess_1100",
                 "None_None_vmess_1101",
                 "None_None_vmess_21",
                 "Canada_Ottawa_vmess_22",
