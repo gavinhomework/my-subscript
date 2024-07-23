@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_194
+- name: United States_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_197
+- name: United States_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_1100
+- name: United States_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1718,13 +1718,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_1
+- name: United States_Los Angeles_hy2_1
   type: hysteria2
-  server: 208.87.243.187
-  port: 29620
+  server: 91.149.239.189
+  port: 55678
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: United States_None_hy2_2
   type: hysteria2
@@ -1843,13 +1843,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1863,7 +1863,7 @@ proxy-groups:
   - Russia_Moscow_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
-  - United States_None_hy2_1
+  - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 - name: ⚡ 低延迟
@@ -1966,13 +1966,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -1986,7 +1986,7 @@ proxy-groups:
   - Russia_Moscow_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
-  - United States_None_hy2_1
+  - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 - name: ⚖️ 负载均衡
@@ -2089,13 +2089,13 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - None_None_vmess_21
   - Canada_Ottawa_vmess_22
@@ -2109,7 +2109,7 @@ proxy-groups:
   - Russia_Moscow_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
-  - United States_None_hy2_1
+  - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - Taiwan_Zhubei_hy2_3
 rules:
