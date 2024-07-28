@@ -208,7 +208,7 @@
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
                 "United States_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_198",
                 "United States_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
@@ -1895,7 +1895,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_198",
+            "tag": "None_None_vmess_198",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2258,7 +2258,7 @@
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
                 "United States_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_198",
                 "United States_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
