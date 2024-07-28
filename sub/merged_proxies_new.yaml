@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_194
+- name: None_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_196
+- name: United States_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_197
+- name: United States_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_1100
+- name: United States_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1558,66 +1558,18 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_21
-  type: vmess
-  server: 104.19.32.88
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5-9.freegradely.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5-9.freegradely.xyz
-- name: Canada_Ottawa_vmess_22
-  type: vmess
-  server: 23.227.38.8
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5-9.freegradely.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5-9.freegradely.xyz
-- name: None_None_vmess_23
-  type: vmess
-  server: 104.26.0.46
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5-9.freegradely.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5-9.freegradely.xyz
-- name: None_None_vmess_24
-  type: vmess
-  server: 104.19.38.88
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5-9.freegradely.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5-9.freegradely.xyz
+- name: Russia_Moscow_hysteria_21
+  type: hysteria
+  server: 46.29.166.206
+  port: 33556
+  auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_Paris_ss_31
   type: ss
   server: 51.159.77.153
@@ -1843,18 +1795,15 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_196
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
-  - None_None_vmess_21
-  - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
-  - None_None_vmess_24
+  - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
   - France_None_vless_51
@@ -1966,18 +1915,15 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_196
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
-  - None_None_vmess_21
-  - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
-  - None_None_vmess_24
+  - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
   - France_None_vless_51
@@ -2089,18 +2035,15 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_196
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
-  - None_None_vmess_21
-  - Canada_Ottawa_vmess_22
-  - None_None_vmess_23
-  - None_None_vmess_24
+  - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
   - France_None_vless_51
