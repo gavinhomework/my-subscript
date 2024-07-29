@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_194
+- name: United States_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_197
+- name: None_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1795,10 +1795,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - United States_None_vmess_1100
@@ -1915,10 +1915,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - United States_None_vmess_1100
@@ -2035,10 +2035,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - None_None_vmess_194
+  - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - United States_None_vmess_1100
