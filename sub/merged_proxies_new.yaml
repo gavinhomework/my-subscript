@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_196
+- name: United States_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1583,15 +1583,27 @@ proxies:
     version: 3
 - name: France_Paris_ss_41
   type: ss
-  server: 51.159.77.153
+  server: 51.159.199.102
   port: 443
   cipher: 2022-blake3-chacha20-poly1305
-  password: CuNN8dpAplS3SzR/LtmNqAPwfjeFwnun4SWMuh98ANo=
+  password: ihkSP1UkZF/DC6cyVLXwCD2b5zwE161T7dGr49U3+ko=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
-    password: oF1DMhFO6YuXAnEuq0qTaORV9y0Yy+MSf7GqelSXy3E=
+    password: dXm5EgOvRnUKWerZ+niljM83DxAtLu0coUX2BSIXWwY=
     version: 3
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 1
+    min-streams: 4
+    statistic: false
+    only-tcp: false
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
 - name: France_None_vless_51
   type: vless
   server: 62.210.100.235
@@ -1797,7 +1809,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
+  - United States_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
@@ -1917,7 +1929,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
+  - United States_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
@@ -2037,7 +2049,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - None_None_vmess_196
+  - United States_None_vmess_196
   - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
