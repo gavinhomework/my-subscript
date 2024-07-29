@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_197
+- name: None_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1513,7 +1513,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_199
+- name: United States_None_vmess_199
   type: vmess
   server: singapore.com
   port: 2086
@@ -1616,20 +1616,29 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: France_None_vless_51
-  type: vless
-  server: 62.210.100.235
-  port: 23357
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
-    short-id: 0b4badde
-  client-fingerprint: chrome
+- name: France_Paris_ss_51
+  type: ss
+  server: 51.159.199.102
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ihkSP1UkZF/DC6cyVLXwCD2b5zwE161T7dGr49U3+ko=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: dXm5EgOvRnUKWerZ+niljM83DxAtLu0coUX2BSIXWwY=
+    version: 3
+  smux:
+    enabled: true
+    protocol: smux
+    max-connections: 1
+    min-streams: 4
+    statistic: false
+    only-tcp: false
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 104.192.224.138
@@ -1710,7 +1719,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Taiwan_Hsinchu County_hy2_3
+- name: Taiwan_Zhubei_hy2_3
   type: hysteria2
   server: www2.dtku44.xyz
   port: 37783
@@ -1821,16 +1830,16 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
-  - France_None_vless_51
+  - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Russia_Moscow_hy_2
@@ -1838,7 +1847,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Hsinchu County_hy2_3
+  - Taiwan_Zhubei_hy2_3
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1941,16 +1950,16 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
-  - France_None_vless_51
+  - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Russia_Moscow_hy_2
@@ -1958,7 +1967,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Hsinchu County_hy2_3
+  - Taiwan_Zhubei_hy2_3
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -2061,16 +2070,16 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_196
+  - None_None_vmess_197
   - None_None_vmess_198
-  - None_None_vmess_199
+  - United States_None_vmess_199
   - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
   - France_Paris_ss_41
-  - France_None_vless_51
+  - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Russia_Moscow_hy_2
@@ -2078,7 +2087,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Hsinchu County_hy2_3
+  - Taiwan_Zhubei_hy2_3
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
