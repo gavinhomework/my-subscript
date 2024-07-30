@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_197
+- name: United States_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_198
+- name: United States_None_vmess_198
   type: vmess
   server: russia.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_1100
+- name: United States_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1830,11 +1830,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - None_None_vmess_197
-  - None_None_vmess_198
+  - None_None_vmess_196
+  - United States_None_vmess_197
+  - United States_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
@@ -1950,11 +1950,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - None_None_vmess_197
-  - None_None_vmess_198
+  - None_None_vmess_196
+  - United States_None_vmess_197
+  - United States_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
@@ -2070,11 +2070,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_193
   - None_None_vmess_194
   - United States_None_vmess_195
-  - United States_None_vmess_196
-  - None_None_vmess_197
-  - None_None_vmess_198
+  - None_None_vmess_196
+  - United States_None_vmess_197
+  - United States_None_vmess_198
   - None_None_vmess_199
-  - None_None_vmess_1100
+  - United States_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - France_Paris_ss_31
