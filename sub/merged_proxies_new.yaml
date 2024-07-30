@@ -31,30 +31,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_San Antonio_vless_01
-  type: vless
-  server: 173.234.31.98
-  port: 10231
-  uuid: 20d41f59-da51-4ddc-8026-e24f6f660ce7
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 43JjX-fvGRFi61_jOs8GzjAkLsEwpnSE7z-RjLsmLgk
-    short-id: 469b1ca4dfd467d2
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
+- name: United States_Seattle_hysteria_01
+  type: hysteria
+  server: 64.42.176.179
+  port: 19513
+  ports: 20000-30000
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: None_None_vmess_11
   type: vmess
   server: 104.19.38.8
@@ -1510,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_198
+- name: None_None_vmess_198
   type: vmess
   server: russia.com
   port: 2086
@@ -1525,7 +1513,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_199
+- name: None_None_vmess_199
   type: vmess
   server: singapore.com
   port: 2086
@@ -1540,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1100
+- name: None_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1582,24 +1570,25 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_ss_31
-  type: ss
-  server: 51.159.199.102
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ihkSP1UkZF/DC6cyVLXwCD2b5zwE161T7dGr49U3+ko=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: dXm5EgOvRnUKWerZ+niljM83DxAtLu0coUX2BSIXWwY=
-    version: 3
+- name: Russia_Moscow_vless_31
+  type: vless
+  server: 46.29.163.85
+  port: 18903
+  uuid: 95d7d4e7-6cf3-4eaf-ac48-c1e5e1ceb733
+  network: tcp
+  udp: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: eBUZp9nbJb2bEUuxTX1U3i1ITVR1mtlxfmxX43ehZUs
+    short-id: 9253ae7c164999fa
   smux:
     enabled: true
-    protocol: smux
+    protocol: h2mux
     max-connections: 1
     min-streams: 4
-    statistic: false
-    only-tcp: false
     padding: true
     brutal-opts:
       enabled: true
@@ -1668,8 +1657,8 @@ proxies:
 - name: United States_Los Angeles_hy_1
   type: hysteria
   server: 38.114.103.250
-  port: 29900
-  ports: 29900
+  port: 17547
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1679,11 +1668,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_Moscow_hy_2
+- name: United States_Los Angeles_hy_2
   type: hysteria
-  server: 46.29.163.85
-  port: 22456
-  ports: 22456
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1746,7 +1735,7 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_San Antonio_vless_01
+  - United States_Seattle_hysteria_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1844,17 +1833,17 @@ proxy-groups:
   - United States_None_vmess_195
   - United States_None_vmess_196
   - United States_None_vmess_197
-  - United States_None_vmess_198
-  - United States_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_198
+  - None_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
-  - France_Paris_ss_31
+  - Russia_Moscow_vless_31
   - France_Paris_ss_41
   - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
-  - Russia_Moscow_hy_2
+  - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
@@ -1866,7 +1855,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_San Antonio_vless_01
+  - United States_Seattle_hysteria_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -1964,17 +1953,17 @@ proxy-groups:
   - United States_None_vmess_195
   - United States_None_vmess_196
   - United States_None_vmess_197
-  - United States_None_vmess_198
-  - United States_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_198
+  - None_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
-  - France_Paris_ss_31
+  - Russia_Moscow_vless_31
   - France_Paris_ss_41
   - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
-  - Russia_Moscow_hy_2
+  - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
@@ -1986,7 +1975,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_San Antonio_vless_01
+  - United States_Seattle_hysteria_01
   - None_None_vmess_11
   - None_None_vmess_12
   - Canada_Ottawa_vmess_13
@@ -2084,17 +2073,17 @@ proxy-groups:
   - United States_None_vmess_195
   - United States_None_vmess_196
   - United States_None_vmess_197
-  - United States_None_vmess_198
-  - United States_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_198
+  - None_None_vmess_199
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
-  - France_Paris_ss_31
+  - Russia_Moscow_vless_31
   - France_Paris_ss_41
   - France_Paris_ss_51
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
-  - Russia_Moscow_hy_2
+  - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
