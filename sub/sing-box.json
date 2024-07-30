@@ -206,9 +206,9 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
+                "None_None_vmess_196",
                 "None_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_198",
                 "None_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
@@ -1872,7 +1872,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_196",
+            "tag": "None_None_vmess_196",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1906,7 +1906,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_198",
+            "tag": "None_None_vmess_198",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2286,9 +2286,9 @@
                 "Canada_Ottawa_vmess_193",
                 "None_None_vmess_194",
                 "United States_None_vmess_195",
-                "United States_None_vmess_196",
+                "None_None_vmess_196",
                 "None_None_vmess_197",
-                "United States_None_vmess_198",
+                "None_None_vmess_198",
                 "None_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
