@@ -1483,7 +1483,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_197
+- name: United States_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_1100
+- name: None_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1832,10 +1832,10 @@ proxy-groups:
   - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
@@ -1952,10 +1952,10 @@ proxy-groups:
   - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
@@ -2072,10 +2072,10 @@ proxy-groups:
   - United States_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - None_None_vmess_197
+  - United States_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
-  - United States_None_vmess_1100
+  - None_None_vmess_1100
   - None_None_vmess_1101
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
