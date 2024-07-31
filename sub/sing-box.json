@@ -207,10 +207,10 @@
                 "United States_None_vmess_194",
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
-                "None_None_vmess_197",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
                 "None_None_vmess_199",
-                "United States_None_vmess_1100",
+                "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
@@ -1878,7 +1878,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_197",
+            "tag": "United States_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1929,7 +1929,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_1100",
+            "tag": "None_None_vmess_1100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2276,10 +2276,10 @@
                 "United States_None_vmess_194",
                 "United States_None_vmess_195",
                 "None_None_vmess_196",
-                "None_None_vmess_197",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
                 "None_None_vmess_199",
-                "United States_None_vmess_1100",
+                "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
