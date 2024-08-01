@@ -1471,7 +1471,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1501,7 +1501,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_099
+- name: None_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -2941,7 +2941,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_194
+- name: None_None_vmess_194
   type: vmess
   server: icook.tw
   port: 2086
@@ -2986,7 +2986,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_197
+- name: None_None_vmess_197
   type: vmess
   server: malaysia.com
   port: 2086
@@ -3334,9 +3334,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - None_None_vmess_098
-  - United States_None_vmess_099
+  - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -3432,10 +3432,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
@@ -3554,9 +3554,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - None_None_vmess_098
-  - United States_None_vmess_099
+  - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -3652,10 +3652,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
@@ -3774,9 +3774,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - None_None_vmess_098
-  - United States_None_vmess_099
+  - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -3872,10 +3872,10 @@ proxy-groups:
   - United States_San Francisco_vmess_191
   - None_None_vmess_192
   - Canada_Ottawa_vmess_193
-  - United States_None_vmess_194
+  - None_None_vmess_194
   - United States_None_vmess_195
   - None_None_vmess_196
-  - United States_None_vmess_197
+  - None_None_vmess_197
   - None_None_vmess_198
   - None_None_vmess_199
   - None_None_vmess_1100
