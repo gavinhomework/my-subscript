@@ -207,9 +207,9 @@
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "United States_None_vmess_098",
+                "None_None_vmess_098",
                 "None_None_vmess_099",
-                "None_None_vmess_0100",
+                "United States_None_vmess_0100",
                 "None_None_vmess_0101",
                 "None_None_vmess_11",
                 "None_None_vmess_12",
@@ -307,9 +307,9 @@
                 "None_None_vmess_194",
                 "None_None_vmess_195",
                 "None_None_vmess_196",
-                "None_None_vmess_197",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
-                "None_None_vmess_199",
+                "United States_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "Russia_Moscow_hysteria_21",
@@ -1978,7 +1978,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_098",
+            "tag": "None_None_vmess_098",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2012,7 +2012,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "None_None_vmess_0100",
+            "tag": "United States_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -3678,7 +3678,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_197",
+            "tag": "United States_None_vmess_197",
             "transport": {
                 "headers": {
                     "Host": [
@@ -3712,7 +3712,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_199",
+            "tag": "United States_None_vmess_199",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4076,9 +4076,9 @@
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "United States_None_vmess_098",
+                "None_None_vmess_098",
                 "None_None_vmess_099",
-                "None_None_vmess_0100",
+                "United States_None_vmess_0100",
                 "None_None_vmess_0101",
                 "None_None_vmess_11",
                 "None_None_vmess_12",
@@ -4176,9 +4176,9 @@
                 "None_None_vmess_194",
                 "None_None_vmess_195",
                 "None_None_vmess_196",
-                "None_None_vmess_197",
+                "United States_None_vmess_197",
                 "None_None_vmess_198",
-                "None_None_vmess_199",
+                "United States_None_vmess_199",
                 "None_None_vmess_1100",
                 "None_None_vmess_1101",
                 "Russia_Moscow_hysteria_21",
