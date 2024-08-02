@@ -205,17 +205,17 @@
                 "Canada_Ottawa_vmess_093",
                 "United States_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "France_None_hysteria_41",
-                "France_Paris_ss_51",
+                "France_None_hysteria_51",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -1844,7 +1844,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_096",
+            "tag": "United States_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1878,7 +1878,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_098",
+            "tag": "United States_None_vmess_098",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1912,7 +1912,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2023,31 +2023,21 @@
             "up": "11 Mbps"
         },
         {
-            "password": "ihkSP1UkZF/DC6cyVLXwCD2b5zwE161T7dGr49U3+ko=",
-            "tag": "France_Paris_ss_51",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "detour": "France_Paris_ss_51-shadowtls",
-            "multiplex": {
-                "enabled": true,
-                "max_connections": 4,
-                "min_streams": 4,
-                "padding": true,
-                "protocol": "smux"
-            }
-        },
-        {
-            "password": "dXm5EgOvRnUKWerZ+niljM83DxAtLu0coUX2BSIXWwY=",
-            "server": "51.159.199.102",
-            "server_port": 443,
-            "tag": "France_Paris_ss_51-shadowtls",
+            "server": "62.210.243.131",
+            "server_port": 47780,
+            "tag": "France_None_hysteria_51",
             "tls": {
                 "enabled": true,
-                "server_name": "nijigen-works.jp"
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
             },
-            "type": "shadowtls",
-            "version": 3
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "55 Mbps",
+            "up": "11 Mbps"
         },
         {
             "server": "104.192.224.138",
@@ -2264,17 +2254,17 @@
                 "Canada_Ottawa_vmess_093",
                 "United States_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "France_None_hysteria_41",
-                "France_Paris_ss_51",
+                "France_None_hysteria_51",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
