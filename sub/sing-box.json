@@ -205,10 +205,10 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "United States_None_vmess_096",
+                "None_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -1844,7 +1844,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_096",
+            "tag": "None_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1895,7 +1895,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_099",
+            "tag": "United States_None_vmess_099",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2254,10 +2254,10 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "United States_None_vmess_096",
+                "None_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
