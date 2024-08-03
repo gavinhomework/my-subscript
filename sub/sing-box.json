@@ -203,13 +203,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "United States_None_vmess_094",
+                "None_None_vmess_094",
                 "United States_None_vmess_095",
                 "United States_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
                 "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -1810,7 +1810,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "United States_None_vmess_094",
+            "tag": "None_None_vmess_094",
             "transport": {
                 "headers": {
                     "Host": [
@@ -1912,7 +1912,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2252,13 +2252,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "United States_None_vmess_094",
+                "None_None_vmess_094",
                 "United States_None_vmess_095",
                 "United States_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
                 "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
