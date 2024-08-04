@@ -123,7 +123,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_Hsinchu_hy2_3"
+                "Taiwan_Zhubei_hy2_3"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_Hsinchu_hy2_3",
+            "tag": "Taiwan_Zhubei_hy2_3",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -377,7 +377,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_Hsinchu_hy2_3"
+                "Taiwan_Zhubei_hy2_3"
             ]
         },
         {
