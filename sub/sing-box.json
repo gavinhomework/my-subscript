@@ -117,7 +117,7 @@
                 "France_None_hysteria_41",
                 "France_None_hysteria_51",
                 "United States_Los Angeles_hy_0",
-                "United States_Los Angeles_hy_1",
+                "United States_None_hy_1",
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
@@ -262,9 +262,9 @@
             "up_mbps": 1000
         },
         {
-            "server": "38.114.103.250",
+            "server": "166.1.221.22",
             "server_port": 17547,
-            "tag": "United States_Los Angeles_hy_1",
+            "tag": "United States_None_hy_1",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -371,7 +371,7 @@
                 "France_None_hysteria_41",
                 "France_None_hysteria_51",
                 "United States_Los Angeles_hy_0",
-                "United States_Los Angeles_hy_1",
+                "United States_None_hy_1",
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
                 "United States_Los Angeles_hy2_0",
