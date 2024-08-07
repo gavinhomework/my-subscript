@@ -197,7 +197,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Taiwan_Zhubei_hy2_3
+- name: Taiwan_Hsinchu County_hy2_3
   type: hysteria2
   server: www2.dtku44.xyz
   port: 37783
@@ -225,7 +225,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Zhubei_hy2_3
+  - Taiwan_Hsinchu County_hy2_3
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -245,7 +245,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Zhubei_hy2_3
+  - Taiwan_Hsinchu County_hy2_3
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -265,7 +265,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_Zhubei_hy2_3
+  - Taiwan_Hsinchu County_hy2_3
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
