@@ -127,6 +127,26 @@
             ]
         },
         {
+            "tag": "urltest",
+            "type": "urltest",
+            "outbounds": [
+                "United States_Seattle_vless_01",
+                "United States_Seattle_hysteria_11",
+                "Russia_Moscow_hysteria_21",
+                "Russia_Moscow_vless_31",
+                "France_None_hysteria_41",
+                "France_None_hysteria_51",
+                "United States_Los Angeles_hy_0",
+                "United States_None_hy_1",
+                "United States_Los Angeles_hy_2",
+                "United States_Los Angeles_hy_3",
+                "United States_Los Angeles_hy2_0",
+                "United States_Los Angeles_hy2_1",
+                "United States_None_hy2_2",
+                "Taiwan_Hsinchu County_hy2_3"
+            ]
+        },
+        {
             "server": "45.145.73.205",
             "server_port": 11008,
             "tag": "United States_Seattle_vless_01",
@@ -359,26 +379,6 @@
                 "insecure": true
             },
             "type": "hysteria2"
-        },
-        {
-            "tag": "urltest",
-            "type": "urltest",
-            "outbounds": [
-                "United States_Seattle_vless_01",
-                "United States_Seattle_hysteria_11",
-                "Russia_Moscow_hysteria_21",
-                "Russia_Moscow_vless_31",
-                "France_None_hysteria_41",
-                "France_None_hysteria_51",
-                "United States_Los Angeles_hy_0",
-                "United States_None_hy_1",
-                "United States_Los Angeles_hy_2",
-                "United States_Los Angeles_hy_3",
-                "United States_Los Angeles_hy2_0",
-                "United States_Los Angeles_hy2_1",
-                "United States_None_hy2_2",
-                "Taiwan_Hsinchu County_hy2_3"
-            ]
         },
         {
             "tag": "direct",
