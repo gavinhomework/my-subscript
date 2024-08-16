@@ -105,15 +105,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_51
-  type: hysteria
-  server: 62.210.243.131
-  port: 47780
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
+- name: Taiwan_Hsinchu County_hysteria2_51
+  type: hysteria2
+  server: www2.dtku44.xyz
+  port: 37783
+  ports: 20000-30000
+  password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -1512,7 +1512,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_694
+- name: None_None_vmess_694
   type: vmess
   server: icook.tw
   port: 2086
@@ -1542,7 +1542,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_696
+- name: None_None_vmess_696
   type: vmess
   server: japan.com
   port: 2086
@@ -1557,7 +1557,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_697
+- name: None_None_vmess_697
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1892,7 +1892,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - France_None_hysteria_51
+  - Taiwan_Hsinchu County_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -1986,10 +1986,10 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_696
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
   - None_None_vmess_6100
@@ -2026,7 +2026,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - France_None_hysteria_51
+  - Taiwan_Hsinchu County_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2120,10 +2120,10 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_696
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
   - None_None_vmess_6100
@@ -2160,7 +2160,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - France_None_hysteria_51
+  - Taiwan_Hsinchu County_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2254,10 +2254,10 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_696
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
   - None_None_vmess_6100
