@@ -115,7 +115,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "France_None_hysteria_51",
+                "Taiwan_Hsinchu County_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -209,10 +209,10 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "United States_None_vmess_694",
+                "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
-                "United States_None_vmess_697",
+                "None_None_vmess_696",
+                "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
                 "None_None_vmess_6100",
@@ -249,7 +249,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "France_None_hysteria_51",
+                "Taiwan_Hsinchu County_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -343,10 +343,10 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "United States_None_vmess_694",
+                "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
-                "United States_None_vmess_697",
+                "None_None_vmess_696",
+                "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
                 "None_None_vmess_6100",
@@ -476,21 +476,21 @@
             "up": "11 Mbps"
         },
         {
-            "server": "62.210.243.131",
-            "server_port": 47780,
-            "tag": "France_None_hysteria_51",
+            "password": "dongtaiwang.com",
+            "server": "www2.dtku44.xyz",
+            "server_port": 37783,
+            "tag": "Taiwan_Hsinchu County_hysteria2_51",
             "tls": {
                 "enabled": true,
-                "server_name": "bing.com",
+                "server_name": "www.bing.com",
                 "alpn": [
                     "h3"
                 ],
                 "insecure": true
             },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "type": "hysteria2",
+            "down_mbps": 55,
+            "up_mbps": 11
         },
         {
             "server": "104.19.38.8",
@@ -2076,7 +2076,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "United States_None_vmess_694",
+            "tag": "None_None_vmess_694",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2110,7 +2110,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_696",
+            "tag": "None_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2127,7 +2127,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_697",
+            "tag": "None_None_vmess_697",
             "transport": {
                 "headers": {
                     "Host": [
