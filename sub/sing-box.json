@@ -209,9 +209,9 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "None_None_vmess_694",
+                "United States_None_vmess_694",
                 "United States_None_vmess_695",
-                "None_None_vmess_696",
+                "United States_None_vmess_696",
                 "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
@@ -343,9 +343,9 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "None_None_vmess_694",
+                "United States_None_vmess_694",
                 "United States_None_vmess_695",
-                "None_None_vmess_696",
+                "United States_None_vmess_696",
                 "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
@@ -2076,7 +2076,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "None_None_vmess_694",
+            "tag": "United States_None_vmess_694",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2110,7 +2110,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_696",
+            "tag": "United States_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
