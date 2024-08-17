@@ -215,7 +215,7 @@
                 "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -349,7 +349,7 @@
                 "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -2178,7 +2178,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "None_None_vmess_6100",
+            "tag": "United States_None_vmess_6100",
             "transport": {
                 "headers": {
                     "Host": [
