@@ -212,7 +212,7 @@
                 "None_None_vmess_694",
                 "United States_None_vmess_695",
                 "None_None_vmess_696",
-                "United States_None_vmess_697",
+                "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
                 "None_None_vmess_6100",
@@ -346,7 +346,7 @@
                 "None_None_vmess_694",
                 "United States_None_vmess_695",
                 "None_None_vmess_696",
-                "United States_None_vmess_697",
+                "None_None_vmess_697",
                 "None_None_vmess_698",
                 "None_None_vmess_699",
                 "None_None_vmess_6100",
@@ -2127,7 +2127,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_697",
+            "tag": "None_None_vmess_697",
             "transport": {
                 "headers": {
                     "Host": [
