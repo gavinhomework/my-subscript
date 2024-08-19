@@ -210,12 +210,12 @@
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
-                "None_None_vmess_695",
-                "United States_None_vmess_696",
-                "None_None_vmess_697",
+                "United States_None_vmess_695",
+                "None_None_vmess_696",
+                "United States_None_vmess_697",
                 "United States_None_vmess_698",
-                "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_699",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -344,12 +344,12 @@
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
-                "None_None_vmess_695",
-                "United States_None_vmess_696",
-                "None_None_vmess_697",
+                "United States_None_vmess_695",
+                "None_None_vmess_696",
+                "United States_None_vmess_697",
                 "United States_None_vmess_698",
-                "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_699",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -2093,7 +2093,7 @@
         {
             "server": "ip.sb",
             "server_port": 2086,
-            "tag": "None_None_vmess_695",
+            "tag": "United States_None_vmess_695",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2110,7 +2110,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_696",
+            "tag": "None_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2127,7 +2127,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_697",
+            "tag": "United States_None_vmess_697",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2161,7 +2161,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_699",
+            "tag": "United States_None_vmess_699",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2178,7 +2178,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "None_None_vmess_6100",
+            "tag": "United States_None_vmess_6100",
             "transport": {
                 "headers": {
                     "Host": [
