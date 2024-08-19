@@ -115,7 +115,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "Taiwan_Zhongli District_hysteria2_51",
+                "Taiwan_Hsinchu_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -211,9 +211,9 @@
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "None_None_vmess_697",
-                "None_None_vmess_698",
+                "United States_None_vmess_698",
                 "United States_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
@@ -221,7 +221,7 @@
                 "Russia_Moscow_hysteria_81",
                 "Russia_Moscow_vless_91",
                 "Russia_Moscow_hysteria_101",
-                "Taiwan_Zhongli District_hysteria2_111",
+                "Taiwan_Hsinchu_hysteria2_111",
                 "United States_Los Angeles_hy_0",
                 "United States_None_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -233,11 +233,11 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_Zhongli District_hy2_3",
+                "Taiwan_Hsinchu_hy2_3",
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "United States_None_hy2_6",
-                "Taiwan_Zhongli District_hy2_7"
+                "Taiwan_Hsinchu_hy2_7"
             ]
         },
         {
@@ -249,7 +249,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "Taiwan_Zhongli District_hysteria2_51",
+                "Taiwan_Hsinchu_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -345,9 +345,9 @@
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "None_None_vmess_697",
-                "None_None_vmess_698",
+                "United States_None_vmess_698",
                 "United States_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
@@ -355,7 +355,7 @@
                 "Russia_Moscow_hysteria_81",
                 "Russia_Moscow_vless_91",
                 "Russia_Moscow_hysteria_101",
-                "Taiwan_Zhongli District_hysteria2_111",
+                "Taiwan_Hsinchu_hysteria2_111",
                 "United States_Los Angeles_hy_0",
                 "United States_None_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -367,11 +367,11 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_Zhongli District_hy2_3",
+                "Taiwan_Hsinchu_hy2_3",
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "United States_None_hy2_6",
-                "Taiwan_Zhongli District_hy2_7"
+                "Taiwan_Hsinchu_hy2_7"
             ]
         },
         {
@@ -479,7 +479,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_Zhongli District_hysteria2_51",
+            "tag": "Taiwan_Hsinchu_hysteria2_51",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2110,7 +2110,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_696",
+            "tag": "None_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2144,7 +2144,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_698",
+            "tag": "United States_None_vmess_698",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2292,7 +2292,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_Zhongli District_hysteria2_111",
+            "tag": "Taiwan_Hsinchu_hysteria2_111",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2481,7 +2481,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_Zhongli District_hy2_3",
+            "tag": "Taiwan_Hsinchu_hy2_3",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2529,7 +2529,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_Zhongli District_hy2_7",
+            "tag": "Taiwan_Hsinchu_hy2_7",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
