@@ -115,7 +115,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "Taiwan_New Taipei_hysteria2_51",
+                "Taiwan_Taipei_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -209,13 +209,13 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "United States_None_vmess_694",
+                "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "United States_None_vmess_697",
                 "United States_None_vmess_698",
-                "None_None_vmess_699",
-                "United States_None_vmess_6100",
+                "United States_None_vmess_699",
+                "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -233,7 +233,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_New Taipei_hy2_3",
+                "Taiwan_Taipei_hy2_3",
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "United States_None_hy2_6",
@@ -249,7 +249,7 @@
                 "Russia_Moscow_hysteria_21",
                 "Russia_Moscow_vless_31",
                 "Russia_Moscow_hysteria_41",
-                "Taiwan_New Taipei_hysteria2_51",
+                "Taiwan_Taipei_hysteria2_51",
                 "None_None_vmess_61",
                 "None_None_vmess_62",
                 "Canada_Ottawa_vmess_63",
@@ -343,13 +343,13 @@
                 "United States_San Francisco_vmess_691",
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
-                "United States_None_vmess_694",
+                "None_None_vmess_694",
                 "United States_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "United States_None_vmess_697",
                 "United States_None_vmess_698",
-                "None_None_vmess_699",
-                "United States_None_vmess_6100",
+                "United States_None_vmess_699",
+                "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -367,7 +367,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "Taiwan_New Taipei_hy2_3",
+                "Taiwan_Taipei_hy2_3",
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "United States_None_hy2_6",
@@ -479,7 +479,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_New Taipei_hysteria2_51",
+            "tag": "Taiwan_Taipei_hysteria2_51",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -2076,7 +2076,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "United States_None_vmess_694",
+            "tag": "None_None_vmess_694",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2110,7 +2110,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_696",
+            "tag": "None_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2161,7 +2161,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_699",
+            "tag": "United States_None_vmess_699",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2178,7 +2178,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_6100",
+            "tag": "None_None_vmess_6100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2492,7 +2492,7 @@
             "password": "dongtaiwang.com",
             "server": "www2.dtku44.xyz",
             "server_port": 37783,
-            "tag": "Taiwan_New Taipei_hy2_3",
+            "tag": "Taiwan_Taipei_hy2_3",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
