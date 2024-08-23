@@ -105,18 +105,30 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_hysteria2_51
-  type: hysteria2
-  server: www2.dtku44.xyz
-  port: 37783
-  ports: 20000-30000
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+- name: Russia_Moscow_vless_51
+  type: vless
+  server: 46.29.163.85
+  port: 18903
+  uuid: 95d7d4e7-6cf3-4eaf-ac48-c1e5e1ceb733
+  network: tcp
+  udp: true
+  tls: true
+  flow: null
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: eBUZp9nbJb2bEUuxTX1U3i1ITVR1mtlxfmxX43ehZUs
+    short-id: 9253ae7c164999fa
+  smux:
+    enabled: true
+    protocol: h2mux
+    max-connections: 1
+    min-streams: 4
+    padding: true
+    brutal-opts:
+      enabled: true
+      up: 11
+      down: 55
 - name: None_None_vmess_61
   type: vmess
   server: 104.19.38.8
@@ -1587,7 +1599,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_699
+- name: None_None_vmess_699
   type: vmess
   server: singapore.com
   port: 2086
@@ -1904,7 +1916,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_Taipei_hysteria2_51
+  - Russia_Moscow_vless_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2003,7 +2015,7 @@ proxy-groups:
   - United States_None_vmess_696
   - None_None_vmess_697
   - United States_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
@@ -2038,7 +2050,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_Taipei_hysteria2_51
+  - Russia_Moscow_vless_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2137,7 +2149,7 @@ proxy-groups:
   - United States_None_vmess_696
   - None_None_vmess_697
   - United States_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
@@ -2172,7 +2184,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_Taipei_hysteria2_51
+  - Russia_Moscow_vless_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2271,7 +2283,7 @@ proxy-groups:
   - United States_None_vmess_696
   - None_None_vmess_697
   - United States_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
