@@ -105,7 +105,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria2_51
+- name: Taiwan_Taipei_hysteria2_51
   type: hysteria2
   server: www2.dtku44.xyz
   port: 37783
@@ -1512,7 +1512,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_694
+- name: None_None_vmess_694
   type: vmess
   server: icook.tw
   port: 2086
@@ -1542,7 +1542,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_696
+- name: None_None_vmess_696
   type: vmess
   server: japan.com
   port: 2086
@@ -1587,7 +1587,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_699
+- name: United States_None_vmess_699
   type: vmess
   server: singapore.com
   port: 2086
@@ -1602,7 +1602,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_6100
+- name: None_None_vmess_6100
   type: vmess
   server: skk.moe
   port: 2086
@@ -1852,7 +1852,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Taiwan_New Taipei_hy2_3
+- name: Taiwan_Taipei_hy2_3
   type: hysteria2
   server: www2.dtku44.xyz
   port: 37783
@@ -1904,7 +1904,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_New Taipei_hysteria2_51
+  - Taiwan_Taipei_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -1998,13 +1998,13 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
+  - None_None_vmess_696
   - United States_None_vmess_697
   - United States_None_vmess_698
-  - None_None_vmess_699
-  - United States_None_vmess_6100
+  - United States_None_vmess_699
+  - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
@@ -2022,7 +2022,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_New Taipei_hy2_3
+  - Taiwan_Taipei_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
@@ -2038,7 +2038,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_New Taipei_hysteria2_51
+  - Taiwan_Taipei_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2132,13 +2132,13 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
+  - None_None_vmess_696
   - United States_None_vmess_697
   - United States_None_vmess_698
-  - None_None_vmess_699
-  - United States_None_vmess_6100
+  - United States_None_vmess_699
+  - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
@@ -2156,7 +2156,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_New Taipei_hy2_3
+  - Taiwan_Taipei_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
@@ -2172,7 +2172,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_21
   - Russia_Moscow_vless_31
   - Russia_Moscow_hysteria_41
-  - Taiwan_New Taipei_hysteria2_51
+  - Taiwan_Taipei_hysteria2_51
   - None_None_vmess_61
   - None_None_vmess_62
   - Canada_Ottawa_vmess_63
@@ -2266,13 +2266,13 @@ proxy-groups:
   - United States_San Francisco_vmess_691
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
-  - United States_None_vmess_694
+  - None_None_vmess_694
   - United States_None_vmess_695
-  - United States_None_vmess_696
+  - None_None_vmess_696
   - United States_None_vmess_697
   - United States_None_vmess_698
-  - None_None_vmess_699
-  - United States_None_vmess_6100
+  - United States_None_vmess_699
+  - None_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
@@ -2290,7 +2290,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - Taiwan_New Taipei_hy2_3
+  - Taiwan_Taipei_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
