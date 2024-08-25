@@ -1599,7 +1599,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_699
+- name: None_None_vmess_699
   type: vmess
   server: singapore.com
   port: 2086
@@ -2015,7 +2015,7 @@ proxy-groups:
   - None_None_vmess_696
   - United States_None_vmess_697
   - None_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
@@ -2149,7 +2149,7 @@ proxy-groups:
   - None_None_vmess_696
   - United States_None_vmess_697
   - None_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
@@ -2283,7 +2283,7 @@ proxy-groups:
   - None_None_vmess_696
   - United States_None_vmess_697
   - None_None_vmess_698
-  - United States_None_vmess_699
+  - None_None_vmess_699
   - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
