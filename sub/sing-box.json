@@ -207,9 +207,9 @@
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "United States_None_vmess_098",
+                "None_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -314,7 +314,7 @@
                 "United States_None_vmess_696",
                 "United States_None_vmess_697",
                 "None_None_vmess_698",
-                "United States_None_vmess_699",
+                "None_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
@@ -441,9 +441,9 @@
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "United States_None_vmess_098",
+                "None_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -548,7 +548,7 @@
                 "United States_None_vmess_696",
                 "United States_None_vmess_697",
                 "None_None_vmess_698",
-                "United States_None_vmess_699",
+                "None_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
@@ -2226,7 +2226,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_098",
+            "tag": "None_None_vmess_098",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2260,7 +2260,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4067,7 +4067,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_699",
+            "tag": "None_None_vmess_699",
             "transport": {
                 "headers": {
                     "Host": [
