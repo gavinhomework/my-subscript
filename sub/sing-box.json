@@ -208,7 +208,7 @@
                 "None_None_vmess_096",
                 "None_None_vmess_097",
                 "United States_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -310,12 +310,12 @@
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
                 "United States_None_vmess_694",
-                "None_None_vmess_695",
-                "None_None_vmess_696",
+                "United States_None_vmess_695",
+                "United States_None_vmess_696",
                 "None_None_vmess_697",
-                "None_None_vmess_698",
+                "United States_None_vmess_698",
                 "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -442,7 +442,7 @@
                 "None_None_vmess_096",
                 "None_None_vmess_097",
                 "United States_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -544,12 +544,12 @@
                 "None_None_vmess_692",
                 "Canada_Ottawa_vmess_693",
                 "United States_None_vmess_694",
-                "None_None_vmess_695",
-                "None_None_vmess_696",
+                "United States_None_vmess_695",
+                "United States_None_vmess_696",
                 "None_None_vmess_697",
-                "None_None_vmess_698",
+                "United States_None_vmess_698",
                 "None_None_vmess_699",
-                "None_None_vmess_6100",
+                "United States_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
                 "Russia_Moscow_hysteria_81",
@@ -2243,7 +2243,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_099",
+            "tag": "United States_None_vmess_099",
             "transport": {
                 "headers": {
                     "Host": [
@@ -3999,7 +3999,7 @@
         {
             "server": "ip.sb",
             "server_port": 2086,
-            "tag": "None_None_vmess_695",
+            "tag": "United States_None_vmess_695",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4016,7 +4016,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_696",
+            "tag": "United States_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4050,7 +4050,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_698",
+            "tag": "United States_None_vmess_698",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4084,7 +4084,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "None_None_vmess_6100",
+            "tag": "United States_None_vmess_6100",
             "transport": {
                 "headers": {
                     "Host": [
