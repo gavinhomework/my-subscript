@@ -1456,7 +1456,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1471,7 +1471,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -3040,7 +3040,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_695
+- name: United States_None_vmess_695
   type: vmess
   server: ip.sb
   port: 2086
@@ -3070,7 +3070,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_697
+- name: None_None_vmess_697
   type: vmess
   server: malaysia.com
   port: 2086
@@ -3243,11 +3243,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_1
+- name: United States_Los Angeles_hy_1
   type: hysteria
-  server: 166.1.221.22
-  port: 17547
-  ports: 30000-40000
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -3507,8 +3507,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_096
+  - None_None_vmess_097
   - None_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
@@ -3612,9 +3612,9 @@ proxy-groups:
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
   - United States_None_vmess_694
-  - None_None_vmess_695
+  - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - United States_None_vmess_699
   - None_None_vmess_6100
@@ -3625,7 +3625,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_101
   - Russia_Moscow_vless_111
   - United States_Los Angeles_hy_0
-  - United States_None_hy_1
+  - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy_4
@@ -3741,8 +3741,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_096
+  - None_None_vmess_097
   - None_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
@@ -3846,9 +3846,9 @@ proxy-groups:
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
   - United States_None_vmess_694
-  - None_None_vmess_695
+  - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - United States_None_vmess_699
   - None_None_vmess_6100
@@ -3859,7 +3859,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_101
   - Russia_Moscow_vless_111
   - United States_Los Angeles_hy_0
-  - United States_None_hy_1
+  - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy_4
@@ -3975,8 +3975,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_096
+  - None_None_vmess_097
   - None_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
@@ -4080,9 +4080,9 @@ proxy-groups:
   - None_None_vmess_692
   - Canada_Ottawa_vmess_693
   - United States_None_vmess_694
-  - None_None_vmess_695
+  - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - United States_None_vmess_699
   - None_None_vmess_6100
@@ -4093,7 +4093,7 @@ proxy-groups:
   - Russia_Moscow_hysteria_101
   - Russia_Moscow_vless_111
   - United States_Los Angeles_hy_0
-  - United States_None_hy_1
+  - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_Los Angeles_hy_4
