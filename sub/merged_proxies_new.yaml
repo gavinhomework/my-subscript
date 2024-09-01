@@ -1471,7 +1471,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1516,7 +1516,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3070,7 +3070,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_697
+- name: None_None_vmess_697
   type: vmess
   server: malaysia.com
   port: 2086
@@ -3115,7 +3115,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_6100
+- name: United States_None_vmess_6100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3508,10 +3508,10 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - United States_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
   - Russia_Moscow_hysteria_21
@@ -3614,10 +3614,10 @@ proxy-groups:
   - None_None_vmess_694
   - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
-  - None_None_vmess_6100
+  - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
@@ -3742,10 +3742,10 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - United States_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
   - Russia_Moscow_hysteria_21
@@ -3848,10 +3848,10 @@ proxy-groups:
   - None_None_vmess_694
   - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
-  - None_None_vmess_6100
+  - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
@@ -3976,10 +3976,10 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
+  - None_None_vmess_097
   - United States_None_vmess_098
   - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
   - Russia_Moscow_hysteria_21
@@ -4082,10 +4082,10 @@ proxy-groups:
   - None_None_vmess_694
   - United States_None_vmess_695
   - None_None_vmess_696
-  - United States_None_vmess_697
+  - None_None_vmess_697
   - None_None_vmess_698
   - None_None_vmess_699
-  - None_None_vmess_6100
+  - United States_None_vmess_6100
   - None_None_vmess_6101
   - United States_Seattle_hysteria_71
   - Russia_Moscow_hysteria_81
