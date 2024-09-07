@@ -311,10 +311,10 @@
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
                 "None_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "None_None_vmess_697",
-                "United States_None_vmess_698",
-                "United States_None_vmess_699",
+                "None_None_vmess_698",
+                "None_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
@@ -545,10 +545,10 @@
                 "Canada_Ottawa_vmess_693",
                 "None_None_vmess_694",
                 "None_None_vmess_695",
-                "United States_None_vmess_696",
+                "None_None_vmess_696",
                 "None_None_vmess_697",
-                "United States_None_vmess_698",
-                "United States_None_vmess_699",
+                "None_None_vmess_698",
+                "None_None_vmess_699",
                 "None_None_vmess_6100",
                 "None_None_vmess_6101",
                 "United States_Seattle_hysteria_71",
@@ -4016,7 +4016,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_696",
+            "tag": "None_None_vmess_696",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4050,7 +4050,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_698",
+            "tag": "None_None_vmess_698",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4067,7 +4067,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_699",
+            "tag": "None_None_vmess_699",
             "transport": {
                 "headers": {
                     "Host": [
