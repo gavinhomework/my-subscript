@@ -208,7 +208,7 @@
                 "None_None_vmess_096",
                 "None_None_vmess_097",
                 "United States_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -328,7 +328,7 @@
                 "None_None_vmess_096",
                 "None_None_vmess_097",
                 "United States_None_vmess_098",
-                "None_None_vmess_099",
+                "United States_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
@@ -2015,7 +2015,7 @@
         {
             "server": "singapore.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_099",
+            "tag": "United States_None_vmess_099",
             "transport": {
                 "headers": {
                     "Host": [
