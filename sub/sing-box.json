@@ -203,13 +203,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "None_None_vmess_094",
+                "United States_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "United States_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -306,7 +306,7 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "United States_None_vmess_394",
+                "None_None_vmess_394",
                 "None_None_vmess_395",
                 "None_None_vmess_396",
                 "None_None_vmess_397",
@@ -412,7 +412,7 @@
                 "None_None_vmess_595",
                 "None_None_vmess_596",
                 "None_None_vmess_597",
-                "United States_None_vmess_598",
+                "None_None_vmess_598",
                 "None_None_vmess_599",
                 "None_None_vmess_5100",
                 "None_None_vmess_5101",
@@ -523,13 +523,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "None_None_vmess_094",
+                "United States_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "United States_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "United States_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -626,7 +626,7 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "United States_None_vmess_394",
+                "None_None_vmess_394",
                 "None_None_vmess_395",
                 "None_None_vmess_396",
                 "None_None_vmess_397",
@@ -732,7 +732,7 @@
                 "None_None_vmess_595",
                 "None_None_vmess_596",
                 "None_None_vmess_597",
-                "United States_None_vmess_598",
+                "None_None_vmess_598",
                 "None_None_vmess_599",
                 "None_None_vmess_5100",
                 "None_None_vmess_5101",
@@ -2330,7 +2330,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "None_None_vmess_094",
+            "tag": "United States_None_vmess_094",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2364,7 +2364,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_096",
+            "tag": "United States_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2398,7 +2398,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_098",
+            "tag": "United States_None_vmess_098",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2432,7 +2432,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4081,7 +4081,7 @@
         {
             "server": "icook.tw",
             "server_port": 2086,
-            "tag": "United States_None_vmess_394",
+            "tag": "None_None_vmess_394",
             "transport": {
                 "headers": {
                     "Host": [
@@ -5883,7 +5883,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_598",
+            "tag": "None_None_vmess_598",
             "transport": {
                 "headers": {
                     "Host": [
