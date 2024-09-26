@@ -205,7 +205,7 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
                 "None_None_vmess_099",
@@ -409,12 +409,12 @@
                 "None_None_vmess_592",
                 "Canada_Ottawa_vmess_593",
                 "None_None_vmess_594",
-                "None_None_vmess_595",
-                "None_None_vmess_596",
+                "United States_None_vmess_595",
+                "United States_None_vmess_596",
                 "None_None_vmess_597",
-                "United States_None_vmess_598",
+                "None_None_vmess_598",
                 "None_None_vmess_599",
-                "United States_None_vmess_5100",
+                "None_None_vmess_5100",
                 "None_None_vmess_5101",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -525,7 +525,7 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
                 "None_None_vmess_098",
                 "None_None_vmess_099",
@@ -729,12 +729,12 @@
                 "None_None_vmess_592",
                 "Canada_Ottawa_vmess_593",
                 "None_None_vmess_594",
-                "None_None_vmess_595",
-                "None_None_vmess_596",
+                "United States_None_vmess_595",
+                "United States_None_vmess_596",
                 "None_None_vmess_597",
-                "United States_None_vmess_598",
+                "None_None_vmess_598",
                 "None_None_vmess_599",
-                "United States_None_vmess_5100",
+                "None_None_vmess_5100",
                 "None_None_vmess_5101",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -2364,7 +2364,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_096",
+            "tag": "United States_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -5832,7 +5832,7 @@
         {
             "server": "ip.sb",
             "server_port": 2086,
-            "tag": "None_None_vmess_595",
+            "tag": "United States_None_vmess_595",
             "transport": {
                 "headers": {
                     "Host": [
@@ -5849,7 +5849,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_596",
+            "tag": "United States_None_vmess_596",
             "transport": {
                 "headers": {
                     "Host": [
@@ -5883,7 +5883,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_598",
+            "tag": "None_None_vmess_598",
             "transport": {
                 "headers": {
                     "Host": [
@@ -5917,7 +5917,7 @@
         {
             "server": "skk.moe",
             "server_port": 2086,
-            "tag": "United States_None_vmess_5100",
+            "tag": "None_None_vmess_5100",
             "transport": {
                 "headers": {
                     "Host": [
