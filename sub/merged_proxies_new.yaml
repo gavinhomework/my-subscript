@@ -1471,7 +1471,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1501,7 +1501,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -2965,7 +2965,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_394
+- name: None_None_vmess_394
   type: vmess
   server: icook.tw
   port: 2086
@@ -2995,7 +2995,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_396
+- name: None_None_vmess_396
   type: vmess
   server: japan.com
   port: 2086
@@ -3040,7 +3040,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_399
+- name: United States_None_vmess_399
   type: vmess
   server: singapore.com
   port: 2086
@@ -3055,7 +3055,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_3100
+- name: United States_None_vmess_3100
   type: vmess
   server: skk.moe
   port: 2086
@@ -4494,7 +4494,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: United States_None_vmess_594
+- name: None_None_vmess_594
   type: vmess
   server: icook.tw
   port: 2086
@@ -4524,7 +4524,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_596
+- name: United States_None_vmess_596
   type: vmess
   server: japan.com
   port: 2086
@@ -4539,7 +4539,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_597
+- name: United States_None_vmess_597
   type: vmess
   server: malaysia.com
   port: 2086
@@ -4584,7 +4584,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.2413762.xyz
-- name: None_None_vmess_5100
+- name: United States_None_vmess_5100
   type: vmess
   server: skk.moe
   port: 2086
@@ -4702,6 +4702,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_None_reality_1
+  type: vless
+  server: 166.1.221.22
+  port: 35933
+  uuid: f3d3f306-87e8-42ce-90b4-8b333fcfa1b2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: addons.mozilla.org
+  reality-opts:
+    public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
+    short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -4805,9 +4819,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
+  - United States_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -4905,13 +4919,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
-  - United States_None_vmess_396
+  - None_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_399
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -5007,13 +5021,13 @@ proxy-groups:
   - United States_San Francisco_vmess_591
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
-  - United States_None_vmess_594
+  - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_596
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - None_None_vmess_5100
+  - United States_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
@@ -5023,6 +5037,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_None_reality_1
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5125,9 +5140,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
+  - United States_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -5225,13 +5240,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
-  - United States_None_vmess_396
+  - None_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_399
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -5327,13 +5342,13 @@ proxy-groups:
   - United States_San Francisco_vmess_591
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
-  - United States_None_vmess_594
+  - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_596
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - None_None_vmess_5100
+  - United States_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
@@ -5343,6 +5358,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_None_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -5445,9 +5461,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - None_None_vmess_097
+  - United States_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -5545,13 +5561,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
-  - United States_None_vmess_396
+  - None_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_399
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -5647,13 +5663,13 @@ proxy-groups:
   - United States_San Francisco_vmess_591
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
-  - United States_None_vmess_594
+  - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_596
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - None_None_vmess_5100
+  - United States_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
@@ -5663,6 +5679,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_None_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
