@@ -205,9 +205,9 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
@@ -307,9 +307,9 @@
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
                 "None_None_vmess_394",
-                "United States_None_vmess_395",
+                "None_None_vmess_395",
                 "None_None_vmess_396",
-                "United States_None_vmess_397",
+                "None_None_vmess_397",
                 "None_None_vmess_398",
                 "None_None_vmess_399",
                 "None_None_vmess_3100",
@@ -525,9 +525,9 @@
                 "Canada_Ottawa_vmess_093",
                 "None_None_vmess_094",
                 "United States_None_vmess_095",
-                "None_None_vmess_096",
+                "United States_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
                 "None_None_vmess_0100",
                 "None_None_vmess_0101",
@@ -627,9 +627,9 @@
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
                 "None_None_vmess_394",
-                "United States_None_vmess_395",
+                "None_None_vmess_395",
                 "None_None_vmess_396",
-                "United States_None_vmess_397",
+                "None_None_vmess_397",
                 "None_None_vmess_398",
                 "None_None_vmess_399",
                 "None_None_vmess_3100",
@@ -2364,7 +2364,7 @@
         {
             "server": "japan.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_096",
+            "tag": "United States_None_vmess_096",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2398,7 +2398,7 @@
         {
             "server": "russia.com",
             "server_port": 2086,
-            "tag": "None_None_vmess_098",
+            "tag": "United States_None_vmess_098",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4098,7 +4098,7 @@
         {
             "server": "ip.sb",
             "server_port": 2086,
-            "tag": "United States_None_vmess_395",
+            "tag": "None_None_vmess_395",
             "transport": {
                 "headers": {
                     "Host": [
@@ -4132,7 +4132,7 @@
         {
             "server": "malaysia.com",
             "server_port": 2086,
-            "tag": "United States_None_vmess_397",
+            "tag": "None_None_vmess_397",
             "transport": {
                 "headers": {
                     "Host": [
