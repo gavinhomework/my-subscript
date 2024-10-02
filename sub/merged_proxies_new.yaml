@@ -1462,7 +1462,7 @@ proxies:
     path: /7d66be51-98a3-472d-ad54-f7e0c96ead82
     headers:
       Host: ip1.9375943.xyz
-- name: United States_None_vmess_394
+- name: None_None_vmess_394
   type: vmess
   server: icook.tw
   port: 443
@@ -1522,7 +1522,7 @@ proxies:
     path: /7d66be51-98a3-472d-ad54-f7e0c96ead82
     headers:
       Host: ip1.9375943.xyz
-- name: United States_None_vmess_398
+- name: None_None_vmess_398
   type: vmess
   server: russia.com
   port: 443
@@ -1552,7 +1552,7 @@ proxies:
     path: /7d66be51-98a3-472d-ad54-f7e0c96ead82
     headers:
       Host: ip1.9375943.xyz
-- name: None_None_vmess_3100
+- name: United States_None_vmess_3100
   type: vmess
   server: skk.moe
   port: 443
@@ -1827,13 +1827,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
   - None_None_vmess_396
   - None_None_vmess_397
-  - United States_None_vmess_398
+  - None_None_vmess_398
   - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - United States_Seattle_hysteria_51
@@ -1949,13 +1949,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
   - None_None_vmess_396
   - None_None_vmess_397
-  - United States_None_vmess_398
+  - None_None_vmess_398
   - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - United States_Seattle_hysteria_51
@@ -2071,13 +2071,13 @@ proxy-groups:
   - United States_San Francisco_vmess_391
   - None_None_vmess_392
   - Canada_Ottawa_vmess_393
-  - United States_None_vmess_394
+  - None_None_vmess_394
   - United States_None_vmess_395
   - None_None_vmess_396
   - None_None_vmess_397
-  - United States_None_vmess_398
+  - None_None_vmess_398
   - None_None_vmess_399
-  - None_None_vmess_3100
+  - United States_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - United States_Seattle_hysteria_51
