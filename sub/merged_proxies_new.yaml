@@ -1456,7 +1456,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: None_None_vmess_096
+- name: United States_None_vmess_096
   type: vmess
   server: japan.com
   port: 443
@@ -1501,7 +1501,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 443
@@ -2995,7 +2995,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: United States_None_vmess_396
+- name: None_None_vmess_396
   type: vmess
   server: japan.com
   port: 443
@@ -3010,7 +3010,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: None_None_vmess_397
+- name: United States_None_vmess_397
   type: vmess
   server: malaysia.com
   port: 443
@@ -3040,7 +3040,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: United States_None_vmess_399
+- name: None_None_vmess_399
   type: vmess
   server: singapore.com
   port: 443
@@ -4509,7 +4509,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: United States_None_vmess_595
+- name: None_None_vmess_595
   type: vmess
   server: ip.sb
   port: 443
@@ -4539,7 +4539,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: None_None_vmess_597
+- name: United States_None_vmess_597
   type: vmess
   server: malaysia.com
   port: 443
@@ -4584,7 +4584,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip2.5087036.xyz
-- name: United States_None_vmess_5100
+- name: None_None_vmess_5100
   type: vmess
   server: skk.moe
   port: 443
@@ -4818,10 +4818,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - None_None_vmess_097
   - United States_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -4921,10 +4921,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - United States_None_vmess_394
   - None_None_vmess_395
-  - United States_None_vmess_396
-  - None_None_vmess_397
+  - None_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
-  - United States_None_vmess_399
+  - None_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -5022,12 +5022,12 @@ proxy-groups:
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
-  - United States_None_vmess_595
+  - None_None_vmess_595
   - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - United States_None_vmess_5100
+  - None_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
@@ -5139,10 +5139,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - None_None_vmess_097
   - United States_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -5242,10 +5242,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - United States_None_vmess_394
   - None_None_vmess_395
-  - United States_None_vmess_396
-  - None_None_vmess_397
+  - None_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
-  - United States_None_vmess_399
+  - None_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -5343,12 +5343,12 @@ proxy-groups:
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
-  - United States_None_vmess_595
+  - None_None_vmess_595
   - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - United States_None_vmess_5100
+  - None_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
@@ -5460,10 +5460,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - None_None_vmess_097
   - United States_None_vmess_098
-  - None_None_vmess_099
+  - United States_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - United States_Seattle_hysteria_11
@@ -5563,10 +5563,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - United States_None_vmess_394
   - None_None_vmess_395
-  - United States_None_vmess_396
-  - None_None_vmess_397
+  - None_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
-  - United States_None_vmess_399
+  - None_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -5664,12 +5664,12 @@ proxy-groups:
   - None_None_vmess_592
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
-  - United States_None_vmess_595
+  - None_None_vmess_595
   - None_None_vmess_596
-  - None_None_vmess_597
+  - United States_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
-  - United States_None_vmess_5100
+  - None_None_vmess_5100
   - None_None_vmess_5101
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1

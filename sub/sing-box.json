@@ -203,13 +203,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "United States_None_vmess_094",
+                "None_None_vmess_094",
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -306,9 +306,9 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "None_None_vmess_394",
+                "United States_None_vmess_394",
                 "None_None_vmess_395",
-                "None_None_vmess_396",
+                "United States_None_vmess_396",
                 "None_None_vmess_397",
                 "None_None_vmess_398",
                 "United States_None_vmess_399",
@@ -414,7 +414,7 @@
                 "None_None_vmess_597",
                 "None_None_vmess_598",
                 "None_None_vmess_599",
-                "None_None_vmess_5100",
+                "United States_None_vmess_5100",
                 "None_None_vmess_5101",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -524,13 +524,13 @@
                 "United States_San Francisco_vmess_091",
                 "None_None_vmess_092",
                 "Canada_Ottawa_vmess_093",
-                "United States_None_vmess_094",
+                "None_None_vmess_094",
                 "United States_None_vmess_095",
                 "None_None_vmess_096",
                 "None_None_vmess_097",
-                "None_None_vmess_098",
+                "United States_None_vmess_098",
                 "None_None_vmess_099",
-                "United States_None_vmess_0100",
+                "None_None_vmess_0100",
                 "None_None_vmess_0101",
                 "United States_Seattle_hysteria_11",
                 "Russia_Moscow_hysteria_21",
@@ -627,9 +627,9 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "None_None_vmess_394",
+                "United States_None_vmess_394",
                 "None_None_vmess_395",
-                "None_None_vmess_396",
+                "United States_None_vmess_396",
                 "None_None_vmess_397",
                 "None_None_vmess_398",
                 "United States_None_vmess_399",
@@ -735,7 +735,7 @@
                 "None_None_vmess_597",
                 "None_None_vmess_598",
                 "None_None_vmess_599",
-                "None_None_vmess_5100",
+                "United States_None_vmess_5100",
                 "None_None_vmess_5101",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -2704,7 +2704,7 @@
         {
             "server": "icook.tw",
             "server_port": 443,
-            "tag": "United States_None_vmess_094",
+            "tag": "None_None_vmess_094",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
@@ -2788,7 +2788,7 @@
         {
             "server": "russia.com",
             "server_port": 443,
-            "tag": "None_None_vmess_098",
+            "tag": "United States_None_vmess_098",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
@@ -2830,7 +2830,7 @@
         {
             "server": "skk.moe",
             "server_port": 443,
-            "tag": "United States_None_vmess_0100",
+            "tag": "None_None_vmess_0100",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
@@ -4859,7 +4859,7 @@
         {
             "server": "icook.tw",
             "server_port": 443,
-            "tag": "None_None_vmess_394",
+            "tag": "United States_None_vmess_394",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
@@ -4901,7 +4901,7 @@
         {
             "server": "japan.com",
             "server_port": 443,
-            "tag": "None_None_vmess_396",
+            "tag": "United States_None_vmess_396",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
@@ -7128,7 +7128,7 @@
         {
             "server": "skk.moe",
             "server_port": 443,
-            "tag": "None_None_vmess_5100",
+            "tag": "United States_None_vmess_5100",
             "tls": {
                 "enabled": true,
                 "server_name": "ip2.5087036.xyz"
