@@ -206,13 +206,13 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "United States_None_vmess_394",
+                "None_None_vmess_394",
                 "United States_None_vmess_395",
-                "None_None_vmess_396",
-                "None_None_vmess_397",
+                "United States_None_vmess_396",
+                "United States_None_vmess_397",
                 "None_None_vmess_398",
-                "None_None_vmess_399",
-                "None_None_vmess_3100",
+                "United States_None_vmess_399",
+                "United States_None_vmess_3100",
                 "None_None_vmess_3101",
                 "Russia_Moscow_vless_41",
                 "None_None_vmess_51",
@@ -311,7 +311,7 @@
                 "None_None_vmess_594",
                 "United States_None_vmess_595",
                 "None_None_vmess_596",
-                "None_None_vmess_597",
+                "United States_None_vmess_597",
                 "United States_None_vmess_598",
                 "None_None_vmess_599",
                 "United States_None_vmess_5100",
@@ -428,13 +428,13 @@
                 "United States_San Francisco_vmess_391",
                 "None_None_vmess_392",
                 "Canada_Ottawa_vmess_393",
-                "United States_None_vmess_394",
+                "None_None_vmess_394",
                 "United States_None_vmess_395",
-                "None_None_vmess_396",
-                "None_None_vmess_397",
+                "United States_None_vmess_396",
+                "United States_None_vmess_397",
                 "None_None_vmess_398",
-                "None_None_vmess_399",
-                "None_None_vmess_3100",
+                "United States_None_vmess_399",
+                "United States_None_vmess_3100",
                 "None_None_vmess_3101",
                 "Russia_Moscow_vless_41",
                 "None_None_vmess_51",
@@ -533,7 +533,7 @@
                 "None_None_vmess_594",
                 "United States_None_vmess_595",
                 "None_None_vmess_596",
-                "None_None_vmess_597",
+                "United States_None_vmess_597",
                 "United States_None_vmess_598",
                 "None_None_vmess_599",
                 "United States_None_vmess_5100",
@@ -2557,7 +2557,7 @@
         {
             "server": "icook.tw",
             "server_port": 443,
-            "tag": "United States_None_vmess_394",
+            "tag": "None_None_vmess_394",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
@@ -2599,7 +2599,7 @@
         {
             "server": "japan.com",
             "server_port": 443,
-            "tag": "None_None_vmess_396",
+            "tag": "United States_None_vmess_396",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
@@ -2620,7 +2620,7 @@
         {
             "server": "malaysia.com",
             "server_port": 443,
-            "tag": "None_None_vmess_397",
+            "tag": "United States_None_vmess_397",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
@@ -2662,7 +2662,7 @@
         {
             "server": "singapore.com",
             "server_port": 443,
-            "tag": "None_None_vmess_399",
+            "tag": "United States_None_vmess_399",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
@@ -2683,7 +2683,7 @@
         {
             "server": "skk.moe",
             "server_port": 443,
-            "tag": "None_None_vmess_3100",
+            "tag": "United States_None_vmess_3100",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
@@ -4763,7 +4763,7 @@
         {
             "server": "malaysia.com",
             "server_port": 443,
-            "tag": "None_None_vmess_597",
+            "tag": "United States_None_vmess_597",
             "tls": {
                 "enabled": true,
                 "server_name": "ip1.9375943.xyz"
