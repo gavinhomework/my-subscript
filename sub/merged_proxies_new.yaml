@@ -1552,7 +1552,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: United States_None_vmess_3100
+- name: None_None_vmess_3100
   type: vmess
   server: skk.moe
   port: 8080
@@ -3021,7 +3021,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: None_None_vmess_596
+- name: United States_None_vmess_596
   type: vmess
   server: japan.com
   port: 8080
@@ -3036,7 +3036,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: United States_None_vmess_597
+- name: None_None_vmess_597
   type: vmess
   server: malaysia.com
   port: 8080
@@ -3336,7 +3336,7 @@ proxy-groups:
   - None_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
-  - United States_None_vmess_3100
+  - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -3434,8 +3434,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - United States_None_vmess_597
+  - United States_None_vmess_596
+  - None_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
   - United States_None_vmess_5100
@@ -3558,7 +3558,7 @@ proxy-groups:
   - None_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
-  - United States_None_vmess_3100
+  - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -3656,8 +3656,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - United States_None_vmess_597
+  - United States_None_vmess_596
+  - None_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
   - United States_None_vmess_5100
@@ -3780,7 +3780,7 @@ proxy-groups:
   - None_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
-  - United States_None_vmess_3100
+  - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
   - None_None_vmess_51
@@ -3878,8 +3878,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_593
   - None_None_vmess_594
   - None_None_vmess_595
-  - None_None_vmess_596
-  - United States_None_vmess_597
+  - United States_None_vmess_596
+  - None_None_vmess_597
   - None_None_vmess_598
   - None_None_vmess_599
   - United States_None_vmess_5100
