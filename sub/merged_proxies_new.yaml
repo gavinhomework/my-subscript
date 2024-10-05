@@ -1492,7 +1492,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: None_None_vmess_396
+- name: United States_None_vmess_396
   type: vmess
   server: japan.com
   port: 8080
@@ -1507,7 +1507,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: None_None_vmess_397
+- name: United States_None_vmess_397
   type: vmess
   server: malaysia.com
   port: 8080
@@ -1832,8 +1832,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - None_None_vmess_394
   - United States_None_vmess_395
-  - None_None_vmess_396
-  - None_None_vmess_397
+  - United States_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
   - None_None_vmess_3100
@@ -1954,8 +1954,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - None_None_vmess_394
   - United States_None_vmess_395
-  - None_None_vmess_396
-  - None_None_vmess_397
+  - United States_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
   - None_None_vmess_3100
@@ -2076,8 +2076,8 @@ proxy-groups:
   - Canada_Ottawa_vmess_393
   - None_None_vmess_394
   - United States_None_vmess_395
-  - None_None_vmess_396
-  - None_None_vmess_397
+  - United States_None_vmess_396
+  - United States_None_vmess_397
   - None_None_vmess_398
   - None_None_vmess_399
   - None_None_vmess_3100
