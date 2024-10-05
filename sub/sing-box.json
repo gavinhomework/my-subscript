@@ -208,8 +208,8 @@
                 "Canada_Ottawa_vmess_393",
                 "None_None_vmess_394",
                 "United States_None_vmess_395",
-                "None_None_vmess_396",
-                "None_None_vmess_397",
+                "United States_None_vmess_396",
+                "United States_None_vmess_397",
                 "None_None_vmess_398",
                 "None_None_vmess_399",
                 "None_None_vmess_3100",
@@ -330,8 +330,8 @@
                 "Canada_Ottawa_vmess_393",
                 "None_None_vmess_394",
                 "United States_None_vmess_395",
-                "None_None_vmess_396",
-                "None_None_vmess_397",
+                "United States_None_vmess_396",
+                "United States_None_vmess_397",
                 "None_None_vmess_398",
                 "None_None_vmess_399",
                 "None_None_vmess_3100",
@@ -2019,7 +2019,7 @@
         {
             "server": "japan.com",
             "server_port": 8080,
-            "tag": "None_None_vmess_396",
+            "tag": "United States_None_vmess_396",
             "transport": {
                 "headers": {
                     "Host": [
@@ -2036,7 +2036,7 @@
         {
             "server": "malaysia.com",
             "server_port": 8080,
-            "tag": "None_None_vmess_397",
+            "tag": "United States_None_vmess_397",
             "transport": {
                 "headers": {
                     "Host": [
