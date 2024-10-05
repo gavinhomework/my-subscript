@@ -1537,7 +1537,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: None_None_vmess_399
+- name: United States_None_vmess_399
   type: vmess
   server: singapore.com
   port: 8080
@@ -3036,7 +3036,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.9375943.xyz
-- name: United States_None_vmess_597
+- name: None_None_vmess_597
   type: vmess
   server: malaysia.com
   port: 8080
@@ -3335,7 +3335,7 @@ proxy-groups:
   - United States_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
+  - United States_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -3435,7 +3435,7 @@ proxy-groups:
   - None_None_vmess_594
   - None_None_vmess_595
   - None_None_vmess_596
-  - United States_None_vmess_597
+  - None_None_vmess_597
   - None_None_vmess_598
   - United States_None_vmess_599
   - None_None_vmess_5100
@@ -3557,7 +3557,7 @@ proxy-groups:
   - United States_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
+  - United States_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -3657,7 +3657,7 @@ proxy-groups:
   - None_None_vmess_594
   - None_None_vmess_595
   - None_None_vmess_596
-  - United States_None_vmess_597
+  - None_None_vmess_597
   - None_None_vmess_598
   - United States_None_vmess_599
   - None_None_vmess_5100
@@ -3779,7 +3779,7 @@ proxy-groups:
   - United States_None_vmess_396
   - None_None_vmess_397
   - None_None_vmess_398
-  - None_None_vmess_399
+  - United States_None_vmess_399
   - None_None_vmess_3100
   - None_None_vmess_3101
   - Russia_Moscow_vless_41
@@ -3879,7 +3879,7 @@ proxy-groups:
   - None_None_vmess_594
   - None_None_vmess_595
   - None_None_vmess_596
-  - United States_None_vmess_597
+  - None_None_vmess_597
   - None_None_vmess_598
   - United States_None_vmess_599
   - None_None_vmess_5100
