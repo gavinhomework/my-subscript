@@ -306,7 +306,7 @@
             "up_mbps": 1000
         },
         {
-            "server": "104.192.224.138",
+            "server": "104.192.224.139",
             "server_port": 28850,
             "tag": "United States_Los Angeles_hy_3",
             "tls": {
