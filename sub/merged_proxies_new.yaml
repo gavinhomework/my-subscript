@@ -177,7 +177,7 @@ proxies:
 - name: United States_None_hy2_0
   type: hysteria2
   server: 208.87.243.187
-  port: 29620
+  port: 22222
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -193,7 +193,7 @@ proxies:
 - name: United States_None_hy2_2
   type: hysteria2
   server: 208.87.243.187
-  port: 29620
+  port: 22222
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
