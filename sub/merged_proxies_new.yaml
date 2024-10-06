@@ -134,7 +134,7 @@ proxies:
   - h3
 - name: United States_Los Angeles_hy_1
   type: hysteria
-  server: 104.192.224.138
+  server: 104.192.224.139
   port: 28850
   ports: 20000-30000
   auth_str: dongtaiwang.com
