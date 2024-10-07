@@ -202,10 +202,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_reality_0
+- name: Russia_Moscow_reality_0
   type: vless
-  server: 108.181.23.41
-  port: 65289
+  server: 46.29.166.206
+  port: 12345
   uuid: d473881b-6ea7-4e32-aeb1-4ca78e29b63a
   network: tcp
   tls: true
@@ -251,7 +251,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_reality_0
+  - Russia_Moscow_reality_0
   - United States_None_reality_1
 - name: ⚡ 低延迟
   type: url-test
@@ -273,7 +273,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_reality_0
+  - Russia_Moscow_reality_0
   - United States_None_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -295,7 +295,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_reality_0
+  - Russia_Moscow_reality_0
   - United States_None_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
