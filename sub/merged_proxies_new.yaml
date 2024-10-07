@@ -41,11 +41,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.9375943.xyz
+  servername: ip5.9375943.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip3.9375943.xyz
+      Host: ip5.9375943.xyz
 - name: United States_Seattle_hysteria_11
   type: hysteria
   server: 64.42.176.179
@@ -198,28 +198,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_3
+- name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 64.110.25.14
+  port: 38267
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_reality_0
-  type: vless
-  server: 108.181.23.41
-  port: 57252
-  uuid: 25d1b318-87e8-4c1e-a784-69783be4b30a
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: OArr7bhbdqsdhd1RT_lm0-OSrtcgje4kEXiQ-QMHmm8
-    short-id: 5bfc684c
 - name: United States_None_reality_1
   type: vless
   server: 166.1.221.22
@@ -234,20 +220,6 @@ proxies:
   reality-opts:
     public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
     short-id: ''
-- name: United States_Los Angeles_reality_2
-  type: vless
-  server: 108.181.23.41
-  port: 57252
-  uuid: 25d1b318-87e8-4c1e-a784-69783be4b30a
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: OArr7bhbdqsdhd1RT_lm0-OSrtcgje4kEXiQ-QMHmm8
-    short-id: 5bfc684c
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -268,10 +240,8 @@ proxy-groups:
   - United States_None_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - United States_None_hy2_3
-  - United States_Los Angeles_reality_0
+  - United States_Los Angeles_hy2_3
   - United States_None_reality_1
-  - United States_Los Angeles_reality_2
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -291,10 +261,8 @@ proxy-groups:
   - United States_None_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - United States_None_hy2_3
-  - United States_Los Angeles_reality_0
+  - United States_Los Angeles_hy2_3
   - United States_None_reality_1
-  - United States_Los Angeles_reality_2
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -314,10 +282,8 @@ proxy-groups:
   - United States_None_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
-  - United States_None_hy2_3
-  - United States_Los Angeles_reality_0
+  - United States_Los Angeles_hy2_3
   - United States_None_reality_1
-  - United States_Los Angeles_reality_2
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
