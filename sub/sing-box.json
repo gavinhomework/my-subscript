@@ -124,7 +124,7 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "United States_Los Angeles_reality_0",
+                "Russia_Moscow_reality_0",
                 "United States_None_reality_1"
             ]
         },
@@ -146,7 +146,7 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "United States_Los Angeles_reality_0",
+                "Russia_Moscow_reality_0",
                 "United States_None_reality_1"
             ]
         },
@@ -381,9 +381,9 @@
             "type": "hysteria2"
         },
         {
-            "server": "108.181.23.41",
-            "server_port": 65289,
-            "tag": "United States_Los Angeles_reality_0",
+            "server": "46.29.166.206",
+            "server_port": 12345,
+            "tag": "Russia_Moscow_reality_0",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
