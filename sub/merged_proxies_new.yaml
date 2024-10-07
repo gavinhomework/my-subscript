@@ -31,21 +31,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: None_None_vmess_01
-  type: vmess
-  server: 104.21.238.201
-  port: 8880
-  uuid: 57d2d9f2-f1d3-490c-acc5-108e8a8e17ca
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5.9375943.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5.9375943.xyz
+- name: United States_Kansas City_hysteria_01
+  type: hysteria
+  server: 109.104.152.251
+  port: 22577
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Seattle_hysteria_11
   type: hysteria
   server: 64.42.176.179
@@ -58,21 +54,20 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: None_None_vmess_21
-  type: vmess
-  server: 104.21.238.205
-  port: 2095
-  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
-  alterId: 0
-  cipher: auto
+- name: United States_Los Angeles_vless_21
+  type: vless
+  server: 108.181.23.41
+  port: 65289
+  uuid: d473881b-6ea7-4e32-aeb1-4ca78e29b63a
+  network: tcp
   udp: true
-  tls: false
-  network: ws
-  servername: ip3.9290254.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip3.9290254.xyz
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y
+    short-id: 9fa47a63
+  client-fingerprint: chrome
 - name: None_None_vmess_31
   type: vmess
   server: 104.21.238.200
@@ -206,6 +201,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_reality_0
+  type: vless
+  server: 108.181.23.41
+  port: 65289
+  uuid: d473881b-6ea7-4e32-aeb1-4ca78e29b63a
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y
+    short-id: 9fa47a63
 - name: United States_None_reality_1
   type: vless
   server: 166.1.221.22
@@ -227,9 +236,9 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - None_None_vmess_01
+  - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - None_None_vmess_21
+  - United States_Los Angeles_vless_21
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -241,6 +250,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
   - United States_None_reality_1
 - name: ⚡ 低延迟
   type: url-test
@@ -248,9 +258,9 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - None_None_vmess_01
+  - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - None_None_vmess_21
+  - United States_Los Angeles_vless_21
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -262,6 +272,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
   - United States_None_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -269,9 +280,9 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - None_None_vmess_01
+  - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - None_None_vmess_21
+  - United States_Los Angeles_vless_21
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -283,6 +294,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
   - United States_None_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
