@@ -113,11 +113,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.9290254.xyz
-- name: United States_Los Angeles_hy_0
+- name: United States_Seattle_hy_0
   type: hysteria
-  server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  server: 64.42.176.180
+  port: 12345
+  ports: 12345
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -169,9 +169,9 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_0
+- name: United States_Los Angeles_hy2_0
   type: hysteria2
-  server: 208.87.243.187
+  server: 173.234.25.51
   port: 22222
   password: dongtaiwang.com
   fast-open: true
@@ -242,11 +242,11 @@ proxy-groups:
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
-  - United States_Los Angeles_hy_0
+  - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
-  - United States_None_hy2_0
+  - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
@@ -264,11 +264,11 @@ proxy-groups:
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
-  - United States_Los Angeles_hy_0
+  - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
-  - United States_None_hy2_0
+  - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
@@ -286,11 +286,11 @@ proxy-groups:
   - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
-  - United States_Los Angeles_hy_0
+  - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
-  - United States_None_hy2_0
+  - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
