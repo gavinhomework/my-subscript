@@ -123,8 +123,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "United States_Los Angeles_hy2_3",
-                "United States_None_reality_1"
+                "United States_Los Angeles_hy2_3"
             ]
         },
         {
@@ -144,8 +143,7 @@
                 "United States_Los Angeles_hy2_0",
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
-                "United States_Los Angeles_hy2_3",
-                "United States_None_reality_1"
+                "United States_Los Angeles_hy2_3"
             ]
         },
         {
@@ -372,27 +370,6 @@
                 "insecure": true
             },
             "type": "hysteria2"
-        },
-        {
-            "server": "166.1.221.22",
-            "server_port": 35933,
-            "tag": "United States_None_reality_1",
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE"
-                }
-            },
-            "type": "vless",
-            "uuid": "f3d3f306-87e8-42ce-90b4-8b333fcfa1b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "direct",
