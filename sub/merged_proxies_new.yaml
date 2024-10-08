@@ -69,22 +69,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip4.9290254.xyz
-- name: United States_Los Angeles_vless_31
-  type: vless
-  server: 108.181.22.213
-  port: 13675
-  uuid: e0c7d644-2377-4d90-b012-215f89444c54
-  network: grpc
+- name: None_None_vmess_31
+  type: vmess
+  server: 104.21.238.202
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  servername: addons.mozilla.org
-  flow: null
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: grpc
+  tls: false
+  network: ws
+  servername: ip4.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip4.9290254.xyz
 - name: None_None_vmess_41
   type: vmess
   server: 104.21.238.203
@@ -213,7 +212,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - None_None_vmess_21
-  - United States_Los Angeles_vless_31
+  - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
@@ -233,7 +232,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - None_None_vmess_21
-  - United States_Los Angeles_vless_31
+  - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
@@ -253,7 +252,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - None_None_vmess_21
-  - United States_Los Angeles_vless_31
+  - None_None_vmess_31
   - None_None_vmess_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
