@@ -203,20 +203,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_reality_1
-  type: vless
-  server: 166.1.221.22
-  port: 35933
-  uuid: f3d3f306-87e8-42ce-90b4-8b333fcfa1b2
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: addons.mozilla.org
-  reality-opts:
-    public-key: dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE
-    short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -238,7 +224,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_None_reality_1
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -259,7 +244,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_None_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -280,7 +264,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_None_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游

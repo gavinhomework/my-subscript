@@ -112,7 +112,7 @@
                 "urltest",
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
-                "United States_Los Angeles_vless_21",
+                "None_None_vmess_21",
                 "United States_Los Angeles_vless_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
@@ -124,7 +124,6 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "Russia_Moscow_reality_0",
                 "United States_None_reality_1"
             ]
         },
@@ -134,7 +133,7 @@
             "outbounds": [
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
-                "United States_Los Angeles_vless_21",
+                "None_None_vmess_21",
                 "United States_Los Angeles_vless_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
@@ -146,7 +145,6 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "Russia_Moscow_reality_0",
                 "United States_None_reality_1"
             ]
         },
@@ -185,26 +183,21 @@
             "up": "11 Mbps"
         },
         {
-            "server": "108.181.23.41",
-            "server_port": 65289,
-            "tag": "United States_Los Angeles_vless_21",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "server": "104.21.238.201",
+            "server_port": 2095,
+            "tag": "None_None_vmess_21",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip4.9290254.xyz"
+                    ]
                 },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
-                    "short_id": "9fa47a63"
-                }
+                "path": "github.com/Alvin9999",
+                "type": "ws"
             },
-            "type": "vless",
-            "uuid": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "8ce8196e-28fe-4154-b33d-76e237b1e1e8"
         },
         {
             "server": "108.181.22.213",
@@ -379,28 +372,6 @@
                 "insecure": true
             },
             "type": "hysteria2"
-        },
-        {
-            "server": "46.29.166.206",
-            "server_port": 12345,
-            "tag": "Russia_Moscow_reality_0",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
-                    "short_id": "9fa47a63"
-                }
-            },
-            "type": "vless",
-            "uuid": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
         },
         {
             "server": "166.1.221.22",
