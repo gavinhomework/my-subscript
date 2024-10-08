@@ -113,7 +113,7 @@
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
-                "United States_Los Angeles_vless_31",
+                "None_None_vmess_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
                 "United States_Seattle_hy_0",
@@ -133,7 +133,7 @@
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
                 "None_None_vmess_21",
-                "United States_Los Angeles_vless_31",
+                "None_None_vmess_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
                 "United States_Seattle_hy_0",
@@ -198,28 +198,21 @@
             "uuid": "8ce8196e-28fe-4154-b33d-76e237b1e1e8"
         },
         {
-            "server": "108.181.22.213",
-            "server_port": 13675,
-            "tag": "United States_Los Angeles_vless_31",
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE"
-                }
-            },
+            "server": "104.21.238.202",
+            "server_port": 2095,
+            "tag": "None_None_vmess_31",
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
+                "headers": {
+                    "Host": [
+                        "ip4.9290254.xyz"
+                    ]
+                },
+                "path": "github.com/Alvin9999",
+                "type": "ws"
             },
-            "type": "vless",
-            "uuid": "e0c7d644-2377-4d90-b012-215f89444c54",
-            "packet_encoding": "xudp"
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "8ce8196e-28fe-4154-b33d-76e237b1e1e8"
         },
         {
             "server": "104.21.238.203",
