@@ -54,20 +54,21 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_vless_21
-  type: vless
-  server: 108.181.23.41
-  port: 65289
-  uuid: d473881b-6ea7-4e32-aeb1-4ca78e29b63a
-  network: tcp
+- name: None_None_vmess_21
+  type: vmess
+  server: 104.21.238.201
+  port: 2095
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y
-    short-id: 9fa47a63
-  client-fingerprint: chrome
+  tls: false
+  network: ws
+  servername: ip4.9290254.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip4.9290254.xyz
 - name: United States_Los Angeles_vless_31
   type: vless
   server: 108.181.22.213
@@ -202,20 +203,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_reality_0
-  type: vless
-  server: 46.29.166.206
-  port: 12345
-  uuid: d473881b-6ea7-4e32-aeb1-4ca78e29b63a
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y
-    short-id: 9fa47a63
 - name: United States_None_reality_1
   type: vless
   server: 166.1.221.22
@@ -239,7 +226,7 @@ proxy-groups:
   - DIRECT
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - United States_Los Angeles_vless_21
+  - None_None_vmess_21
   - United States_Los Angeles_vless_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -251,7 +238,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - Russia_Moscow_reality_0
   - United States_None_reality_1
 - name: ⚡ 低延迟
   type: url-test
@@ -261,7 +247,7 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - United States_Los Angeles_vless_21
+  - None_None_vmess_21
   - United States_Los Angeles_vless_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -273,7 +259,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - Russia_Moscow_reality_0
   - United States_None_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -283,7 +268,7 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
-  - United States_Los Angeles_vless_21
+  - None_None_vmess_21
   - United States_Los Angeles_vless_31
   - None_None_vmess_41
   - None_None_vmess_51
@@ -295,7 +280,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - Russia_Moscow_reality_0
   - United States_None_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
