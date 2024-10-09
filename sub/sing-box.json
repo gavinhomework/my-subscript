@@ -112,7 +112,7 @@
                 "urltest",
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
-                "None_None_vmess_21",
+                "Taiwan_Banqiao_hysteria_21",
                 "None_None_vmess_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
@@ -132,7 +132,7 @@
             "outbounds": [
                 "United States_Kansas City_hysteria_01",
                 "United States_Seattle_hysteria_11",
-                "None_None_vmess_21",
+                "Taiwan_Banqiao_hysteria_21",
                 "None_None_vmess_31",
                 "None_None_vmess_41",
                 "None_None_vmess_51",
@@ -181,21 +181,21 @@
             "up": "11 Mbps"
         },
         {
-            "server": "104.21.238.201",
-            "server_port": 2095,
-            "tag": "None_None_vmess_21",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "ip5.9290254.xyz"
-                    ]
-                },
-                "path": "github.com/Alvin9999",
-                "type": "ws"
+            "server": "1.0035961.xyz",
+            "server_port": 11111,
+            "tag": "Taiwan_Banqiao_hysteria_21",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
             },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "8ce8196e-28fe-4154-b33d-76e237b1e1e8"
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "55 Mbps",
+            "up": "11 Mbps"
         },
         {
             "server": "104.21.238.202",
