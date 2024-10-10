@@ -200,7 +200,7 @@
         },
         {
             "server": "154.21.193.246",
-            "server_port": 33333,
+            "server_port": 100,
             "tag": "United States_Los Angeles_hysteria_31",
             "tls": {
                 "enabled": true,
