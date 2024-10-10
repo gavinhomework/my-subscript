@@ -69,7 +69,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_31
   type: hysteria
   server: 154.21.193.246
-  port: 33333
+  port: 100
   auth_str: dongtaiwang.com
   obfs: dongtaiwang.com
   alpn:
