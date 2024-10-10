@@ -182,8 +182,8 @@ proxies:
   skip-cert-verify: true
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 64.110.25.14
-  port: 38267
+  server: 173.234.25.51
+  port: 22222
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
