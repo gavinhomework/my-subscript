@@ -65,21 +65,18 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: None_None_vmess_31
-  type: vmess
-  server: 104.21.238.202
-  port: 2095
-  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip5.9290254.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip5.9290254.xyz
+- name: United States_Los Angeles_hysteria_31
+  type: hysteria
+  server: 154.21.193.246
+  port: 33333
+  auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Taiwan_New Taipei_hysteria_41
   type: hysteria
   server: 1.0035961.xyz
@@ -204,7 +201,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - Taiwan_New Taipei_hysteria_21
-  - None_None_vmess_31
+  - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
@@ -224,7 +221,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - Taiwan_New Taipei_hysteria_21
-  - None_None_vmess_31
+  - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
@@ -244,7 +241,7 @@ proxy-groups:
   - United States_Kansas City_hysteria_01
   - United States_Seattle_hysteria_11
   - Taiwan_New Taipei_hysteria_21
-  - None_None_vmess_31
+  - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
   - None_None_vmess_51
   - United States_Seattle_hy_0
