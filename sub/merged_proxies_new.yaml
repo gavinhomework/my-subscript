@@ -188,6 +188,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_reality_0
+  type: vless
+  server: 154.64.243.6
+  port: 100
+  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4
+    short-id: adc1bbc8
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -209,6 +223,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -229,6 +244,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -249,6 +265,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
+  - United States_Los Angeles_reality_0
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
