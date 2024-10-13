@@ -124,7 +124,8 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "United States_Los Angeles_reality_0"
+                "United States_Los Angeles_reality_0",
+                "United States_Los Angeles_reality_1"
             ]
         },
         {
@@ -145,7 +146,8 @@
                 "United States_Los Angeles_hy2_1",
                 "United States_None_hy2_2",
                 "United States_Los Angeles_hy2_3",
-                "United States_Los Angeles_reality_0"
+                "United States_Los Angeles_reality_0",
+                "United States_Los Angeles_reality_1"
             ]
         },
         {
@@ -386,6 +388,27 @@
             },
             "type": "vless",
             "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "154.64.243.6",
+            "server_port": 400,
+            "tag": "United States_Los Angeles_reality_1",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.paypal.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+                }
+            },
+            "type": "vless",
+            "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
