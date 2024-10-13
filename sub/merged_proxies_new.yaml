@@ -202,6 +202,20 @@ proxies:
   reality-opts:
     public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
     short-id: ''
+- name: United States_Los Angeles_reality_1
+  type: vless
+  server: 154.64.243.6
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -224,6 +238,7 @@ proxy-groups:
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_reality_0
+  - United States_Los Angeles_reality_1
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -245,6 +260,7 @@ proxy-groups:
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_reality_0
+  - United States_Los Angeles_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -266,6 +282,7 @@ proxy-groups:
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_Los Angeles_reality_0
+  - United States_Los Angeles_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
