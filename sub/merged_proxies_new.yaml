@@ -42,11 +42,11 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_hysteria_11
+- name: France_None_hysteria_11
   type: hysteria
-  server: 64.42.176.179
-  port: 19513
-  ports: 20000-30000
+  server: 51.15.10.149
+  port: 36474
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -210,7 +210,7 @@ proxy-groups:
   - ⚖️ 负载均衡
   - DIRECT
   - United States_Kansas City_hysteria_01
-  - United States_Seattle_hysteria_11
+  - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
@@ -231,7 +231,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_Kansas City_hysteria_01
-  - United States_Seattle_hysteria_11
+  - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
@@ -252,7 +252,7 @@ proxy-groups:
   interval: 180
   proxies:
   - United States_Kansas City_hysteria_01
-  - United States_Seattle_hysteria_11
+  - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Taiwan_New Taipei_hysteria_41
