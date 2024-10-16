@@ -89,7 +89,7 @@ proxies:
     host: nijigen-works.jp
     password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
     version: 3
-- name: Taiwan_New Taipei_hysteria_51
+- name: Taiwan_Taipei_hysteria_51
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -158,7 +158,7 @@ proxies:
     host: nijigen-works.jp
     password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
     version: 3
-- name: Taiwan_New Taipei_hysteria_111
+- name: Taiwan_Taipei_hysteria_111
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -441,13 +441,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
-  - Taiwan_New Taipei_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
-  - Taiwan_New Taipei_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -481,13 +481,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
-  - Taiwan_New Taipei_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
-  - Taiwan_New Taipei_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -521,13 +521,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
-  - Taiwan_New Taipei_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
-  - Taiwan_New Taipei_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
