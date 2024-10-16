@@ -114,13 +114,13 @@
                 "France_None_hysteria_11",
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
-                "Taiwan_New Taipei_hysteria_41",
+                "United States_Los Angeles_ss_41",
                 "Taiwan_New Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
                 "Taiwan_Taipei_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
-                "Taiwan_New Taipei_hysteria_101",
+                "United States_Los Angeles_ss_101",
                 "Taiwan_New Taipei_hysteria_111",
                 "United States_Seattle_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -154,13 +154,13 @@
                 "France_None_hysteria_11",
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
-                "Taiwan_New Taipei_hysteria_41",
+                "United States_Los Angeles_ss_41",
                 "Taiwan_New Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
                 "Taiwan_Taipei_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
-                "Taiwan_New Taipei_hysteria_101",
+                "United States_Los Angeles_ss_101",
                 "Taiwan_New Taipei_hysteria_111",
                 "United States_Seattle_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -257,21 +257,24 @@
             "obfs": "dongtaiwang.com"
         },
         {
-            "server": "1.0035961.xyz",
-            "server_port": 100,
-            "tag": "Taiwan_New Taipei_hysteria_41",
+            "password": "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=",
+            "tag": "United States_Los Angeles_ss_41",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "detour": "United States_Los Angeles_ss_41-shadowtls"
+        },
+        {
+            "password": "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=",
+            "server": "91.149.239.179",
+            "server_port": 12345,
+            "tag": "United States_Los Angeles_ss_41-shadowtls",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
+                "server_name": "nijigen-works.jp"
             },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "type": "shadowtls",
+            "version": 3
         },
         {
             "server": "1.0035961.xyz",
@@ -361,21 +364,24 @@
             "obfs": "dongtaiwang.com"
         },
         {
-            "server": "1.0035961.xyz",
-            "server_port": 100,
-            "tag": "Taiwan_New Taipei_hysteria_101",
+            "password": "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=",
+            "tag": "United States_Los Angeles_ss_101",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "detour": "United States_Los Angeles_ss_101-shadowtls"
+        },
+        {
+            "password": "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=",
+            "server": "91.149.239.179",
+            "server_port": 12345,
+            "tag": "United States_Los Angeles_ss_101-shadowtls",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
+                "server_name": "nijigen-works.jp"
             },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "type": "shadowtls",
+            "version": 3
         },
         {
             "server": "1.0035961.xyz",
