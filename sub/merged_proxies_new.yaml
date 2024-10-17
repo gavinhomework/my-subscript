@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_hysteria_21
+- name: Taiwan_Ruifang District_hysteria_21
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -123,7 +123,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_hysteria_81
+- name: Taiwan_Ruifang District_hysteria_81
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -410,13 +410,13 @@ proxy-groups:
   - DIRECT
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_Taipei_hysteria_21
+  - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_Taipei_hysteria_81
+  - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
   - Taiwan_Taipei_hysteria_111
@@ -448,13 +448,13 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_Taipei_hysteria_21
+  - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_Taipei_hysteria_81
+  - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
   - Taiwan_Taipei_hysteria_111
@@ -486,13 +486,13 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_Taipei_hysteria_21
+  - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_ss_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_Taipei_hysteria_81
+  - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
   - United States_Los Angeles_ss_101
   - Taiwan_Taipei_hysteria_111
