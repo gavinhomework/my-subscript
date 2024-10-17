@@ -140,10 +140,8 @@
                 "United States_Los Angeles_hy2_7",
                 "United States_Los Angeles_reality_0",
                 "United States_Los Angeles_reality_1",
-                "United States_Los Angeles_reality_2",
                 "United States_Los Angeles_reality_4",
-                "United States_Los Angeles_reality_5",
-                "United States_Los Angeles_reality_6"
+                "United States_Los Angeles_reality_5"
             ]
         },
         {
@@ -180,10 +178,8 @@
                 "United States_Los Angeles_hy2_7",
                 "United States_Los Angeles_reality_0",
                 "United States_Los Angeles_reality_1",
-                "United States_Los Angeles_reality_2",
                 "United States_Los Angeles_reality_4",
-                "United States_Los Angeles_reality_5",
-                "United States_Los Angeles_reality_6"
+                "United States_Los Angeles_reality_5"
             ]
         },
         {
@@ -677,27 +673,6 @@
         {
             "server": "108.181.3.67",
             "server_port": 52562,
-            "tag": "United States_Los Angeles_reality_2",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
-                }
-            },
-            "type": "vless",
-            "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "server": "108.181.3.67",
-            "server_port": 52562,
             "tag": "United States_Los Angeles_reality_4",
             "tls": {
                 "enabled": true,
@@ -734,27 +709,6 @@
             },
             "type": "vless",
             "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
-        },
-        {
-            "server": "108.181.3.67",
-            "server_port": 52562,
-            "tag": "United States_Los Angeles_reality_6",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
-                }
-            },
-            "type": "vless",
-            "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
