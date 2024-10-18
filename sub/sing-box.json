@@ -114,13 +114,13 @@
                 "France_None_hysteria_11",
                 "Taiwan_Ruifang District_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
-                "United States_Los Angeles_ss_41",
+                "None_None_vmess_41",
                 "Taiwan_Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
                 "Taiwan_Ruifang District_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
-                "United States_Los Angeles_ss_101",
+                "None_None_vmess_101",
                 "Taiwan_Taipei_hysteria_111",
                 "United States_Seattle_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -152,13 +152,13 @@
                 "France_None_hysteria_11",
                 "Taiwan_Ruifang District_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
-                "United States_Los Angeles_ss_41",
+                "None_None_vmess_41",
                 "Taiwan_Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
                 "Taiwan_Ruifang District_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
-                "United States_Los Angeles_ss_101",
+                "None_None_vmess_101",
                 "Taiwan_Taipei_hysteria_111",
                 "United States_Seattle_hy_0",
                 "United States_Los Angeles_hy_1",
@@ -253,24 +253,27 @@
             "obfs": "dongtaiwang.com"
         },
         {
-            "password": "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=",
-            "tag": "United States_Los Angeles_ss_41",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "detour": "United States_Los Angeles_ss_41-shadowtls"
-        },
-        {
-            "password": "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=",
-            "server": "91.149.239.179",
-            "server_port": 12345,
-            "tag": "United States_Los Angeles_ss_41-shadowtls",
+            "server": "104.21.238.100",
+            "server_port": 443,
+            "tag": "None_None_vmess_41",
             "tls": {
                 "enabled": true,
-                "server_name": "nijigen-works.jp"
+                "server_name": "xray2.6016725.xyz"
             },
-            "type": "shadowtls",
-            "version": 3
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "xray2.6016725.xyz"
+                    ]
+                },
+                "path": "github.com/Alvin9999",
+                "type": "httpupgrade",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "host": "xray2.6016725.xyz"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab"
         },
         {
             "server": "1.0035961.xyz",
@@ -360,24 +363,27 @@
             "obfs": "dongtaiwang.com"
         },
         {
-            "password": "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=",
-            "tag": "United States_Los Angeles_ss_101",
-            "type": "shadowsocks",
-            "method": "2022-blake3-chacha20-poly1305",
-            "network": "tcp",
-            "detour": "United States_Los Angeles_ss_101-shadowtls"
-        },
-        {
-            "password": "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=",
-            "server": "91.149.239.179",
-            "server_port": 12345,
-            "tag": "United States_Los Angeles_ss_101-shadowtls",
+            "server": "104.21.238.100",
+            "server_port": 443,
+            "tag": "None_None_vmess_101",
             "tls": {
                 "enabled": true,
-                "server_name": "nijigen-works.jp"
+                "server_name": "xray2.6016725.xyz"
             },
-            "type": "shadowtls",
-            "version": 3
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "xray2.6016725.xyz"
+                    ]
+                },
+                "path": "github.com/Alvin9999",
+                "type": "httpupgrade",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "host": "xray2.6016725.xyz"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab"
         },
         {
             "server": "1.0035961.xyz",
