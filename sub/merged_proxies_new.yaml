@@ -78,17 +78,24 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_ss_41
-  type: ss
-  server: 91.149.239.179
-  port: 12345
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
-    version: 3
+- name: None_None_vmess_41
+  type: vmess
+  server: 104.21.238.100
+  port: 443
+  uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xray2.6016725.xyz
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: xray2.6016725.xyz
+    early-data-header-name: Sec-WebSocket-Protocol
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - name: Taiwan_Taipei_hysteria_51
   type: hysteria
   server: 1.0035961.xyz
@@ -147,17 +154,24 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_ss_101
-  type: ss
-  server: 91.149.239.179
-  port: 12345
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
-    version: 3
+- name: None_None_vmess_101
+  type: vmess
+  server: 104.21.238.100
+  port: 443
+  uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xray2.6016725.xyz
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: xray2.6016725.xyz
+    early-data-header-name: Sec-WebSocket-Protocol
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - name: Taiwan_Taipei_hysteria_111
   type: hysteria
   server: 1.0035961.xyz
@@ -412,13 +426,13 @@ proxy-groups:
   - France_None_hysteria_11
   - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_ss_41
+  - None_None_vmess_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_ss_101
+  - None_None_vmess_101
   - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
@@ -450,13 +464,13 @@ proxy-groups:
   - France_None_hysteria_11
   - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_ss_41
+  - None_None_vmess_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_ss_101
+  - None_None_vmess_101
   - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
@@ -488,13 +502,13 @@ proxy-groups:
   - France_None_hysteria_11
   - Taiwan_Ruifang District_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_ss_41
+  - None_None_vmess_41
   - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Ruifang District_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_ss_101
+  - None_None_vmess_101
   - Taiwan_Taipei_hysteria_111
   - United States_Seattle_hy_0
   - United States_Los Angeles_hy_1
