@@ -122,11 +122,11 @@
                 "United States_Los Angeles_hysteria_91",
                 "None_None_vmess_101",
                 "Taiwan_Xizhi District_hysteria_111",
-                "United States_Seattle_hy_0",
+                "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
-                "United States_Seattle_hy_4",
+                "France_Paris_hy_4",
                 "United States_Los Angeles_hy_5",
                 "United States_Los Angeles_hy_6",
                 "United States_Los Angeles_hy_7",
@@ -160,11 +160,11 @@
                 "United States_Los Angeles_hysteria_91",
                 "None_None_vmess_101",
                 "Taiwan_Xizhi District_hysteria_111",
-                "United States_Seattle_hy_0",
+                "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
                 "United States_Los Angeles_hy_3",
-                "United States_Seattle_hy_4",
+                "France_Paris_hy_4",
                 "United States_Los Angeles_hy_5",
                 "United States_Los Angeles_hy_6",
                 "United States_Los Angeles_hy_7",
@@ -403,9 +403,9 @@
             "up": "11 Mbps"
         },
         {
-            "server": "64.42.176.180",
-            "server_port": 12345,
-            "tag": "United States_Seattle_hy_0",
+            "server": "195.154.200.40",
+            "server_port": 2345,
+            "tag": "France_Paris_hy_0",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -471,9 +471,9 @@
             "up_mbps": 1000
         },
         {
-            "server": "64.42.176.180",
-            "server_port": 12345,
-            "tag": "United States_Seattle_hy_4",
+            "server": "195.154.200.40",
+            "server_port": 2345,
+            "tag": "France_Paris_hy_4",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
