@@ -295,10 +295,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 173.234.25.51
-  port: 22222
+  server: 195.154.200.40
+  port: 42259
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -327,10 +327,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_4
+- name: France_Paris_hy2_4
   type: hysteria2
-  server: 173.234.25.51
-  port: 22222
+  server: 195.154.200.40
+  port: 42259
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -442,11 +442,11 @@ proxy-groups:
   - United States_Los Angeles_hy_5
   - United States_Los Angeles_hy_6
   - United States_Los Angeles_hy_7
-  - United States_Los Angeles_hy2_0
+  - France_Paris_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_hy2_4
+  - France_Paris_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
   - United States_Los Angeles_hy2_7
@@ -480,11 +480,11 @@ proxy-groups:
   - United States_Los Angeles_hy_5
   - United States_Los Angeles_hy_6
   - United States_Los Angeles_hy_7
-  - United States_Los Angeles_hy2_0
+  - France_Paris_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_hy2_4
+  - France_Paris_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
   - United States_Los Angeles_hy2_7
@@ -518,11 +518,11 @@ proxy-groups:
   - United States_Los Angeles_hy_5
   - United States_Los Angeles_hy_6
   - United States_Los Angeles_hy_7
-  - United States_Los Angeles_hy2_0
+  - France_Paris_hy2_0
   - United States_Los Angeles_hy2_1
   - United States_None_hy2_2
   - United States_Los Angeles_hy2_3
-  - United States_Los Angeles_hy2_4
+  - France_Paris_hy2_4
   - United States_Los Angeles_hy2_5
   - United States_None_hy2_6
   - United States_Los Angeles_hy2_7
