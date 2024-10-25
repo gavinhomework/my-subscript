@@ -96,7 +96,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Xizhi District_hysteria_51
+- name: Taiwan_Taipei City_hysteria_51
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -172,7 +172,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Xizhi District_hysteria_111
+- name: Taiwan_Taipei City_hysteria_111
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -427,13 +427,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Xizhi District_hysteria_51
+  - Taiwan_Taipei City_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Xizhi District_hysteria_111
+  - Taiwan_Taipei City_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -465,13 +465,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Xizhi District_hysteria_51
+  - Taiwan_Taipei City_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Xizhi District_hysteria_111
+  - Taiwan_Taipei City_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -503,13 +503,13 @@ proxy-groups:
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Xizhi District_hysteria_51
+  - Taiwan_Taipei City_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
   - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Xizhi District_hysteria_111
+  - Taiwan_Taipei City_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
