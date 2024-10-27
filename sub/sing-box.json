@@ -112,16 +112,16 @@
                 "urltest",
                 "United States_Kansas City_hysteria_01",
                 "France_None_hysteria_11",
-                "Taiwan_New Taipei_hysteria_21",
+                "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
                 "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "Taiwan_Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
-                "Taiwan_New Taipei_hysteria_81",
+                "Taiwan_Taipei_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
                 "None_None_vmess_101",
-                "Taiwan_Keelung_hysteria_111",
+                "Taiwan_Taipei_hysteria_111",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -150,16 +150,16 @@
             "outbounds": [
                 "United States_Kansas City_hysteria_01",
                 "France_None_hysteria_11",
-                "Taiwan_New Taipei_hysteria_21",
+                "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
                 "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "Taiwan_Taipei_hysteria_51",
                 "United States_Kansas City_hysteria_61",
                 "France_None_hysteria_71",
-                "Taiwan_New Taipei_hysteria_81",
+                "Taiwan_Taipei_hysteria_81",
                 "United States_Los Angeles_hysteria_91",
                 "None_None_vmess_101",
-                "Taiwan_Keelung_hysteria_111",
+                "Taiwan_Taipei_hysteria_111",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -219,7 +219,7 @@
         {
             "server": "2.0035961.xyz",
             "server_port": 400,
-            "tag": "Taiwan_New Taipei_hysteria_21",
+            "tag": "Taiwan_Taipei_hysteria_21",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -278,7 +278,7 @@
         {
             "server": "1.0035961.xyz",
             "server_port": 100,
-            "tag": "Taiwan_Keelung_hysteria_51",
+            "tag": "Taiwan_Taipei_hysteria_51",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -329,7 +329,7 @@
         {
             "server": "2.0035961.xyz",
             "server_port": 400,
-            "tag": "Taiwan_New Taipei_hysteria_81",
+            "tag": "Taiwan_Taipei_hysteria_81",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
@@ -388,7 +388,7 @@
         {
             "server": "1.0035961.xyz",
             "server_port": 100,
-            "tag": "Taiwan_Keelung_hysteria_111",
+            "tag": "Taiwan_Taipei_hysteria_111",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
