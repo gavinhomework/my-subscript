@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria_21
+- name: Taiwan_Taipei_hysteria_21
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -96,7 +96,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Keelung_hysteria_51
+- name: Taiwan_Taipei_hysteria_51
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -130,7 +130,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria_81
+- name: Taiwan_Taipei_hysteria_81
   type: hysteria
   server: 2.0035961.xyz
   port: 400
@@ -172,7 +172,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Keelung_hysteria_111
+- name: Taiwan_Taipei_hysteria_111
   type: hysteria
   server: 1.0035961.xyz
   port: 100
@@ -424,16 +424,16 @@ proxy-groups:
   - DIRECT
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Keelung_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Keelung_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -462,16 +462,16 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Keelung_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Keelung_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -500,16 +500,16 @@ proxy-groups:
   proxies:
   - United States_Kansas City_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
   - None_None_vmess_41
-  - Taiwan_Keelung_hysteria_51
+  - Taiwan_Taipei_hysteria_51
   - United States_Kansas City_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Taipei_hysteria_81
   - United States_Los Angeles_hysteria_91
   - None_None_vmess_101
-  - Taiwan_Keelung_hysteria_111
+  - Taiwan_Taipei_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
