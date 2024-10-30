@@ -698,7 +698,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "154.64.243.6",
+            "server": "154.29.159.166",
             "server_port": 400,
             "tag": "United States_Los Angeles_reality_5",
             "tls": {
