@@ -375,7 +375,7 @@ proxies:
     short-id: ''
 - name: United States_Los Angeles_reality_1
   type: vless
-  server: 154.64.243.6
+  server: 154.29.159.166
   port: 400
   uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
   network: tcp
