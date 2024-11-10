@@ -110,7 +110,7 @@
             "default": "urltest",
             "outbounds": [
                 "urltest",
-                "United States_Los Angeles_hysteria_01",
+                "United States_Seattle_hysteria_01",
                 "France_None_hysteria_11",
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
@@ -132,7 +132,7 @@
             "tag": "urltest",
             "type": "urltest",
             "outbounds": [
-                "United States_Los Angeles_hysteria_01",
+                "United States_Seattle_hysteria_01",
                 "France_None_hysteria_11",
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
@@ -151,9 +151,9 @@
             ]
         },
         {
-            "server": "154.44.6.68",
+            "server": "64.42.176.180",
             "server_port": 12345,
-            "tag": "United States_Los Angeles_hysteria_01",
+            "tag": "United States_Seattle_hysteria_01",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
