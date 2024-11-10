@@ -31,10 +31,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Seattle_hysteria_01
+- name: France_Paris_hysteria_01
   type: hysteria
-  server: 64.42.176.180
-  port: 12345
+  server: 195.154.200.40
+  port: 2345
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -230,7 +230,7 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Seattle_hysteria_01
+  - France_Paris_hysteria_01
   - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
@@ -252,7 +252,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Seattle_hysteria_01
+  - France_Paris_hysteria_01
   - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
@@ -274,7 +274,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Seattle_hysteria_01
+  - France_Paris_hysteria_01
   - France_None_hysteria_11
   - Taiwan_Taipei_hysteria_21
   - United States_Los Angeles_hysteria_31
