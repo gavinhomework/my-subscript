@@ -68,7 +68,7 @@ proxies:
   down: 55 Mbps
 - name: United States_Los Angeles_hysteria_31
   type: hysteria
-  server: 154.21.193.246
+  server: 154.29.159.137
   port: 100
   auth_str: dongtaiwang.com
   obfs: dongtaiwang.com

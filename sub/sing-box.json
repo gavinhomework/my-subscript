@@ -115,7 +115,7 @@
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
                 "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "Taiwan_Taipei_hysteria_51",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -137,7 +137,7 @@
                 "Taiwan_Taipei_hysteria_21",
                 "United States_Los Angeles_hysteria_31",
                 "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "Taiwan_Taipei_hysteria_51",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -246,7 +246,7 @@
         {
             "server": "1.0035961.xyz",
             "server_port": 100,
-            "tag": "Taiwan_Keelung_hysteria_51",
+            "tag": "Taiwan_Taipei_hysteria_51",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
