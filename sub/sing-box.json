@@ -677,23 +677,24 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "108.181.3.67",
-            "server_port": 52562,
+            "server": "154.29.159.166",
+            "server_port": 23834,
             "tag": "United States_Los Angeles_reality_4",
             "tls": {
                 "enabled": true,
-                "server_name": "www.amazon.com",
+                "server_name": "www.yahoo.com",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
+                    "public_key": "ebaPx4G9szFAKvm8945SScBUF4noBZ6L0q1_oCsy_0g",
+                    "short_id": "5a29caea"
                 }
             },
             "type": "vless",
-            "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+            "uuid": "bb3b7497-0b55-4db9-97fe-864ee935927c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
