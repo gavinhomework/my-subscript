@@ -553,7 +553,7 @@
         {
             "password": "dongtaiwang.com",
             "server": "173.234.25.51",
-            "server_port": 22222,
+            "server_port": 38267,
             "tag": "United States_Los Angeles_hy2_1",
             "tls": {
                 "enabled": true,
