@@ -489,7 +489,7 @@
         },
         {
             "server": "104.192.224.142",
-            "server_port": 333,
+            "server_port": 14747,
             "tag": "United States_Los Angeles_hy_5",
             "tls": {
                 "enabled": true,
@@ -523,7 +523,7 @@
         },
         {
             "server": "104.192.224.142",
-            "server_port": 333,
+            "server_port": 14747,
             "tag": "United States_Los Angeles_hy_7",
             "tls": {
                 "enabled": true,
@@ -601,7 +601,7 @@
         {
             "password": "dongtaiwang.com",
             "server": "173.234.25.51",
-            "server_port": 22222,
+            "server_port": 38267,
             "tag": "United States_Los Angeles_hy2_5",
             "tls": {
                 "enabled": true,
@@ -625,7 +625,7 @@
         {
             "password": "dongtaiwang.com",
             "server": "173.234.25.51",
-            "server_port": 22222,
+            "server_port": 38267,
             "tag": "United States_Los Angeles_hy2_7",
             "tls": {
                 "enabled": true,
