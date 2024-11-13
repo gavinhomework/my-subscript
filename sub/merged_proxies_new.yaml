@@ -200,8 +200,8 @@ proxies:
 - name: United States_Los Angeles_hy_1
   type: hysteria
   server: 104.192.224.142
-  port: 333
-  ports: 333
+  port: 14747
+  ports: 14747
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -322,7 +322,7 @@ proxies:
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
   server: 173.234.25.51
-  port: 22222
+  port: 38267
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
