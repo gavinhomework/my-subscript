@@ -355,11 +355,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_reality_0
+- name: Russia_Moscow_reality_0
   type: vless
-  server: 91.149.239.179
-  port: 59424
-  uuid: 3ec3a638-80fb-4225-8713-cc731ce08968
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
   network: tcp
   tls: true
   udp: true
@@ -367,13 +367,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: W9FYHpIedqwgpXAhALRJ2-aM8txrAZP4VpVavsYwPV4
-    short-id: 4bf309d3
-- name: United States_Los Angeles_reality_4
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
+- name: Russia_Moscow_reality_4
   type: vless
-  server: 91.149.239.179
-  port: 59424
-  uuid: 3ec3a638-80fb-4225-8713-cc731ce08968
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
   network: tcp
   tls: true
   udp: true
@@ -381,8 +381,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: W9FYHpIedqwgpXAhALRJ2-aM8txrAZP4VpVavsYwPV4
-    short-id: 4bf309d3
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -418,8 +418,8 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
-  - United States_Los Angeles_reality_0
-  - United States_Los Angeles_reality_4
+  - Russia_Moscow_reality_0
+  - Russia_Moscow_reality_4
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -454,8 +454,8 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
-  - United States_Los Angeles_reality_0
-  - United States_Los Angeles_reality_4
+  - Russia_Moscow_reality_0
+  - Russia_Moscow_reality_4
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -490,8 +490,8 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
-  - United States_Los Angeles_reality_0
-  - United States_Los Angeles_reality_4
+  - Russia_Moscow_reality_0
+  - Russia_Moscow_reality_4
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
