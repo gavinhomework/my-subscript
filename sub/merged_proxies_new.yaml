@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria_21
+- name: Taiwan_Neihu District_hysteria_21
   type: hysteria
   server: 2.0035961.xyz
   port: 19627
@@ -128,7 +128,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_New Taipei_hysteria_81
+- name: Taiwan_Neihu District_hysteria_81
   type: hysteria
   server: 2.0035961.xyz
   port: 19627
@@ -392,13 +392,13 @@ proxy-groups:
   - DIRECT
   - France_Paris_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Neihu District_hysteria_21
   - Taiwan_Keelung_hysteria_31
   - None_None_vmess_41
   - Taiwan_Keelung_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Neihu District_hysteria_81
   - Taiwan_Keelung_hysteria_91
   - None_None_vmess_101
   - Taiwan_Keelung_hysteria_111
@@ -428,13 +428,13 @@ proxy-groups:
   proxies:
   - France_Paris_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Neihu District_hysteria_21
   - Taiwan_Keelung_hysteria_31
   - None_None_vmess_41
   - Taiwan_Keelung_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Neihu District_hysteria_81
   - Taiwan_Keelung_hysteria_91
   - None_None_vmess_101
   - Taiwan_Keelung_hysteria_111
@@ -464,13 +464,13 @@ proxy-groups:
   proxies:
   - France_Paris_hysteria_01
   - France_None_hysteria_11
-  - Taiwan_New Taipei_hysteria_21
+  - Taiwan_Neihu District_hysteria_21
   - Taiwan_Keelung_hysteria_31
   - None_None_vmess_41
   - Taiwan_Keelung_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_New Taipei_hysteria_81
+  - Taiwan_Neihu District_hysteria_81
   - Taiwan_Keelung_hysteria_91
   - None_None_vmess_101
   - Taiwan_Keelung_hysteria_111
