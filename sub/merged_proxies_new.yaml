@@ -93,19 +93,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Compiègne_hysteria_51
+- name: United States_Los Angeles_hysteria_51
   type: hysteria
-  server: 195.154.217.220
-  port: 41934
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
   auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
   protocol: udp
-  up: 100 Mbps
-  down: 50 Mbps
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_Paris_hysteria_61
   type: hysteria
   server: 195.154.200.40
@@ -397,7 +397,7 @@ proxy-groups:
   - France_Paris_hysteria_21
   - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
-  - France_Compiègne_hysteria_51
+  - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
   - France_Paris_hysteria_81
@@ -433,7 +433,7 @@ proxy-groups:
   - France_Paris_hysteria_21
   - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
-  - France_Compiègne_hysteria_51
+  - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
   - France_Paris_hysteria_81
@@ -469,7 +469,7 @@ proxy-groups:
   - France_Paris_hysteria_21
   - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
-  - France_Compiègne_hysteria_51
+  - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
   - France_Paris_hysteria_81
