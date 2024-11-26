@@ -67,15 +67,17 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Keelung_hysteria_31
+- name: France_Paris_hysteria_31
   type: hysteria
-  server: 1.0035961.xyz
-  port: 15806
-  auth_str: dongtaiwang.com
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: United States_Los Angeles_hysteria_41
@@ -393,7 +395,7 @@ proxy-groups:
   - France_Paris_hysteria_01
   - France_None_hysteria_11
   - France_Paris_hysteria_21
-  - Taiwan_Keelung_hysteria_31
+  - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
@@ -429,7 +431,7 @@ proxy-groups:
   - France_Paris_hysteria_01
   - France_None_hysteria_11
   - France_Paris_hysteria_21
-  - Taiwan_Keelung_hysteria_31
+  - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
@@ -465,7 +467,7 @@ proxy-groups:
   - France_Paris_hysteria_01
   - France_None_hysteria_11
   - France_Paris_hysteria_21
-  - Taiwan_Keelung_hysteria_31
+  - France_Paris_hysteria_31
   - United States_Los Angeles_hysteria_41
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
