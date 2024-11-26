@@ -112,16 +112,16 @@
                 "urltest",
                 "France_Paris_hysteria_01",
                 "France_None_hysteria_11",
-                "Taiwan_Neihu District_hysteria_21",
+                "France_Compiègne_hysteria_21",
                 "Taiwan_Keelung_hysteria_31",
-                "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "France_Compiègne_hysteria_41",
+                "France_Compiègne_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_None_hysteria_71",
-                "Taiwan_Neihu District_hysteria_81",
-                "Taiwan_Keelung_hysteria_91",
-                "None_None_vmess_101",
-                "Taiwan_Keelung_hysteria_111",
+                "France_Compiègne_hysteria_81",
+                "France_Compiègne_hysteria_91",
+                "France_Compiègne_hysteria_101",
+                "France_Compiègne_hysteria_111",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -148,16 +148,16 @@
             "outbounds": [
                 "France_Paris_hysteria_01",
                 "France_None_hysteria_11",
-                "Taiwan_Neihu District_hysteria_21",
+                "France_Compiègne_hysteria_21",
                 "Taiwan_Keelung_hysteria_31",
-                "None_None_vmess_41",
-                "Taiwan_Keelung_hysteria_51",
+                "France_Compiègne_hysteria_41",
+                "France_Compiègne_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_None_hysteria_71",
-                "Taiwan_Neihu District_hysteria_81",
-                "Taiwan_Keelung_hysteria_91",
-                "None_None_vmess_101",
-                "Taiwan_Keelung_hysteria_111",
+                "France_Compiègne_hysteria_81",
+                "France_Compiègne_hysteria_91",
+                "France_Compiègne_hysteria_101",
+                "France_Compiègne_hysteria_111",
                 "France_Paris_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -213,12 +213,12 @@
             "up": "11 Mbps"
         },
         {
-            "server": "2.0035961.xyz",
-            "server_port": 19627,
-            "tag": "Taiwan_Neihu District_hysteria_21",
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_21",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -226,8 +226,9 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
             "server": "1.0035961.xyz",
@@ -247,35 +248,12 @@
             "up": "11 Mbps"
         },
         {
-            "server": "104.21.238.100",
-            "server_port": 443,
-            "tag": "None_None_vmess_41",
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_41",
             "tls": {
                 "enabled": true,
-                "server_name": "xray2.6016725.xyz"
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "xray2.6016725.xyz"
-                    ]
-                },
-                "path": "github.com/Alvin9999",
-                "type": "httpupgrade",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "host": "xray2.6016725.xyz"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab"
-        },
-        {
-            "server": "1.0035961.xyz",
-            "server_port": 15806,
-            "tag": "Taiwan_Keelung_hysteria_51",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -283,8 +261,27 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
+        },
+        {
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_51",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
             "server": "195.154.200.40",
@@ -321,12 +318,12 @@
             "up": "11 Mbps"
         },
         {
-            "server": "2.0035961.xyz",
-            "server_port": 19627,
-            "tag": "Taiwan_Neihu District_hysteria_81",
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_81",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -334,16 +331,17 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
-            "server": "1.0035961.xyz",
-            "server_port": 15806,
-            "tag": "Taiwan_Keelung_hysteria_91",
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_91",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -351,39 +349,17 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
-            "server": "104.21.238.100",
-            "server_port": 443,
-            "tag": "None_None_vmess_101",
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_101",
             "tls": {
                 "enabled": true,
-                "server_name": "xray2.6016725.xyz"
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "xray2.6016725.xyz"
-                    ]
-                },
-                "path": "github.com/Alvin9999",
-                "type": "httpupgrade",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "host": "xray2.6016725.xyz"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab"
-        },
-        {
-            "server": "1.0035961.xyz",
-            "server_port": 15806,
-            "tag": "Taiwan_Keelung_hysteria_111",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -391,8 +367,27 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "55 Mbps",
-            "up": "11 Mbps"
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
+        },
+        {
+            "server": "195.154.217.220",
+            "server_port": 41934,
+            "tag": "France_Compiègne_hysteria_111",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "50 Mbps",
+            "up": "100 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
             "server": "195.154.200.40",

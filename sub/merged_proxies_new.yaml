@@ -127,10 +127,10 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Compiègne_hysteria_81
+- name: France_Paris_hysteria_81
   type: hysteria
-  server: 195.154.217.220
-  port: 41934
+  server: 195.154.200.178
+  port: 10312
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
   sni: bing.com
@@ -138,12 +138,12 @@ proxies:
   alpn:
   - h3
   protocol: udp
-  up: 100 Mbps
-  down: 50 Mbps
-- name: France_Compiègne_hysteria_91
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_91
   type: hysteria
-  server: 195.154.217.220
-  port: 41934
+  server: 195.154.200.178
+  port: 10312
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
   sni: bing.com
@@ -151,12 +151,12 @@ proxies:
   alpn:
   - h3
   protocol: udp
-  up: 100 Mbps
-  down: 50 Mbps
-- name: France_Compiègne_hysteria_101
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_101
   type: hysteria
-  server: 195.154.217.220
-  port: 41934
+  server: 195.154.200.178
+  port: 10312
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
   sni: bing.com
@@ -164,12 +164,12 @@ proxies:
   alpn:
   - h3
   protocol: udp
-  up: 100 Mbps
-  down: 50 Mbps
-- name: France_Compiègne_hysteria_111
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_111
   type: hysteria
-  server: 195.154.217.220
-  port: 41934
+  server: 195.154.200.178
+  port: 10312
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
   sni: bing.com
@@ -177,8 +177,8 @@ proxies:
   alpn:
   - h3
   protocol: udp
-  up: 100 Mbps
-  down: 50 Mbps
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_Paris_hy_0
   type: hysteria
   server: 195.154.200.40
@@ -398,10 +398,10 @@ proxy-groups:
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - France_Compiègne_hysteria_81
-  - France_Compiègne_hysteria_91
-  - France_Compiègne_hysteria_101
-  - France_Compiègne_hysteria_111
+  - France_Paris_hysteria_81
+  - France_Paris_hysteria_91
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -434,10 +434,10 @@ proxy-groups:
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - France_Compiègne_hysteria_81
-  - France_Compiègne_hysteria_91
-  - France_Compiègne_hysteria_101
-  - France_Compiègne_hysteria_111
+  - France_Paris_hysteria_81
+  - France_Paris_hysteria_91
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -470,10 +470,10 @@ proxy-groups:
   - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - France_Compiègne_hysteria_81
-  - France_Compiègne_hysteria_91
-  - France_Compiègne_hysteria_101
-  - France_Compiègne_hysteria_111
+  - France_Paris_hysteria_81
+  - France_Paris_hysteria_91
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - France_Paris_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
