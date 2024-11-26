@@ -115,7 +115,7 @@
                 "France_Paris_hysteria_21",
                 "France_Paris_hysteria_31",
                 "United States_Los Angeles_hysteria_41",
-                "France_Compiègne_hysteria_51",
+                "United States_Los Angeles_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_None_hysteria_71",
                 "France_Paris_hysteria_81",
@@ -151,7 +151,7 @@
                 "France_Paris_hysteria_21",
                 "France_Paris_hysteria_31",
                 "United States_Los Angeles_hysteria_41",
-                "France_Compiègne_hysteria_51",
+                "United States_Los Angeles_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_None_hysteria_71",
                 "France_Paris_hysteria_81",
@@ -266,9 +266,9 @@
             "up": "11 Mbps"
         },
         {
-            "server": "195.154.217.220",
-            "server_port": 41934,
-            "tag": "France_Compiègne_hysteria_51",
+            "server": "108.181.24.77",
+            "server_port": 35862,
+            "tag": "United States_Los Angeles_hysteria_51",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -279,9 +279,8 @@
             },
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
-            "down": "50 Mbps",
-            "up": "100 Mbps",
-            "obfs": "dongtaiwang.com"
+            "down": "55 Mbps",
+            "up": "11 Mbps"
         },
         {
             "server": "195.154.200.40",
