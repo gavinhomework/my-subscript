@@ -357,11 +357,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_reality_0
+- name: United States_Los Angeles_reality_7
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 154.29.159.166
+  port: 23834
+  uuid: bb3b7497-0b55-4db9-97fe-864ee935927c
   network: tcp
   tls: true
   udp: true
@@ -369,22 +369,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
-- name: Russia_Moscow_reality_4
-  type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: ebaPx4G9szFAKvm8945SScBUF4noBZ6L0q1_oCsy_0g
+    short-id: 5a29caea
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -420,8 +406,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_Moscow_reality_0
-  - Russia_Moscow_reality_4
+  - United States_Los Angeles_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -456,8 +441,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_Moscow_reality_0
-  - Russia_Moscow_reality_4
+  - United States_Los Angeles_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -492,8 +476,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_Moscow_reality_0
-  - Russia_Moscow_reality_4
+  - United States_Los Angeles_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
