@@ -137,8 +137,7 @@
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
-                "France_None_hy2_7",
-                "United States_Los Angeles_reality_7"
+                "France_None_hy2_7"
             ]
         },
         {
@@ -172,8 +171,7 @@
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
-                "France_None_hy2_7",
-                "United States_Los Angeles_reality_7"
+                "France_None_hy2_7"
             ]
         },
         {
@@ -615,28 +613,6 @@
                 "insecure": true
             },
             "type": "hysteria2"
-        },
-        {
-            "server": "154.29.159.166",
-            "server_port": 23834,
-            "tag": "United States_Los Angeles_reality_7",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ebaPx4G9szFAKvm8945SScBUF4noBZ6L0q1_oCsy_0g",
-                    "short_id": "5a29caea"
-                }
-            },
-            "type": "vless",
-            "uuid": "bb3b7497-0b55-4db9-97fe-864ee935927c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "direct",
