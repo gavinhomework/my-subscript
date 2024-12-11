@@ -118,7 +118,7 @@
                 "France_Paris_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_Paris_hysteria_71",
-                "France_None_hysteria_81",
+                "United States_Atlanta_hysteria_81",
                 "France_None_hysteria_91",
                 "France_Paris_hysteria_101",
                 "France_Paris_hysteria_111",
@@ -152,7 +152,7 @@
                 "France_Paris_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_Paris_hysteria_71",
-                "France_None_hysteria_81",
+                "United States_Atlanta_hysteria_81",
                 "France_None_hysteria_91",
                 "France_Paris_hysteria_101",
                 "France_Paris_hysteria_111",
@@ -315,9 +315,9 @@
             "obfs": "dongtaiwang.com"
         },
         {
-            "server": "51.15.10.149",
-            "server_port": 36474,
-            "tag": "France_None_hysteria_81",
+            "server": "207.174.28.39",
+            "server_port": 51165,
+            "tag": "United States_Atlanta_hysteria_81",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",
