@@ -137,7 +137,9 @@
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
-                "France_None_hy2_7"
+                "France_None_hy2_7",
+                "Russia_Moscow_reality_6",
+                "Russia_Moscow_reality_7"
             ]
         },
         {
@@ -171,7 +173,9 @@
                 "United States_Los Angeles_hy2_4",
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
-                "France_None_hy2_7"
+                "France_None_hy2_7",
+                "Russia_Moscow_reality_6",
+                "Russia_Moscow_reality_7"
             ]
         },
         {
@@ -613,6 +617,50 @@
                 "insecure": true
             },
             "type": "hysteria2"
+        },
+        {
+            "server": "185.22.153.75",
+            "server_port": 21315,
+            "tag": "Russia_Moscow_reality_6",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
+                    "short_id": "d019a9ad"
+                }
+            },
+            "type": "vless",
+            "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "185.22.153.75",
+            "server_port": 21315,
+            "tag": "Russia_Moscow_reality_7",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
+                    "short_id": "d019a9ad"
+                }
+            },
+            "type": "vless",
+            "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "direct",
