@@ -138,6 +138,9 @@
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
                 "France_None_hy2_7",
+                "Russia_None_reality_0",
+                "Russia_None_reality_2",
+                "Russia_None_reality_3",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -174,6 +177,9 @@
                 "United States_Los Angeles_hy2_5",
                 "France_None_hy2_6",
                 "France_None_hy2_7",
+                "Russia_None_reality_0",
+                "Russia_None_reality_2",
+                "Russia_None_reality_3",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -617,6 +623,69 @@
                 "insecure": true
             },
             "type": "hysteria2"
+        },
+        {
+            "server": "185.22.155.105",
+            "server_port": 34077,
+            "tag": "Russia_None_reality_0",
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.amazon.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+                }
+            },
+            "type": "vless",
+            "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "185.22.155.105",
+            "server_port": 34077,
+            "tag": "Russia_None_reality_2",
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.amazon.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+                }
+            },
+            "type": "vless",
+            "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "185.22.155.105",
+            "server_port": 34077,
+            "tag": "Russia_None_reality_3",
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.amazon.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0"
+                }
+            },
+            "type": "vless",
+            "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
         },
         {
             "server": "185.22.153.75",
