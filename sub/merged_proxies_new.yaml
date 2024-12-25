@@ -413,6 +413,20 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
+- name: Taiwan_Taipei_reality_4
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 - name: Russia_Moscow_reality_6
   type: vless
   server: 185.22.153.75
@@ -480,6 +494,7 @@ proxy-groups:
   - Russia_None_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
+  - Taiwan_Taipei_reality_4
   - Russia_Moscow_reality_6
   - Russia_Moscow_reality_7
 - name: ⚡ 低延迟
@@ -520,6 +535,7 @@ proxy-groups:
   - Russia_None_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
+  - Taiwan_Taipei_reality_4
   - Russia_Moscow_reality_6
   - Russia_Moscow_reality_7
 - name: ⚖️ 负载均衡
@@ -560,6 +576,7 @@ proxy-groups:
   - Russia_None_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
+  - Taiwan_Taipei_reality_4
   - Russia_Moscow_reality_6
   - Russia_Moscow_reality_7
 rules:
