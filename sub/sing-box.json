@@ -143,6 +143,7 @@
                 "Russia_None_reality_2",
                 "Russia_None_reality_3",
                 "Taiwan_Taipei_reality_4",
+                "Taiwan_Taipei_reality_5",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -184,6 +185,7 @@
                 "Russia_None_reality_2",
                 "Russia_None_reality_3",
                 "Taiwan_Taipei_reality_4",
+                "Taiwan_Taipei_reality_5",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -716,6 +718,28 @@
             "server": "36.226.252.19",
             "server_port": 56870,
             "tag": "Taiwan_Taipei_reality_4",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+                    "short_id": "239c3cef"
+                }
+            },
+            "type": "vless",
+            "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "36.226.252.19",
+            "server_port": 56870,
+            "tag": "Taiwan_Taipei_reality_5",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
