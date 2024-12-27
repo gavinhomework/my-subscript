@@ -76,18 +76,7 @@ dns:
   - 221.179.155.177
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
-  nameserver-policy:
-    rule-set:private_domain,cn_domain:
-    - 221.179.155.161
-    - 221.179.155.177
-    - 2409:8000:2000:0:70::1
-    - 2409:8000:2000:0:170::1
-    rule-set:geolocation-!cn:
-    - 2001:4860:4860:0:0:0:0:8888
-    - 2001:4860:4860:0:0:0:0:8844
-    - 8.8.8.8
-    - 8.8.4.4
-    - https://dns.google/dns-query
+
 proxies:
 - name: United States_Los Angeles_hysteria_01
   type: hysteria
