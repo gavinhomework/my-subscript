@@ -715,7 +715,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "36.226.252.19",
+            "server": "36.226.244.225",
             "server_port": 56870,
             "tag": "Taiwan_Taipei_reality_4",
             "tls": {
@@ -737,7 +737,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "36.226.252.19",
+            "server": "36.226.244.225",
             "server_port": 56870,
             "tag": "Taiwan_Taipei_reality_5",
             "tls": {
