@@ -387,18 +387,18 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_6
+- name: United States_Seattle_hy2_6
   type: hysteria2
-  server: 195.154.33.70
-  port: 42259
+  server: 202.5.31.3
+  port: 38654
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_7
+- name: United States_Seattle_hy2_7
   type: hysteria2
-  server: 195.154.33.70
-  port: 42259
+  server: 202.5.31.3
+  port: 38654
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -548,8 +548,8 @@ proxy-groups:
   - France_None_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_None_hy2_6
-  - France_None_hy2_7
+  - United States_Seattle_hy2_6
+  - United States_Seattle_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
@@ -590,8 +590,8 @@ proxy-groups:
   - France_None_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_None_hy2_6
-  - France_None_hy2_7
+  - United States_Seattle_hy2_6
+  - United States_Seattle_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
@@ -632,8 +632,8 @@ proxy-groups:
   - France_None_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_None_hy2_6
-  - France_None_hy2_7
+  - United States_Seattle_hy2_6
+  - United States_Seattle_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
