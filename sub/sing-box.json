@@ -144,8 +144,8 @@
                 "Russia_None_reality_3",
                 "Taiwan_Taipei_reality_4",
                 "Taiwan_Taipei_reality_5",
-                "Russia_Moscow_reality_6",
-                "Russia_Moscow_reality_7"
+                "United States_Seattle_reality_6",
+                "United States_Seattle_reality_7"
             ]
         },
         {
@@ -186,8 +186,8 @@
                 "Russia_None_reality_3",
                 "Taiwan_Taipei_reality_4",
                 "Taiwan_Taipei_reality_5",
-                "Russia_Moscow_reality_6",
-                "Russia_Moscow_reality_7"
+                "United States_Seattle_reality_6",
+                "United States_Seattle_reality_7"
             ]
         },
         {
@@ -759,9 +759,9 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "185.22.153.75",
-            "server_port": 21315,
-            "tag": "Russia_Moscow_reality_6",
+            "server": "202.5.31.18",
+            "server_port": 53586,
+            "tag": "United States_Seattle_reality_6",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
@@ -771,19 +771,19 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-                    "short_id": "d019a9ad"
+                    "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
+                    "short_id": "8ea966a1"
                 }
             },
             "type": "vless",
-            "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+            "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
         {
-            "server": "185.22.153.75",
-            "server_port": 21315,
-            "tag": "Russia_Moscow_reality_7",
+            "server": "202.5.31.18",
+            "server_port": 53586,
+            "tag": "United States_Seattle_reality_7",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
@@ -793,12 +793,12 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
-                    "short_id": "d019a9ad"
+                    "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
+                    "short_id": "8ea966a1"
                 }
             },
             "type": "vless",
-            "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
+            "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
