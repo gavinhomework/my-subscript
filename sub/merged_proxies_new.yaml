@@ -205,32 +205,28 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_vless_101
-  type: vless
-  server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
-- name: United States_Seattle_vless_111
-  type: vless
-  server: 202.5.31.3
-  port: 62040
-  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
-  client-fingerprint: chrome
+- name: France_Paris_hysteria_101
+  type: hysteria
+  server: 195.154.200.40
+  port: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_111
+  type: hysteria
+  server: 195.154.200.40
+  port: 2345
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 104.192.224.142
@@ -536,8 +532,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Atlanta_hysteria_81
   - United States_Atlanta_hysteria_91
-  - United States_Seattle_vless_101
-  - United States_Seattle_vless_111
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -578,8 +574,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Atlanta_hysteria_81
   - United States_Atlanta_hysteria_91
-  - United States_Seattle_vless_101
-  - United States_Seattle_vless_111
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
@@ -620,8 +616,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Atlanta_hysteria_81
   - United States_Atlanta_hysteria_91
-  - United States_Seattle_vless_101
-  - United States_Seattle_vless_111
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - United States_Los Angeles_hy_2
