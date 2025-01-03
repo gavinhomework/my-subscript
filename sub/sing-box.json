@@ -120,8 +120,8 @@
                 "France_Paris_hysteria_71",
                 "United States_Atlanta_hysteria_81",
                 "United States_Atlanta_hysteria_91",
-                "United States_Seattle_vless_101",
-                "United States_Seattle_vless_111",
+                "France_Paris_hysteria_101",
+                "France_Paris_hysteria_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -162,8 +162,8 @@
                 "France_Paris_hysteria_71",
                 "United States_Atlanta_hysteria_81",
                 "United States_Atlanta_hysteria_91",
-                "United States_Seattle_vless_101",
-                "United States_Seattle_vless_111",
+                "France_Paris_hysteria_101",
+                "France_Paris_hysteria_111",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -365,46 +365,38 @@
             "up": "11 Mbps"
         },
         {
-            "server": "202.5.31.3",
-            "server_port": 62040,
-            "tag": "United States_Seattle_vless_101",
+            "server": "195.154.200.40",
+            "server_port": 2345,
+            "tag": "France_Paris_hysteria_101",
             "tls": {
                 "enabled": true,
-                "server_name": "aws.amazon.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-                }
+                "server_name": "www.bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
             },
-            "type": "vless",
-            "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "55 Mbps",
+            "up": "11 Mbps"
         },
         {
-            "server": "202.5.31.3",
-            "server_port": 62040,
-            "tag": "United States_Seattle_vless_111",
+            "server": "195.154.200.40",
+            "server_port": 2345,
+            "tag": "France_Paris_hysteria_111",
             "tls": {
                 "enabled": true,
-                "server_name": "aws.amazon.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY"
-                }
+                "server_name": "www.bing.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
             },
-            "type": "vless",
-            "uuid": "1f6cd5c6-72bf-49ed-83c2-45927917d61c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp"
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "55 Mbps",
+            "up": "11 Mbps"
         },
         {
             "server": "104.192.224.142",
