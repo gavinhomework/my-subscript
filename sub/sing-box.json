@@ -759,46 +759,44 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "202.5.31.18",
-            "server_port": 53586,
+            "server": "202.5.31.3",
+            "server_port": 9160,
             "tag": "United States_Seattle_reality_6",
             "tls": {
                 "enabled": true,
-                "server_name": "www.yahoo.com",
+                "server_name": "dash.cloudflare.com",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
-                    "short_id": "8ea966a1"
+                    "public_key": "fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s"
                 }
             },
             "type": "vless",
-            "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
+            "uuid": "86b79227-7943-4a4e-aead-03f7537f5215",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
         {
-            "server": "202.5.31.18",
-            "server_port": 53586,
+            "server": "202.5.31.3",
+            "server_port": 9160,
             "tag": "United States_Seattle_reality_7",
             "tls": {
                 "enabled": true,
-                "server_name": "www.yahoo.com",
+                "server_name": "dash.cloudflare.com",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U",
-                    "short_id": "8ea966a1"
+                    "public_key": "fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s"
                 }
             },
             "type": "vless",
-            "uuid": "e73082c3-b2d2-47dd-9697-8302c85d6757",
+            "uuid": "86b79227-7943-4a4e-aead-03f7537f5215",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
