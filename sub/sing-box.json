@@ -143,7 +143,7 @@
                 "Russia_None_reality_2",
                 "Russia_None_reality_3",
                 "Russia_Moscow_reality_4",
-                "Taiwan_Taipei_reality_5",
+                "Russia_Moscow_reality_5",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -185,7 +185,7 @@
                 "Russia_None_reality_2",
                 "Russia_None_reality_3",
                 "Russia_Moscow_reality_4",
-                "Taiwan_Taipei_reality_5",
+                "Russia_Moscow_reality_5",
                 "Russia_Moscow_reality_6",
                 "Russia_Moscow_reality_7"
             ]
@@ -737,9 +737,9 @@
             "packet_encoding": "xudp"
         },
         {
-            "server": "36.226.244.225",
-            "server_port": 56870,
-            "tag": "Taiwan_Taipei_reality_5",
+            "server": "185.22.153.75",
+            "server_port": 21315,
+            "tag": "Russia_Moscow_reality_5",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
@@ -749,12 +749,12 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
-                    "short_id": "239c3cef"
+                    "public_key": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
+                    "short_id": "d019a9ad"
                 }
             },
             "type": "vless",
-            "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+            "uuid": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp"
         },
