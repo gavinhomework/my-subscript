@@ -118,10 +118,13 @@
                 "France_Paris_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_Paris_hysteria_71",
-                "United States_Los Angeles_hysteria_81",
+                "United States_Los Angeles_ss_81",
+                "United States_Los Angeles_hysteria_82",
                 "United States_Los Angeles_hysteria_91",
-                "France_Paris_hysteria_101",
-                "France_Paris_hysteria_111",
+                "France_Paris_vless_101",
+                "France_Paris_hysteria_102",
+                "France_Paris_vless_111",
+                "France_Paris_hysteria_112",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -160,10 +163,13 @@
                 "France_Paris_hysteria_51",
                 "France_Paris_hysteria_61",
                 "France_Paris_hysteria_71",
-                "United States_Los Angeles_hysteria_81",
+                "United States_Los Angeles_ss_81",
+                "United States_Los Angeles_hysteria_82",
                 "United States_Los Angeles_hysteria_91",
-                "France_Paris_hysteria_101",
-                "France_Paris_hysteria_111",
+                "France_Paris_vless_101",
+                "France_Paris_hysteria_102",
+                "France_Paris_vless_111",
+                "France_Paris_hysteria_112",
                 "United States_Los Angeles_hy_0",
                 "United States_Los Angeles_hy_1",
                 "United States_Los Angeles_hy_2",
@@ -331,9 +337,29 @@
             "obfs": "dongtaiwang.com"
         },
         {
+            "password": "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=",
+            "tag": "United States_Los Angeles_ss_81",
+            "type": "shadowsocks",
+            "method": "2022-blake3-chacha20-poly1305",
+            "network": "tcp",
+            "detour": "United States_Los Angeles_ss_81-shadowtls"
+        },
+        {
+            "password": "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=",
+            "server": "108.181.24.77",
+            "server_port": 33449,
+            "tag": "United States_Los Angeles_ss_81-shadowtls",
+            "tls": {
+                "enabled": true,
+                "server_name": "nijigen-works.jp"
+            },
+            "type": "shadowtls",
+            "version": 3
+        },
+        {
             "server": "108.181.24.77",
             "server_port": 35862,
-            "tag": "United States_Los Angeles_hysteria_81",
+            "tag": "United States_Los Angeles_hysteria_82",
             "tls": {
                 "enabled": true,
                 "server_name": "bing.com",
@@ -366,11 +392,32 @@
         },
         {
             "server": "195.154.200.40",
-            "server_port": 2345,
-            "tag": "France_Paris_hysteria_101",
+            "server_port": 47980,
+            "tag": "France_Paris_vless_101",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "www.ebay.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI"
+                }
+            },
+            "type": "vless",
+            "uuid": "53044dba-93ee-43d5-b944-be34271a209e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "195.154.200.178",
+            "server_port": 10312,
+            "tag": "France_Paris_hysteria_102",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -379,15 +426,37 @@
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
             "down": "55 Mbps",
-            "up": "11 Mbps"
+            "up": "11 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
             "server": "195.154.200.40",
-            "server_port": 2345,
-            "tag": "France_Paris_hysteria_111",
+            "server_port": 47980,
+            "tag": "France_Paris_vless_111",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "www.ebay.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI"
+                }
+            },
+            "type": "vless",
+            "uuid": "53044dba-93ee-43d5-b944-be34271a209e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp"
+        },
+        {
+            "server": "195.154.200.178",
+            "server_port": 10312,
+            "tag": "France_Paris_hysteria_112",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
                 "alpn": [
                     "h3"
                 ],
@@ -396,7 +465,8 @@
             "type": "hysteria",
             "auth_str": "dongtaiwang.com",
             "down": "55 Mbps",
-            "up": "11 Mbps"
+            "up": "11 Mbps",
+            "obfs": "dongtaiwang.com"
         },
         {
             "server": "104.192.224.142",
