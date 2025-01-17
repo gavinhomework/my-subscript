@@ -194,7 +194,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_91
+- name: United States_Los Angeles_ss_91
+  type: ss
+  server: 108.181.24.77
+  port: 33449
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
+    version: 3
+- name: United States_Los Angeles_hysteria_92
   type: hysteria
   server: 108.181.24.77
   port: 35862
@@ -535,7 +546,8 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_ss_91
+  - United States_Los Angeles_hysteria_92
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_Los Angeles_hy_0
@@ -577,7 +589,8 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_ss_91
+  - United States_Los Angeles_hysteria_92
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_Los Angeles_hy_0
@@ -619,7 +632,8 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_ss_91
+  - United States_Los Angeles_hysteria_92
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_Los Angeles_hy_0
