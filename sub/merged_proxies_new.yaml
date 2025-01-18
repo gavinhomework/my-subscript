@@ -256,17 +256,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_1
+- name: United States_None_hy_1
   type: hysteria
-  server: 104.192.224.142
-  port: 14747
-  ports: 14747
+  server: 208.87.243.187
+  port: 63721
+  ports: 47000-48000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -312,17 +312,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_5
+- name: United States_None_hy_5
   type: hysteria
-  server: 104.192.224.142
-  port: 14747
-  ports: 14747
+  server: 208.87.243.187
+  port: 63721
+  ports: 47000-48000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -551,11 +551,11 @@ proxy-groups:
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_None_hy_0
-  - United States_Los Angeles_hy_1
+  - United States_None_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_None_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
@@ -594,11 +594,11 @@ proxy-groups:
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_None_hy_0
-  - United States_Los Angeles_hy_1
+  - United States_None_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_None_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
@@ -637,11 +637,11 @@ proxy-groups:
   - France_Paris_hysteria2_101
   - France_Paris_hysteria2_111
   - United States_None_hy_0
-  - United States_Los Angeles_hy_1
+  - United States_None_hy_1
   - United States_Los Angeles_hy_2
   - United States_Los Angeles_hy_3
   - United States_None_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
