@@ -388,10 +388,10 @@ proxies:
 - name: United States_Los Angeles_hy2_5
   type: hysteria2
   server: 108.181.5.130
-  port: 7329
+  port: 43836
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
 - name: France_None_hy2_6
   type: hysteria2
