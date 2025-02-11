@@ -207,11 +207,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_101
+- name: The Netherlands_Amsterdam_hysteria_101
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
+  server: 62.210.10.113
+  port: 11503
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -220,11 +219,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_111
+- name: The Netherlands_Amsterdam_hysteria_111
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
+  server: 62.210.10.113
+  port: 11503
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -538,8 +536,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_hysteria_101
-  - United States_Los Angeles_hysteria_111
+  - The Netherlands_Amsterdam_hysteria_101
+  - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_Los Angeles_hy_2
@@ -580,8 +578,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_hysteria_101
-  - United States_Los Angeles_hysteria_111
+  - The Netherlands_Amsterdam_hysteria_101
+  - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_Los Angeles_hy_2
@@ -622,8 +620,8 @@ proxy-groups:
   - France_Paris_hysteria_71
   - United States_Los Angeles_hysteria_81
   - United States_Los Angeles_hysteria_91
-  - United States_Los Angeles_hysteria_101
-  - United States_Los Angeles_hysteria_111
+  - The Netherlands_Amsterdam_hysteria_101
+  - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
   - United States_Los Angeles_hy_2
