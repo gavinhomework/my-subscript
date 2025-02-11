@@ -491,11 +491,11 @@ proxies:
   reality-opts:
     public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
     short-id: d019a9ad
-- name: Russia_Moscow_reality_6
+- name: France_None_reality_6
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 62.210.125.97
+  port: 65280
+  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
   network: tcp
   tls: true
   udp: true
@@ -503,13 +503,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
-- name: Russia_Moscow_reality_7
+    public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
+    short-id: 5628b8f0
+- name: France_None_reality_7
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 62.210.125.97
+  port: 65280
+  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
   network: tcp
   tls: true
   udp: true
@@ -517,8 +517,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
+    short-id: 5628b8f0
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -560,8 +560,8 @@ proxy-groups:
   - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - France_None_reality_6
+  - France_None_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -602,8 +602,8 @@ proxy-groups:
   - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - France_None_reality_6
+  - France_None_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -644,8 +644,8 @@ proxy-groups:
   - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - France_None_reality_6
+  - France_None_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
