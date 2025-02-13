@@ -77,19 +77,18 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: United States_Los Angeles_hysteria_01
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: Russia_Moscow_tuic_01
+  server: 185.22.152.125
+  port: 59728
+  type: tuic
+  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_hysteria_11
   type: hysteria
   server: 108.181.24.77
@@ -129,19 +128,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_41
-  type: hysteria
-  server: 195.154.200.178
-  port: 34911
-  auth-str: dongtaiwang.com
-  obfs: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: Russia_Moscow_tuic_41
+  server: 185.22.152.125
+  port: 59728
+  type: tuic
+  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: France_Paris_hysteria_51
   type: hysteria
   server: 195.154.200.178
@@ -526,11 +524,11 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Los Angeles_hysteria_01
+  - Russia_Moscow_tuic_01
   - United States_Los Angeles_hysteria_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - France_Paris_hysteria_41
+  - Russia_Moscow_tuic_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
@@ -568,11 +566,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - Russia_Moscow_tuic_01
   - United States_Los Angeles_hysteria_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - France_Paris_hysteria_41
+  - Russia_Moscow_tuic_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
@@ -610,11 +608,11 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - Russia_Moscow_tuic_01
   - United States_Los Angeles_hysteria_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - France_Paris_hysteria_41
+  - Russia_Moscow_tuic_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
