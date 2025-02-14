@@ -192,19 +192,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_91
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: United States_Los Angeles_tuic_91
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: The Netherlands_Amsterdam_hysteria_101
   type: hysteria
   server: 62.210.10.113
@@ -533,7 +533,7 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_tuic_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
@@ -575,7 +575,7 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_tuic_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
@@ -617,7 +617,7 @@ proxy-groups:
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
   - United States_Los Angeles_tuic_81
-  - United States_Los Angeles_hysteria_91
+  - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
