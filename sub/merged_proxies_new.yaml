@@ -85,7 +85,8 @@ proxies:
   password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  disable-sni: true
+  sni: www.bing.com
+  skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
@@ -135,7 +136,8 @@ proxies:
   password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  disable-sni: true
+  sni: www.bing.com
+  skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
@@ -177,19 +179,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_81
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: United States_Los Angeles_tuic_81
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_hysteria_91
   type: hysteria
   server: 108.181.24.77
@@ -530,7 +532,7 @@ proxy-groups:
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
-  - United States_Los Angeles_hysteria_81
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_hysteria_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
@@ -572,7 +574,7 @@ proxy-groups:
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
-  - United States_Los Angeles_hysteria_81
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_hysteria_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
@@ -614,7 +616,7 @@ proxy-groups:
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
-  - United States_Los Angeles_hysteria_81
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_hysteria_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
