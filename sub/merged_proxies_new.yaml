@@ -449,6 +449,20 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
+- name: Russia_None_reality_3
+  type: vless
+  server: 185.22.155.105
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
 - name: Russia_Moscow_reality_4
   type: vless
   server: 185.22.153.75
@@ -491,6 +505,20 @@ proxies:
   reality-opts:
     public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
     short-id: 5628b8f0
+- name: France_None_reality_7
+  type: vless
+  server: 195.154.33.15
+  port: 62075
+  uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
+    short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -529,9 +557,11 @@ proxy-groups:
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
+  - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
   - France_None_reality_6
+  - France_None_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -569,9 +599,11 @@ proxy-groups:
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
+  - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
   - France_None_reality_6
+  - France_None_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -609,9 +641,11 @@ proxy-groups:
   - Russia_None_reality_0
   - Russia_None_reality_1
   - Russia_None_reality_2
+  - Russia_None_reality_3
   - Russia_Moscow_reality_4
   - Russia_Moscow_reality_5
   - France_None_reality_6
+  - France_None_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
