@@ -493,18 +493,18 @@ proxies:
     short-id: d019a9ad
 - name: France_None_reality_6
   type: vless
-  server: 62.210.125.97
-  port: 65280
-  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
+  server: 195.154.33.15
+  port: 62075
+  uuid: 1384ac29-65d3-488f-9b7c-e964b777f206
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: dash.cloudflare.com
   reality-opts:
-    public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
-    short-id: 5628b8f0
+    public-key: MLKLAxXqG39LBE6FFf1PEKkCM_L7suV8YelyLFvm4yg
+    short-id: ''
 - name: France_None_reality_7
   type: vless
   server: 195.154.33.15
