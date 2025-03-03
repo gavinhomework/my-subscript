@@ -259,11 +259,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_2
+- name: France_Paris_hy_2
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -273,11 +273,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_3
+- name: France_Paris_hy_3
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -359,18 +359,18 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_None_hy2_2
+- name: France_Paris_hy2_2
   type: hysteria2
-  server: 195.154.33.70
-  port: 13861
+  server: 51.159.226.1
+  port: 61770
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_3
+- name: France_Paris_hy2_3
   type: hysteria2
-  server: 195.154.33.70
-  port: 13861
+  server: 51.159.226.1
+  port: 61770
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -540,16 +540,16 @@ proxy-groups:
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - France_Paris_hy_2
+  - France_Paris_hy_3
   - Russia_None_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
@@ -582,16 +582,16 @@ proxy-groups:
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - France_Paris_hy_2
+  - France_Paris_hy_3
   - Russia_None_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
@@ -624,16 +624,16 @@ proxy-groups:
   - The Netherlands_Amsterdam_hysteria_111
   - United States_None_hy_0
   - United States_None_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - France_Paris_hy_2
+  - France_Paris_hy_3
   - Russia_None_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
