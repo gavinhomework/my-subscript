@@ -341,18 +341,18 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
+- name: Russia_Moscow_hy2_0
   type: hysteria2
-  server: 108.181.5.130
-  port: 15544
+  server: 46.17.41.5
+  port: 12904
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
+- name: Russia_Moscow_hy2_1
   type: hysteria2
-  server: 108.181.5.130
-  port: 15544
+  server: 46.17.41.5
+  port: 12904
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -544,8 +544,8 @@ proxy-groups:
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
+  - Russia_Moscow_hy2_0
+  - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
@@ -586,8 +586,8 @@ proxy-groups:
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
+  - Russia_Moscow_hy2_0
+  - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
@@ -628,8 +628,8 @@ proxy-groups:
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
+  - Russia_Moscow_hy2_0
+  - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
