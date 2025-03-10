@@ -107,7 +107,6 @@ proxies:
   type: hysteria
   server: 108.181.24.77
   port: 11512
-  ports: 20000-30000
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -120,7 +119,6 @@ proxies:
   type: hysteria
   server: 108.181.24.77
   port: 11512
-  ports: 20000-30000
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -285,11 +283,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_None_hy_4
+- name: France_Paris_hy_4
   type: hysteria
-  server: 185.22.155.71
-  port: 24342
-  ports: 24342
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -405,11 +403,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_None_reality_0
+- name: United States_Dallas_reality_0
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 38.135.55.202
+  port: 37375
+  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
   network: tcp
   tls: true
   udp: true
@@ -417,8 +415,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
+    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
+    short-id: 4797387b
 - name: Russia_None_reality_1
   type: vless
   server: 185.22.155.105
@@ -433,11 +431,11 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: Russia_None_reality_2
+- name: United States_Dallas_reality_2
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 38.135.55.202
+  port: 37375
+  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
   network: tcp
   tls: true
   udp: true
@@ -445,13 +443,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
-- name: Russia_None_reality_3
+    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
+    short-id: 4797387b
+- name: United States_Dallas_reality_3
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 38.135.55.202
+  port: 37375
+  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
   network: tcp
   tls: true
   udp: true
@@ -459,13 +457,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
-- name: Russia_Moscow_reality_4
+    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
+    short-id: 4797387b
+- name: United States_Los Angeles_reality_4
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -473,8 +471,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: Russia_Moscow_reality_5
   type: vless
   server: 185.22.153.75
@@ -489,11 +487,11 @@ proxies:
   reality-opts:
     public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
     short-id: d019a9ad
-- name: Russia_Moscow_reality_6
+- name: United States_Los Angeles_reality_6
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -501,13 +499,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
-- name: Russia_Moscow_reality_7
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
+- name: United States_Los Angeles_reality_7
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -515,8 +513,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -540,7 +538,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - Russia_None_hy_4
+  - France_Paris_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -552,14 +550,14 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_None_reality_0
+  - United States_Dallas_reality_0
   - Russia_None_reality_1
-  - Russia_None_reality_2
-  - Russia_None_reality_3
-  - Russia_Moscow_reality_4
+  - United States_Dallas_reality_2
+  - United States_Dallas_reality_3
+  - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - United States_Los Angeles_reality_6
+  - United States_Los Angeles_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -582,7 +580,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - Russia_None_hy_4
+  - France_Paris_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -594,14 +592,14 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_None_reality_0
+  - United States_Dallas_reality_0
   - Russia_None_reality_1
-  - Russia_None_reality_2
-  - Russia_None_reality_3
-  - Russia_Moscow_reality_4
+  - United States_Dallas_reality_2
+  - United States_Dallas_reality_3
+  - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - United States_Los Angeles_reality_6
+  - United States_Los Angeles_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -624,7 +622,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - Russia_None_hy_4
+  - France_Paris_hy_4
   - Russia_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -636,14 +634,14 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - Russia_None_reality_0
+  - United States_Dallas_reality_0
   - Russia_None_reality_1
-  - Russia_None_reality_2
-  - Russia_None_reality_3
-  - Russia_Moscow_reality_4
+  - United States_Dallas_reality_2
+  - United States_Dallas_reality_3
+  - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
-  - Russia_Moscow_reality_6
-  - Russia_Moscow_reality_7
+  - United States_Los Angeles_reality_6
+  - United States_Los Angeles_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
