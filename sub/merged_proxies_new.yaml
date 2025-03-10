@@ -403,11 +403,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Dallas_reality_0
+- name: Russia_None_reality_0
   type: vless
-  server: 38.135.55.202
-  port: 37375
-  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
+  server: 185.22.155.105
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   network: tcp
   tls: true
   udp: true
@@ -415,8 +415,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
-    short-id: 4797387b
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
 - name: Russia_None_reality_1
   type: vless
   server: 185.22.155.105
@@ -431,11 +431,11 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: United States_Dallas_reality_2
+- name: Russia_None_reality_2
   type: vless
-  server: 38.135.55.202
-  port: 37375
-  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
+  server: 185.22.155.105
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   network: tcp
   tls: true
   udp: true
@@ -443,13 +443,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
-    short-id: 4797387b
-- name: United States_Dallas_reality_3
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
+- name: Russia_None_reality_3
   type: vless
-  server: 38.135.55.202
-  port: 37375
-  uuid: b1be3720-e235-4529-b91f-a79d80f0ce63
+  server: 185.22.155.105
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   network: tcp
   tls: true
   udp: true
@@ -457,8 +457,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: 0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE
-    short-id: 4797387b
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
 - name: United States_Los Angeles_reality_4
   type: vless
   server: 108.181.3.68
@@ -550,10 +550,10 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - United States_Dallas_reality_0
+  - Russia_None_reality_0
   - Russia_None_reality_1
-  - United States_Dallas_reality_2
-  - United States_Dallas_reality_3
+  - Russia_None_reality_2
+  - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
   - United States_Los Angeles_reality_6
@@ -592,10 +592,10 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - United States_Dallas_reality_0
+  - Russia_None_reality_0
   - Russia_None_reality_1
-  - United States_Dallas_reality_2
-  - United States_Dallas_reality_3
+  - Russia_None_reality_2
+  - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
   - United States_Los Angeles_reality_6
@@ -634,10 +634,10 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
-  - United States_Dallas_reality_0
+  - Russia_None_reality_0
   - Russia_None_reality_1
-  - United States_Dallas_reality_2
-  - United States_Dallas_reality_3
+  - Russia_None_reality_2
+  - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - Russia_Moscow_reality_5
   - United States_Los Angeles_reality_6
