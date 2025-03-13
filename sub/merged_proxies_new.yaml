@@ -459,11 +459,11 @@ proxies:
   reality-opts:
     public-key: jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc
     short-id: cb2c9c63
-- name: United States_Los Angeles_reality_4
+- name: France_Paris_reality_4
   type: vless
-  server: 108.181.3.68
-  port: 19873
-  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
   tls: true
   udp: true
@@ -471,8 +471,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
-    short-id: 694212ed
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
 - name: United States_Los Angeles_reality_5
   type: vless
   server: 108.181.3.68
@@ -554,7 +554,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Salt Lake City_reality_2
   - United States_Salt Lake City_reality_3
-  - United States_Los Angeles_reality_4
+  - France_Paris_reality_4
   - United States_Los Angeles_reality_5
   - United States_Los Angeles_reality_6
   - United States_Los Angeles_reality_7
@@ -596,7 +596,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Salt Lake City_reality_2
   - United States_Salt Lake City_reality_3
-  - United States_Los Angeles_reality_4
+  - France_Paris_reality_4
   - United States_Los Angeles_reality_5
   - United States_Los Angeles_reality_6
   - United States_Los Angeles_reality_7
@@ -638,7 +638,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Salt Lake City_reality_2
   - United States_Salt Lake City_reality_3
-  - United States_Los Angeles_reality_4
+  - France_Paris_reality_4
   - United States_Los Angeles_reality_5
   - United States_Los Angeles_reality_6
   - United States_Los Angeles_reality_7
