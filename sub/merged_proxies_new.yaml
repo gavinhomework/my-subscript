@@ -77,19 +77,18 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: Russia_Moscow_tuic_01
-  server: 46.29.166.207
-  port: 19988
-  type: tuic
-  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
-  password: dongtaiwang.com
-  alpn:
-  - h3
+- name: United States_Los Angeles_hysteria_01
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Russia_Moscow_tuic_11
   server: 46.29.166.207
   port: 19988
@@ -127,19 +126,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Russia_Moscow_tuic_41
-  server: 46.29.166.207
-  port: 19988
-  type: tuic
-  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
-  password: dongtaiwang.com
-  alpn:
-  - h3
+- name: United States_Los Angeles_hysteria_41
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Russia_Moscow_tuic_51
   server: 46.29.166.207
   port: 19988
@@ -522,11 +520,11 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - Russia_Moscow_tuic_01
+  - United States_Los Angeles_hysteria_01
   - Russia_Moscow_tuic_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - Russia_Moscow_tuic_41
+  - United States_Los Angeles_hysteria_41
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
@@ -564,11 +562,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Russia_Moscow_tuic_01
+  - United States_Los Angeles_hysteria_01
   - Russia_Moscow_tuic_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - Russia_Moscow_tuic_41
+  - United States_Los Angeles_hysteria_41
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
@@ -606,11 +604,11 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - Russia_Moscow_tuic_01
+  - United States_Los Angeles_hysteria_01
   - Russia_Moscow_tuic_11
   - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - Russia_Moscow_tuic_41
+  - United States_Los Angeles_hysteria_41
   - Russia_Moscow_tuic_51
   - France_Paris_hysteria_61
   - France_Paris_hysteria_71
