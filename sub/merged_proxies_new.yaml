@@ -427,11 +427,11 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: Hong Kong_None_reality_2
+- name: France_Paris_reality_2
   type: vless
-  server: 156.225.81.102
-  port: 16113
-  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
   tls: true
   udp: true
@@ -439,13 +439,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
-    short-id: f3e00baf
-- name: Hong Kong_None_reality_3
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
+- name: France_Paris_reality_3
   type: vless
-  server: 156.225.81.102
-  port: 16113
-  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
   tls: true
   udp: true
@@ -453,8 +453,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
-    short-id: f3e00baf
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
 - name: France_Paris_reality_4
   type: vless
   server: 51.158.205.126
@@ -548,8 +548,8 @@ proxy-groups:
   - France_None_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
-  - Hong Kong_None_reality_2
-  - Hong Kong_None_reality_3
+  - France_Paris_reality_2
+  - France_Paris_reality_3
   - France_Paris_reality_4
   - France_Paris_reality_5
   - United States_Los Angeles_reality_6
@@ -590,8 +590,8 @@ proxy-groups:
   - France_None_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
-  - Hong Kong_None_reality_2
-  - Hong Kong_None_reality_3
+  - France_Paris_reality_2
+  - France_Paris_reality_3
   - France_Paris_reality_4
   - France_Paris_reality_5
   - United States_Los Angeles_reality_6
@@ -632,8 +632,8 @@ proxy-groups:
   - France_None_hy2_7
   - Russia_None_reality_0
   - Russia_None_reality_1
-  - Hong Kong_None_reality_2
-  - Hong Kong_None_reality_3
+  - France_Paris_reality_2
+  - France_Paris_reality_3
   - France_Paris_reality_4
   - France_Paris_reality_5
   - United States_Los Angeles_reality_6
