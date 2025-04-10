@@ -386,7 +386,7 @@ proxies:
 - name: France_None_hy2_6
   type: hysteria2
   server: 195.154.33.70
-  port: 59967
+  port: 23587
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -394,7 +394,7 @@ proxies:
 - name: France_None_hy2_7
   type: hysteria2
   server: 195.154.33.70
-  port: 59967
+  port: 23587
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
