@@ -391,7 +391,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_7
+- name: France_None_hy2_7
   type: hysteria2
   server: hy2-1.694463.xyz
   port: 4489
@@ -413,11 +413,11 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
-- name: Russia_None_reality_1
+- name: United States_Los Angeles_reality_1
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -425,8 +425,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: Russia_None_reality_2
   type: vless
   server: 185.22.155.105
@@ -469,11 +469,11 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
-- name: France_Paris_reality_5
+- name: United States_Los Angeles_reality_5
   type: vless
-  server: 51.158.205.126
-  port: 24957
-  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -481,8 +481,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
-    short-id: 4b4d9d72
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: France_Paris_reality_6
   type: vless
   server: 51.158.205.126
@@ -545,13 +545,13 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_7
   - United States_Los Angeles_reality_0
-  - Russia_None_reality_1
+  - United States_Los Angeles_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
-  - France_Paris_reality_5
+  - United States_Los Angeles_reality_5
   - France_Paris_reality_6
   - France_Paris_reality_7
 - name: ⚡ 低延迟
@@ -587,13 +587,13 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_7
   - United States_Los Angeles_reality_0
-  - Russia_None_reality_1
+  - United States_Los Angeles_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
-  - France_Paris_reality_5
+  - United States_Los Angeles_reality_5
   - France_Paris_reality_6
   - France_Paris_reality_7
 - name: ⚖️ 负载均衡
@@ -629,13 +629,13 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
   - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_7
   - United States_Los Angeles_reality_0
-  - Russia_None_reality_1
+  - United States_Los Angeles_reality_1
   - Russia_None_reality_2
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
-  - France_Paris_reality_5
+  - United States_Los Angeles_reality_5
   - France_Paris_reality_6
   - France_Paris_reality_7
 rules:
