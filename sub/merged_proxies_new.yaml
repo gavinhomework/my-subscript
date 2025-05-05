@@ -335,14 +335,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_Moscow_hy2_0
-  type: hysteria2
-  server: 46.17.41.5
-  port: 12904
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: Russia_Moscow_hy2_1
   type: hysteria2
   server: 46.17.41.5
@@ -370,7 +362,7 @@ proxies:
 - name: United States_Los Angeles_hy2_4
   type: hysteria2
   server: 108.181.5.130
-  port: 65232
+  port: 57773
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -378,12 +370,12 @@ proxies:
 - name: United States_Los Angeles_hy2_5
   type: hysteria2
   server: 108.181.5.130
-  port: 65232
+  port: 57773
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_Paris_hy2_6
+- name: France_None_hy2_6
   type: hysteria2
   server: hy2-1.694463.xyz
   port: 4489
@@ -538,13 +530,12 @@ proxy-groups:
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_Paris_hy2_6
+  - France_None_hy2_6
   - France_None_hy2_7
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
@@ -580,13 +571,12 @@ proxy-groups:
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_Paris_hy2_6
+  - France_None_hy2_6
   - France_None_hy2_7
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
@@ -622,13 +612,12 @@ proxy-groups:
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
-  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - United States_Los Angeles_hy2_5
-  - France_Paris_hy2_6
+  - France_None_hy2_6
   - France_None_hy2_7
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
