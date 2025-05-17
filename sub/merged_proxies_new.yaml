@@ -375,13 +375,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_5
+- name: France_Paris_hy2_5
   type: hysteria2
-  server: 108.181.5.130
-  port: 57773
+  server: hy2-1.694463.xyz
+  port: 4489
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: France_Paris_hy2_6
   type: hysteria2
@@ -543,7 +543,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - France_Paris_hy2_4
-  - United States_Los Angeles_hy2_5
+  - France_Paris_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
@@ -585,7 +585,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - France_Paris_hy2_4
-  - United States_Los Angeles_hy2_5
+  - France_Paris_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
@@ -627,7 +627,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - France_Paris_hy2_4
-  - United States_Los Angeles_hy2_5
+  - France_Paris_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
