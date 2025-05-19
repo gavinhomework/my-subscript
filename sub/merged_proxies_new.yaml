@@ -499,7 +499,7 @@ proxies:
     short-id: 4b4d9d72
 - name: France_Paris_reality_7
   type: vless
-  server: 51.158.205.126
+  server: 51.158.213.119
   port: 24957
   uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
