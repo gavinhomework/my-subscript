@@ -279,11 +279,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_4
+- name: United States_None_hy_4
   type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  server: 198.40.52.27
+  port: 36194
+  ports: 36194
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -483,11 +483,11 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
-- name: France_Paris_reality_6
+- name: United States_None_reality_6
   type: vless
-  server: 51.158.213.119
-  port: 24957
-  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
+  server: 198.40.52.26
+  port: 36311
+  uuid: 91b61883-5689-45a2-938e-7ed1dada457c
   network: tcp
   tls: true
   udp: true
@@ -495,8 +495,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
-    short-id: 4b4d9d72
+    public-key: qXgDpdoO4FshU51gC8ayY3bgud_nQArKVLLCMCtvc3w
+    short-id: 15847f28
 - name: France_Paris_reality_7
   type: vless
   server: 51.158.213.119
@@ -534,7 +534,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
+  - United States_None_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -552,7 +552,7 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - France_Paris_reality_6
+  - United States_None_reality_6
   - France_Paris_reality_7
 - name: ⚡ 低延迟
   type: url-test
@@ -576,7 +576,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
+  - United States_None_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -594,7 +594,7 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - France_Paris_reality_6
+  - United States_None_reality_6
   - France_Paris_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -618,7 +618,7 @@ proxy-groups:
   - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
+  - United States_None_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -636,7 +636,7 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - France_Paris_reality_6
+  - United States_None_reality_6
   - France_Paris_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
