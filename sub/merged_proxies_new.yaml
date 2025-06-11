@@ -377,7 +377,7 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_hy2_5
   type: hysteria2
-  server: hy2-2.694463.xyz
+  server: 51.159.226.1
   port: 4489
   password: dongtaiwang.com
   fast-open: true
