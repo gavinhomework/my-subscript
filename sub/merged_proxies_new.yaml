@@ -370,7 +370,7 @@ proxies:
 - name: France_Paris_hy2_4
   type: hysteria2
   server: 51.159.226.1
-  port: 4489
+  port: 50066
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
