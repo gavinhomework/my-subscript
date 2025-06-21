@@ -77,7 +77,31 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
+- name: United States_Los Angeles_hysteria_01
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_11
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: United States_Los Angeles_hysteria_21
   type: hysteria
   server: 108.181.24.77
   port: 11512
@@ -101,10 +125,34 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_Los Angeles_hysteria_41
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_51
   type: hysteria
   server: 108.181.24.77
   port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_61
+  type: hysteria
+  server: 195.154.200.178
+  port: 46938
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -125,6 +173,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_Los Angeles_tuic_81
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_tuic_91
   server: 108.181.5.131
   port: 34008
@@ -138,6 +199,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: The Netherlands_Amsterdam_hysteria_101
+  type: hysteria
+  server: 62.210.10.113
+  port: 22662
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: The Netherlands_Amsterdam_hysteria_111
   type: hysteria
   server: 62.210.10.113
@@ -150,11 +223,39 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_None_hy_0
+  type: hysteria
+  server: 208.87.243.187
+  port: 40528
+  ports: 40528
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: United States_None_hy_1
   type: hysteria
   server: 208.87.243.187
   port: 40528
   ports: 40528
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_Paris_hy_2
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -178,6 +279,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: United States_None_hy_4
+  type: hysteria
+  server: 208.87.243.151
+  port: 17549
+  ports: 17549
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: United States_None_hy_5
   type: hysteria
   server: 208.87.243.151
@@ -189,6 +304,20 @@ proxies:
   fast-open: true
   protocol: udp
   sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_Paris_hy_6
+  type: hysteria
+  server: 195.154.200.40
+  port: 15010
+  ports: 15010
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -206,10 +335,26 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: Russia_Moscow_hy2_0
+  type: hysteria2
+  server: 46.17.41.5
+  port: 12904
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: Russia_Moscow_hy2_1
   type: hysteria2
   server: 46.17.41.5
   port: 12904
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: United States_Los Angeles_hy2_2
+  type: hysteria2
+  server: 108.181.5.130
+  port: 4710
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -222,6 +367,14 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
+- name: France_Paris_hy2_4
+  type: hysteria2
+  server: 51.159.226.1
+  port: 50066
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: France_Paris_hy2_5
   type: hysteria2
   server: 51.159.226.1
@@ -229,6 +382,14 @@ proxies:
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
+  skip-cert-verify: true
+- name: France_Paris_hy2_6
+  type: hysteria2
+  server: 51.159.111.32
+  port: 31180
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
   skip-cert-verify: true
 - name: France_Paris_hy2_7
   type: hysteria2
@@ -238,6 +399,20 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
+- name: United States_Los Angeles_reality_0
+  type: vless
+  server: 108.181.3.68
+  port: 51499
+  uuid: c643de0a-9678-4c18-9f55-58620425bac0
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
 - name: United States_Los Angeles_reality_1
   type: vless
   server: 108.181.3.68
@@ -251,6 +426,20 @@ proxies:
   servername: aws.amazon.com
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
+- name: Russia_None_reality_2
+  type: vless
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.paypal.com
+  reality-opts:
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: Russia_None_reality_3
   type: vless
@@ -266,6 +455,20 @@ proxies:
   reality-opts:
     public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
+- name: United States_Los Angeles_reality_4
+  type: vless
+  server: 108.181.3.68
+  port: 51499
+  uuid: c643de0a-9678-4c18-9f55-58620425bac0
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
 - name: United States_Los Angeles_reality_5
   type: vless
   server: 108.181.3.68
@@ -279,6 +482,20 @@ proxies:
   servername: aws.amazon.com
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
+- name: Taiwan_Keelung_reality_6
+  type: vless
+  server: tw-2.534582.xyz
+  port: 39747
+  uuid: cf111519-9992-4e2e-8675-8e8edc178578
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: nHo49RB7F74I1uH_YitKGY5GxejTq0XcY8BbEKe99xE
     short-id: ''
 - name: Taiwan_Keelung_reality_7
   type: vless
@@ -301,23 +518,41 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
+  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
+  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
+  - France_Paris_hysteria_61
   - France_Paris_hysteria_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
+  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
+  - United States_None_hy_0
   - United States_None_hy_1
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - United States_None_hy_4
   - United States_None_hy_5
+  - France_Paris_hy_6
   - France_Paris_hy_7
+  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
+  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
+  - France_Paris_hy2_4
   - France_Paris_hy2_5
+  - France_Paris_hy2_6
   - France_Paris_hy2_7
+  - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
+  - Russia_None_reality_2
   - Russia_None_reality_3
+  - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
+  - Taiwan_Keelung_reality_6
   - Taiwan_Keelung_reality_7
 - name: ⚡ 低延迟
   type: url-test
@@ -325,23 +560,41 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
+  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
+  - France_Paris_hysteria_61
   - France_Paris_hysteria_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
+  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
+  - United States_None_hy_0
   - United States_None_hy_1
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - United States_None_hy_4
   - United States_None_hy_5
+  - France_Paris_hy_6
   - France_Paris_hy_7
+  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
+  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
+  - France_Paris_hy2_4
   - France_Paris_hy2_5
+  - France_Paris_hy2_6
   - France_Paris_hy2_7
+  - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
+  - Russia_None_reality_2
   - Russia_None_reality_3
+  - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
+  - Taiwan_Keelung_reality_6
   - Taiwan_Keelung_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -349,23 +602,41 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
+  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
+  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
+  - France_Paris_hysteria_61
   - France_Paris_hysteria_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
+  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
+  - United States_None_hy_0
   - United States_None_hy_1
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - United States_None_hy_4
   - United States_None_hy_5
+  - France_Paris_hy_6
   - France_Paris_hy_7
+  - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
+  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
+  - France_Paris_hy2_4
   - France_Paris_hy2_5
+  - France_Paris_hy2_6
   - France_Paris_hy2_7
+  - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
+  - Russia_None_reality_2
   - Russia_None_reality_3
+  - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
+  - Taiwan_Keelung_reality_6
   - Taiwan_Keelung_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
