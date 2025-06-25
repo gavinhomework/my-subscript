@@ -223,39 +223,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_hy_0
-  type: hysteria
-  server: 208.87.243.187
-  port: 40528
-  ports: 40528
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: United States_None_hy_1
   type: hysteria
   server: 208.87.243.187
   port: 40528
   ports: 40528
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_Paris_hy_2
-  type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -530,9 +502,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - United States_None_hy_4
   - United States_None_hy_5
@@ -572,9 +542,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - United States_None_hy_4
   - United States_None_hy_5
@@ -614,9 +582,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - United States_None_hy_4
   - United States_None_hy_5
