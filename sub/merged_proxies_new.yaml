@@ -483,33 +483,33 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: Taiwan_Taipei_reality_6
+- name: Russia_None_reality_6
   type: vless
-  server: tw-2.534582.xyz
-  port: 39747
-  uuid: cf111519-9992-4e2e-8675-8e8edc178578
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: aws.amazon.com
+  servername: www.paypal.com
   reality-opts:
-    public-key: nHo49RB7F74I1uH_YitKGY5GxejTq0XcY8BbEKe99xE
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
-- name: Taiwan_Taipei_reality_7
+- name: Russia_None_reality_7
   type: vless
-  server: tw-2.534582.xyz
-  port: 39747
-  uuid: cf111519-9992-4e2e-8675-8e8edc178578
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: aws.amazon.com
+  servername: www.paypal.com
   reality-opts:
-    public-key: nHo49RB7F74I1uH_YitKGY5GxejTq0XcY8BbEKe99xE
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
@@ -552,8 +552,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Russia_None_reality_6
+  - Russia_None_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -594,8 +594,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Russia_None_reality_6
+  - Russia_None_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -636,8 +636,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Russia_None_reality_6
+  - Russia_None_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
