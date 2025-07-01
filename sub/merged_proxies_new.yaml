@@ -483,7 +483,7 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: Taiwan_Taipei_reality_6
+- name: Taiwan_Keelung_reality_6
   type: vless
   server: tw-2.534582.xyz
   port: 49226
@@ -497,7 +497,7 @@ proxies:
   reality-opts:
     public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
     short-id: ''
-- name: Taiwan_Taipei_reality_7
+- name: Taiwan_Keelung_reality_7
   type: vless
   server: tw-2.534582.xyz
   port: 49226
@@ -552,8 +552,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Taiwan_Keelung_reality_6
+  - Taiwan_Keelung_reality_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -594,8 +594,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Taiwan_Keelung_reality_6
+  - Taiwan_Keelung_reality_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -636,8 +636,8 @@ proxy-groups:
   - Russia_None_reality_3
   - United States_Los Angeles_reality_4
   - United States_Los Angeles_reality_5
-  - Taiwan_Taipei_reality_6
-  - Taiwan_Taipei_reality_7
+  - Taiwan_Keelung_reality_6
+  - Taiwan_Keelung_reality_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
