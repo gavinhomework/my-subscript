@@ -485,7 +485,7 @@ proxies:
     short-id: ''
 - name: Taiwan_New Taipei_reality_6
   type: vless
-  server: tw-2.534582.xyz
+  server: tx-2.756794.xyz
   port: 49226
   uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
   network: tcp
@@ -499,7 +499,7 @@ proxies:
     short-id: ''
 - name: Taiwan_New Taipei_reality_7
   type: vless
-  server: tw-2.534582.xyz
+  server: tx-2.756794.xyz
   port: 49226
   uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
   network: tcp
