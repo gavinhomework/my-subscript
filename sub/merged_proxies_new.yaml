@@ -375,10 +375,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_5
+- name: United States_None_hy2_5
   type: hysteria2
-  server: 51.159.226.1
-  port: 35810
+  server: 208.87.243.187
+  port: 22222
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -543,7 +543,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
-  - France_Paris_hy2_5
+  - United States_None_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
@@ -585,7 +585,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
-  - France_Paris_hy2_5
+  - United States_None_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
@@ -627,7 +627,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
-  - France_Paris_hy2_5
+  - United States_None_hy2_5
   - France_Paris_hy2_6
   - France_Paris_hy2_7
   - United States_Los Angeles_reality_0
