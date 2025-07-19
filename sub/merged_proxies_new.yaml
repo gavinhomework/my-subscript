@@ -161,10 +161,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_71
+- name: France_None_hysteria_71
   type: hysteria
-  server: 195.154.200.178
-  port: 46938
+  server: 195.154.33.70
+  port: 15010
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -309,9 +309,9 @@ proxies:
   - h3
 - name: France_Paris_hy_6
   type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  server: 195.154.200.40
+  port: 15010
+  ports: 15010
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -323,9 +323,9 @@ proxies:
   - h3
 - name: France_Paris_hy_7
   type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  server: 195.154.200.40
+  port: 15010
+  ports: 15010
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -525,7 +525,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
@@ -567,7 +567,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
@@ -609,7 +609,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
