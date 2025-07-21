@@ -354,7 +354,7 @@ proxies:
 - name: United States_Los Angeles_hy2_2
   type: hysteria2
   server: 108.181.5.130
-  port: 4710
+  port: 63015
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -362,7 +362,7 @@ proxies:
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
   server: 108.181.5.130
-  port: 4710
+  port: 63015
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
