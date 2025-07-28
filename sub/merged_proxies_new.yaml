@@ -101,6 +101,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_Los Angeles_hysteria_21
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_31
   type: hysteria
   server: 108.181.24.77
@@ -151,6 +163,19 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
+- name: United States_Los Angeles_tuic_81
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_tuic_91
   server: 108.181.5.131
   port: 34008
@@ -373,11 +398,13 @@ proxy-groups:
   - DIRECT
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_mieru_61
   - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
@@ -405,11 +432,13 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_mieru_61
   - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
@@ -437,11 +466,13 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_mieru_61
   - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
