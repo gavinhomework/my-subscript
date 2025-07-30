@@ -92,7 +92,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_11
   type: hysteria
   server: 108.181.24.77
-  port: 11512
+  port: 37872
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -242,8 +242,8 @@ proxies:
 - name: United States_None_hy_1
   type: hysteria
   server: 208.87.243.187
-  port: 40528
-  ports: 40528
+  port: 15823
+  ports: 15823
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
