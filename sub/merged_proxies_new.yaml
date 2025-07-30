@@ -80,7 +80,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_01
   type: hysteria
   server: 108.181.24.77
-  port: 11512
+  port: 37872
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -104,7 +104,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_21
   type: hysteria
   server: 108.181.24.77
-  port: 11512
+  port: 37872
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -128,7 +128,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_41
   type: hysteria
   server: 108.181.24.77
-  port: 11512
+  port: 37872
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -140,7 +140,7 @@ proxies:
 - name: United States_Los Angeles_hysteria_51
   type: hysteria
   server: 108.181.24.77
-  port: 11512
+  port: 37872
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -149,20 +149,32 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_mieru_61
-  type: mieru
-  server: 108.181.23.41
-  port: 28676
-  transport: TCP
-  username: dongtaiwang.com
+- name: United States_Los Angeles_tuic_61
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
   password: dongtaiwang.com
-- name: United States_Los Angeles_mieru_71
-  type: mieru
-  server: 108.181.23.41
-  port: 28676
-  transport: TCP
-  username: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: United States_Los Angeles_tuic_71
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
   password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_tuic_81
   server: 108.181.5.131
   port: 34008
@@ -192,7 +204,7 @@ proxies:
 - name: The Netherlands_Amsterdam_hysteria_101
   type: hysteria
   server: 62.210.10.113
-  port: 22662
+  port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -204,7 +216,7 @@ proxies:
 - name: The Netherlands_Amsterdam_hysteria_111
   type: hysteria
   server: 62.210.10.113
-  port: 22662
+  port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -272,8 +284,8 @@ proxies:
 - name: United States_None_hy_4
   type: hysteria
   server: 208.87.243.151
-  port: 17549
-  ports: 17549
+  port: 38845
+  ports: 38845
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -402,8 +414,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_mieru_61
-  - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_61
+  - United States_Los Angeles_tuic_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
@@ -436,8 +448,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_mieru_61
-  - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_61
+  - United States_Los Angeles_tuic_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
@@ -470,8 +482,8 @@ proxy-groups:
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_mieru_61
-  - United States_Los Angeles_mieru_71
+  - United States_Los Angeles_tuic_61
+  - United States_Los Angeles_tuic_71
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
