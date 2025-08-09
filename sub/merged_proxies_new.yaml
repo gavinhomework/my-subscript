@@ -101,6 +101,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_Los Angeles_hysteria_21
+  type: hysteria
+  server: 108.181.24.77
+  port: 37872
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_31
   type: hysteria
   server: 108.181.24.77
@@ -398,6 +410,7 @@ proxy-groups:
   - DIRECT
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
@@ -431,6 +444,7 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
@@ -464,6 +478,7 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
+  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
