@@ -77,31 +77,7 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: United States_Los Angeles_hysteria_01
-  type: hysteria
-  server: 108.181.24.77
-  port: 37872
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_11
-  type: hysteria
-  server: 108.181.24.77
-  port: 37872
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: United States_Los Angeles_hysteria_21
   type: hysteria
   server: 108.181.24.77
   port: 37872
@@ -125,18 +101,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_41
-  type: hysteria
-  server: 108.181.24.77
-  port: 37872
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: United States_Los Angeles_hysteria_51
   type: hysteria
   server: 108.181.24.77
@@ -149,33 +113,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_tuic_61
-  server: 108.181.5.131
-  port: 22998
-  type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: United States_Los Angeles_tuic_71
-  server: 108.181.5.131
-  port: 22998
-  type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: United States_Los Angeles_tuic_81
   server: 108.181.5.131
   port: 22998
   type: tuic
@@ -201,18 +139,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: The Netherlands_Amsterdam_hysteria_101
-  type: hysteria
-  server: 62.210.10.113
-  port: 13767
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: The Netherlands_Amsterdam_hysteria_111
   type: hysteria
   server: 62.210.10.113
@@ -225,39 +151,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_hy_0
-  type: hysteria
-  server: 208.87.243.187
-  port: 15823
-  ports: 15823
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: United States_None_hy_1
   type: hysteria
   server: 208.87.243.187
   port: 15823
   ports: 15823
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_Paris_hy_2
-  type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -281,20 +179,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_4
-  type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  ports: 38845
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: United States_None_hy_5
   type: hysteria
   server: 208.87.243.151
@@ -306,20 +190,6 @@ proxies:
   fast-open: true
   protocol: udp
   sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_Paris_hy_6
-  type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -337,14 +207,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy2_0
-  type: hysteria2
-  server: 51.158.218.2
-  port: 50066
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_Paris_hy2_1
   type: hysteria2
   server: 51.158.218.2
@@ -352,14 +214,6 @@ proxies:
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 108.181.5.130
-  port: 63015
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
   skip-cert-verify: true
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
@@ -408,29 +262,17 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
   - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
-  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - United States_None_hy_4
   - United States_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
@@ -442,29 +284,17 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
   - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
-  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - United States_None_hy_4
   - United States_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
@@ -476,29 +306,17 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Los Angeles_hysteria_01
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
   - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
-  - The Netherlands_Amsterdam_hysteria_101
   - The Netherlands_Amsterdam_hysteria_111
-  - United States_None_hy_0
   - United States_None_hy_1
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - United States_None_hy_4
   - United States_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
