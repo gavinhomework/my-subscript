@@ -213,9 +213,105 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: Unknown_hysteria_102
+  type: hysteria
+  server: 2001:bc8:32d7:306::123
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_103
+  type: hysteria
+  server: 2001:bc8:32d7:306::124
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_104
+  type: hysteria
+  server: 2001:bc8:32d7:306::125
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_105
+  type: hysteria
+  server: 2001:bc8:32d7:306::126
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: The Netherlands_Amsterdam_hysteria_111
   type: hysteria
   server: 62.210.10.113
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_112
+  type: hysteria
+  server: 2001:bc8:32d7:306::123
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_113
+  type: hysteria
+  server: 2001:bc8:32d7:306::124
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_114
+  type: hysteria
+  server: 2001:bc8:32d7:306::125
+  port: 13767
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_115
+  type: hysteria
+  server: 2001:bc8:32d7:306::126
   port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -419,7 +515,15 @@ proxy-groups:
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
+  - Unknown_hysteria_102
+  - Unknown_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - The Netherlands_Amsterdam_hysteria_111
+  - Unknown_hysteria_112
+  - Unknown_hysteria_113
+  - Unknown_hysteria_114
+  - Unknown_hysteria_115
   - United States_None_hy_0
   - United States_None_hy_1
   - France_Paris_hy_2
@@ -453,7 +557,15 @@ proxy-groups:
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
+  - Unknown_hysteria_102
+  - Unknown_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - The Netherlands_Amsterdam_hysteria_111
+  - Unknown_hysteria_112
+  - Unknown_hysteria_113
+  - Unknown_hysteria_114
+  - Unknown_hysteria_115
   - United States_None_hy_0
   - United States_None_hy_1
   - France_Paris_hy_2
@@ -487,7 +599,15 @@ proxy-groups:
   - United States_Los Angeles_tuic_81
   - United States_Los Angeles_tuic_91
   - The Netherlands_Amsterdam_hysteria_101
+  - Unknown_hysteria_102
+  - Unknown_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - The Netherlands_Amsterdam_hysteria_111
+  - Unknown_hysteria_112
+  - Unknown_hysteria_113
+  - Unknown_hysteria_114
+  - Unknown_hysteria_115
   - United States_None_hy_0
   - United States_None_hy_1
   - France_Paris_hy_2
