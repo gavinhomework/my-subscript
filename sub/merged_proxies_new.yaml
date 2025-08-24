@@ -137,10 +137,58 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_11
+- name: Unknown_hysteria_11
   type: hysteria
-  server: 108.181.24.77
-  port: 37872
+  server: 2001:bc8:1203:106::200
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_12
+  type: hysteria
+  server: 2001:bc8:1203:106::201
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_13
+  type: hysteria
+  server: 2001:bc8:1203:106::202
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_14
+  type: hysteria
+  server: 2001:bc8:1203:106::203
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_15
+  type: hysteria
+  server: 2001:bc8:1203:106::204
+  port: 47821
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -679,6 +727,20 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
+- name: Unknown_reality_5
+  type: vless
+  server: 2001:bc8:32d7:302::14
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -691,7 +753,11 @@ proxy-groups:
   - Unknown_hysteria_03
   - Unknown_hysteria_04
   - Unknown_hysteria_05
-  - United States_Los Angeles_hysteria_11
+  - Unknown_hysteria_11
+  - Unknown_hysteria_12
+  - Unknown_hysteria_13
+  - Unknown_hysteria_14
+  - Unknown_hysteria_15
   - Unknown_tuic_21
   - Unknown_tuic_22
   - Unknown_tuic_23
@@ -736,6 +802,7 @@ proxy-groups:
   - France_Paris_hy2_7
   - Unknown_reality_0
   - Unknown_reality_4
+  - Unknown_reality_5
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -747,7 +814,11 @@ proxy-groups:
   - Unknown_hysteria_03
   - Unknown_hysteria_04
   - Unknown_hysteria_05
-  - United States_Los Angeles_hysteria_11
+  - Unknown_hysteria_11
+  - Unknown_hysteria_12
+  - Unknown_hysteria_13
+  - Unknown_hysteria_14
+  - Unknown_hysteria_15
   - Unknown_tuic_21
   - Unknown_tuic_22
   - Unknown_tuic_23
@@ -792,6 +863,7 @@ proxy-groups:
   - France_Paris_hy2_7
   - Unknown_reality_0
   - Unknown_reality_4
+  - Unknown_reality_5
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -803,7 +875,11 @@ proxy-groups:
   - Unknown_hysteria_03
   - Unknown_hysteria_04
   - Unknown_hysteria_05
-  - United States_Los Angeles_hysteria_11
+  - Unknown_hysteria_11
+  - Unknown_hysteria_12
+  - Unknown_hysteria_13
+  - Unknown_hysteria_14
+  - Unknown_hysteria_15
   - Unknown_tuic_21
   - Unknown_tuic_22
   - Unknown_tuic_23
@@ -848,6 +924,7 @@ proxy-groups:
   - France_Paris_hy2_7
   - Unknown_reality_0
   - Unknown_reality_4
+  - Unknown_reality_5
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
