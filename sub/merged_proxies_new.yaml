@@ -77,10 +77,58 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: United States_Los Angeles_hysteria_01
+- name: Unknown_hysteria_01
   type: hysteria
-  server: 108.181.24.77
-  port: 37872
+  server: 2001:bc8:1203:106::200
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_02
+  type: hysteria
+  server: 2001:bc8:1203:106::201
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_03
+  type: hysteria
+  server: 2001:bc8:1203:106::202
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_04
+  type: hysteria
+  server: 2001:bc8:1203:106::203
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_05
+  type: hysteria
+  server: 2001:bc8:1203:106::204
+  port: 47821
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -101,30 +149,136 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_21
-  type: hysteria
-  server: 108.181.24.77
-  port: 37872
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: Unknown_tuic_21
+  server: 2001:bc8:1203:106::100
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: United States_Los Angeles_hysteria_31
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_22
+  server: 2001:bc8:1203:106::101
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_23
+  server: 2001:bc8:1203:106::102
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_24
+  server: 2001:bc8:1203:106::103
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_25
+  server: 2001:bc8:1203:106::104
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_31
+  server: 2001:bc8:1203:106::100
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_32
+  server: 2001:bc8:1203:106::101
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_33
+  server: 2001:bc8:1203:106::102
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_34
+  server: 2001:bc8:1203:106::103
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: Unknown_tuic_35
+  server: 2001:bc8:1203:106::104
+  port: 55111
+  type: tuic
+  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_hysteria_41
   type: hysteria
   server: 108.181.24.77
@@ -504,10 +658,22 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_Los Angeles_hysteria_01
+  - Unknown_hysteria_01
+  - Unknown_hysteria_02
+  - Unknown_hysteria_03
+  - Unknown_hysteria_04
+  - Unknown_hysteria_05
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
-  - United States_Los Angeles_hysteria_31
+  - Unknown_tuic_21
+  - Unknown_tuic_22
+  - Unknown_tuic_23
+  - Unknown_tuic_24
+  - Unknown_tuic_25
+  - Unknown_tuic_31
+  - Unknown_tuic_32
+  - Unknown_tuic_33
+  - Unknown_tuic_34
+  - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_tuic_61
@@ -546,10 +712,22 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - Unknown_hysteria_01
+  - Unknown_hysteria_02
+  - Unknown_hysteria_03
+  - Unknown_hysteria_04
+  - Unknown_hysteria_05
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
-  - United States_Los Angeles_hysteria_31
+  - Unknown_tuic_21
+  - Unknown_tuic_22
+  - Unknown_tuic_23
+  - Unknown_tuic_24
+  - Unknown_tuic_25
+  - Unknown_tuic_31
+  - Unknown_tuic_32
+  - Unknown_tuic_33
+  - Unknown_tuic_34
+  - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_tuic_61
@@ -588,10 +766,22 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - Unknown_hysteria_01
+  - Unknown_hysteria_02
+  - Unknown_hysteria_03
+  - Unknown_hysteria_04
+  - Unknown_hysteria_05
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
-  - United States_Los Angeles_hysteria_31
+  - Unknown_tuic_21
+  - Unknown_tuic_22
+  - Unknown_tuic_23
+  - Unknown_tuic_24
+  - Unknown_tuic_25
+  - Unknown_tuic_31
+  - Unknown_tuic_32
+  - Unknown_tuic_33
+  - Unknown_tuic_34
+  - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
   - United States_Los Angeles_tuic_61
