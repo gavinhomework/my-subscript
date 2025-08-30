@@ -406,7 +406,7 @@ proxies:
 - name: France_Paris_hysteria_101
   type: hysteria
   server: 51.159.107.20
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -418,7 +418,7 @@ proxies:
 - name: Unknown_hysteria_102
   type: hysteria
   server: 2001:bc8:1203:25::1
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -430,7 +430,7 @@ proxies:
 - name: Unknown_hysteria_103
   type: hysteria
   server: 2001:bc8:1203:25::2
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -442,7 +442,7 @@ proxies:
 - name: Unknown_hysteria_104
   type: hysteria
   server: 2001:bc8:1203:25::3
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -454,7 +454,7 @@ proxies:
 - name: Unknown_hysteria_105
   type: hysteria
   server: 2001:bc8:1203:25::4
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -466,7 +466,7 @@ proxies:
 - name: France_Paris_hysteria_111
   type: hysteria
   server: 51.159.107.20
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -478,7 +478,7 @@ proxies:
 - name: Unknown_hysteria_112
   type: hysteria
   server: 2001:bc8:1203:25::1
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -490,7 +490,7 @@ proxies:
 - name: Unknown_hysteria_113
   type: hysteria
   server: 2001:bc8:1203:25::2
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -502,7 +502,7 @@ proxies:
 - name: Unknown_hysteria_114
   type: hysteria
   server: 2001:bc8:1203:25::3
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -514,7 +514,7 @@ proxies:
 - name: Unknown_hysteria_115
   type: hysteria
   server: 2001:bc8:1203:25::4
-  port: 18899
+  port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
