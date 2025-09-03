@@ -351,11 +351,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_tuic_61
-  server: 108.181.5.131
-  port: 22998
+- name: Unknown_tuic_61
+  server: 2001:bc8:32d7:312::2
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -364,11 +364,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_tuic_71
-  server: 108.181.5.131
-  port: 22998
+- name: Unknown_tuic_71
+  server: 2001:bc8:32d7:312::2
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -377,11 +377,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_tuic_81
-  server: 108.181.5.131
-  port: 22998
+- name: France_None_tuic_81
+  server: 62.210.10.140
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -651,22 +651,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 108.181.5.130
-  port: 63015
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
-  type: hysteria2
-  server: 108.181.5.130
-  port: 63015
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: United States_None_hy2_4
   type: hysteria2
   server: 208.87.243.187
@@ -756,9 +740,9 @@ proxy-groups:
   - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
-  - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
+  - Unknown_tuic_61
+  - Unknown_tuic_71
+  - France_None_tuic_81
   - United States_Los Angeles_tuic_91
   - France_Paris_hysteria_101
   - Unknown_hysteria_102
@@ -780,8 +764,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
   - France_Paris_hy2_6
@@ -816,9 +798,9 @@ proxy-groups:
   - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
-  - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
+  - Unknown_tuic_61
+  - Unknown_tuic_71
+  - France_None_tuic_81
   - United States_Los Angeles_tuic_91
   - France_Paris_hysteria_101
   - Unknown_hysteria_102
@@ -840,8 +822,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
   - France_Paris_hy2_6
@@ -876,9 +856,9 @@ proxy-groups:
   - Unknown_tuic_35
   - United States_Los Angeles_hysteria_41
   - United States_Los Angeles_hysteria_51
-  - United States_Los Angeles_tuic_61
-  - United States_Los Angeles_tuic_71
-  - United States_Los Angeles_tuic_81
+  - Unknown_tuic_61
+  - Unknown_tuic_71
+  - France_None_tuic_81
   - United States_Los Angeles_tuic_91
   - France_Paris_hysteria_101
   - Unknown_hysteria_102
@@ -900,8 +880,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - United States_None_hy2_4
   - United States_None_hy2_5
   - France_Paris_hy2_6
