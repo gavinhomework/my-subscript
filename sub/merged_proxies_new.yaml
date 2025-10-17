@@ -529,20 +529,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_hy_1
-  type: hysteria
-  server: 208.87.243.187
-  port: 15823
-  ports: 15823
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_2
   type: hysteria
   server: 51.159.226.1
@@ -643,14 +629,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_5
-  type: hysteria2
-  server: 208.87.243.187
-  port: 22222
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_None_hy2_6
   type: hysteria2
   server: 163.172.21.105
@@ -738,7 +716,6 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -747,7 +724,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
   - Unknown_reality_0
@@ -794,7 +770,6 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -803,7 +778,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
   - Unknown_reality_0
@@ -850,7 +824,6 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -859,7 +832,6 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_5
   - France_None_hy2_6
   - France_None_hy2_7
   - Unknown_reality_0
