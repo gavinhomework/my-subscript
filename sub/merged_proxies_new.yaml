@@ -673,17 +673,17 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_6
+- name: France_None_hy2_6
   type: hysteria2
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 5355
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_7
+- name: France_None_hy2_7
   type: hysteria2
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 5355
   password: dongtaiwang.com
   fast-open: true
@@ -772,8 +772,8 @@ proxy-groups:
   - France_Paris_hy2_1
   - United States_None_hy2_4
   - United States_None_hy2_5
-  - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
   - Unknown_reality_0
   - Unknown_reality_1
 - name: ⚡ 低延迟
@@ -830,8 +830,8 @@ proxy-groups:
   - France_Paris_hy2_1
   - United States_None_hy2_4
   - United States_None_hy2_5
-  - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
   - Unknown_reality_0
   - Unknown_reality_1
 - name: ⚖️ 负载均衡
@@ -888,8 +888,8 @@ proxy-groups:
   - France_Paris_hy2_1
   - United States_None_hy2_4
   - United States_None_hy2_5
-  - France_Paris_hy2_6
-  - France_Paris_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
   - Unknown_reality_0
   - Unknown_reality_1
 rules:
