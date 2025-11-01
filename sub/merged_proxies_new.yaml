@@ -218,6 +218,18 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -230,6 +242,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_None_tuic_81
+  server: 62.210.10.140
+  port: 23556
+  type: tuic
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: France_None_tuic_91
   server: 62.210.10.140
   port: 23556
@@ -407,7 +432,9 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
+  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
@@ -438,7 +465,9 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
+  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
@@ -469,7 +498,9 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
+  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
