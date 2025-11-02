@@ -218,18 +218,6 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
-- name: France_None_hysteria_61
-  type: hysteria
-  server: 62.210.10.140
-  port: 42248
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -328,7 +316,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hy_3
+- name: France_Paris_hy_2
   type: hysteria
   server: 51.159.226.1
   port: 14241
@@ -342,11 +330,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_4
+- name: France_Paris_hy_3
   type: hysteria
-  server: 62.210.127.217
-  port: 40099
-  ports: 40099
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -440,7 +428,6 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -449,8 +436,8 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_0
@@ -474,7 +461,6 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -483,8 +469,8 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_0
@@ -508,7 +494,6 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -517,8 +502,8 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_0
