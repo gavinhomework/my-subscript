@@ -77,66 +77,6 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: Unknown_hysteria_01
-  type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_02
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_03
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_04
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_05
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_11
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -343,6 +283,18 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -428,6 +380,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_hy_2
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
@@ -470,26 +436,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy2_0
-  type: hysteria2
-  server: 51.158.218.2
-  port: 50066
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_Paris_hy2_1
   type: hysteria2
   server: 51.158.218.2
   port: 50066
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: France_None_hy2_6
-  type: hysteria2
-  server: 163.172.21.105
-  port: 5355
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -502,20 +452,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Unknown_reality_0
-  type: vless
-  server: 2001:bc8:32d7:302::15
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
 - name: Unknown_reality_1
   type: vless
   server: 2001:bc8:32d7:302::15
@@ -537,11 +473,6 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -558,6 +489,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -565,14 +497,12 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
-  - Unknown_reality_0
   - Unknown_reality_1
 - name: ⚡ 低延迟
   type: url-test
@@ -580,11 +510,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -601,6 +526,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -608,14 +534,12 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
-  - Unknown_reality_0
   - Unknown_reality_1
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -623,11 +547,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -644,6 +563,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -651,14 +571,12 @@ proxy-groups:
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
-  - Unknown_reality_0
   - Unknown_reality_1
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
