@@ -234,18 +234,6 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
-- name: France_None_hysteria_61
-  type: hysteria
-  server: 62.210.10.140
-  port: 42248
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -359,20 +347,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_6
-  type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_7
   type: hysteria
   server: 195.154.200.40
@@ -430,7 +404,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_41
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -440,7 +413,6 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
@@ -463,7 +435,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_41
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -473,7 +444,6 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
@@ -496,7 +466,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_41
   - Unknown_vless_51
-  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_91
   - France_Paris_hysteria_111
@@ -506,7 +475,6 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
