@@ -242,19 +242,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_81
-  server: 62.210.10.140
-  port: 23556
-  type: tuic
-  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: France_None_tuic_91
   server: 62.210.10.140
   port: 23556
@@ -328,39 +315,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hy_2
-  type: hysteria
-  server: 51.159.226.1
-  port: 14241
-  ports: 14241
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
   port: 14241
   ports: 14241
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_None_hy_4
-  type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -448,16 +407,13 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -482,16 +438,13 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
@@ -516,16 +469,13 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
