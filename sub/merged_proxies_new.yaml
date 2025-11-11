@@ -218,6 +218,18 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -388,6 +400,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: France_None_hy2_6
+  type: hysteria2
+  server: 163.172.21.105
+  port: 5355
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: France_None_hy2_7
   type: hysteria2
   server: 163.172.21.105
@@ -414,6 +434,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -428,6 +449,7 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -446,6 +468,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -460,6 +483,7 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -478,6 +502,7 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_tuic_81
   - France_None_tuic_91
@@ -492,6 +517,7 @@ proxy-groups:
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
