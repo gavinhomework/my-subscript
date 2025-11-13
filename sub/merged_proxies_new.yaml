@@ -230,19 +230,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_81
-  server: 62.210.10.140
-  port: 23556
-  type: tuic
-  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: France_None_tuic_91
   server: 62.210.10.140
   port: 23556
@@ -256,66 +243,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_hysteria_101
-  type: hysteria
-  server: 51.159.107.20
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_Paris_hysteria_102
-  type: hysteria
-  server: 62.210.11.74
-  port: 30011
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_103
-  type: hysteria
-  server: 2001:bc8:1203:25::2
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_104
-  type: hysteria
-  server: 2001:bc8:1203:25::3
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_105
-  type: hysteria
-  server: 2001:bc8:1203:25::4
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_Paris_hysteria_111
   type: hysteria
   server: 51.159.107.20
@@ -418,7 +345,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy2_0
+- name: France_Paris_hy2_1
   type: hysteria2
   server: 51.158.218.2
   port: 50066
@@ -426,10 +353,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_1
+- name: France_None_hy2_6
   type: hysteria2
-  server: 51.158.218.2
-  port: 50066
+  server: 163.172.21.105
+  port: 5355
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -461,13 +388,7 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
-  - France_Paris_hysteria_101
-  - France_Paris_hysteria_102
-  - Unknown_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
@@ -476,8 +397,8 @@ proxy-groups:
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -497,13 +418,7 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
-  - France_Paris_hysteria_101
-  - France_Paris_hysteria_102
-  - Unknown_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
@@ -512,8 +427,8 @@ proxy-groups:
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -533,13 +448,7 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
-  - France_Paris_hysteria_101
-  - France_Paris_hysteria_102
-  - Unknown_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
   - Unknown_hysteria_113
@@ -548,8 +457,8 @@ proxy-groups:
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
-  - France_Paris_hy2_0
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
