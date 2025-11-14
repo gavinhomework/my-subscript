@@ -202,22 +202,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Unknown_vless_41
-  type: vless
-  server: 2001:bc8:32d7:158::5
-  port: 10033
-  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
-  network: grpc
-  udp: true
-  tls: true
-  flow: null
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
-    short-id: dfdfb0e2e2d400c4
-  grpc-opts:
-    grpc-service-name: FhwHiFzK
-  client-fingerprint: chrome
 - name: Unknown_vless_51
   type: vless
   server: 2001:bc8:32d7:158::5
@@ -234,6 +218,18 @@ proxies:
   grpc-opts:
     grpc-service-name: FhwHiFzK
   client-fingerprint: chrome
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -246,19 +242,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_81
-  server: 62.210.10.140
-  port: 23556
-  type: tuic
-  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: France_None_tuic_91
   server: 62.210.10.140
   port: 23556
@@ -407,10 +390,9 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
-  - Unknown_vless_41
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
@@ -438,10 +420,9 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
-  - Unknown_vless_41
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
@@ -469,10 +450,9 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
-  - Unknown_vless_41
   - Unknown_vless_51
+  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_tuic_81
   - France_None_tuic_91
   - France_Paris_hysteria_111
   - France_Paris_hysteria_112
