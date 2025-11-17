@@ -357,6 +357,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: France_None_hy2_6
+  type: hysteria2
+  server: 163.172.21.105
+  port: 5355
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: France_None_hy2_7
   type: hysteria2
   server: 163.172.21.105
@@ -394,6 +402,7 @@ proxy-groups:
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -423,6 +432,7 @@ proxy-groups:
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -452,6 +462,7 @@ proxy-groups:
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
+  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
