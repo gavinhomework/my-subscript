@@ -202,6 +202,22 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: Unknown_vless_41
+  type: vless
+  server: 2001:bc8:32d7:158::5
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  network: grpc
+  udp: true
+  tls: true
+  flow: null
+  servername: nijigen-works.jp
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  client-fingerprint: chrome
 - name: Unknown_vless_51
   type: vless
   server: 2001:bc8:32d7:158::5
@@ -321,6 +337,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: France_None_hy_4
+  type: hysteria
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_None_hy_5
   type: hysteria
   server: 62.210.10.186
@@ -357,14 +387,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_6
-  type: hysteria2
-  server: 163.172.21.105
-  port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_None_hy2_7
   type: hysteria2
   server: 163.172.21.105
@@ -390,6 +412,7 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - Unknown_vless_41
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
@@ -399,10 +422,10 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -420,6 +443,7 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - Unknown_vless_41
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
@@ -429,10 +453,10 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -450,6 +474,7 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - Unknown_vless_41
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
@@ -459,10 +484,10 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
