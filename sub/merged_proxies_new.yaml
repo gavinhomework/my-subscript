@@ -290,20 +290,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_anytls_81
-  type: anytls
-  server: 62.210.10.140
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: France_None_anytls_91
   type: anytls
   server: 62.210.10.140
@@ -444,6 +430,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_hy_2
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
@@ -526,7 +526,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_anytls_81
   - France_None_anytls_91
   - France_Paris_tuic_101
   - France_Paris_anytls_102
@@ -538,6 +537,7 @@ proxy-groups:
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
@@ -566,7 +566,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_anytls_81
   - France_None_anytls_91
   - France_Paris_tuic_101
   - France_Paris_anytls_102
@@ -578,6 +577,7 @@ proxy-groups:
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
@@ -606,7 +606,6 @@ proxy-groups:
   - Unknown_tuic_35
   - Unknown_vless_51
   - France_None_hysteria_71
-  - France_None_anytls_81
   - France_None_anytls_91
   - France_Paris_tuic_101
   - France_Paris_anytls_102
@@ -618,6 +617,7 @@ proxy-groups:
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
