@@ -321,7 +321,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_5
+- name: France_None_hy_4
   type: hysteria
   server: 62.210.10.186
   port: 40099
@@ -335,11 +335,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_6
+- name: France_None_hy_5
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -405,8 +405,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
@@ -435,8 +435,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
@@ -465,8 +465,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
