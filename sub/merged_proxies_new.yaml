@@ -244,7 +244,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_tuic_111
+- name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -271,7 +271,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_hysteria_113
+- name: France_None_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -357,14 +357,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_6
-  type: hysteria2
-  server: 163.172.21.105
-  port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_None_hy2_7
   type: hysteria2
   server: 163.172.21.105
@@ -393,16 +385,15 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -423,16 +414,15 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -453,16 +443,15 @@ proxy-groups:
   - Unknown_vless_51
   - France_None_hysteria_71
   - France_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - France_None_hy_5
   - France_Paris_hy_7
   - France_Paris_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
