@@ -214,20 +214,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Türkiye_None_anytls_81
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: Türkiye_None_anytls_91
   type: anytls
   server: 45.221.98.14
@@ -242,69 +228,6 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_tuic_101
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: France_Paris_anytls_102
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: France_Paris_hysteria_103
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_104
-  type: hysteria
-  server: 2001:bc8:32d7:402::3
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_105
-  type: hysteria
-  server: 2001:bc8:32d7:402::4
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
@@ -332,7 +255,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_hysteria_113
+- name: France_None_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -368,20 +291,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hy_2
-  type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
@@ -401,20 +310,6 @@ proxies:
   server: 62.210.10.186
   port: 40099
   ports: 40099
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_Paris_hy_6
-  type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -488,22 +383,14 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - France_None_hysteria_71
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_101
-  - France_Paris_anytls_102
-  - France_Paris_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
@@ -526,22 +413,14 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - France_None_hysteria_71
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_101
-  - France_Paris_anytls_102
-  - France_Paris_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
@@ -564,22 +443,14 @@ proxy-groups:
   - Unknown_tuic_34
   - Unknown_tuic_35
   - France_None_hysteria_71
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_101
-  - France_Paris_anytls_102
-  - France_Paris_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_0
   - France_Paris_hy2_1
