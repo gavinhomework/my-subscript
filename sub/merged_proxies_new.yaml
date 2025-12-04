@@ -77,66 +77,6 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: Unknown_hysteria_01
-  type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_02
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_03
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_04
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_05
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_11
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -327,6 +267,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.10.140
+  port: 42248
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_71
   type: hysteria
   server: 62.210.10.140
@@ -353,7 +305,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_tuic_111
+- name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -430,7 +382,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_5
+- name: France_None_hy_4
   type: hysteria
   server: 62.210.10.186
   port: 40099
@@ -444,11 +396,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_6
+- name: France_None_hy_5
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -495,11 +447,6 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -515,16 +462,17 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
@@ -534,11 +482,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -554,16 +497,17 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
@@ -573,11 +517,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -593,16 +532,17 @@ proxy-groups:
   - Unknown_tuic_33
   - Unknown_tuic_34
   - Unknown_tuic_35
+  - France_None_hysteria_61
   - France_None_hysteria_71
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
-  - France_Paris_hy_6
   - France_Paris_hy_7
   - France_Paris_hy2_1
   - France_None_hy2_7
