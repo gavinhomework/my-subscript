@@ -346,20 +346,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Türkiye_None_anytls_81
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: Türkiye_None_anytls_91
   type: anytls
   server: 45.221.98.14
@@ -374,7 +360,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_None_tuic_111
+- name: France_Paris_tuic_111
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -451,20 +437,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_4
-  type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_None_hy_5
   type: hysteria
   server: 62.210.10.186
@@ -501,14 +473,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_6
-  type: hysteria2
-  server: 163.172.21.105
-  port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_None_hy2_7
   type: hysteria2
   server: 163.172.21.105
@@ -540,19 +504,16 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_111
+  - France_Paris_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -576,19 +537,16 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_111
+  - France_Paris_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -612,19 +570,16 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_111
+  - France_Paris_tuic_111
   - France_Paris_anytls_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
-  - France_None_hy2_6
   - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
