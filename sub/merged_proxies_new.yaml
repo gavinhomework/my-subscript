@@ -288,7 +288,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_tuic_111
+- name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -315,7 +315,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_None_hysteria_113
+- name: France_Paris_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -351,11 +351,39 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_hy_2
+  type: hysteria
+  server: 51.159.226.1
+  port: 49003
+  ports: 49003
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
   port: 49003
   ports: 49003
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_None_hy_4
+  type: hysteria
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -430,12 +458,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
@@ -460,12 +490,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
@@ -490,12 +522,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
+  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_7
   - The Netherlands_Haarlem_hy2_1
