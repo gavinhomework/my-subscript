@@ -346,20 +346,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Türkiye_None_anytls_81
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: Türkiye_None_anytls_91
   type: anytls
   server: 45.221.98.14
@@ -374,70 +360,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_None_tuic_101
-  server: ipv4.758733.xyz
-  port: 50088
-  type: tuic
-  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: France_Paris_anytls_102
-  type: anytls
-  server: 62.210.11.74
-  port: 8443
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: France_None_hysteria_103
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_104
-  type: hysteria
-  server: 2001:bc8:32d7:402::3
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_105
-  type: hysteria
-  server: 2001:bc8:32d7:402::4
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_Paris_tuic_111
+- name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -464,7 +387,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_hysteria_113
+- name: France_None_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -500,39 +423,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hy_2
-  type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
   port: 49003
   ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: France_None_hy_4
-  type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -584,6 +479,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: The Netherlands_Haarlem_hy2_0
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_1
   type: hysteria2
   server: 51.158.194.63
@@ -631,24 +534,17 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_101
-  - France_Paris_anytls_102
-  - France_None_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_6
   - France_None_hy2_7
@@ -674,24 +570,17 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_101
-  - France_Paris_anytls_102
-  - France_None_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_6
   - France_None_hy2_7
@@ -717,24 +606,17 @@ proxy-groups:
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
-  - Türkiye_None_anytls_81
   - Türkiye_None_anytls_91
-  - France_None_tuic_101
-  - France_Paris_anytls_102
-  - France_None_hysteria_103
-  - Unknown_hysteria_104
-  - Unknown_hysteria_105
-  - France_Paris_tuic_111
+  - France_None_tuic_111
   - France_Paris_anytls_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
-  - France_Paris_hy_2
   - France_Paris_hy_3
-  - France_None_hy_4
   - France_None_hy_5
   - France_Paris_hy_6
   - France_Paris_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_6
   - France_None_hy2_7
