@@ -351,6 +351,20 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: France_Paris_hy_2
+  type: hysteria
+  server: 51.159.226.1
+  port: 49003
+  ports: 49003
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_Paris_hy_3
   type: hysteria
   server: 51.159.226.1
@@ -379,20 +393,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_6
-  type: hysteria
-  server: 62.210.10.186
-  port: 40099
-  ports: 40099
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_None_hy_7
   type: hysteria
   server: 62.210.10.186
@@ -407,7 +407,23 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: The Netherlands_Haarlem_hy2_0
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_1
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: The Netherlands_Haarlem_hy2_6
   type: hysteria2
   server: 51.158.194.63
   port: 32952
@@ -449,11 +465,13 @@ proxy-groups:
   - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_None_hy_6
   - France_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -480,11 +498,13 @@ proxy-groups:
   - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_None_hy_6
   - France_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -511,11 +531,13 @@ proxy-groups:
   - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
+  - France_Paris_hy_2
   - France_Paris_hy_3
   - France_None_hy_5
-  - France_None_hy_6
   - France_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
