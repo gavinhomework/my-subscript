@@ -77,66 +77,6 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: Unknown_hysteria_01
-  type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_02
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_03
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_04
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_05
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_11
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -396,6 +336,14 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: The Netherlands_Haarlem_hy2_6
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_7
   type: hysteria2
   server: 51.158.194.63
@@ -411,11 +359,6 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -434,6 +377,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -441,11 +385,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -464,6 +403,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -471,11 +411,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - Unknown_hysteria_01
-  - Unknown_hysteria_02
-  - Unknown_hysteria_03
-  - Unknown_hysteria_04
-  - Unknown_hysteria_05
   - Unknown_hysteria_11
   - Unknown_hysteria_12
   - Unknown_hysteria_13
@@ -494,6 +429,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
