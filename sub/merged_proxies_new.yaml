@@ -175,6 +175,69 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
+- name: France_None_tuic_101
+  server: ipv4.758733.xyz
+  port: 50088
+  type: tuic
+  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: France_Paris_anytls_102
+  type: anytls
+  server: 62.210.11.74
+  port: 8443
+  password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: France_None_hysteria_103
+  type: hysteria
+  server: ipv4.758733.xyz
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_104
+  type: hysteria
+  server: 2001:bc8:32d7:402::3
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_105
+  type: hysteria
+  server: 2001:bc8:32d7:402::4
+  port: 20001
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_tuic_111
   server: ipv4.758733.xyz
   port: 50088
@@ -288,6 +351,14 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: The Netherlands_Haarlem_hy2_6
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_7
   type: hysteria2
   server: 51.158.194.63
@@ -308,6 +379,11 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
+  - France_None_tuic_101
+  - France_Paris_anytls_102
+  - France_None_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
   - France_None_hysteria_113
@@ -317,6 +393,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -329,6 +406,11 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
+  - France_None_tuic_101
+  - France_Paris_anytls_102
+  - France_None_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
   - France_None_hysteria_113
@@ -338,6 +420,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -350,6 +433,11 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
+  - France_None_tuic_101
+  - France_Paris_anytls_102
+  - France_None_hysteria_103
+  - Unknown_hysteria_104
+  - Unknown_hysteria_105
   - France_None_tuic_111
   - France_Paris_anytls_112
   - France_None_hysteria_113
@@ -359,6 +447,7 @@ proxy-groups:
   - France_None_hy_5
   - France_None_hy_7
   - The Netherlands_Haarlem_hy2_1
+  - The Netherlands_Haarlem_hy2_6
   - The Netherlands_Haarlem_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
