@@ -77,6 +77,18 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
+- name: Unknown_hysteria_01
+  type: hysteria
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_hysteria_11
   type: hysteria
   server: 2001:bc8:32d7:14f::4
@@ -199,7 +211,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_hysteria_111
+- name: France_None_hysteria_111
   type: hysteria
   server: ipv4-2.758733.xyz
   port: 30077
@@ -285,20 +297,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_hy_4
-  type: hysteria
-  server: 89.144.35.231
-  port: 18899
-  ports: 18899
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Germany_None_hy_5
   type: hysteria
   server: 89.144.35.231
@@ -350,19 +348,19 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_hysteria_111
+  - France_None_hysteria_111
   - France_Paris_vless_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_5
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
@@ -373,19 +371,19 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_hysteria_111
+  - France_None_hysteria_111
   - France_Paris_vless_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_5
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
@@ -396,19 +394,19 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_91
-  - France_Paris_hysteria_111
+  - France_None_hysteria_111
   - France_Paris_vless_112
   - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_5
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
