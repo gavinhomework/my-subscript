@@ -477,11 +477,39 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: Germany_None_hy_4
+  type: hysteria
+  server: 89.144.35.231
+  port: 18899
+  ports: 18899
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: Germany_None_hy_5
   type: hysteria
   server: 89.144.35.231
   port: 18899
   ports: 18899
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: Germany_None_hy_6
+  type: hysteria
+  server: 89.144.35.231
+  port: 10023
+  ports: 10023
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -559,7 +587,9 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_5
+  - Germany_None_hy_6
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
   - The Netherlands_Haarlem_hy2_6
@@ -593,7 +623,9 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_5
+  - Germany_None_hy_6
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
   - The Netherlands_Haarlem_hy2_6
@@ -627,7 +659,9 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_5
+  - Germany_None_hy_6
   - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_1
   - The Netherlands_Haarlem_hy2_6
