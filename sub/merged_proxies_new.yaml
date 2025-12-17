@@ -77,6 +77,18 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
+- name: Unknown_hysteria_01
+  type: hysteria
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_hysteria_11
   type: hysteria
   server: 2001:bc8:32d7:14f::4
@@ -235,7 +247,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_Paris_hysteria_113
+- name: France_None_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -313,6 +325,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: The Netherlands_Haarlem_hy2_0
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_1
   type: hysteria2
   server: 51.158.194.63
@@ -336,6 +356,7 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
@@ -344,12 +365,13 @@ proxy-groups:
   - Türkiye_None_anytls_91
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_5
   - Germany_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_7
 - name: ⚡ 低延迟
@@ -358,6 +380,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
@@ -366,12 +389,13 @@ proxy-groups:
   - Türkiye_None_anytls_91
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_5
   - Germany_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -380,6 +404,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
+  - Unknown_hysteria_01
   - Unknown_hysteria_11
   - Unknown_vless_51
   - France_Paris_vless_71
@@ -388,12 +413,13 @@ proxy-groups:
   - Türkiye_None_anytls_91
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_Paris_hysteria_113
+  - France_None_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_5
   - Germany_None_hy_7
+  - The Netherlands_Haarlem_hy2_0
   - The Netherlands_Haarlem_hy2_1
   - France_None_hy2_7
 rules:
