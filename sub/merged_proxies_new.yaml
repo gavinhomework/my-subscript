@@ -249,10 +249,18 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy2_7
+- name: France_None_hy2_3
   type: hysteria2
   server: 5.178.101.106
   port: 11000
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
+- name: United States_None_hy2_7
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -274,7 +282,8 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_7
-  - France_None_hy2_7
+  - France_None_hy2_3
+  - United States_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -291,7 +300,8 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_7
-  - France_None_hy2_7
+  - France_None_hy2_3
+  - United States_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -308,7 +318,8 @@ proxy-groups:
   - Unknown_hysteria_115
   - France_Paris_hy_3
   - Germany_None_hy_7
-  - France_None_hy2_7
+  - France_None_hy2_3
+  - United States_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
