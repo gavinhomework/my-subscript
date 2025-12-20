@@ -185,7 +185,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_None_hysteria_113
+- name: France_Paris_hysteria_113
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -235,11 +235,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_hy_7
+- name: Canada_None_hy_7
   type: hysteria
-  server: 89.144.35.231
-  port: 10023
-  ports: 10023
+  server: 98.142.247.21
+  port: 39228
+  ports: 39228
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -277,11 +277,11 @@ proxy-groups:
   - Unknown_vless_73
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_7
+  - Canada_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 - name: ⚡ 低延迟
@@ -295,11 +295,11 @@ proxy-groups:
   - Unknown_vless_73
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_7
+  - Canada_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -313,11 +313,11 @@ proxy-groups:
   - Unknown_vless_73
   - France_None_hysteria_111
   - France_Paris_vless_112
-  - France_None_hysteria_113
+  - France_Paris_hysteria_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Germany_None_hy_7
+  - Canada_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 rules:
