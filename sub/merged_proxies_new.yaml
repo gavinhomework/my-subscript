@@ -235,9 +235,9 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Canada_None_hy_7
+- name: France_None_hy_7
   type: hysteria
-  server: 98.142.247.21
+  server: 5.178.101.106
   port: 39228
   ports: 39228
   auth_str: dongtaiwang.com
@@ -281,7 +281,7 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Canada_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 - name: ⚡ 低延迟
@@ -299,7 +299,7 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Canada_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -317,7 +317,7 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - France_Paris_hy_3
-  - Canada_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_3
   - United States_None_hy2_7
 rules:
