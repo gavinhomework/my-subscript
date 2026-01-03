@@ -254,7 +254,19 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_None_hysteria_101
+- name: Germany_None_hysteria_101
+  type: hysteria
+  server: 89.144.35.30
+  port: 23008
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria_102
   type: hysteria
   server: 5.178.101.33
   port: 23008
@@ -266,7 +278,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_vless_102
+- name: France_Paris_vless_103
   type: vless
   server: 195.154.200.13
   port: 17401
@@ -290,18 +302,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_None_hysteria_103
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_104
   type: hysteria
   server: 2001:bc8:32d7:402::3
@@ -326,7 +326,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_111
+- name: Germany_None_hysteria_111
+  type: hysteria
+  server: 89.144.35.30
+  port: 23008
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria_112
   type: hysteria
   server: 5.178.101.33
   port: 23008
@@ -338,7 +350,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_vless_112
+- name: France_Paris_vless_113
   type: vless
   server: 195.154.200.13
   port: 17401
@@ -362,18 +374,6 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_None_hysteria_113
-  type: hysteria
-  server: ipv4.758733.xyz
-  port: 20001
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: Unknown_hysteria_114
   type: hysteria
   server: 2001:bc8:32d7:402::3
@@ -546,14 +546,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - France_None_hysteria_101
-  - France_Paris_vless_102
-  - France_None_hysteria_103
+  - Germany_None_hysteria_101
+  - France_None_hysteria_102
+  - France_Paris_vless_103
   - Unknown_hysteria_104
   - Unknown_hysteria_105
-  - France_None_hysteria_111
-  - France_Paris_vless_112
-  - France_None_hysteria_113
+  - Germany_None_hysteria_111
+  - France_None_hysteria_112
+  - France_Paris_vless_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
@@ -583,14 +583,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - France_None_hysteria_101
-  - France_Paris_vless_102
-  - France_None_hysteria_103
+  - Germany_None_hysteria_101
+  - France_None_hysteria_102
+  - France_Paris_vless_103
   - Unknown_hysteria_104
   - Unknown_hysteria_105
-  - France_None_hysteria_111
-  - France_Paris_vless_112
-  - France_None_hysteria_113
+  - Germany_None_hysteria_111
+  - France_None_hysteria_112
+  - France_Paris_vless_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
@@ -620,14 +620,14 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - France_None_hysteria_101
-  - France_Paris_vless_102
-  - France_None_hysteria_103
+  - Germany_None_hysteria_101
+  - France_None_hysteria_102
+  - France_Paris_vless_103
   - Unknown_hysteria_104
   - Unknown_hysteria_105
-  - France_None_hysteria_111
-  - France_Paris_vless_112
-  - France_None_hysteria_113
+  - Germany_None_hysteria_111
+  - France_None_hysteria_112
+  - France_Paris_vless_113
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
