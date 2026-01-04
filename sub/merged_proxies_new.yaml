@@ -454,9 +454,9 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_6
+- name: Germany_None_hy_6
   type: hysteria
-  server: 5.178.101.106
+  server: 89.144.35.34
   port: 39228
   ports: 39228
   auth_str: dongtaiwang.com
@@ -468,9 +468,9 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_7
+- name: Germany_None_hy_7
   type: hysteria
-  server: 5.178.101.106
+  server: 89.144.35.34
   port: 39228
   ports: 39228
   auth_str: dongtaiwang.com
@@ -560,8 +560,8 @@ proxy-groups:
   - France_Paris_hy_2
   - France_Paris_hy_3
   - Canada_None_hy_4
-  - France_None_hy_6
-  - France_None_hy_7
+  - Germany_None_hy_6
+  - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
@@ -597,8 +597,8 @@ proxy-groups:
   - France_Paris_hy_2
   - France_Paris_hy_3
   - Canada_None_hy_4
-  - France_None_hy_6
-  - France_None_hy_7
+  - Germany_None_hy_6
+  - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
@@ -634,8 +634,8 @@ proxy-groups:
   - France_Paris_hy_2
   - France_Paris_hy_3
   - Canada_None_hy_4
-  - France_None_hy_6
-  - France_None_hy_7
+  - Germany_None_hy_6
+  - Germany_None_hy_7
   - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
