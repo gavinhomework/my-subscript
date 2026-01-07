@@ -77,18 +77,6 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: Unknown_hysteria_01
-  type: hysteria
-  server: 2001:bc8:32d7:14f::4
-  port: 23880
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: United States_None_mieru_41
   type: mieru
   server: 157.254.223.48
@@ -412,31 +400,31 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_2
+- name: Germany_None_hy_2
   type: hysteria
-  server: 62.210.127.177
-  port: 23880
-  ports: 23880
+  server: 5.83.129.90
+  port: 54177
+  ports: 54177
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_3
+- name: Germany_None_hy_3
   type: hysteria
-  server: 62.210.127.177
-  port: 23880
-  ports: 23880
+  server: 5.83.129.90
+  port: 54177
+  ports: 54177
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -537,7 +525,6 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - Unknown_hysteria_01
   - United States_None_mieru_41
   - France_Paris_vless_61
   - Unknown_vless_62
@@ -557,8 +544,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
-  - France_Paris_hy_2
-  - France_Paris_hy_3
+  - Germany_None_hy_2
+  - Germany_None_hy_3
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
@@ -574,7 +561,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_hysteria_01
   - United States_None_mieru_41
   - France_Paris_vless_61
   - Unknown_vless_62
@@ -594,8 +580,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
-  - France_Paris_hy_2
-  - France_Paris_hy_3
+  - Germany_None_hy_2
+  - Germany_None_hy_3
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
@@ -611,7 +597,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - Unknown_hysteria_01
   - United States_None_mieru_41
   - France_Paris_vless_61
   - Unknown_vless_62
@@ -631,8 +616,8 @@ proxy-groups:
   - Unknown_hysteria_114
   - Unknown_hysteria_115
   - Germany_None_hy_0
-  - France_Paris_hy_2
-  - France_Paris_hy_3
+  - Germany_None_hy_2
+  - Germany_None_hy_3
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
