@@ -470,14 +470,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: The Netherlands_Haarlem_hy2_0
-  type: hysteria2
-  server: 51.158.194.63
-  port: 32952
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
 - name: France_None_hy2_2
   type: hysteria2
   server: 62.210.124.146
@@ -549,7 +541,6 @@ proxy-groups:
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
@@ -585,7 +576,6 @@ proxy-groups:
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
@@ -621,7 +611,6 @@ proxy-groups:
   - Canada_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - The Netherlands_Haarlem_hy2_0
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
