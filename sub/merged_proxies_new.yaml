@@ -244,9 +244,9 @@ proxies:
   skip-cert-verify: true
 - name: Germany_None_hysteria_101
   type: hysteria
-  server: 89.144.35.30
+  server: ip1.758733.xyz
   port: 23008
-  auth-str: dongtaiwang.com
+  auth-str: alvin9999.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -316,9 +316,9 @@ proxies:
   down: 55 Mbps
 - name: Germany_None_hysteria_111
   type: hysteria
-  server: 89.144.35.30
+  server: ip1.758733.xyz
   port: 23008
-  auth-str: dongtaiwang.com
+  auth-str: alvin9999.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
