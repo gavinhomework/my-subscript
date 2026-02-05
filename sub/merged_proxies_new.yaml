@@ -388,9 +388,9 @@ proxies:
   down: 55 Mbps
 - name: Germany_None_hy_0
   type: hysteria
-  server: 89.144.35.231
-  port: 18899
-  ports: 18899
+  server: 5.83.129.90
+  port: 54177
+  ports: 54177
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
