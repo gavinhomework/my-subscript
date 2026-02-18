@@ -494,18 +494,18 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_None_hy2_6
+- name: Germany_None_hy2_6
   type: hysteria2
-  server: 157.254.223.43
-  port: 27921
+  server: 89.144.35.34
+  port: 50022
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: United States_None_hy2_7
+- name: Germany_None_hy2_7
   type: hysteria2
-  server: 157.254.223.43
-  port: 27921
+  server: 89.144.35.34
+  port: 50022
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -544,8 +544,8 @@ proxy-groups:
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
-  - United States_None_hy2_6
-  - United States_None_hy2_7
+  - Germany_None_hy2_6
+  - Germany_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -579,8 +579,8 @@ proxy-groups:
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
-  - United States_None_hy2_6
-  - United States_None_hy2_7
+  - Germany_None_hy2_6
+  - Germany_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -614,8 +614,8 @@ proxy-groups:
   - France_None_hy2_2
   - France_None_hy2_3
   - United States_None_hy2_4
-  - United States_None_hy2_6
-  - United States_None_hy2_7
+  - Germany_None_hy2_6
+  - Germany_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
