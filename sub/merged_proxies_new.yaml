@@ -242,18 +242,19 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: Germany_None_hysteria_101
-  type: hysteria
+- name: Germany_None_tuic_101
   server: ip1.758733.xyz
-  port: 23008
-  auth-str: alvin9999.com
+  port: 10088
+  type: tuic
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  password: dongtaiwang.com
   sni: apple.com
-  skip-cert-verify: true
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: Unknown_vless_102
   type: vless
   server: 2001:bc8:32d7:181::2
@@ -350,18 +351,19 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Germany_None_hysteria_111
-  type: hysteria
+- name: Germany_None_tuic_111
   server: ip1.758733.xyz
-  port: 23008
-  auth-str: alvin9999.com
+  port: 10088
+  type: tuic
+  uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+  password: dongtaiwang.com
   sni: apple.com
-  skip-cert-verify: true
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: Unknown_vless_112
   type: vless
   server: 2001:bc8:32d7:181::2
@@ -597,12 +599,12 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - Germany_None_hysteria_101
+  - Germany_None_tuic_101
   - Unknown_vless_102
   - Unknown_vless_103
   - Unknown_vless_104
   - Unknown_vless_105
-  - Germany_None_hysteria_111
+  - Germany_None_tuic_111
   - Unknown_vless_112
   - Unknown_vless_113
   - Unknown_vless_114
@@ -632,12 +634,12 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - Germany_None_hysteria_101
+  - Germany_None_tuic_101
   - Unknown_vless_102
   - Unknown_vless_103
   - Unknown_vless_104
   - Unknown_vless_105
-  - Germany_None_hysteria_111
+  - Germany_None_tuic_111
   - Unknown_vless_112
   - Unknown_vless_113
   - Unknown_vless_114
@@ -667,12 +669,12 @@ proxy-groups:
   - Unknown_vless_72
   - Unknown_vless_73
   - Türkiye_None_anytls_81
-  - Germany_None_hysteria_101
+  - Germany_None_tuic_101
   - Unknown_vless_102
   - Unknown_vless_103
   - Unknown_vless_104
   - Unknown_vless_105
-  - Germany_None_hysteria_111
+  - Germany_None_tuic_111
   - Unknown_vless_112
   - Unknown_vless_113
   - Unknown_vless_114
