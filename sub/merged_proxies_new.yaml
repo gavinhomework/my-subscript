@@ -77,13 +77,19 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: United States_None_mieru_41
-  type: mieru
+- name: United States_None_tuic_41
   server: 157.254.223.48
-  port: 33990
-  transport: TCP
-  username: dongtaiwang.com
-  password: dongtaiwang.com
+  port: 11540
+  type: tuic
+  uuid: 6845cb43-4b8d-49e8-a011-1051d6c4d2ae
+  password: 6845cb43-4b8d-49e8-a011-1051d6c4d2ae
+  sni: www.microsoft.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: Unknown_vless_61
   type: vless
   server: 2001:bc8:32d7:181::3
@@ -540,6 +546,22 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
+- name: United States_None_hy2_6
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: United States_None_hy2_7
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -547,7 +569,7 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_None_mieru_41
+  - United States_None_tuic_41
   - Unknown_vless_61
   - Unknown_vless_62
   - Unknown_vless_63
@@ -572,13 +594,15 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_4
+  - United States_None_hy2_6
+  - United States_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - United States_None_mieru_41
+  - United States_None_tuic_41
   - Unknown_vless_61
   - Unknown_vless_62
   - Unknown_vless_63
@@ -603,13 +627,15 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_4
+  - United States_None_hy2_6
+  - United States_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_None_mieru_41
+  - United States_None_tuic_41
   - Unknown_vless_61
   - Unknown_vless_62
   - Unknown_vless_63
@@ -634,6 +660,8 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_4
+  - United States_None_hy2_6
+  - United States_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
