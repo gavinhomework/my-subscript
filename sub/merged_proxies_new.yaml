@@ -538,14 +538,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_4
-  type: hysteria2
-  server: 157.254.223.24
-  port: 30088
-  password: alvin9999.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: United States_None_hy2_6
   type: hysteria2
   server: 157.254.223.43
@@ -593,7 +585,6 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚡ 低延迟
@@ -626,7 +617,6 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -659,7 +649,6 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 rules:
