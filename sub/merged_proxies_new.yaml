@@ -471,11 +471,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_hy_4
+- name: Taiwan_Xindian District_hy_4
   type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  ports: 20088
+  server: 111.243.102.83
+  port: 56385
+  ports: 56385
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -557,7 +557,7 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
+  - Taiwan_Xindian District_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_6
@@ -589,7 +589,7 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
+  - Taiwan_Xindian District_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_6
@@ -621,7 +621,7 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
+  - Taiwan_Xindian District_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - United States_None_hy2_6
