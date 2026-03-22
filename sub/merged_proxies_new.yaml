@@ -90,30 +90,18 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Unknown_vless_61
-  type: vless
-  server: 2001:bc8:32d7:181::3
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
+- name: France_Paris_hysteria_61
+  type: hysteria
+  server: 195.154.200.13
+  port: 45008
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_vless_62
   type: vless
   server: 2001:bc8:32d7:181::2
@@ -162,30 +150,18 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_vless_71
-  type: vless
-  server: 2001:bc8:32d7:181::3
-  port: 17401
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 50
-      down: 100
+- name: France_Paris_hysteria_71
+  type: hysteria
+  server: 195.154.200.13
+  port: 45008
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_vless_72
   type: vless
   server: 2001:bc8:32d7:181::2
@@ -561,10 +537,10 @@ proxy-groups:
   - ⚖️ 负载均衡
   - DIRECT
   - United States_None_tuic_41
-  - Unknown_vless_61
+  - France_Paris_hysteria_61
   - Unknown_vless_62
   - Unknown_vless_63
-  - Unknown_vless_71
+  - France_Paris_hysteria_71
   - Unknown_vless_72
   - Unknown_vless_73
   - United States_None_tuic_81
@@ -593,10 +569,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_tuic_41
-  - Unknown_vless_61
+  - France_Paris_hysteria_61
   - Unknown_vless_62
   - Unknown_vless_63
-  - Unknown_vless_71
+  - France_Paris_hysteria_71
   - Unknown_vless_72
   - Unknown_vless_73
   - United States_None_tuic_81
@@ -625,10 +601,10 @@ proxy-groups:
   interval: 180
   proxies:
   - United States_None_tuic_41
-  - Unknown_vless_61
+  - France_Paris_hysteria_61
   - Unknown_vless_62
   - Unknown_vless_63
-  - Unknown_vless_71
+  - France_Paris_hysteria_71
   - Unknown_vless_72
   - Unknown_vless_73
   - United States_None_tuic_81
