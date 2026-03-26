@@ -129,7 +129,7 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Germany_None_tuic_101
+- name: France_None_tuic_101
   server: ip1.758733.xyz
   port: 10088
   type: tuic
@@ -142,7 +142,7 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Germany_None_tuic_111
+- name: France_None_tuic_111
   server: ip1.758733.xyz
   port: 10088
   type: tuic
@@ -266,8 +266,8 @@ proxy-groups:
   - United States_None_tuic_61
   - United States_None_tuic_71
   - France_None_tuic_81
-  - Germany_None_tuic_101
-  - Germany_None_tuic_111
+  - France_None_tuic_101
+  - France_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -286,8 +286,8 @@ proxy-groups:
   - United States_None_tuic_61
   - United States_None_tuic_71
   - France_None_tuic_81
-  - Germany_None_tuic_101
-  - Germany_None_tuic_111
+  - France_None_tuic_101
+  - France_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -306,8 +306,8 @@ proxy-groups:
   - United States_None_tuic_61
   - United States_None_tuic_71
   - France_None_tuic_81
-  - Germany_None_tuic_101
-  - Germany_None_tuic_111
+  - France_None_tuic_101
+  - France_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
