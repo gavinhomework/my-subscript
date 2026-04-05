@@ -77,12 +77,12 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: United States_None_tuic_61
-  server: 157.254.223.24
-  port: 41122
+- name: France_None_tuic_41
+  server: 5.178.101.117
+  port: 30006
   type: tuic
-  uuid: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
-  password: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  password: dongtaiwang.com
   sni: www.microsoft.com
   alpn:
   - h3
@@ -90,12 +90,25 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: United States_None_tuic_71
-  server: 157.254.223.24
-  port: 41122
+- name: Germany_None_tuic_61
+  server: 178.18.147.199
+  port: 42487
   type: tuic
-  uuid: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
-  password: 2aec7bfd-4178-4ee5-9bc5-fe4c241fdc15
+  uuid: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  password: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  sni: www.microsoft.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
+- name: Germany_None_tuic_71
+  server: 178.18.147.199
+  port: 42487
+  type: tuic
+  uuid: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  password: b35b50d1-7830-4a68-94db-349c2d2f8e43
   sni: www.microsoft.com
   alpn:
   - h3
@@ -184,6 +197,34 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: Germany_None_hy_4
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  ports: 20088
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: Germany_None_hy_6
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  ports: 20088
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: Germany_None_hy_7
   type: hysteria
   server: 5.83.129.153
@@ -198,6 +239,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: United States_None_hy2_6
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: United States_None_hy2_7
   type: hysteria2
   server: 157.254.223.43
@@ -213,15 +262,19 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - United States_None_tuic_61
-  - United States_None_tuic_71
+  - France_None_tuic_41
+  - Germany_None_tuic_61
+  - Germany_None_tuic_71
   - France_None_tuic_81
   - Germany_None_tuic_101
   - Germany_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
+  - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -229,15 +282,19 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_None_tuic_61
-  - United States_None_tuic_71
+  - France_None_tuic_41
+  - Germany_None_tuic_61
+  - Germany_None_tuic_71
   - France_None_tuic_81
   - Germany_None_tuic_101
   - Germany_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
+  - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -245,15 +302,19 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - United States_None_tuic_61
-  - United States_None_tuic_71
+  - France_None_tuic_41
+  - Germany_None_tuic_61
+  - Germany_None_tuic_71
   - France_None_tuic_81
   - Germany_None_tuic_101
   - Germany_None_tuic_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
+  - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_6
   - United States_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
