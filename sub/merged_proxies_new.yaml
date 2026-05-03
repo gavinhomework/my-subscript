@@ -90,12 +90,12 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Germany_None_tuic_61
-  server: 178.18.147.199
-  port: 42487
+- name: France_None_tuic_61
+  server: 5.178.101.117
+  port: 30006
   type: tuic
-  uuid: b35b50d1-7830-4a68-94db-349c2d2f8e43
-  password: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  password: dongtaiwang.com
   sni: www.microsoft.com
   alpn:
   - h3
@@ -103,12 +103,12 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Germany_None_tuic_71
-  server: 178.18.147.199
-  port: 42487
+- name: France_None_tuic_71
+  server: 5.178.101.117
+  port: 30006
   type: tuic
-  uuid: b35b50d1-7830-4a68-94db-349c2d2f8e43
-  password: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  password: dongtaiwang.com
   sni: www.microsoft.com
   alpn:
   - h3
@@ -239,6 +239,14 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: United States_None_hy2_4
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: United States_None_hy2_6
   type: hysteria2
   server: 157.254.223.43
@@ -263,8 +271,8 @@ proxy-groups:
   - ⚖️ 负载均衡
   - DIRECT
   - France_None_tuic_41
-  - Germany_None_tuic_61
-  - Germany_None_tuic_71
+  - France_None_tuic_61
+  - France_None_tuic_71
   - France_None_tuic_81
   - France_None_tuic_101
   - France_None_tuic_111
@@ -274,6 +282,7 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚡ 低延迟
@@ -283,8 +292,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - France_None_tuic_41
-  - Germany_None_tuic_61
-  - Germany_None_tuic_71
+  - France_None_tuic_61
+  - France_None_tuic_71
   - France_None_tuic_81
   - France_None_tuic_101
   - France_None_tuic_111
@@ -294,6 +303,7 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -303,8 +313,8 @@ proxy-groups:
   interval: 180
   proxies:
   - France_None_tuic_41
-  - Germany_None_tuic_61
-  - Germany_None_tuic_71
+  - France_None_tuic_61
+  - France_None_tuic_71
   - France_None_tuic_81
   - France_None_tuic_101
   - France_None_tuic_111
@@ -314,6 +324,7 @@ proxy-groups:
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
+  - United States_None_hy2_4
   - United States_None_hy2_6
   - United States_None_hy2_7
 rules:
