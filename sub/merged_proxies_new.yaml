@@ -128,18 +128,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Sarcelles_hysteria_101
-  type: hysteria
-  server: 62.210.29.98
-  port: 10066
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_Sarcelles_hysteria_111
   type: hysteria
   server: 62.210.29.98
@@ -152,53 +140,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Germany_None_hy_0
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_2
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Germany_None_hy_3
   type: hysteria
   server: 5.83.129.90
   port: 54177
   ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_4
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  ports: 20088
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -236,14 +182,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_4
-  type: hysteria2
-  server: 157.254.223.43
-  port: 27921
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: France_None_hy2_6
   type: hysteria2
   server: 62.210.10.108
@@ -271,15 +209,10 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
   - France_Sarcelles_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
@@ -292,15 +225,10 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
   - France_Sarcelles_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -313,15 +241,10 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
   - France_Sarcelles_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - United States_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 rules:
