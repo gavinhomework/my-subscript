@@ -128,28 +128,22 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Sarcelles_hysteria_101
-  type: hysteria
-  server: 62.210.29.98
-  port: 10066
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: France_None_hysteria2_101
+  type: hysteria2
+  server: 62.210.124.132
+  port: 64772
+  password: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Sarcelles_hysteria_111
-  type: hysteria
-  server: 62.210.29.98
-  port: 10066
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: France_None_hysteria2_111
+  type: hysteria2
+  server: 62.210.124.132
+  port: 64772
+  password: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: Germany_None_hy_0
@@ -271,8 +265,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
-  - France_Sarcelles_hysteria_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -292,8 +286,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
-  - France_Sarcelles_hysteria_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -313,8 +307,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria_101
-  - France_Sarcelles_hysteria_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
