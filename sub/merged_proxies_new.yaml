@@ -77,6 +77,19 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
+- name: France_None_tuic_41
+  server: 5.178.101.117
+  port: 30006
+  type: tuic
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: France_None_tuic_61
   server: 5.178.101.117
   port: 30006
@@ -103,6 +116,27 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
+- name: France_None_hysteria_81
+  type: hysteria
+  server: 163.172.117.163
+  port: 36699
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria2_101
+  type: hysteria2
+  server: 62.210.124.132
+  port: 64772
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria2_111
   type: hysteria2
   server: 62.210.124.132
@@ -151,6 +185,20 @@ proxies:
   fast-open: true
   protocol: udp
   sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: Germany_None_hy_4
+  type: hysteria
+  server: 5.83.129.153
+  port: 27626
+  ports: 27626
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -213,12 +261,16 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
+  - France_None_tuic_41
   - France_None_tuic_61
   - France_None_tuic_71
+  - France_None_hysteria_81
+  - France_None_hysteria2_101
   - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
@@ -230,12 +282,16 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - France_None_tuic_41
   - France_None_tuic_61
   - France_None_tuic_71
+  - France_None_hysteria_81
+  - France_None_hysteria2_101
   - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
@@ -247,12 +303,16 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
+  - France_None_tuic_41
   - France_None_tuic_61
   - France_None_tuic_71
+  - France_None_hysteria_81
+  - France_None_hysteria2_101
   - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
+  - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
