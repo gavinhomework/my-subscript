@@ -146,20 +146,6 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Germany_None_hy_0
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Germany_None_hy_2
   type: hysteria
   server: 5.83.129.90
@@ -230,14 +216,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy2_4
-  type: hysteria2
-  server: 62.210.147.2
-  port: 43115
-  password: github.com/Alvin9999-newpac/fanqiang
-  fast-open: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
 - name: France_None_hy2_6
   type: hysteria2
   server: 62.210.10.108
@@ -267,13 +245,11 @@ proxy-groups:
   - France_None_hysteria_81
   - France_None_hysteria2_101
   - France_None_hysteria2_111
-  - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - France_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚡ 低延迟
@@ -288,13 +264,11 @@ proxy-groups:
   - France_None_hysteria_81
   - France_None_hysteria2_101
   - France_None_hysteria2_111
-  - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - France_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 - name: ⚖️ 负载均衡
@@ -309,13 +283,11 @@ proxy-groups:
   - France_None_hysteria_81
   - France_None_hysteria2_101
   - France_None_hysteria2_111
-  - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
   - Germany_None_hy_7
-  - France_None_hy2_4
   - France_None_hy2_6
   - France_None_hy2_7
 rules:
