@@ -128,7 +128,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Sarcelles_hysteria2_101
+- name: France_None_hysteria2_101
   type: hysteria2
   server: clash-ip1.934618.xyz
   port: 18271
@@ -137,7 +137,7 @@ proxies:
   skip-cert-verify: false
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Sarcelles_hysteria2_111
+- name: France_None_hysteria2_111
   type: hysteria2
   server: clash-ip1.934618.xyz
   port: 18271
@@ -238,7 +238,7 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: France_Sarcelles_hy2_6
+- name: France_Paris_hy2_6
   type: hysteria2
   server: www.838491.xyz
   port: 13377
@@ -246,7 +246,7 @@ proxies:
   fast-open: true
   sni: www.838491.xyz
   skip-cert-verify: false
-- name: France_Sarcelles_hy2_7
+- name: France_Paris_hy2_7
   type: hysteria2
   server: www.838491.xyz
   port: 13377
@@ -265,8 +265,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria2_101
-  - France_Sarcelles_hysteria2_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -274,8 +274,8 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_Paris_hy2_6
+  - France_Paris_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -286,8 +286,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria2_101
-  - France_Sarcelles_hysteria2_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -295,8 +295,8 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_Paris_hy2_6
+  - France_Paris_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -307,8 +307,8 @@ proxy-groups:
   - France_None_tuic_61
   - France_None_tuic_71
   - France_None_hysteria_81
-  - France_Sarcelles_hysteria2_101
-  - France_Sarcelles_hysteria2_111
+  - France_None_hysteria2_101
+  - France_None_hysteria2_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -316,8 +316,8 @@ proxy-groups:
   - Germany_None_hy_6
   - Germany_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_Paris_hy2_6
+  - France_Paris_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
