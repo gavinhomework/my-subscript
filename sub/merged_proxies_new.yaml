@@ -77,45 +77,42 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: France_None_tuic_41
-  server: 5.178.101.117
-  port: 30006
-  type: tuic
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+- name: France_None_hysteria_41
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria_61
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
   skip-cert-verify: true
-  congestion-controller: bbr
-- name: France_None_tuic_61
-  server: 5.178.101.117
-  port: 30006
-  type: tuic
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  password: dongtaiwang.com
-  sni: www.microsoft.com
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria_71
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
   skip-cert-verify: true
-  congestion-controller: bbr
-- name: France_None_tuic_71
-  server: 5.178.101.117
-  port: 30006
-  type: tuic
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  password: dongtaiwang.com
-  sni: www.microsoft.com
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
-  skip-cert-verify: true
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_hysteria_81
   type: hysteria
   server: 163.172.117.163
@@ -128,30 +125,34 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_101
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: United States_None_anytls_101
+  type: anytls
+  server: 198.200.57.154
+  port: 22556
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 5
   sni: bing.com
-  skip-cert-verify: true
   alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_111
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: United States_None_anytls_111
+  type: anytls
+  server: 198.200.57.154
+  port: 22556
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 5
   sni: bing.com
-  skip-cert-verify: true
   alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  - h2
+  - http/1.1
+  skip-cert-verify: true
 - name: Germany_None_hy_0
   type: hysteria
   server: 5.83.129.90
@@ -222,17 +223,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_hy_7
+- name: France_None_hy_7
   type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
+  server: 62.210.70.191
+  port: 23556
+  ports: 23556
+  auth_str: github.com/Alvin9999-newpac/fanqiang
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -267,18 +268,18 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - France_None_tuic_41
-  - France_None_tuic_61
-  - France_None_tuic_71
+  - France_None_hysteria_41
+  - France_None_hysteria_61
+  - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - United States_None_anytls_101
+  - United States_None_anytls_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - Germany_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_4
   - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
@@ -288,18 +289,18 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_tuic_41
-  - France_None_tuic_61
-  - France_None_tuic_71
+  - France_None_hysteria_41
+  - France_None_hysteria_61
+  - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - United States_None_anytls_101
+  - United States_None_anytls_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - Germany_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_4
   - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
@@ -309,18 +310,18 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - France_None_tuic_41
-  - France_None_tuic_61
-  - France_None_tuic_71
+  - France_None_hysteria_41
+  - France_None_hysteria_61
+  - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - United States_None_anytls_101
+  - United States_None_anytls_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - Germany_None_hy_7
+  - France_None_hy_7
   - France_None_hy2_4
   - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
