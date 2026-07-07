@@ -125,34 +125,30 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_anytls_101
-  type: anytls
-  server: 198.200.57.154
-  port: 22556
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 5
+- name: France_None_hysteria_101
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
-  alpn:
-  - h2
-  - http/1.1
   skip-cert-verify: true
-- name: United States_None_anytls_111
-  type: anytls
-  server: 198.200.57.154
-  port: 22556
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 5
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_None_hysteria_111
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
-  alpn:
-  - h2
-  - http/1.1
   skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Germany_None_hy_0
   type: hysteria
   server: 5.83.129.90
@@ -272,8 +268,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - United States_None_anytls_101
-  - United States_None_anytls_111
+  - France_None_hysteria_101
+  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -293,8 +289,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - United States_None_anytls_101
-  - United States_None_anytls_111
+  - France_None_hysteria_101
+  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -314,8 +310,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - United States_None_anytls_101
-  - United States_None_anytls_111
+  - France_None_hysteria_101
+  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
