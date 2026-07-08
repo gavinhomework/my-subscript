@@ -77,55 +77,7 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: France_None_hysteria_41
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_61
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_71
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_81
-  type: hysteria
-  server: 163.172.117.163
-  port: 36699
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_101
   type: hysteria
   server: 62.210.70.191
   port: 23556
@@ -149,67 +101,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Germany_None_hy_0
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_2
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: Germany_None_hy_3
   type: hysteria
   server: 5.83.129.90
   port: 54177
   ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_4
-  type: hysteria
-  server: 5.83.129.153
-  port: 27626
-  ports: 27626
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_6
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  ports: 20088
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -233,22 +129,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy2_4
-  type: hysteria2
-  server: 62.210.147.2
-  port: 43115
-  password: github.com/Alvin9999-newpac/fanqiang
-  fast-open: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: France_Sarcelles_hy2_6
-  type: hysteria2
-  server: 62.210.27.216
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  fast-open: true
-  sni: bing.com
-  skip-cert-verify: true
 - name: France_Sarcelles_hy2_7
   type: hysteria2
   server: 62.210.27.216
@@ -264,20 +144,10 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - France_None_hysteria_41
-  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
   - France_None_hy_7
-  - France_None_hy2_4
-  - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
 - name: ⚡ 低延迟
   type: url-test
@@ -285,20 +155,10 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_hysteria_41
-  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
   - France_None_hy_7
-  - France_None_hy2_4
-  - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
@@ -306,20 +166,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - France_None_hysteria_41
-  - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
-  - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
   - France_None_hy_7
-  - France_None_hy2_4
-  - France_Sarcelles_hy2_6
   - France_Sarcelles_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
