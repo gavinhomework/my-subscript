@@ -241,17 +241,17 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: France_Sarcelles_hy2_6
+- name: France_None_hy2_6
   type: hysteria2
-  server: 62.210.27.216
+  server: 62.210.7.139
   port: 60111
   password: github.com/Alvin9999-newpac/fanqiang
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: France_Sarcelles_hy2_7
+- name: France_None_hy2_7
   type: hysteria2
-  server: 62.210.27.216
+  server: 62.210.7.139
   port: 60111
   password: github.com/Alvin9999-newpac/fanqiang
   fast-open: true
@@ -277,8 +277,8 @@ proxy-groups:
   - Germany_None_hy_6
   - France_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -298,8 +298,8 @@ proxy-groups:
   - Germany_None_hy_6
   - France_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -319,8 +319,8 @@ proxy-groups:
   - Germany_None_hy_6
   - France_None_hy_7
   - France_None_hy2_4
-  - France_Sarcelles_hy2_6
-  - France_Sarcelles_hy2_7
+  - France_None_hy2_6
+  - France_None_hy2_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
