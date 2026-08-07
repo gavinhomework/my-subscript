@@ -77,18 +77,6 @@ dns:
   - 2409:8000:2000:0:70::1
   - 2409:8000:2000:0:170::1
 proxies:
-- name: France_None_hysteria_41
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_61
   type: hysteria
   server: 62.210.70.191
@@ -106,18 +94,6 @@ proxies:
   server: 62.210.70.191
   port: 23556
   auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_81
-  type: hysteria
-  server: 163.172.117.163
-  port: 36699
-  auth-str: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -264,10 +240,8 @@ proxy-groups:
   - ⚡ 低延迟
   - ⚖️ 负载均衡
   - DIRECT
-  - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
@@ -285,10 +259,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
@@ -306,10 +278,8 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
