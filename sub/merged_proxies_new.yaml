@@ -125,18 +125,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_101
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_111
   type: hysteria
   server: 62.210.70.191
@@ -244,7 +232,6 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
@@ -262,7 +249,6 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
@@ -280,7 +266,6 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
