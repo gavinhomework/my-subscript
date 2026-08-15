@@ -113,18 +113,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_81
-  type: hysteria
-  server: 163.172.117.163
-  port: 36699
-  auth-str: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_101
   type: hysteria
   server: 62.210.70.191
@@ -150,20 +138,6 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: Germany_None_hy_0
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_2
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -243,11 +217,9 @@ proxy-groups:
   - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
@@ -261,11 +233,9 @@ proxy-groups:
   - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
@@ -279,11 +249,9 @@ proxy-groups:
   - France_None_hysteria_41
   - France_None_hysteria_61
   - France_None_hysteria_71
-  - France_None_hysteria_81
   - France_None_hysteria_101
   - France_None_hysteria_111
   - Germany_None_hy_0
-  - Germany_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
