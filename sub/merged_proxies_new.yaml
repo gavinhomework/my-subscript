@@ -101,18 +101,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_71
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_81
   type: hysteria
   server: 163.172.117.163
@@ -126,18 +114,6 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: France_None_hysteria_101
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: France_None_hysteria_111
   type: hysteria
   server: 62.210.70.191
   port: 23556
@@ -164,20 +140,6 @@ proxies:
   alpn:
   - h3
 - name: Germany_None_hy_2
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  ports: 54177
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_3
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -219,20 +181,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_7
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  ports: 23556
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 proxy-groups:
 - name: ✈️ 出境游
   type: select
@@ -242,16 +190,12 @@ proxy-groups:
   - DIRECT
   - France_None_hysteria_41
   - France_None_hysteria_61
-  - France_None_hysteria_71
   - France_None_hysteria_81
   - France_None_hysteria_101
-  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
-  - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - France_None_hy_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -260,16 +204,12 @@ proxy-groups:
   proxies:
   - France_None_hysteria_41
   - France_None_hysteria_61
-  - France_None_hysteria_71
   - France_None_hysteria_81
   - France_None_hysteria_101
-  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
-  - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - France_None_hy_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -278,16 +218,12 @@ proxy-groups:
   proxies:
   - France_None_hysteria_41
   - France_None_hysteria_61
-  - France_None_hysteria_71
   - France_None_hysteria_81
   - France_None_hysteria_101
-  - France_None_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
-  - Germany_None_hy_3
   - Germany_None_hy_4
   - Germany_None_hy_6
-  - France_None_hy_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
