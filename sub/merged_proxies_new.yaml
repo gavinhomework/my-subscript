@@ -191,45 +191,45 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Germany_None_hy_4
+- name: United States_None_hy_4
   type: hysteria
-  server: 5.83.129.153
-  port: 27626
-  ports: 27626
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Germany_None_hy_6
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  ports: 20088
+  server: 107.149.207.185
+  port: 443
+  ports: 443
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_7
+- name: United States_None_hy_6
   type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  ports: 23556
-  auth_str: github.com/Alvin9999-newpac/fanqiang
+  server: 107.149.207.185
+  port: 443
+  ports: 443
+  auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: United States_None_hy_7
+  type: hysteria
+  server: 107.149.207.185
+  port: 443
+  ports: 443
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -249,9 +249,9 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
-  - France_None_hy_7
+  - United States_None_hy_4
+  - United States_None_hy_6
+  - United States_None_hy_7
 - name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -267,9 +267,9 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
-  - France_None_hy_7
+  - United States_None_hy_4
+  - United States_None_hy_6
+  - United States_None_hy_7
 - name: ⚖️ 负载均衡
   type: load-balance
   strategy: consistent-hashing
@@ -285,9 +285,9 @@ proxy-groups:
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
-  - Germany_None_hy_4
-  - Germany_None_hy_6
-  - France_None_hy_7
+  - United States_None_hy_4
+  - United States_None_hy_6
+  - United States_None_hy_7
 rules:
 - DOMAIN-KEYWORD,youtube,✈️ 出境游
 - DOMAIN,youtubei.googleapis.com,✈️ 出境游
