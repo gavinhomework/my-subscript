@@ -125,9 +125,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_101
+- name: France_Sarcelles_hysteria_101
   type: hysteria
-  server: 62.210.70.191
+  server: 62.210.28.175
   port: 24667
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -137,9 +137,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_111
+- name: France_Sarcelles_hysteria_111
   type: hysteria
-  server: 62.210.70.191
+  server: 62.210.28.175
   port: 24667
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -244,8 +244,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - France_Sarcelles_hysteria_101
+  - France_Sarcelles_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -262,8 +262,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - France_Sarcelles_hysteria_101
+  - France_Sarcelles_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
@@ -280,8 +280,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hysteria_101
-  - France_None_hysteria_111
+  - France_Sarcelles_hysteria_101
+  - France_Sarcelles_hysteria_111
   - Germany_None_hy_0
   - Germany_None_hy_2
   - Germany_None_hy_3
