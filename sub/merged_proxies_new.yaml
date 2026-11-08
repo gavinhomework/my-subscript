@@ -207,23 +207,23 @@ proxies:
   - h3
 - name: United States_None_hy_6
   type: hysteria
-  server: 107.149.207.185
-  port: 443
-  ports: 443
+  server: 137.175.82.44
+  port: 20022
+  ports: 20022
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: United States_None_hy_7
   type: hysteria
   server: 137.175.82.44
-  port: 443
-  ports: 443
+  port: 20022
+  ports: 20022
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
